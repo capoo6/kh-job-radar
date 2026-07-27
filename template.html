@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>__TITLE__</title>
+<style>
+:root{
+  --bg:#f4f6f9;--card:#ffffff;--ink:#1a2233;--muted:#66708a;--line:#e3e7ef;
+  --brand:#1d4ed8;--brand-soft:#e8eefc;--new:#dc2626;--new-soft:#fdecec;
+  --ok:#047857;--ok-soft:#e7f5f0;--warn:#b45309;--warn-soft:#fdf3e3;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55}
+header{background:linear-gradient(135deg,#16327d,#1d4ed8);color:#fff;padding:28px 16px 22px}
+.wrap{max-width:860px;margin:0 auto}
+header h1{font-size:22px;letter-spacing:1px}
+header p{opacity:.85;font-size:13px;margin-top:6px}
+.stats{display:flex;gap:10px;margin-top:14px;flex-wrap:wrap}
+.stat{background:rgba(255,255,255,.14);border-radius:10px;padding:8px 14px;font-size:13px}
+.stat b{font-size:19px;margin-right:4px}
+.controls{position:sticky;top:0;z-index:5;background:var(--bg);padding:12px 16px;border-bottom:1px solid var(--line)}
+.controls .wrap{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.controls input[type=search],.controls select{border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:14px;background:var(--card);color:var(--ink)}
+.controls input[type=search]{flex:1;min-width:160px}
+.toggle{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--muted);cursor:pointer;user-select:none;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px 10px}
+.toggle input{accent-color:var(--brand)}
+#count{font-size:13px;color:var(--muted);width:100%}
+main{padding:14px 16px 40px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:12px;transition:box-shadow .15s}
+.card:hover{box-shadow:0 4px 14px rgba(26,34,51,.08)}
+.card.new{border-left:4px solid var(--new)}
+.row1{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.jobname{font-size:17px;font-weight:700;color:var(--brand);text-decoration:none}
+.jobname:hover{text-decoration:underline}
+.badge{font-size:11px;font-weight:700;border-radius:999px;padding:2px 8px;white-space:nowrap}
+.b-new{background:var(--new-soft);color:var(--new)}
+.b-trip{background:var(--warn-soft);color:var(--warn)}
+.b-remote{background:var(--brand-soft);color:var(--brand)}
+.company{font-size:14px;margin-top:3px}
+.company a{color:var(--ink);text-decoration:none}
+.company a:hover{text-decoration:underline}
+.company .ind{color:var(--muted);font-size:12.5px}
+.salary{font-weight:700;margin-top:6px;font-size:15px}
+.salary.salary{color:var(--ok)}
+.salary.negotiable{color:var(--warn)}
+.meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.chip{font-size:12px;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:2px 8px;color:var(--muted)}
+.chip.lang{background:var(--ok-soft);color:var(--ok);border-color:transparent}
+.desc{font-size:13px;color:var(--muted);margin-top:8px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.row-bottom{display:flex;justify-content:space-between;align-items:center;margin-top:10px;font-size:12.5px;color:var(--muted);flex-wrap:wrap;gap:6px}
+.apply-btn{background:var(--brand);color:#fff;text-decoration:none;font-size:13px;font-weight:700;border-radius:8px;padding:6px 14px}
+.apply-btn:hover{background:#173db0}
+.empty{text-align:center;color:var(--muted);padding:60px 0}
+footer{text-align:center;color:var(--muted);font-size:12px;padding:20px 16px 40px}
+@media (max-width:520px){header h1{font-size:19px}.stat b{font-size:16px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>__TITLE__</h1>
+    <p>資料來源:104 人力銀行|每日自動更新|最後更新 __UPDATED__</p>
+    <div class="stats">
+      <div class="stat"><b id="st-total">0</b>筆追蹤中</div>
+      <div class="stat"><b id="st-new">0</b>筆今日新增</div>
+      <div class="stat"><b id="st-salary">0</b>筆有寫明薪資</div>
+    </div>
+  </div>
+</header>
+
+<div class="controls">
+  <div class="wrap">
+    <input id="q" type="search" placeholder="搜尋職稱、公司、工作內容…">
+    <select id="dist"><option value="">全部地區</option></select>
+    <select id="sort">
+      <option value="date">最新刊登</option>
+      <option value="salary">薪資高→低</option>
+      <option value="apply">應徵人數少→多</option>
+    </select>
+    <label class="toggle"><input id="only-new" type="checkbox">只看新增</label>
+    <label class="toggle"><input id="has-salary" type="checkbox">排除面議</label>
+    <span id="count"></span>
+  </div>
+</div>
+
+<main><div class="wrap" id="list"></div></main>
+<footer>此頁面為個人求職輔助工具,職缺內容以 104 原始頁面為準。</footer>
+
+<script>
+const JOBS = __DATA__;
+
+const $ = id => document.getElementById(id);
+const esc = s => String(s??"").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+// 統計與地區選單
+$("st-total").textContent = JOBS.length;
+$("st-new").textContent = JOBS.filter(j=>j.is_new).length;
+$("st-salary").textContent = JOBS.filter(j=>j.salary_class==="salary").length;
+[...new Set(JOBS.map(j=>j.area))].sort().forEach(d=>{
+  const o=document.createElement("option"); o.value=o.textContent=d; $("dist").appendChild(o);
+});
+
+function relDate(d){
+  const today = JOBS.reduce((m,j)=>j.date>m?j.date:m,"");
+  if(d===today) return "今天";
+  const diff = Math.round((new Date(today)-new Date(d))/86400000);
+  return diff===1 ? "昨天" : d.slice(5).replace("-","/");
+}
+
+function card(j){
+  const badges = [
+    j.is_new ? '<span class="badge b-new">NEW</span>' : "",
+    j.trip ? '<span class="badge b-trip">出差/外派</span>' : "",
+    j.remote ? '<span class="badge b-remote">可遠端</span>' : "",
+  ].join("");
+  const langs = j.langs.map(l=>`<span class="chip lang">${esc(l)}</span>`).join("");
+  const emp = j.employees ? `<span class="chip">員工 ${j.employees} 人</span>` : "";
+  return `<div class="card${j.is_new?" new":""}">
+    <div class="row1"><a class="jobname" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.name)}</a>${badges}</div>
+    <div class="company"><a href="${esc(j.co_url)}" target="_blank" rel="noopener">${esc(j.company)}</a> <span class="ind">${esc(j.industry)}</span></div>
+    <div class="salary ${j.salary_class}">${esc(j.salary)}</div>
+    <div class="meta">
+      <span class="chip">📍 ${esc(j.area)}</span>
+      <span class="chip">${esc(j.period)}</span>
+      <span class="chip">${esc(j.edu)}</span>
+      ${langs}${emp}
+    </div>
+    <div class="desc">${esc(j.desc)}</div>
+    <div class="row-bottom">
+      <span>刊登 ${relDate(j.date)}|${j.apply} 人應徵</span>
+      <a class="apply-btn" href="${esc(j.url)}" target="_blank" rel="noopener">查看職缺 →</a>
+    </div>
+  </div>`;
+}
+
+function render(){
+  const q = $("q").value.trim().toLowerCase();
+  const dist = $("dist").value;
+  let rows = JOBS.filter(j =>
+    (!dist || j.area===dist) &&
+    (!$("only-new").checked || j.is_new) &&
+    (!$("has-salary").checked || j.salary_class==="salary") &&
+    (!q || (j.name+j.company+j.desc+j.industry).toLowerCase().includes(q))
+  );
+  const sort = $("sort").value;
+  if(sort==="salary") rows.sort((a,b)=>b.salary_low-a.salary_low);
+  else if(sort==="apply") rows.sort((a,b)=>a.apply-b.apply || (a.date<b.date?1:-1));
+  else rows.sort((a,b)=>a.date<b.date?1:a.date>b.date?-1:b.is_new-a.is_new);
+  $("count").textContent = `符合條件 ${rows.length} 筆`;
+  $("list").innerHTML = rows.map(card).join("") || '<div class="empty">沒有符合條件的職缺</div>';
+}
+
+["q","dist","sort","only-new","has-salary"].forEach(id=>{
+  $(id).addEventListener("input", render);
+});
+render();
+</script>
+</body>
+</html>
