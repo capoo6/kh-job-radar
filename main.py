@@ -24,6 +24,7 @@ JOBCATS = ["2005003005"]          # 職務類別:國外業務。可加 "20050030
 AREAS = ["6001016000"]            # 地區:高雄市
 KEYWORD = ""                      # 額外關鍵字,留空 = 只用職務類別過濾
 EXCLUDE_TITLE = r"國內(?!外)|工程師|[Ee]ngineer"  # 職稱排除:國內(非國內外)、工程師職
+MAX_EDU = 4                       # 學歷上限:4=大學。要求碩士(5)/博士(6)以上的職缺排除
 KEEP_DAYS = 30                    # 網頁只顯示最近 N 天內刊登/更新的職缺
 STATE_PRUNE_DAYS = 120            # 超過 N 天沒再出現的職缺,從記錄中清除
 SEND_WHEN_EMPTY = False           # 今日沒有新職缺時是否仍寄信
@@ -44,12 +45,23 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
 API = "https://www.104.com.tw/jobs/search/api/jobs"
 
-EDU_MAP = {1: "學歷不拘", 2: "高中以上", 3: "專科以上", 4: "大學以上", 5: "碩士以上", 6: "博士"}
 LANG_MAP = {1: "英文", 2: "日文", 3: "德文", 4: "法文", 5: "西班牙文", 6: "韓文",
             7: "義大利文", 8: "葡萄牙文", 9: "俄文", 10: "阿拉伯文", 11: "泰文",
             12: "越南文", 13: "印尼文", 14: "馬來文"}
 ABILITY_MAP = {8: "精通", 4: "中等", 2: "略懂", 1: "略懂"}
 SALARY_UNIT = {30: "時薪", 40: "日薪", 50: "月薪", 60: "年薪"}
+
+
+def _get_json(url: str, referer: str = "https://www.104.com.tw/jobs/search/") -> dict:
+    req = Request(url, headers={"User-Agent": UA, "Referer": referer, "Accept": "application/json"})
+    for attempt in range(4):  # 連續請求太快會被 403 限流,退避重試
+        try:
+            with urlopen(req, timeout=30) as r:
+                return json.load(r)
+        except Exception:
+            if attempt == 3:
+                raise
+            time.sleep(5 * (attempt + 1))
 
 
 def fetch_page(page: int, pagesize: int = 20) -> dict:
@@ -60,17 +72,7 @@ def fetch_page(page: int, pagesize: int = 20) -> dict:
     }
     if KEYWORD:
         params["keyword"] = KEYWORD
-    req = Request(API + "?" + urlencode(params), headers={
-        "User-Agent": UA, "Referer": "https://www.104.com.tw/jobs/search/", "Accept": "application/json",
-    })
-    for attempt in range(4):  # 連續請求太快會被 403 限流,退避重試
-        try:
-            with urlopen(req, timeout=30) as r:
-                return json.load(r)
-        except Exception:
-            if attempt == 3:
-                raise
-            time.sleep(5 * (attempt + 1))
+    return _get_json(API + "?" + urlencode(params))
 
 
 def fetch_all(max_pages: int = 20) -> list[dict]:
@@ -104,6 +106,21 @@ def salary_info(low, high, s10):
     return f"{unit} {low:,}~{high:,} 元", "salary", low
 
 
+def monthly_equiv(low, high, s10) -> int:
+    """換算成「月薪當量」供排序/篩選:年薪÷12、日薪×22、時薪×174;面議依法≥4萬,當作 40,001。"""
+    low, high = int(low or 0), int(high or 0)
+    if (low == 0 and high == 0) or s10 == 10:
+        return 40001
+    base = low or high
+    if s10 == 60:
+        return round(base / 12)
+    if s10 == 40:
+        return base * 22
+    if s10 == 30:
+        return base * 174
+    return base
+
+
 def normalize(raw: dict) -> dict | None:
     name = raw.get("jobName", "")
     if EXCLUDE_TITLE and re.search(EXCLUDE_TITLE, name):
@@ -111,6 +128,8 @@ def normalize(raw: dict) -> dict | None:
     desc = raw.get("description") or ""
     s_text, s_class, s_low = salary_info(raw.get("salaryLow"), raw.get("salaryHigh"), raw.get("s10"))
     edu = raw.get("optionEdu") or []
+    if edu and min(edu) > MAX_EDU:  # 學歷要求超過設定上限(預設大學)的職缺排除
+        return None
     langs = []
     for lr in raw.get("languageRequirements") or []:
         lname = LANG_MAP.get(lr.get("language"))
@@ -131,10 +150,12 @@ def normalize(raw: dict) -> dict | None:
         "industry": raw.get("coIndustryDesc", ""),
         "date": parse_date(raw.get("appearDate", "")),
         "apply": int(raw.get("applyCnt") or 0),
-        "salary": s_text, "salary_class": s_class, "salary_low": s_low,
+        "salary": s_text, "salary_class": s_class,
+        "salary_m": monthly_equiv(raw.get("salaryLow"), raw.get("salaryHigh"), raw.get("s10")),
         "period": "經歷不拘" if period == 0 else f"{period} 年以上經歷",
-        "edu": EDU_MAP.get(min(edu), "學歷不拘") if edu else "學歷不拘",
         "employees": int(raw.get("employeeCount") or 0),
+        "cust_no": str(raw.get("custNo") or ""),
+        "co_jobs": None, "co_other": None, "co_plus": False,
         "langs": langs,
         "trip": trip,
         "remote": int(raw.get("remoteWorkType") or 0) > 0,
@@ -270,6 +291,47 @@ def fetch_google_routes(jobs: list[dict], cache: dict, now: datetime):
         time.sleep(0.2)
 
 
+def fetch_company_counts(jobs: list[dict], now: datetime):
+    """查每家公司目前總共在徵幾個職缺、其中幾個非業務類(gauge 公司規模與擴編狀況)。
+    方法:用公司全名當關鍵字搜尋 104,只計 custNo 相符的結果;最多翻 2 頁(40 筆),
+    更多顯示為 40+。結果快取 7 天(data/companies.json),每次執行最多查 120 家。"""
+    p = DATA / "companies.json"
+    cache = json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}
+    fresh = (now - timedelta(days=7)).strftime("%Y-%m-%d")
+    today = now.strftime("%Y-%m-%d")
+    firms = {}
+    for j in jobs:
+        if j["cust_no"]:
+            firms.setdefault(j["cust_no"], j["company"])
+    todo = [(no, name) for no, name in firms.items()
+            if cache.get(no, {}).get("d", "") < fresh][:120]
+    for no, name in todo:
+        rows, last_page, page = [], 1, 1
+        try:
+            while page <= min(last_page, 2):
+                d = _get_json(API + "?" + urlencode({
+                    "jobsource": "index_s", "mode": "s", "keyword": name,
+                    "page": page, "pagesize": 20}))
+                last_page = d.get("metadata", {}).get("pagination", {}).get("lastPage", 1)
+                rows += [r for r in d.get("data", []) if str(r.get("custNo")) == no]
+                page += 1
+                time.sleep(1.2)
+        except Exception:
+            continue  # 這家查失敗就跳過,下次執行再補
+        sales = sum(1 for r in rows
+                    if any(2005003000 <= int(c) <= 2005003999 for c in r.get("jobCat") or []))
+        cache[no] = {"t": len(rows), "ns": len(rows) - sales, "plus": last_page > 2, "d": today}
+    cache = {k: v for k, v in cache.items() if k in firms}
+    p.write_text(json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8")
+    done = 0
+    for j in jobs:
+        c = cache.get(j["cust_no"])
+        if c:
+            j["co_jobs"], j["co_other"], j["co_plus"] = c["t"], c["ns"], c.get("plus", False)
+            done += 1
+    print(f"公司職缺數:本次查了 {len(todo)} 家,{done}/{len(jobs)} 筆職缺已有公司資料")
+
+
 def load_state() -> dict:
     p = DATA / "state.json"
     if p.exists():
@@ -314,6 +376,7 @@ def main():
         enrich_location(j, stations)
     fetch_drive_routes(display, routes)
     fetch_google_routes(display, routes, now)
+    fetch_company_counts(display, now)
     routes = {k: v for k, v in routes.items() if k in state}  # 跟著 state 一起清舊資料
 
     # 離巨蛋站近的優先(沒有座標的排最後)
@@ -360,7 +423,7 @@ def job_row_html(j: dict) -> str:
         badges.append("語言:" + "、".join(j["langs"]))
     if j["trip"]:
         badges.append("需出差/外派")
-    meta = f'{j["area"]}|{j["period"]}|{j["edu"]}' + ("|" + "|".join(badges) if badges else "")
+    meta = f'{j["area"]}|{j["period"]}' + ("|" + "|".join(badges) if badges else "")
     color = "#d97706" if j["salary_class"] == "negotiable" else "#059669"
     parts = []
     if j.get("drive_km") is not None:

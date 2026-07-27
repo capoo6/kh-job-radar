@@ -26,6 +26,17 @@ header p{opacity:.85;font-size:13px;margin-top:6px}
 .toggle{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--muted);cursor:pointer;user-select:none;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px 10px}
 .toggle input{accent-color:var(--brand)}
 #count{font-size:13px;color:var(--muted);width:100%}
+.dd{position:relative}
+.dd>button{border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:14px;background:var(--card);color:var(--ink);cursor:pointer}
+.dd-panel{display:none;position:absolute;top:calc(100% + 4px);left:0;z-index:20;background:var(--card);border:1px solid var(--line);border-radius:10px;box-shadow:0 8px 24px rgba(26,34,51,.15);padding:8px;max-height:300px;overflow-y:auto;min-width:190px}
+.dd-panel.open{display:block}
+.dd-panel label{display:flex;align-items:center;gap:7px;font-size:13.5px;padding:5px 6px;border-radius:6px;cursor:pointer;white-space:nowrap}
+.dd-panel label:hover{background:var(--bg)}
+.dd-panel input{accent-color:var(--brand)}
+.dd-actions{display:flex;gap:6px;padding:2px 6px 6px;border-bottom:1px solid var(--line);margin-bottom:4px}
+.dd-actions button{font-size:12px;border:none;background:none;color:var(--brand);cursor:pointer;padding:2px 4px}
+.numf{display:inline-flex;align-items:center;gap:4px;font-size:13px;color:var(--muted);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:6px 10px}
+.numf input{width:52px;border:1px solid var(--line);border-radius:6px;padding:3px 6px;font-size:13.5px;text-align:center;background:var(--bg);color:var(--ink)}
 main{padding:14px 16px 40px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:12px;transition:box-shadow .15s}
 .card:hover{box-shadow:0 4px 14px rgba(26,34,51,.08)}
@@ -77,7 +88,12 @@ footer{text-align:center;color:var(--muted);font-size:12px;padding:20px 16px 40p
 <div class="controls">
   <div class="wrap">
     <input id="q" type="search" placeholder="搜尋職稱、公司、工作內容…">
-    <select id="dist"><option value="">全部地區</option></select>
+    <div class="dd">
+      <button id="dist-btn" type="button">地區:全部 ▾</button>
+      <div class="dd-panel" id="dist-panel">
+        <div class="dd-actions"><button type="button" id="dist-all">全選</button><button type="button" id="dist-none">清除</button></div>
+      </div>
+    </div>
     <select id="sort">
       <option value="dist">離巨蛋站近→遠</option>
       <option value="date">最新刊登</option>
@@ -85,7 +101,10 @@ footer{text-align:center;color:var(--muted);font-size:12px;padding:20px 16px 40p
       <option value="apply">應徵人數少→多</option>
     </select>
     <label class="toggle"><input id="only-new" type="checkbox">只看新增</label>
-    <label class="toggle"><input id="has-salary" type="checkbox">排除面議</label>
+    <label class="toggle"><input id="show-neg" type="checkbox" checked>顯示面議</label>
+    <label class="numf">🚗 開車≤<input id="f-drive" type="number" min="1" placeholder="--">分</label>
+    <label class="numf">🚌 大眾運輸≤<input id="f-transit" type="number" min="1" placeholder="--">分</label>
+    <label class="numf">💰 月薪≥<input id="f-salary" type="number" min="0" step="0.5" placeholder="--">萬</label>
     <span id="count"></span>
   </div>
 </div>
@@ -103,8 +122,36 @@ const esc = s => String(s??"").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",
 $("st-total").textContent = JOBS.length;
 $("st-new").textContent = JOBS.filter(j=>j.is_new).length;
 $("st-salary").textContent = JOBS.filter(j=>j.salary_class==="salary").length;
-[...new Set(JOBS.map(j=>j.area))].sort().forEach(d=>{
-  const o=document.createElement("option"); o.value=o.textContent=d; $("dist").appendChild(o);
+// 地區多選下拉
+const DISTRICTS = [...new Set(JOBS.map(j=>j.area))].sort();
+const selDist = new Set();
+DISTRICTS.forEach(d=>{
+  const l=document.createElement("label");
+  l.innerHTML=`<input type="checkbox" value="${esc(d)}"> ${esc(d)}<span style="color:var(--muted);margin-left:auto">${JOBS.filter(j=>j.area===d).length}</span>`;
+  $("dist-panel").appendChild(l);
+});
+function distLabel(){
+  $("dist-btn").textContent = selDist.size===0 ? "地區:全部 ▾"
+    : selDist.size<=2 ? "地區:"+[...selDist].map(d=>d.replace("高雄市","")).join("、")+" ▾"
+    : `地區:已選 ${selDist.size} 區 ▾`;
+}
+$("dist-btn").addEventListener("click", e=>{e.stopPropagation(); $("dist-panel").classList.toggle("open");});
+$("dist-panel").addEventListener("click", e=>e.stopPropagation());
+document.addEventListener("click", ()=>$("dist-panel").classList.remove("open"));
+$("dist-panel").addEventListener("change", e=>{
+  if(e.target.type!=="checkbox") return;
+  e.target.checked ? selDist.add(e.target.value) : selDist.delete(e.target.value);
+  distLabel(); render();
+});
+$("dist-all").addEventListener("click", ()=>{
+  selDist.clear(); DISTRICTS.forEach(d=>selDist.add(d));
+  $("dist-panel").querySelectorAll("input").forEach(c=>c.checked=true);
+  distLabel(); render();
+});
+$("dist-none").addEventListener("click", ()=>{
+  selDist.clear();
+  $("dist-panel").querySelectorAll("input").forEach(c=>c.checked=false);
+  distLabel(); render();
 });
 
 function relDate(d){
@@ -132,6 +179,8 @@ function card(j){
   const trafficRow = traffic.length ? `<div class="traffic">${traffic.join("<span style='color:var(--line)'>|</span>")}</div>` : "";
   const langs = j.langs.map(l=>`<span class="chip lang">${esc(l)}</span>`).join("");
   const emp = j.employees ? `<span class="chip">員工 ${j.employees} 人</span>` : "";
+  const plus = j.co_plus ? "+" : "";
+  const co = j.co_jobs!=null ? `<span class="chip">🏢 公司在徵 ${j.co_jobs}${plus} 缺・非業務 ${j.co_other}${plus}</span>` : "";
   return `<div class="card${j.is_new?" new":""}">
     <div class="row1"><a class="jobname" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.name)}</a>${badges}</div>
     <div class="company"><a href="${esc(j.co_url)}" target="_blank" rel="noopener">${esc(j.company)}</a> <span class="ind">${esc(j.industry)}</span></div>
@@ -140,8 +189,7 @@ function card(j){
     <div class="meta">
       <span class="chip">📍 ${esc(j.area)}</span>
       <span class="chip">${esc(j.period)}</span>
-      <span class="chip">${esc(j.edu)}</span>
-      ${langs}${emp}
+      ${langs}${emp}${co}
     </div>
     <div class="desc">${esc(j.desc)}</div>
     <div class="row-bottom">
@@ -153,16 +201,23 @@ function card(j){
 
 function render(){
   const q = $("q").value.trim().toLowerCase();
-  const dist = $("dist").value;
-  let rows = JOBS.filter(j =>
-    (!dist || j.area===dist) &&
-    (!$("only-new").checked || j.is_new) &&
-    (!$("has-salary").checked || j.salary_class==="salary") &&
-    (!q || (j.name+j.company+j.desc+j.industry).toLowerCase().includes(q))
-  );
+  const maxDrive = parseFloat($("f-drive").value);
+  const maxTransit = parseFloat($("f-transit").value);
+  const minSalary = parseFloat($("f-salary").value) * 10000;  // 萬 → 元
+  const showNeg = $("show-neg").checked;
+  let rows = JOBS.filter(j=>{
+    if(selDist.size && !selDist.has(j.area)) return false;
+    if($("only-new").checked && !j.is_new) return false;
+    if(!showNeg && j.salary_class==="negotiable") return false;
+    if(!isNaN(maxDrive) && !(j.drive_min!=null && j.drive_min<=maxDrive)) return false;
+    if(!isNaN(maxTransit) && !(j.transit_min!=null && j.transit_min<=maxTransit)) return false;
+    if(!isNaN(minSalary) && !(j.salary_m>=minSalary)) return false;  // 面議=40001,依法≥4萬
+    if(q && !(j.name+j.company+j.desc+j.industry).toLowerCase().includes(q)) return false;
+    return true;
+  });
   const sort = $("sort").value;
   const distOf = j => j.drive_km ?? j.dist_km ?? 9999;
-  if(sort==="salary") rows.sort((a,b)=>b.salary_low-a.salary_low);
+  if(sort==="salary") rows.sort((a,b)=>b.salary_m-a.salary_m);
   else if(sort==="apply") rows.sort((a,b)=>a.apply-b.apply || (a.date<b.date?1:-1));
   else if(sort==="date") rows.sort((a,b)=>a.date<b.date?1:a.date>b.date?-1:b.is_new-a.is_new);
   else rows.sort((a,b)=>distOf(a)-distOf(b));
@@ -170,9 +225,10 @@ function render(){
   $("list").innerHTML = rows.map(card).join("") || '<div class="empty">沒有符合條件的職缺</div>';
 }
 
-["q","dist","sort","only-new","has-salary"].forEach(id=>{
+["q","sort","only-new","show-neg","f-drive","f-transit","f-salary"].forEach(id=>{
   $(id).addEventListener("input", render);
 });
+distLabel();
 render();
 </script>
 </body>
