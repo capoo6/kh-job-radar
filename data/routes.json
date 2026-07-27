@@ -4,49 +4,49 @@
   "min": 21,
   "g_km": 20.9,
   "g_min": 28,
-  "transit_min": 82
+  "transit_min": 81
  },
  "15161045": {
   "km": 4.4,
   "min": 9,
   "g_km": 4.1,
-  "g_min": 13,
-  "transit_min": 27
+  "g_min": 12,
+  "transit_min": 28
  },
  "9392903": {
   "km": 5.9,
   "min": 10,
   "g_km": 6.0,
-  "g_min": 16,
-  "transit_min": 33
+  "g_min": 15,
+  "transit_min": 43
  },
  "12387708": {
   "km": 40.1,
   "min": 37,
   "g_km": 49.1,
-  "g_min": 54,
-  "transit_min": 104
+  "g_min": 56,
+  "transit_min": 93
  },
  "14664842": {
   "km": 13.2,
   "min": 17,
   "g_km": 13.2,
-  "g_min": 28,
-  "transit_min": 39
+  "g_min": 30,
+  "transit_min": 40
  },
  "12505221": {
   "km": 11.1,
   "min": 16,
   "g_km": 11.4,
-  "g_min": 28,
-  "transit_min": 44
+  "g_min": 27,
+  "transit_min": 41
  },
  "14651394": {
   "km": 13.2,
   "min": 17,
   "g_km": 13.2,
-  "g_min": 28,
-  "transit_min": 39
+  "g_min": 30,
+  "transit_min": 40
  },
  "15206044": {
   "km": 2.7,
@@ -59,7 +59,7 @@
   "km": 6.9,
   "min": 11,
   "g_km": 7.5,
-  "g_min": 19,
+  "g_min": 18,
   "transit_min": 36
  },
  "14997848": {
@@ -72,9 +72,9 @@
  "15163046": {
   "km": 23.3,
   "min": 27,
-  "g_km": 19.8,
-  "g_min": 42,
-  "transit_min": 79
+  "g_km": 24.0,
+  "g_min": 39,
+  "transit_min": 78
  },
  "14617087": {
   "km": 0.5,
@@ -87,8 +87,8 @@
   "km": 10.5,
   "min": 14,
   "g_km": 10.7,
-  "g_min": 19,
-  "transit_min": 54
+  "g_min": 20,
+  "transit_min": 59
  },
  "14275380": {
   "km": 6.2,
@@ -108,28 +108,28 @@
   "km": 7.6,
   "min": 11,
   "g_km": 7.6,
-  "g_min": 20,
+  "g_min": 19,
   "transit_min": 34
  },
  "14682903": {
   "km": 21.6,
   "min": 24,
   "g_km": 22.7,
-  "g_min": 31,
+  "g_min": 32,
   "transit_min": 86
  },
  "15102290": {
   "km": 13.2,
   "min": 17,
   "g_km": 13.2,
-  "g_min": 28,
-  "transit_min": 39
+  "g_min": 30,
+  "transit_min": 40
  },
  "15193841": {
   "km": 4.6,
   "min": 7,
   "g_km": 4.6,
-  "g_min": 13,
+  "g_min": 12,
   "transit_min": 24
  },
  "15206038": {
@@ -144,7 +144,7 @@
   "min": 5,
   "g_km": 2.9,
   "g_min": 8,
-  "transit_min": 14
+  "transit_min": 26
  },
  "14725262": {
   "km": 3.1,
@@ -157,50 +157,50 @@
   "km": 5.0,
   "min": 8,
   "g_km": 5.0,
-  "g_min": 14,
-  "transit_min": 28
+  "g_min": 13,
+  "transit_min": 30
  },
  "14311978": {
   "km": 22.1,
   "min": 31,
   "g_km": 24.3,
-  "g_min": 44,
-  "transit_min": 65
+  "g_min": 46,
+  "transit_min": 67
  },
  "14011224": {
   "km": 6.0,
   "min": 9,
   "g_km": 6.0,
-  "g_min": 15,
+  "g_min": 14,
   "transit_min": 25
  },
  "13288827": {
   "km": 25.7,
   "min": 27,
   "g_km": 29.2,
-  "g_min": 39,
-  "transit_min": 71
+  "g_min": 40,
+  "transit_min": 69
  },
  "10854862": {
   "km": 5.1,
   "min": 8,
   "g_km": 5.1,
-  "g_min": 13,
+  "g_min": 12,
   "transit_min": 22
  },
  "7542616": {
   "km": 7.2,
   "min": 10,
-  "g_km": 12.0,
-  "g_min": 23,
-  "transit_min": 42
+  "g_km": 11.1,
+  "g_min": 24,
+  "transit_min": 49
  },
  "15175004": {
   "km": 41.0,
   "min": 38,
   "g_km": 48.2,
-  "g_min": 52,
-  "transit_min": 112
+  "g_min": 53,
+  "transit_min": 95
  },
  "15017349": {
   "km": 19.7,
@@ -213,8 +213,8 @@
   "km": 23.2,
   "min": 34,
   "g_km": 32.0,
-  "g_min": 42,
-  "transit_min": 88
+  "g_min": 44,
+  "transit_min": 91
  },
  "7964329": {
   "km": 10.4,
@@ -231,28 +231,28 @@
   "km": 5.8,
   "min": 9,
   "g_km": 6.0,
-  "g_min": 18,
-  "transit_min": 30
+  "g_min": 17,
+  "transit_min": 32
  },
  "13705088": {
   "km": 29.0,
   "min": 28,
   "g_km": 29.1,
-  "g_min": 38,
-  "transit_min": 54
+  "g_min": 40,
+  "transit_min": 71
  },
  "13457536": {
   "km": 27.4,
   "min": 29,
   "g_km": 30.4,
-  "g_min": 40,
-  "transit_min": 60
+  "g_min": 42,
+  "transit_min": 61
  },
  "11033420": {
   "km": 25.0,
   "min": 26,
   "g_km": 30.0,
-  "g_min": 41,
+  "g_min": 42,
   "transit_min": 63
  },
  "15206043": {
@@ -273,35 +273,35 @@
   "km": 8.1,
   "min": 12,
   "g_km": 8.1,
-  "g_min": 19,
+  "g_min": 18,
   "transit_min": 24
  },
  "9298307": {
   "km": 6.2,
   "min": 9,
   "g_km": 6.2,
-  "g_min": 16,
+  "g_min": 15,
   "transit_min": 24
  },
  "13475927": {
   "km": 5.2,
   "min": 8,
   "g_km": 5.3,
-  "g_min": 14,
-  "transit_min": 31
+  "g_min": 13,
+  "transit_min": 32
  },
  "13352874": {
   "km": 29.0,
   "min": 24,
   "g_km": 29.0,
-  "g_min": 36,
+  "g_min": 38,
   "transit_min": 86
  },
  "12259146": {
   "km": 8.1,
   "min": 12,
   "g_km": 8.1,
-  "g_min": 19,
+  "g_min": 18,
   "transit_min": 24
  },
  "11515456": {
@@ -316,19 +316,19 @@
   "min": 14,
   "g_km": 8.6,
   "g_min": 20,
-  "transit_min": 59
+  "transit_min": 51
  },
  "14637753": {
   "km": 4.5,
   "min": 7,
   "g_km": 4.4,
-  "g_min": 12,
+  "g_min": 11,
   "transit_min": 23
  },
  "11769680": {
   "km": 9.0,
   "min": 14,
-  "g_km": 10.4,
+  "g_km": 8.5,
   "g_min": 24,
   "transit_min": 45
  },
@@ -337,35 +337,35 @@
   "min": 18,
   "g_km": 18.2,
   "g_min": 28,
-  "transit_min": 67
+  "transit_min": 72
  },
  "14035175": {
   "km": 5.8,
   "min": 9,
   "g_km": 6.1,
-  "g_min": 18,
-  "transit_min": 30
+  "g_min": 17,
+  "transit_min": 31
  },
  "13677458": {
   "km": 3.1,
   "min": 5,
   "g_km": 3.1,
-  "g_min": 8,
-  "transit_min": 24
+  "g_min": 7,
+  "transit_min": 22
  },
  "15144479": {
   "km": 5.9,
   "min": 10,
   "g_km": 6.0,
-  "g_min": 17,
-  "transit_min": 28
+  "g_min": 16,
+  "transit_min": 31
  },
  "12104386": {
   "km": 0.8,
   "min": 1,
   "g_km": 0.8,
   "g_min": 2,
-  "transit_min": 11
+  "transit_min": 7
  },
  "7484635": {
   "km": 0.4,
@@ -385,7 +385,7 @@
   "km": 27.8,
   "min": 29,
   "g_km": 29.9,
-  "g_min": 40,
+  "g_min": 41,
   "transit_min": 60
  },
  "14425274": {
@@ -393,41 +393,41 @@
   "min": 16,
   "g_km": 12.4,
   "g_min": 22,
-  "transit_min": 73
+  "transit_min": 63
  },
  "13973109": {
   "km": 7.5,
   "min": 12,
   "g_km": 7.7,
-  "g_min": 19,
-  "transit_min": 24
+  "g_min": 21,
+  "transit_min": 25
  },
  "15082879": {
   "km": 6.9,
   "min": 11,
   "g_km": 7.5,
-  "g_min": 19,
+  "g_min": 18,
   "transit_min": 36
  },
  "13285993": {
   "km": 23.3,
   "min": 27,
-  "g_km": 19.8,
-  "g_min": 42,
-  "transit_min": 80
+  "g_km": 24.0,
+  "g_min": 39,
+  "transit_min": 78
  },
  "13518546": {
   "km": 7.2,
   "min": 12,
   "g_km": 7.0,
-  "g_min": 19,
+  "g_min": 18,
   "transit_min": 32
  },
  "14387091": {
   "km": 13.8,
   "min": 19,
   "g_km": 13.8,
-  "g_min": 31,
+  "g_min": 33,
   "transit_min": 42
  },
  "15243421": {
@@ -448,43 +448,43 @@
   "km": 4.6,
   "min": 7,
   "g_km": 4.7,
-  "g_min": 13,
-  "transit_min": 26
+  "g_min": 12,
+  "transit_min": 28
  },
  "13836415": {
   "km": 11.5,
   "min": 16,
   "g_km": 16.8,
-  "g_min": 25,
-  "transit_min": 48
+  "g_min": 24,
+  "transit_min": 40
  },
  "14607419": {
   "km": 21.6,
   "min": 24,
   "g_km": 24.4,
   "g_min": 32,
-  "transit_min": 102
+  "transit_min": 85
  },
  "14181335": {
   "km": 5.1,
   "min": 8,
   "g_km": 5.1,
-  "g_min": 14,
-  "transit_min": 28
+  "g_min": 13,
+  "transit_min": 29
  },
  "14007236": {
   "km": 5.2,
   "min": 8,
   "g_km": 5.3,
-  "g_min": 14,
-  "transit_min": 31
+  "g_min": 13,
+  "transit_min": 32
  },
  "14425288": {
   "km": 12.3,
   "min": 16,
   "g_km": 12.4,
   "g_min": 22,
-  "transit_min": 73
+  "transit_min": 63
  },
  "15206039": {
   "km": 2.7,
@@ -497,15 +497,15 @@
   "km": 5.0,
   "min": 8,
   "g_km": 5.0,
-  "g_min": 14,
-  "transit_min": 28
+  "g_min": 13,
+  "transit_min": 30
  },
  "15162292": {
   "km": 25.7,
   "min": 27,
   "g_km": 29.2,
-  "g_min": 39,
-  "transit_min": 71
+  "g_min": 40,
+  "transit_min": 69
  },
  "12477763": {
   "km": 1.7,
@@ -517,16 +517,16 @@
  "11690683": {
   "km": 2.5,
   "min": 4,
-  "g_km": 2.5,
+  "g_km": 2.7,
   "g_min": 7,
-  "transit_min": 16
+  "transit_min": 18
  },
  "15264479": {
   "km": 8.1,
   "min": 13,
   "g_km": 7.9,
-  "g_min": 21,
-  "transit_min": 31
+  "g_min": 23,
+  "transit_min": 34
  },
  "14774479": {
   "km": 23.3,
@@ -536,8 +536,8 @@
   "km": 18.6,
   "min": 25,
   "g_km": 26.3,
-  "g_min": 34,
-  "transit_min": 97
+  "g_min": 35,
+  "transit_min": 106
  },
  "15206037": {
   "km": 2.7,
@@ -551,7 +551,7 @@
   "min": 19,
   "g_km": 11.5,
   "g_min": 30,
-  "transit_min": 71
+  "transit_min": 56
  },
  "15206040": {
   "km": 2.7,
@@ -564,42 +564,42 @@
   "km": 6.3,
   "min": 10,
   "g_km": 6.0,
-  "g_min": 15,
+  "g_min": 14,
   "transit_min": 18
  },
  "14990987": {
   "km": 11.6,
   "min": 19,
   "g_km": 11.6,
-  "g_min": 27,
-  "transit_min": 43
+  "g_min": 26,
+  "transit_min": 39
  },
  "10682368": {
   "km": 6.7,
   "min": 11,
   "g_km": 6.5,
-  "g_min": 19,
+  "g_min": 20,
   "transit_min": 30
  },
  "10531040": {
   "km": 6.6,
   "min": 10,
   "g_km": 6.5,
-  "g_min": 17,
+  "g_min": 16,
   "transit_min": 28
  },
  "15012077": {
   "km": 10.0,
   "min": 14,
   "g_km": 10.1,
-  "g_min": 24,
-  "transit_min": 32
+  "g_min": 23,
+  "transit_min": 33
  },
  "15225803": {
   "km": 29.1,
   "min": 24,
   "g_km": 29.2,
-  "g_min": 37,
+  "g_min": 38,
   "transit_min": 88
  },
  "15206047": {
@@ -613,49 +613,49 @@
   "km": 29.0,
   "min": 28,
   "g_km": 29.1,
-  "g_min": 38,
-  "transit_min": 54
+  "g_min": 40,
+  "transit_min": 71
  },
  "11819917": {
   "km": 8.6,
   "min": 14,
   "g_km": 8.8,
-  "g_min": 23,
-  "transit_min": 44
+  "g_min": 22,
+  "transit_min": 47
  },
  "14419996": {
   "km": 6.2,
   "min": 10,
   "g_km": 5.8,
   "g_min": 17,
-  "transit_min": 39
+  "transit_min": 34
  },
  "14980301": {
   "km": 6.2,
   "min": 10,
   "g_km": 5.8,
   "g_min": 17,
-  "transit_min": 39
+  "transit_min": 34
  },
  "14959833": {
   "km": 8.2,
   "min": 12,
   "g_km": 11.1,
-  "g_min": 23,
-  "transit_min": 37
+  "g_min": 22,
+  "transit_min": 48
  },
  "14904975": {
   "km": 6.8,
   "min": 11,
   "g_km": 6.8,
-  "g_min": 17,
+  "g_min": 16,
   "transit_min": 30
  },
  "12238098": {
   "km": 28.1,
   "min": 24,
   "g_km": 28.3,
-  "g_min": 36,
+  "g_min": 37,
   "transit_min": 98
  },
  "13758041": {
@@ -669,84 +669,84 @@
   "km": 21.5,
   "min": 23,
   "g_km": 24.3,
-  "g_min": 31,
-  "transit_min": 88
+  "g_min": 32,
+  "transit_min": 87
  },
  "10688938": {
   "km": 6.7,
   "min": 11,
   "g_km": 6.5,
-  "g_min": 19,
+  "g_min": 20,
   "transit_min": 30
  },
  "13296602": {
   "km": 21.5,
   "min": 23,
   "g_km": 24.3,
-  "g_min": 31,
-  "transit_min": 88
+  "g_min": 32,
+  "transit_min": 87
  },
  "10774913": {
   "km": 22.9,
   "min": 24,
   "g_km": 23.5,
-  "g_min": 39,
-  "transit_min": 51
+  "g_min": 40,
+  "transit_min": 50
  },
  "14225251": {
   "km": 5.2,
   "min": 8,
   "g_km": 5.3,
-  "g_min": 14,
-  "transit_min": 31
+  "g_min": 13,
+  "transit_min": 32
  },
  "14459727": {
   "km": 5.2,
   "min": 8,
   "g_km": 5.3,
-  "g_min": 14,
-  "transit_min": 31
+  "g_min": 13,
+  "transit_min": 32
  },
  "12592994": {
   "km": 5.2,
   "min": 8,
   "g_km": 5.3,
-  "g_min": 14,
-  "transit_min": 31
+  "g_min": 13,
+  "transit_min": 32
  },
  "13945131": {
   "km": 6.6,
   "min": 10,
   "g_km": 6.9,
   "g_min": 18,
-  "transit_min": 31
+  "transit_min": 30
  },
  "14897592": {
   "km": 4.5,
   "min": 7,
   "g_km": 4.5,
   "g_min": 12,
-  "transit_min": 25
+  "transit_min": 28
  },
  "4122228": {
   "km": 8.9,
   "min": 16,
   "g_km": 8.9,
   "g_min": 25,
-  "transit_min": 73
+  "transit_min": 55
  },
  "14472047": {
   "km": 11.5,
   "min": 19,
   "g_km": 11.5,
-  "g_min": 27,
-  "transit_min": 46
+  "g_min": 26,
+  "transit_min": 42
  },
  "13361758": {
   "km": 6.1,
   "min": 10,
   "g_km": 6.1,
-  "g_min": 17,
+  "g_min": 16,
   "transit_min": 27
  },
  "12186157": {
@@ -754,90 +754,90 @@
   "min": 6,
   "g_km": 3.4,
   "g_min": 9,
-  "transit_min": 26
+  "transit_min": 24
  },
  "15212813": {
   "km": 11.0,
   "min": 17,
   "g_km": 9.8,
-  "g_min": 27,
-  "transit_min": 59
+  "g_min": 26,
+  "transit_min": 56
  },
  "8593662": {
   "km": 6.2,
   "min": 10,
   "g_km": 5.8,
   "g_min": 17,
-  "transit_min": 39
+  "transit_min": 34
  },
  "13361749": {
   "km": 6.1,
   "min": 10,
   "g_km": 6.1,
-  "g_min": 17,
+  "g_min": 16,
   "transit_min": 27
  },
  "14472075": {
   "km": 11.5,
   "min": 19,
   "g_km": 11.5,
-  "g_min": 27,
-  "transit_min": 46
+  "g_min": 26,
+  "transit_min": 42
  },
  "15187352": {
   "km": 10.4,
   "min": 15,
   "g_km": 10.7,
   "g_min": 20,
-  "transit_min": 47
+  "transit_min": 55
  },
  "12552424": {
   "km": 10.3,
   "min": 12,
-  "g_km": 9.3,
-  "g_min": 22,
-  "transit_min": 36
+  "g_km": 10.5,
+  "g_min": 23,
+  "transit_min": 54
  },
  "14646207": {
   "km": 31.9,
   "min": 27,
   "g_km": 31.4,
-  "g_min": 40,
+  "g_min": 42,
   "transit_min": 101
  },
  "13468281": {
   "km": 8.8,
   "min": 12,
   "g_km": 8.8,
-  "g_min": 19,
-  "transit_min": 40
+  "g_min": 21,
+  "transit_min": 41
  },
  "15074656": {
   "km": 10.8,
   "min": 17,
   "g_km": 10.8,
-  "g_min": 26,
+  "g_min": 25,
   "transit_min": 50
  },
  "13553961": {
   "km": 9.9,
   "min": 15,
   "g_km": 9.9,
-  "g_min": 25,
+  "g_min": 24,
   "transit_min": 32
  },
  "11642114": {
   "km": 13.1,
   "min": 16,
-  "g_km": 14.9,
-  "g_min": 24,
-  "transit_min": 56
+  "g_km": 19.4,
+  "g_min": 25,
+  "transit_min": 60
  },
  "15048704": {
   "km": 11.7,
   "min": 16,
   "g_km": 16.9,
-  "g_min": 25,
+  "g_min": 24,
   "transit_min": 48
  },
  "14006272": {
@@ -845,7 +845,7 @@
   "min": 2,
   "g_km": 0.9,
   "g_min": 3,
-  "transit_min": 7
+  "transit_min": 8
  },
  "13470635": {
   "km": 0.3,
@@ -864,44 +864,44 @@
  "14728585": {
   "km": 13.1,
   "min": 16,
-  "g_km": 14.8,
-  "g_min": 24,
-  "transit_min": 56
+  "g_km": 19.4,
+  "g_min": 25,
+  "transit_min": 60
  },
  "12846281": {
   "km": 6.2,
   "min": 10,
   "g_km": 5.8,
   "g_min": 17,
-  "transit_min": 39
+  "transit_min": 34
  },
  "15031144": {
   "km": 4.6,
   "min": 7,
   "g_km": 4.6,
-  "g_min": 12,
+  "g_min": 11,
   "transit_min": 22
  },
  "14497355": {
   "km": 28.9,
   "min": 27,
   "g_km": 29.0,
-  "g_min": 37,
-  "transit_min": 54
+  "g_min": 39,
+  "transit_min": 69
  },
  "14909271": {
   "km": 29.0,
   "min": 28,
   "g_km": 29.1,
-  "g_min": 38,
-  "transit_min": 53
+  "g_min": 40,
+  "transit_min": 71
  },
  "14909277": {
   "km": 29.0,
   "min": 28,
   "g_km": 29.1,
-  "g_min": 38,
-  "transit_min": 53
+  "g_min": 40,
+  "transit_min": 71
  },
  "14981291": {
   "km": 6.2,
@@ -914,7 +914,7 @@
   "km": 6.2,
   "min": 9,
   "g_km": 6.3,
-  "g_min": 16,
+  "g_min": 15,
   "transit_min": 24
  },
  "13902245": {
@@ -929,26 +929,26 @@
   "min": 20,
   "g_km": 21.0,
   "g_min": 29,
-  "transit_min": 71
+  "transit_min": 70
  },
  "4074189": {
   "km": 21.6,
   "min": 24,
   "g_km": 24.4,
   "g_min": 32,
-  "transit_min": 101
+  "transit_min": 85
  },
  "9346150": {
   "km": 21.3,
   "min": 23,
   "g_km": 24.1,
-  "g_min": 31,
-  "transit_min": 111
+  "g_min": 32,
+  "transit_min": 81
  },
  "12088000": {
   "km": 10.9,
   "min": 15,
-  "g_km": 11.0,
+  "g_km": 11.9,
   "g_min": 25,
   "transit_min": 37
  },
@@ -956,14 +956,14 @@
   "km": 11.9,
   "min": 17,
   "g_km": 11.9,
-  "g_min": 28,
-  "transit_min": 42
+  "g_min": 29,
+  "transit_min": 45
  },
  "15041444": {
   "km": 1.9,
   "min": 3,
   "g_km": 1.9,
-  "g_min": 5,
+  "g_min": 6,
   "transit_min": 12
  },
  "15172667": {
@@ -975,94 +975,91 @@
  },
  "10929275": {
   "km": 6.4,
-  "min": 10,
-  "g_km": 6.4,
-  "g_min": 16,
-  "transit_min": 24
+  "min": 10
  },
  "14775280": {
   "km": 11.9,
   "min": 19,
   "g_km": 10.7,
-  "g_min": 29,
-  "transit_min": 45
+  "g_min": 28,
+  "transit_min": 42
  },
  "15272124": {
   "km": 24.2,
   "min": 26,
-  "g_km": 20.5,
-  "g_min": 43,
-  "transit_min": 60
+  "g_km": 24.7,
+  "g_min": 42,
+  "transit_min": 50
  },
  "14986066": {
   "km": 12.2,
   "min": 20,
   "g_km": 12.3,
-  "g_min": 29,
-  "transit_min": 46
+  "g_min": 28,
+  "transit_min": 42
  },
  "12178604": {
   "km": 8.1,
   "min": 12,
   "g_km": 8.1,
-  "g_min": 19,
+  "g_min": 18,
   "transit_min": 24
  },
  "11861704": {
   "km": 12.3,
   "min": 21,
   "g_km": 12.3,
-  "g_min": 29,
-  "transit_min": 47
+  "g_min": 28,
+  "transit_min": 43
  },
  "15012152": {
   "km": 11.9,
   "min": 17,
   "g_km": 11.9,
-  "g_min": 28,
-  "transit_min": 42
+  "g_min": 29,
+  "transit_min": 45
  },
  "15101312": {
   "km": 25.0,
   "min": 26,
   "g_km": 30.0,
-  "g_min": 41,
-  "transit_min": 62
+  "g_min": 42,
+  "transit_min": 56
  },
  "13591177": {
   "km": 16.6,
   "min": 22,
-  "g_km": 14.8,
-  "g_min": 33,
-  "transit_min": 64
+  "g_km": 16.6,
+  "g_min": 36,
+  "transit_min": 62
  },
  "15233656": {
   "km": 15.5,
   "min": 18,
   "g_km": 17.7,
-  "g_min": 26,
-  "transit_min": 52
+  "g_min": 25,
+  "transit_min": 47
  },
  "15270176": {
   "km": 23.4,
   "min": 35,
   "g_km": 32.0,
-  "g_min": 43,
-  "transit_min": 89
+  "g_min": 45,
+  "transit_min": 92
  },
  "13395238": {
   "km": 6.6,
   "min": 10,
   "g_km": 6.5,
-  "g_min": 17,
+  "g_min": 16,
   "transit_min": 27
  },
  "14503176": {
   "km": 18.6,
   "min": 25,
   "g_km": 26.3,
-  "g_min": 34,
-  "transit_min": 97
+  "g_min": 35,
+  "transit_min": 106
  },
  "15106704": {
   "km": 1.5,
@@ -1075,21 +1072,21 @@
   "km": 10.1,
   "min": 15,
   "g_km": 10.4,
-  "g_min": 27,
-  "transit_min": 76
+  "g_min": 26,
+  "transit_min": 55
  },
  "13666702": {
   "km": 20.9,
   "min": 22,
   "g_km": 20.2,
   "g_min": 30,
-  "transit_min": 64
+  "transit_min": 76
  },
  "13959775": {
   "km": 6.6,
   "min": 10,
   "g_km": 6.5,
-  "g_min": 17,
+  "g_min": 16,
   "transit_min": 27
  },
  "12407591": {
@@ -1101,63 +1098,63 @@
   "min": 15,
   "g_km": 10.4,
   "g_min": 27,
-  "transit_min": 76
+  "transit_min": 55
  },
  "13035765": {
   "km": 19.2,
   "min": 19,
   "g_km": 19.3,
   "g_min": 29,
-  "transit_min": 63
+  "transit_min": 78
  },
  "13490267": {
   "km": 22.1,
   "min": 24,
   "g_km": 22.4,
   "g_min": 38,
-  "transit_min": 55
+  "transit_min": 58
  },
  "14972079": {
   "km": 9.1,
   "min": 14,
   "g_km": 9.2,
-  "g_min": 23,
-  "transit_min": 37
+  "g_min": 25,
+  "transit_min": 39
  },
  "12369865": {
   "km": 5.8,
   "min": 9,
   "g_km": 5.4,
-  "g_min": 13,
+  "g_min": 12,
   "transit_min": 25
  },
  "11537102": {
   "km": 13.7,
   "min": 20,
   "g_km": 14.7,
-  "g_min": 33,
-  "transit_min": 62
+  "g_min": 34,
+  "transit_min": 59
  },
  "15144398": {
   "km": 20.9,
   "min": 22,
   "g_km": 20.1,
   "g_min": 30,
-  "transit_min": 63
+  "transit_min": 76
  },
  "14546637": {
   "km": 6.3,
   "min": 9,
   "g_km": 5.9,
-  "g_min": 14,
-  "transit_min": 27
+  "g_min": 16,
+  "transit_min": 30
  },
  "13639031": {
   "km": 10.2,
   "min": 15,
   "g_km": 10.2,
-  "g_min": 25,
-  "transit_min": 41
+  "g_min": 24,
+  "transit_min": 37
  },
  "12627325": {
   "km": 25.1,
@@ -1171,21 +1168,21 @@
   "min": 10,
   "g_km": 6.8,
   "g_min": 19,
-  "transit_min": 35
+  "transit_min": 39
  },
  "14507776": {
   "km": 35.1,
   "min": 33,
   "g_km": 35.0,
-  "g_min": 47,
-  "transit_min": 104
+  "g_min": 49,
+  "transit_min": 114
  },
  "15047470": {
   "km": 6.9,
   "min": 11,
   "g_km": 8.1,
-  "g_min": 21,
-  "transit_min": 45
+  "g_min": 20,
+  "transit_min": 40
  },
  "15033247": {
   "km": 4.7,
@@ -1199,27 +1196,27 @@
   "min": 16,
   "g_km": 11.6,
   "g_min": 30,
-  "transit_min": 58
+  "transit_min": 59
  },
  "14767526": {
   "km": 5.2,
   "min": 8,
   "g_km": 5.3,
-  "g_min": 14,
-  "transit_min": 33
+  "g_min": 13,
+  "transit_min": 32
  },
  "14978807": {
   "km": 8.1,
   "min": 12,
   "g_km": 8.1,
-  "g_min": 19,
+  "g_min": 18,
   "transit_min": 24
  },
  "14565337": {
   "km": 5.9,
   "min": 9,
   "g_km": 5.9,
-  "g_min": 15,
+  "g_min": 14,
   "transit_min": 24
  },
  "12178605": {
@@ -1227,14 +1224,14 @@
   "min": 24,
   "g_km": 22.4,
   "g_min": 38,
-  "transit_min": 55
+  "transit_min": 58
  },
  "13616775": {
   "km": 20.9,
   "min": 22,
   "g_km": 20.2,
   "g_min": 30,
-  "transit_min": 64
+  "transit_min": 76
  },
  "13226611": {
   "km": 3.7,
@@ -1244,28 +1241,28 @@
   "km": 8.1,
   "min": 12,
   "g_km": 8.1,
-  "g_min": 19,
+  "g_min": 18,
   "transit_min": 24
  },
  "13389856": {
   "km": 6.1,
   "min": 10,
   "g_km": 5.8,
-  "g_min": 14,
+  "g_min": 13,
   "transit_min": 19
  },
  "15066016": {
   "km": 5.9,
   "min": 9,
   "g_km": 5.9,
-  "g_min": 15,
+  "g_min": 14,
   "transit_min": 24
  },
  "15167057": {
   "km": 7.4,
   "min": 11,
   "g_km": 7.4,
-  "g_min": 19,
+  "g_min": 18,
   "transit_min": 32
  },
  "14758185": {
@@ -1280,27 +1277,27 @@
   "min": 17,
   "g_km": 17.8,
   "g_min": 25,
-  "transit_min": 45
+  "transit_min": 48
  },
  "14026906": {
   "km": 25.4,
   "min": 27,
   "g_km": 28.9,
-  "g_min": 38,
-  "transit_min": 72
+  "g_min": 40,
+  "transit_min": 67
  },
  "14978911": {
   "km": 8.1,
   "min": 12,
   "g_km": 8.1,
-  "g_min": 19,
+  "g_min": 18,
   "transit_min": 24
  },
  "14978908": {
   "km": 8.1,
   "min": 12,
   "g_km": 8.1,
-  "g_min": 19,
+  "g_min": 18,
   "transit_min": 24
  },
  "11804163": {
@@ -1308,55 +1305,55 @@
   "min": 17,
   "g_km": 17.8,
   "g_min": 25,
-  "transit_min": 45
+  "transit_min": 48
  },
  "15203857": {
   "km": 10.2,
   "min": 15,
   "g_km": 10.2,
-  "g_min": 25,
-  "transit_min": 41
+  "g_min": 24,
+  "transit_min": 37
  },
  "13347973": {
   "km": 5.2,
   "min": 8,
   "g_km": 5.3,
-  "g_min": 14,
-  "transit_min": 31
+  "g_min": 13,
+  "transit_min": 32
  },
  "15170308": {
   "km": 5.2,
   "min": 8,
   "g_km": 5.3,
-  "g_min": 14,
-  "transit_min": 33
+  "g_min": 13,
+  "transit_min": 32
  },
  "15290044": {
   "km": 5.2,
   "min": 8,
   "g_km": 5.3,
-  "g_min": 14,
-  "transit_min": 33
+  "g_min": 13,
+  "transit_min": 32
  },
  "15101619": {
   "km": 5.2,
   "min": 8,
   "g_km": 5.3,
-  "g_min": 14,
-  "transit_min": 33
+  "g_min": 13,
+  "transit_min": 32
  },
  "12857690": {
   "km": 2.9,
   "min": 5,
   "g_km": 2.9,
-  "g_min": 8,
+  "g_min": 9,
   "transit_min": 17
  },
  "14225823": {
   "km": 10.6,
   "min": 16,
   "g_km": 10.6,
-  "g_min": 26,
+  "g_min": 25,
   "transit_min": 42
  },
  "11582052": {
@@ -1364,69 +1361,69 @@
   "min": 9,
   "g_km": 4.8,
   "g_min": 12,
-  "transit_min": 57
+  "transit_min": 59
  },
  "14467252": {
   "km": 12.7,
   "min": 20,
   "g_km": 17.9,
-  "g_min": 28,
-  "transit_min": 67
+  "g_min": 27,
+  "transit_min": 48
  },
  "10599287": {
   "km": 6.9,
   "min": 12,
   "g_km": 7.5,
   "g_min": 19,
-  "transit_min": 36
+  "transit_min": 37
  },
  "15207061": {
   "km": 9.4,
   "min": 12,
   "g_km": 9.6,
-  "g_min": 23,
-  "transit_min": 39
+  "g_min": 22,
+  "transit_min": 40
  },
  "14840544": {
   "km": 9.4,
   "min": 12,
   "g_km": 9.6,
-  "g_min": 23,
-  "transit_min": 39
+  "g_min": 22,
+  "transit_min": 40
  },
  "14771657": {
   "km": 0.9,
   "min": 2,
   "g_km": 0.9,
   "g_min": 3,
-  "transit_min": 7
+  "transit_min": 8
  },
  "14645605": {
   "km": 7.7,
   "min": 12,
   "g_km": 7.9,
-  "g_min": 21,
-  "transit_min": 23
+  "g_min": 23,
+  "transit_min": 24
  },
  "15194483": {
   "km": 6.9,
   "min": 11,
   "g_km": 7.5,
-  "g_min": 19,
+  "g_min": 18,
   "transit_min": 36
  },
  "15074677": {
   "km": 10.8,
   "min": 17,
   "g_km": 10.8,
-  "g_min": 26,
+  "g_min": 25,
   "transit_min": 50
  },
  "10103716": {
   "km": 26.7,
   "min": 30,
   "g_km": 21.7,
-  "g_min": 41,
+  "g_min": 43,
   "transit_min": 67
  },
  "12407230": {
@@ -1434,41 +1431,41 @@
   "min": 12,
   "g_km": 7.5,
   "g_min": 19,
-  "transit_min": 36
+  "transit_min": 37
  },
  "15295504": {
   "km": 7.1,
   "min": 11,
   "g_km": 7.2,
-  "g_min": 18,
+  "g_min": 17,
   "transit_min": 25
  },
  "7569166": {
   "km": 7.4,
   "min": 10,
-  "g_km": 10.0,
-  "g_min": 24,
-  "transit_min": 42
+  "g_km": 11.2,
+  "g_min": 25,
+  "transit_min": 49
  },
  "14244745": {
   "km": 25.8,
   "min": 28,
   "g_km": 29.2,
-  "g_min": 39,
-  "transit_min": 69
+  "g_min": 40,
+  "transit_min": 68
  },
  "6090132": {
   "km": 6.9,
   "min": 12,
   "g_km": 7.5,
   "g_min": 19,
-  "transit_min": 36
+  "transit_min": 37
  },
  "15306530": {
   "km": 6.4,
   "min": 10,
   "g_km": 6.4,
-  "g_min": 16,
+  "g_min": 15,
   "transit_min": 24
  },
  "10929895": {
@@ -1478,29 +1475,29 @@
  "13093507": {
   "km": 8.6,
   "min": 12,
-  "g_km": 9.0,
+  "g_km": 11.5,
   "g_min": 22,
-  "transit_min": 65
+  "transit_min": 64
  },
  "13601387": {
   "km": 26.6,
   "min": 30,
   "g_km": 21.6,
-  "g_min": 41,
+  "g_min": 43,
   "transit_min": 65
  },
  "15130939": {
   "km": 18.8,
   "min": 26,
   "g_km": 26.1,
-  "g_min": 34,
-  "transit_min": 96
+  "g_min": 35,
+  "transit_min": 107
  },
  "13087716": {
   "km": 4.3,
   "min": 7,
   "g_km": 4.1,
-  "g_min": 11,
+  "g_min": 10,
   "transit_min": 17
  },
  "13603089": {
@@ -1508,7 +1505,7 @@
   "min": 18,
   "g_km": 17.8,
   "g_min": 27,
-  "transit_min": 74
+  "transit_min": 67
  },
  "14323610": {
   "km": 1.8,
@@ -1528,15 +1525,15 @@
   "km": 10.0,
   "min": 16,
   "g_km": 10.0,
-  "g_min": 24,
+  "g_min": 23,
   "transit_min": 42
  },
  "13766090": {
   "km": 29.1,
   "min": 28,
   "g_km": 28.7,
-  "g_min": 38,
-  "transit_min": 66
+  "g_min": 40,
+  "transit_min": 70
  },
  "13996537": {
   "km": 6.9,
@@ -1548,9 +1545,9 @@
  "14347117": {
   "km": 9.0,
   "min": 13,
-  "g_km": 9.0,
-  "g_min": 21,
-  "transit_min": 50
+  "g_km": 10.9,
+  "g_min": 23,
+  "transit_min": 48
  },
  "15187024": {
   "km": 20.4,
@@ -1570,36 +1567,36 @@
   "km": 8.1,
   "min": 14,
   "g_km": 11.6,
-  "g_min": 20,
-  "transit_min": 67
+  "g_min": 21,
+  "transit_min": 52
  },
  "12296512": {
   "km": 5.2,
   "min": 7,
   "g_km": 5.2,
-  "g_min": 12,
-  "transit_min": 25
+  "g_min": 13,
+  "transit_min": 29
  },
  "14067187": {
   "km": 8.1,
   "min": 14,
   "g_km": 11.6,
-  "g_min": 20,
-  "transit_min": 67
+  "g_min": 21,
+  "transit_min": 52
  },
  "13546617": {
   "km": 5.2,
   "min": 8,
   "g_km": 5.3,
-  "g_min": 14,
-  "transit_min": 33
+  "g_min": 13,
+  "transit_min": 32
  },
  "7033697": {
   "km": 3.7,
   "min": 8,
   "g_km": 3.6,
   "g_min": 12,
-  "transit_min": 24
+  "transit_min": 23
  },
  "15179580": {
   "km": 2.0,
@@ -1612,29 +1609,29 @@
   "km": 5.2,
   "min": 8,
   "g_km": 5.3,
-  "g_min": 14,
-  "transit_min": 31
+  "g_min": 13,
+  "transit_min": 32
  },
  "14569954": {
   "km": 4.6,
   "min": 8,
   "g_km": 4.6,
-  "g_min": 13,
+  "g_min": 12,
   "transit_min": 23
  },
  "13313894": {
   "km": 8.1,
   "min": 12,
   "g_km": 8.1,
-  "g_min": 19,
+  "g_min": 18,
   "transit_min": 24
  },
  "14997514": {
   "km": 11.2,
   "min": 18,
   "g_km": 11.2,
-  "g_min": 26,
-  "transit_min": 46
+  "g_min": 25,
+  "transit_min": 42
  },
  "15247465": {
   "km": 6.2,
@@ -1648,7 +1645,7 @@
   "min": 18,
   "g_km": 17.2,
   "g_min": 23,
-  "transit_min": 65
+  "transit_min": 64
  },
  "14739360": {
   "km": 21.2,
@@ -1668,7 +1665,7 @@
   "km": 6.6,
   "min": 10,
   "g_km": 6.5,
-  "g_min": 17,
+  "g_min": 16,
   "transit_min": 28
  },
  "14262300": {
@@ -1679,15 +1676,15 @@
   "km": 2.9,
   "min": 5,
   "g_km": 2.9,
-  "g_min": 8,
+  "g_min": 9,
   "transit_min": 17
  },
  "15196344": {
   "km": 18.7,
   "min": 26,
   "g_km": 18.9,
-  "g_min": 37,
-  "transit_min": 76
+  "g_min": 38,
+  "transit_min": 63
  },
  "14777158": {
   "km": 21.7,
@@ -1708,56 +1705,56 @@
   "min": 15,
   "g_km": 13.5,
   "g_min": 22,
-  "transit_min": 52
+  "transit_min": 51
  },
  "15134204": {
   "km": 5.0,
   "min": 8,
   "g_km": 5.1,
-  "g_min": 14,
-  "transit_min": 30
+  "g_min": 13,
+  "transit_min": 31
  },
  "14936851": {
   "km": 8.2,
   "min": 12,
   "g_km": 11.1,
-  "g_min": 23,
-  "transit_min": 37
+  "g_min": 22,
+  "transit_min": 48
  },
  "14950052": {
   "km": 8.2,
   "min": 12,
   "g_km": 11.1,
-  "g_min": 23,
-  "transit_min": 37
+  "g_min": 22,
+  "transit_min": 48
  },
  "14472876": {
   "km": 18.3,
   "min": 21,
   "g_km": 18.4,
-  "g_min": 25,
-  "transit_min": 67
+  "g_min": 26,
+  "transit_min": 68
  },
  "14936860": {
   "km": 8.2,
   "min": 12,
   "g_km": 11.1,
-  "g_min": 23,
-  "transit_min": 37
+  "g_min": 22,
+  "transit_min": 48
  },
  "13399497": {
   "km": 24.4,
   "min": 27,
   "g_km": 24.3,
   "g_min": 41,
-  "transit_min": 60
+  "transit_min": 58
  },
  "15124358": {
   "km": 8.4,
   "min": 13,
   "g_km": 8.6,
-  "g_min": 23,
-  "transit_min": 31
+  "g_min": 25,
+  "transit_min": 33
  },
  "15284388": {
   "km": 21.2,
@@ -1784,22 +1781,22 @@
   "km": 6.4,
   "min": 10,
   "g_km": 6.4,
-  "g_min": 17,
-  "transit_min": 30
+  "g_min": 18,
+  "transit_min": 32
  },
  "14970084": {
   "km": 21.3,
   "min": 23,
   "g_km": 24.1,
-  "g_min": 31,
-  "transit_min": 111
+  "g_min": 32,
+  "transit_min": 81
  },
  "14840805": {
   "km": 11.9,
   "min": 17,
   "g_km": 17.2,
-  "g_min": 27,
-  "transit_min": 46
+  "g_min": 26,
+  "transit_min": 41
  },
  "15299062": {
   "km": 0.3,
@@ -1819,7 +1816,7 @@
   "km": 6.5,
   "min": 10,
   "g_km": 6.5,
-  "g_min": 17,
+  "g_min": 16,
   "transit_min": 26
  },
  "8298694": {
@@ -1833,7 +1830,7 @@
   "km": 7.1,
   "min": 11,
   "g_km": 7.1,
-  "g_min": 18,
+  "g_min": 17,
   "transit_min": 23
  },
  "13286757": {
@@ -1861,50 +1858,50 @@
   "km": 19.6,
   "min": 23,
   "g_km": 22.4,
-  "g_min": 30,
-  "transit_min": 86
+  "g_min": 31,
+  "transit_min": 85
  },
  "14603465": {
   "km": 10.5,
   "min": 15,
   "g_km": 14.0,
-  "g_min": 24,
-  "transit_min": 42
+  "g_min": 23,
+  "transit_min": 43
  },
  "14374044": {
   "km": 12.3,
   "min": 18,
   "g_km": 17.6,
-  "g_min": 27,
-  "transit_min": 63
+  "g_min": 26,
+  "transit_min": 44
  },
  "15172950": {
   "km": 10.3,
   "min": 16,
   "g_km": 10.2,
-  "g_min": 25,
+  "g_min": 24,
   "transit_min": 41
  },
  "10952706": {
   "km": 22.0,
   "min": 31,
   "g_km": 30.9,
-  "g_min": 40,
-  "transit_min": 68
+  "g_min": 42,
+  "transit_min": 69
  },
  "12855207": {
   "km": 11.7,
   "min": 16,
   "g_km": 11.7,
-  "g_min": 31,
-  "transit_min": 59
+  "g_min": 30,
+  "transit_min": 60
  },
  "11474489": {
   "km": 11.2,
   "min": 18,
   "g_km": 11.2,
-  "g_min": 26,
-  "transit_min": 46
+  "g_min": 25,
+  "transit_min": 42
  },
  "13846391": {
   "km": 20.0,
@@ -1914,8 +1911,8 @@
   "km": 6.3,
   "min": 10,
   "g_km": 6.3,
-  "g_min": 17,
-  "transit_min": 42
+  "g_min": 16,
+  "transit_min": 56
  },
  "14812344": {
   "km": 4.1,
@@ -1928,14 +1925,14 @@
   "km": 4.9,
   "min": 7,
   "g_km": 4.5,
-  "g_min": 12,
-  "transit_min": 32
+  "g_min": 13,
+  "transit_min": 34
  },
  "14782266": {
   "km": 26.5,
   "min": 30,
   "g_km": 21.6,
-  "g_min": 42,
+  "g_min": 43,
   "transit_min": 64
  },
  "6231852": {
@@ -1970,7 +1967,7 @@
   "km": 10.3,
   "min": 16,
   "g_km": 10.2,
-  "g_min": 25,
+  "g_min": 24,
   "transit_min": 40
  },
  "10066676": {
@@ -1978,35 +1975,35 @@
   "min": 17,
   "g_km": 17.7,
   "g_min": 26,
-  "transit_min": 71
+  "transit_min": 65
  },
  "14618044": {
   "km": 32.3,
   "min": 29,
   "g_km": 32.2,
-  "g_min": 42,
-  "transit_min": 52
+  "g_min": 44,
+  "transit_min": 75
  },
  "9413553": {
   "km": 26.5,
   "min": 30,
   "g_km": 21.8,
-  "g_min": 41,
+  "g_min": 43,
   "transit_min": 67
  },
  "12712199": {
   "km": 20.9,
   "min": 23,
   "g_km": 23.7,
-  "g_min": 30,
-  "transit_min": 94
+  "g_min": 31,
+  "transit_min": 81
  },
  "15304679": {
   "km": 6.9,
   "min": 11,
   "g_km": 7.1,
-  "g_min": 18,
-  "transit_min": 29
+  "g_min": 20,
+  "transit_min": 30
  },
  "13973046": {
   "km": 19.7,
@@ -2027,12 +2024,12 @@
   "min": 8,
   "g_km": 5.1,
   "g_min": 13,
-  "transit_min": 25
+  "transit_min": 36
  },
  "7250499": {
   "km": 4.4,
   "min": 8,
-  "g_km": 5.1,
+  "g_km": 4.4,
   "g_min": 13,
   "transit_min": 31
  },
@@ -2040,8 +2037,8 @@
   "km": 25.6,
   "min": 27,
   "g_km": 24.9,
-  "g_min": 41,
-  "transit_min": 62
+  "g_min": 42,
+  "transit_min": 58
  },
  "12236361": {
   "km": 336.3,
@@ -2051,15 +2048,15 @@
   "km": 21.3,
   "min": 23,
   "g_km": 24.1,
-  "g_min": 31,
-  "transit_min": 111
+  "g_min": 32,
+  "transit_min": 81
  },
  "14869822": {
   "km": 23.4,
   "min": 25,
   "g_km": 23.9,
   "g_min": 40,
-  "transit_min": 57
+  "transit_min": 56
  },
  "11101250": {
   "km": 21.0,
@@ -2086,7 +2083,7 @@
   "km": 7.2,
   "min": 11,
   "g_km": 7.3,
-  "g_min": 19,
+  "g_min": 18,
   "transit_min": 23
  },
  "13798394": {
@@ -2104,8 +2101,8 @@
   "km": 5.1,
   "min": 8,
   "g_km": 5.1,
-  "g_min": 14,
-  "transit_min": 28
+  "g_min": 13,
+  "transit_min": 29
  },
  "14296194": {
   "km": 3.7,
@@ -2115,7 +2112,7 @@
   "km": 6.5,
   "min": 10,
   "g_km": 6.5,
-  "g_min": 17,
+  "g_min": 16,
   "transit_min": 26
  },
  "15210396": {
@@ -2129,15 +2126,15 @@
   "km": 8.1,
   "min": 13,
   "g_km": 7.9,
-  "g_min": 21,
-  "transit_min": 31
+  "g_min": 23,
+  "transit_min": 34
  },
  "14716258": {
   "km": 6.2,
   "min": 10,
   "g_km": 6.2,
-  "g_min": 16,
-  "transit_min": 41
+  "g_min": 15,
+  "transit_min": 46
  },
  "14362099": {
   "km": 19.8,
@@ -2150,21 +2147,21 @@
   "km": 6.3,
   "min": 10,
   "g_km": 6.3,
-  "g_min": 17,
-  "transit_min": 42
+  "g_min": 16,
+  "transit_min": 56
  },
  "10765545": {
   "km": 11.2,
   "min": 16,
   "g_km": 16.4,
-  "g_min": 25,
-  "transit_min": 47
+  "g_min": 24,
+  "transit_min": 37
  },
  "15172433": {
   "km": 7.4,
   "min": 11,
   "g_km": 7.5,
-  "g_min": 19,
+  "g_min": 18,
   "transit_min": 32
  },
  "13076472": {
@@ -2172,14 +2169,14 @@
   "min": 5,
   "g_km": 2.5,
   "g_min": 7,
-  "transit_min": 21
+  "transit_min": 20
  },
  "10711964": {
   "km": 6.2,
   "min": 10,
   "g_km": 6.2,
-  "g_min": 16,
-  "transit_min": 40
+  "g_min": 15,
+  "transit_min": 46
  },
  "7319751": {
   "km": 23.4,
@@ -2192,8 +2189,8 @@
   "km": 5.0,
   "min": 8,
   "g_km": 5.0,
-  "g_min": 14,
-  "transit_min": 29
+  "g_min": 13,
+  "transit_min": 31
  },
  "14761747": {
   "km": 7.6,
@@ -2206,8 +2203,8 @@
   "km": 7.5,
   "min": 11,
   "g_km": 7.7,
-  "g_min": 19,
-  "transit_min": 48
+  "g_min": 22,
+  "transit_min": 55
  },
  "15154700": {
   "km": 7.4,
@@ -2216,85 +2213,85 @@
  "11369326": {
   "km": 5.1,
   "min": 8,
-  "g_km": 5.8,
+  "g_km": 5.2,
   "g_min": 16,
-  "transit_min": 30
+  "transit_min": 35
  },
  "14838535": {
   "km": 4.6,
   "min": 7,
   "g_km": 4.6,
-  "g_min": 13,
-  "transit_min": 25
+  "g_min": 12,
+  "transit_min": 28
  },
  "15181893": {
   "km": 2.2,
   "min": 4,
   "g_km": 2.2,
   "g_min": 6,
-  "transit_min": 12
+  "transit_min": 17
  },
  "14880741": {
   "km": 5.1,
   "min": 8,
-  "g_km": 5.8,
+  "g_km": 5.2,
   "g_min": 16,
-  "transit_min": 30
+  "transit_min": 35
  },
  "11707628": {
   "km": 4.3,
   "min": 6,
   "g_km": 3.8,
   "g_min": 11,
-  "transit_min": 22
+  "transit_min": 31
  },
  "15123718": {
   "km": 25.9,
   "min": 28,
   "g_km": 25.0,
-  "g_min": 42,
+  "g_min": 43,
   "transit_min": 58
  },
  "12440285": {
   "km": 5.2,
   "min": 8,
   "g_km": 5.3,
-  "g_min": 14,
-  "transit_min": 33
+  "g_min": 13,
+  "transit_min": 32
  },
  "12988506": {
   "km": 5.2,
   "min": 8,
   "g_km": 5.3,
-  "g_min": 14,
-  "transit_min": 33
+  "g_min": 13,
+  "transit_min": 32
  },
  "15293315": {
   "km": 5.1,
   "min": 8,
   "g_km": 5.1,
-  "g_min": 14,
-  "transit_min": 28
+  "g_min": 13,
+  "transit_min": 29
  },
  "15300895": {
   "km": 8.1,
   "min": 12,
   "g_km": 8.1,
-  "g_min": 19,
+  "g_min": 18,
   "transit_min": 24
  },
  "13751155": {
   "km": 5.6,
   "min": 9,
   "g_km": 5.8,
-  "g_min": 16,
+  "g_min": 15,
   "transit_min": 26
  },
  "12515932": {
   "km": 7.4,
   "min": 11,
   "g_km": 7.5,
-  "g_min": 19,
+  "g_min": 18,
   "transit_min": 32
  },
  "14571287": {
@@ -2315,15 +2312,15 @@
   "km": 13.1,
   "min": 19,
   "g_km": 13.4,
-  "g_min": 33,
-  "transit_min": 65
+  "g_min": 32,
+  "transit_min": 51
  },
  "14639128": {
   "km": 26.2,
   "min": 24,
   "g_km": 26.3,
-  "g_min": 35,
-  "transit_min": 67
+  "g_min": 37,
+  "transit_min": 70
  },
  "7238325": {
   "km": 7.1,
@@ -2337,21 +2334,21 @@
   "min": 24,
   "g_km": 24.4,
   "g_min": 32,
-  "transit_min": 101
+  "transit_min": 85
  },
  "4329278": {
   "km": 5.1,
   "min": 8,
   "g_km": 5.1,
-  "g_min": 14,
-  "transit_min": 28
+  "g_min": 13,
+  "transit_min": 29
  },
  "15301693": {
   "km": 11.2,
   "min": 16,
   "g_km": 16.4,
-  "g_min": 25,
-  "transit_min": 47
+  "g_min": 24,
+  "transit_min": 37
  },
  "7979002": {
   "km": 0.4,
@@ -2364,7 +2361,7 @@
   "km": 7.4,
   "min": 11,
   "g_km": 7.5,
-  "g_min": 19,
+  "g_min": 18,
   "transit_min": 32
  },
  "13874090": {
@@ -2372,7 +2369,7 @@
   "min": 15,
   "g_km": 8.4,
   "g_min": 24,
-  "transit_min": 70
+  "transit_min": 48
  },
  "14373997": {
   "km": 20.1,
@@ -2385,43 +2382,43 @@
   "km": 26.3,
   "min": 28,
   "g_km": 28.6,
-  "g_min": 38,
-  "transit_min": 67
+  "g_min": 40,
+  "transit_min": 70
  },
  "12619565": {
   "km": 11.5,
   "min": 16,
   "g_km": 16.8,
-  "g_min": 25,
-  "transit_min": 48
+  "g_min": 24,
+  "transit_min": 40
  },
  "14762446": {
   "km": 7.5,
   "min": 11,
   "g_km": 11.0,
   "g_min": 24,
-  "transit_min": 37
+  "transit_min": 53
  },
  "14700323": {
   "km": 11.4,
   "min": 18,
   "g_km": 11.4,
-  "g_min": 27,
-  "transit_min": 46
+  "g_min": 26,
+  "transit_min": 42
  },
  "14764902": {
   "km": 13.0,
   "min": 16,
   "g_km": 12.9,
-  "g_min": 26,
-  "transit_min": 50
+  "g_min": 25,
+  "transit_min": 48
  },
  "13298906": {
   "km": 4.9,
   "min": 7,
   "g_km": 4.5,
-  "g_min": 12,
-  "transit_min": 32
+  "g_min": 13,
+  "transit_min": 34
  },
  "13680399": {
   "km": 20.1,
@@ -2435,27 +2432,27 @@
   "min": 11,
   "g_km": 9.9,
   "g_min": 22,
-  "transit_min": 44
+  "transit_min": 45
  },
  "14155609": {
   "km": 15.8,
   "min": 20,
   "g_km": 19.1,
   "g_min": 29,
-  "transit_min": 85
+  "transit_min": 96
  },
  "14829552": {
   "km": 3.4,
   "min": 5,
   "g_km": 3.3,
-  "g_min": 10,
-  "transit_min": 24
+  "g_min": 9,
+  "transit_min": 21
  },
  "12465889": {
   "km": 7.4,
   "min": 11,
   "g_km": 7.5,
-  "g_min": 19,
+  "g_min": 18,
   "transit_min": 32
  },
  "15176392": {
@@ -2463,34 +2460,34 @@
   "min": 22,
   "g_km": 23.3,
   "g_min": 30,
-  "transit_min": 99
+  "transit_min": 80
  },
  "10692828": {
   "km": 26.7,
   "min": 31,
   "g_km": 21.8,
-  "g_min": 42,
-  "transit_min": 67
+  "g_min": 43,
+  "transit_min": 68
  },
  "14420492": {
   "km": 7.4,
   "min": 12,
   "g_km": 7.7,
-  "g_min": 20,
-  "transit_min": 20
+  "g_min": 22,
+  "transit_min": 21
  },
  "6539141": {
   "km": 18.1,
   "min": 26,
   "g_km": 17.7,
-  "g_min": 37,
-  "transit_min": 55
+  "g_min": 39,
+  "transit_min": 60
  },
  "13878306": {
   "km": 8.8,
   "min": 12,
   "g_km": 9.1,
-  "g_min": 21,
+  "g_min": 23,
   "transit_min": 37
  },
  "14818655": {
@@ -2511,29 +2508,29 @@
   "km": 21.3,
   "min": 23,
   "g_km": 24.1,
-  "g_min": 31,
-  "transit_min": 111
+  "g_min": 32,
+  "transit_min": 81
  },
  "15301636": {
   "km": 6.2,
   "min": 12,
   "g_km": 6.7,
   "g_min": 17,
-  "transit_min": 40
+  "transit_min": 37
  },
  "10645640": {
   "km": 23.3,
   "min": 25,
   "g_km": 23.4,
-  "g_min": 39,
-  "transit_min": 55
+  "g_min": 40,
+  "transit_min": 59
  },
  "15162133": {
   "km": 21.6,
   "min": 24,
   "g_km": 24.4,
   "g_min": 32,
-  "transit_min": 102
+  "transit_min": 85
  },
  "15124223": {
   "km": 5.9,
@@ -2543,15 +2540,15 @@
   "km": 29.0,
   "min": 28,
   "g_km": 29.1,
-  "g_min": 38,
-  "transit_min": 55
+  "g_min": 40,
+  "transit_min": 68
  },
  "13567306": {
   "km": 18.5,
   "min": 26,
   "g_km": 18.8,
-  "g_min": 37,
-  "transit_min": 71
+  "g_min": 38,
+  "transit_min": 63
  },
  "14881418": {
   "km": 5.3,
@@ -2564,8 +2561,8 @@
   "km": 12.6,
   "min": 15,
   "g_km": 12.7,
-  "g_min": 25,
-  "transit_min": 48
+  "g_min": 24,
+  "transit_min": 46
  },
  "8284471": {
   "km": 8.1,
@@ -2575,7 +2572,7 @@
   "km": 6.0,
   "min": 9,
   "g_km": 6.0,
-  "g_min": 15,
+  "g_min": 14,
   "transit_min": 19
  },
  "14894915": {
@@ -2597,15 +2594,15 @@
   "km": 10.8,
   "min": 17,
   "g_km": 10.9,
-  "g_min": 26,
-  "transit_min": 47
+  "g_min": 25,
+  "transit_min": 43
  },
  "11018324": {
   "km": 10.8,
   "min": 17,
   "g_km": 10.9,
-  "g_min": 26,
-  "transit_min": 47
+  "g_min": 25,
+  "transit_min": 43
  },
  "1307703": {
   "km": 8.1,
@@ -2619,29 +2616,29 @@
   "km": 26.4,
   "min": 25,
   "g_km": 26.3,
-  "g_min": 35,
-  "transit_min": 66
+  "g_min": 37,
+  "transit_min": 69
  },
  "15119909": {
   "km": 22.1,
   "min": 24,
   "g_km": 22.4,
   "g_min": 38,
-  "transit_min": 55
+  "transit_min": 58
  },
  "15148754": {
   "km": 10.2,
   "min": 13,
   "g_km": 10.0,
   "g_min": 19,
-  "transit_min": 51
+  "transit_min": 41
  },
  "15301290": {
   "km": 18.0,
   "min": 18,
   "g_km": 18.1,
   "g_min": 27,
-  "transit_min": 78
+  "transit_min": 71
  },
  "6474601": {
   "km": 18.7,
@@ -2651,7 +2648,7 @@
   "km": 5.9,
   "min": 9,
   "g_km": 5.9,
-  "g_min": 15,
+  "g_min": 14,
   "transit_min": 24
  },
  "13092554": {
@@ -2659,14 +2656,14 @@
   "min": 10,
   "g_km": 5.8,
   "g_min": 17,
-  "transit_min": 39
+  "transit_min": 34
  },
  "11262744": {
   "km": 18.2,
   "min": 18,
   "g_km": 18.2,
   "g_min": 28,
-  "transit_min": 67
+  "transit_min": 73
  },
  "13110042": {
   "km": 20.8,
@@ -2679,14 +2676,21 @@
   "km": 7.7,
   "min": 12,
   "g_km": 7.1,
-  "g_min": 19,
-  "transit_min": 22
+  "g_min": 20,
+  "transit_min": 23
  },
  "15289913": {
   "km": 10.4,
   "min": 16,
   "g_km": 10.7,
-  "g_min": 26,
+  "g_min": 25,
   "transit_min": 43
+ },
+ "14917195": {
+  "km": 8.1,
+  "min": 12,
+  "g_km": 8.1,
+  "g_min": 18,
+  "transit_min": 24
  }
 }

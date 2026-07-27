@@ -64,7 +64,7 @@ git push -u origin main
 預設的開車時間由 OSRM 計算，**不含路況**（等於路不塞時的車程），尖峰時段會偏樂觀。
 大眾運輸則預設提供:最近捷運站+步行距離、「紅線直達」標記、每筆職缺的 Google Maps 路線連結。
 
-填入 Google 金鑰後自動升級兩件事（以「下一個平日 08:00 出發」計算，時間可改 `main.py` 的 `PEAK_H/PEAK_M`）:
+填入 Google 金鑰後自動升級兩件事（以「下一個週一 07:30 出發」計算，可改 `main.py` 的 `PEAK_WEEKDAY/PEAK_H/PEAK_M`）:
 
 1. 開車時間改用 **Google 歷史路況（TRAFFIC_AWARE）**，顯示為「尖峰約 X 分」
 2. 網頁與信件直接顯示**大眾運輸分鐘數**

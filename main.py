@@ -30,7 +30,8 @@ SEND_WHEN_EMPTY = False           # 今日沒有新職缺時是否仍寄信
 SITE_TITLE = "高雄・國外業務職缺雷達"
 GD_LAT, GD_LON = 22.665621, 120.303256   # 出發點:捷運巨蛋站(R14)
 ORIGIN_NAME = "捷運巨蛋站"
-PEAK_H, PEAK_M = 8, 0             # 通勤時間以「下一個平日 08:00 出發」計算(Google 模式)
+PEAK_WEEKDAY = 0                  # 通勤時間的出發日:0=週一,1=週二,...,6=週日
+PEAK_H, PEAK_M = 7, 30            # 出發時刻:07:30(Google 模式以「下一個週一 07:30」計算)
 GOOGLE_MAX_PER_RUN = 200          # Google API 每次執行最多補算的職缺數(每筆約 2 次呼叫)
 # ===============================================================
 
@@ -217,13 +218,14 @@ def fetch_google_routes(jobs: list[dict], cache: dict, now: datetime):
     """(選用)有設 GOOGLE_MAPS_API_KEY 時,用 Google Routes API 補兩件事:
     1. 開車時間升級成「平日早上尖峰出發」的塞車估計(TRAFFIC_AWARE)
     2. 大眾運輸通勤分鐘數
-    以「下一個平日 08:00 出發」計算。每次執行最多處理 GOOGLE_MAX_PER_RUN 筆職缺
-    (每筆約 2 次呼叫);算過的存進 routes.json 快取,同一筆職缺不會重複呼叫。"""
+    以「下一個週一 07:30 出發」計算(PEAK_WEEKDAY/PEAK_H/PEAK_M 可調)。
+    每次執行最多處理 GOOGLE_MAX_PER_RUN 筆職缺(每筆約 2 次呼叫);
+    算過的存進 routes.json 快取,同一筆職缺不會重複呼叫。"""
     key = os.environ.get("GOOGLE_MAPS_API_KEY", "")
     if not key:
         return
-    dep = now.replace(hour=PEAK_H, minute=PEAK_M, second=0, microsecond=0) + timedelta(days=1)
-    while dep.weekday() >= 5:
+    dep = now.replace(hour=PEAK_H, minute=PEAK_M, second=0, microsecond=0)
+    while dep.weekday() != PEAK_WEEKDAY or dep <= now:
         dep += timedelta(days=1)
     dep_utc = dep.astimezone(ZoneInfo("UTC")).strftime("%Y-%m-%dT%H:%M:%SZ")
 
