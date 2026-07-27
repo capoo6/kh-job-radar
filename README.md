@@ -70,9 +70,10 @@ git push -u origin main
 2. 網頁與信件直接顯示**大眾運輸分鐘數**
 
 申請方式:到 [console.cloud.google.com](https://console.cloud.google.com) 建專案 → 啟用 **Routes API** → 建 API key
-（需綁信用卡，但本工具每天最多處理 60 筆職缺、約 120 次呼叫，遠低於每月免費額度;
-擔心的話可在後台把配額上限設成每日 200 次保險）→ 把 key 填進 Secret `GOOGLE_MAPS_API_KEY`。
-金鑰剛加入的前幾天會逐步補完既有職缺，之後每天只查新職缺。
+（需綁信用卡，但同一筆職缺算過就存快取不重算，日常每天只查新職缺、幾十次呼叫，
+遠低於每月免費額度;擔心的話可在後台把配額上限設成每日 1000 次保險）
+→ 把 key 填進 Secret `GOOGLE_MAPS_API_KEY`。
+金鑰剛加入時,每次執行最多補算 200 筆既有職缺,跑兩次即可全部補完。
 
 改完 commit + push 即可生效。
 

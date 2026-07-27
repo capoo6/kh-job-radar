@@ -23,7 +23,7 @@ from zoneinfo import ZoneInfo
 JOBCATS = ["2005003005"]          # 職務類別:國外業務。可加 "2005003002"(國外業務主管)
 AREAS = ["6001016000"]            # 地區:高雄市
 KEYWORD = ""                      # 額外關鍵字,留空 = 只用職務類別過濾
-EXCLUDE_TITLE = r"國內(?!外)"     # 職稱含「國內」(但不是「國內外」)的排除
+EXCLUDE_TITLE = r"國內(?!外)|工程師|[Ee]ngineer"  # 職稱排除:國內(非國內外)、工程師職
 KEEP_DAYS = 30                    # 網頁只顯示最近 N 天內刊登/更新的職缺
 STATE_PRUNE_DAYS = 120            # 超過 N 天沒再出現的職缺,從記錄中清除
 SEND_WHEN_EMPTY = False           # 今日沒有新職缺時是否仍寄信
@@ -31,6 +31,7 @@ SITE_TITLE = "高雄・國外業務職缺雷達"
 GD_LAT, GD_LON = 22.665621, 120.303256   # 出發點:捷運巨蛋站(R14)
 ORIGIN_NAME = "捷運巨蛋站"
 PEAK_H, PEAK_M = 8, 0             # 通勤時間以「下一個平日 08:00 出發」計算(Google 模式)
+GOOGLE_MAX_PER_RUN = 200          # Google API 每次執行最多補算的職缺數(每筆約 2 次呼叫)
 # ===============================================================
 
 ROOT = Path(__file__).resolve().parent
@@ -216,8 +217,8 @@ def fetch_google_routes(jobs: list[dict], cache: dict, now: datetime):
     """(選用)有設 GOOGLE_MAPS_API_KEY 時,用 Google Routes API 補兩件事:
     1. 開車時間升級成「平日早上尖峰出發」的塞車估計(TRAFFIC_AWARE)
     2. 大眾運輸通勤分鐘數
-    以「下一個平日 08:00 出發」計算。每天最多處理 60 筆職缺(約 120 次呼叫,
-    遠低於免費額度);金鑰剛加入時會花幾天把既有職缺補完,之後只查新職缺。"""
+    以「下一個平日 08:00 出發」計算。每次執行最多處理 GOOGLE_MAX_PER_RUN 筆職缺
+    (每筆約 2 次呼叫);算過的存進 routes.json 快取,同一筆職缺不會重複呼叫。"""
     key = os.environ.get("GOOGLE_MAPS_API_KEY", "")
     if not key:
         return
@@ -251,7 +252,7 @@ def fetch_google_routes(jobs: list[dict], cache: dict, now: datetime):
 
     todo = [j for j in jobs if j["lat"] and (
         cache.get(j["no"], {}).get("g_min") is None
-        or cache.get(j["no"], {}).get("transit_min") is None)][:60]
+        or cache.get(j["no"], {}).get("transit_min") is None)][:GOOGLE_MAX_PER_RUN]
     for j in todo:
         c = cache.setdefault(j["no"], {})
         if c.get("g_min") is None:
