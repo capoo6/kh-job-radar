@@ -44,6 +44,10 @@ main{padding:14px 16px 40px}
 .salary{font-weight:700;margin-top:6px;font-size:15px}
 .salary.salary{color:var(--ok)}
 .salary.negotiable{color:var(--warn)}
+.traffic{display:flex;flex-wrap:wrap;gap:6px 12px;margin-top:8px;font-size:13px;color:var(--ink);align-items:center}
+.traffic a{color:var(--brand);text-decoration:none;font-size:12.5px}
+.traffic a:hover{text-decoration:underline}
+.b-direct{background:var(--new-soft);color:#b91c1c}
 .meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
 .chip{font-size:12px;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:2px 8px;color:var(--muted)}
 .chip.lang{background:var(--ok-soft);color:var(--ok);border-color:transparent}
@@ -61,6 +65,7 @@ footer{text-align:center;color:var(--muted);font-size:12px;padding:20px 16px 40p
   <div class="wrap">
     <h1>__TITLE__</h1>
     <p>資料來源:104 人力銀行|每日自動更新|最後更新 __UPDATED__</p>
+    <p>📍 距離以「捷運巨蛋站」為出發點,開車距離/時間為實際路網計算</p>
     <div class="stats">
       <div class="stat"><b id="st-total">0</b>筆追蹤中</div>
       <div class="stat"><b id="st-new">0</b>筆今日新增</div>
@@ -74,6 +79,7 @@ footer{text-align:center;color:var(--muted);font-size:12px;padding:20px 16px 40p
     <input id="q" type="search" placeholder="搜尋職稱、公司、工作內容…">
     <select id="dist"><option value="">全部地區</option></select>
     <select id="sort">
+      <option value="dist">離巨蛋站近→遠</option>
       <option value="date">最新刊登</option>
       <option value="salary">薪資高→低</option>
       <option value="apply">應徵人數少→多</option>
@@ -111,15 +117,26 @@ function relDate(d){
 function card(j){
   const badges = [
     j.is_new ? '<span class="badge b-new">NEW</span>' : "",
+    (j.near_line==="紅線" && j.walk_m<=1000) ? '<span class="badge b-direct">紅線直達</span>' : "",
     j.trip ? '<span class="badge b-trip">出差/外派</span>' : "",
     j.remote ? '<span class="badge b-remote">可遠端</span>' : "",
   ].join("");
+  const traffic = [];
+  if(j.drive_km!=null) traffic.push(`🚗 開車 ${j.drive_km} km・約 ${j.drive_min} 分`);
+  else if(j.dist_km!=null) traffic.push(`📍 直線約 ${j.dist_km} km`);
+  if(j.transit_min) traffic.push(`🚌 大眾運輸約 ${j.transit_min} 分`);
+  if(j.near_st) traffic.push(`🚇 近${j.near_line}「${j.near_st}」站・約 ${j.walk_m} m`);
+  if(j.gmap_transit) traffic.push(
+    `<a href="${esc(j.gmap_drive)}" target="_blank" rel="noopener">開車路線</a>`,
+    `<a href="${esc(j.gmap_transit)}" target="_blank" rel="noopener">大眾運輸路線</a>`);
+  const trafficRow = traffic.length ? `<div class="traffic">${traffic.join("<span style='color:var(--line)'>|</span>")}</div>` : "";
   const langs = j.langs.map(l=>`<span class="chip lang">${esc(l)}</span>`).join("");
   const emp = j.employees ? `<span class="chip">員工 ${j.employees} 人</span>` : "";
   return `<div class="card${j.is_new?" new":""}">
     <div class="row1"><a class="jobname" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.name)}</a>${badges}</div>
     <div class="company"><a href="${esc(j.co_url)}" target="_blank" rel="noopener">${esc(j.company)}</a> <span class="ind">${esc(j.industry)}</span></div>
     <div class="salary ${j.salary_class}">${esc(j.salary)}</div>
+    ${trafficRow}
     <div class="meta">
       <span class="chip">📍 ${esc(j.area)}</span>
       <span class="chip">${esc(j.period)}</span>
@@ -144,9 +161,11 @@ function render(){
     (!q || (j.name+j.company+j.desc+j.industry).toLowerCase().includes(q))
   );
   const sort = $("sort").value;
+  const distOf = j => j.drive_km ?? j.dist_km ?? 9999;
   if(sort==="salary") rows.sort((a,b)=>b.salary_low-a.salary_low);
   else if(sort==="apply") rows.sort((a,b)=>a.apply-b.apply || (a.date<b.date?1:-1));
-  else rows.sort((a,b)=>a.date<b.date?1:a.date>b.date?-1:b.is_new-a.is_new);
+  else if(sort==="date") rows.sort((a,b)=>a.date<b.date?1:a.date>b.date?-1:b.is_new-a.is_new);
+  else rows.sort((a,b)=>distOf(a)-distOf(b));
   $("count").textContent = `符合條件 ${rows.length} 筆`;
   $("list").innerHTML = rows.map(card).join("") || '<div class="empty">沒有符合條件的職缺</div>';
 }

@@ -3,7 +3,8 @@
 每天早上 07:30 自動從 104 抓「高雄市 × 國外業務」職缺，更新成一個網頁，並把**當天新出現的職缺**寄到指定信箱。
 
 - 網頁:職缺卡片列表，含薪資、刊登日期、地區、經歷/學歷要求、語言要求、應徵人數、出差/外派標記，可搜尋、篩選、排序
-- 通知信:只寄「今天第一次出現」的職缺，不會重複轟炸
+- 距離:以**捷運巨蛋站**為出發點，顯示實際開車距離與時間（OSRM 路網計算）、最近捷運/輕軌站與步行距離、「紅線直達」標記，並附 Google Maps 開車/大眾運輸路線連結;預設離巨蛋站近的排前面
+- 通知信:只寄「今天第一次出現」的職缺，依距離近→遠排序，不會重複轟炸
 - 全部跑在 GitHub 免費服務上，電腦不用開機
 
 ## 一次性設定步驟
@@ -34,6 +35,7 @@ git push -u origin main
 | Secret | `GMAIL_USER` | 寄件者 Gmail 地址 |
 | Secret | `GMAIL_APP_PASSWORD` | 剛剛的 16 字元應用程式密碼 |
 | Secret | `EMAIL_TO` | 收件者信箱，多個用逗號分隔 |
+| Secret | `GOOGLE_MAPS_API_KEY` | （選填）填了才會顯示大眾運輸「幾分鐘」，見下方說明 |
 | Variable | `SITE_URL` | 網站網址（第 4 步取得後回來填，信裡會附連結） |
 
 ### 4. 開啟 GitHub Pages
@@ -54,7 +56,18 @@ git push -u origin main
 - `AREAS`:地區（預設高雄市，可加台南市 `6001014000` 等）
 - `KEYWORD`:額外關鍵字過濾
 - `KEEP_DAYS`:網頁顯示最近幾天的職缺
+- `GD_LAT / GD_LON / ORIGIN_NAME`:距離計算的出發點（預設捷運巨蛋站），搬家改這裡
 - 排程時間改 `.github/workflows/daily.yml` 裡的 cron（UTC 時間 = 台灣時間 −8 小時）
+
+## 大眾運輸時間（選用）
+
+免費服務算不出精確的「公車+捷運要幾分鐘」，所以預設提供:最近捷運站+步行距離、
+「紅線直達」標記（和巨蛋同一條線）、以及每筆職缺的 Google Maps 大眾運輸路線連結（點開就是即時路線）。
+
+想在網頁上直接顯示大眾運輸分鐘數，需要 Google Maps 的 Routes API:
+到 [console.cloud.google.com](https://console.cloud.google.com) 建專案 → 啟用 **Routes API** → 建 API key（需綁信用卡，
+但本工具每天最多查 60 筆新職缺，遠低於免費額度）→ 把 key 填進 Secret `GOOGLE_MAPS_API_KEY`。
+以「下一個平日 08:30 出發」估計通勤時間。
 
 改完 commit + push 即可生效。
 
