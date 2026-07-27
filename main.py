@@ -30,6 +30,7 @@ SEND_WHEN_EMPTY = False           # 今日沒有新職缺時是否仍寄信
 SITE_TITLE = "高雄・國外業務職缺雷達"
 GD_LAT, GD_LON = 22.665621, 120.303256   # 出發點:捷運巨蛋站(R14)
 ORIGIN_NAME = "捷運巨蛋站"
+PEAK_H, PEAK_M = 8, 0             # 通勤時間以「下一個平日 08:00 出發」計算(Google 模式)
 # ===============================================================
 
 ROOT = Path(__file__).resolve().parent
@@ -159,6 +160,7 @@ def enrich_location(j: dict, stations: list[dict]):
     j["dist_km"] = j["drive_km"] = j["drive_min"] = j["transit_min"] = None
     j["near_st"] = j["near_line"] = ""
     j["walk_m"] = None
+    j["peak"] = False  # True = 開車時間為 Google 尖峰路況,False = OSRM 無路況估計
     if not (j["lat"] and j["lon"]):
         return
     d = haversine_km(GD_LAT, GD_LON, j["lat"], j["lon"])
@@ -202,42 +204,67 @@ def fetch_drive_routes(jobs: list[dict], cache: dict):
     for j in jobs:
         r = cache.get(j["no"])
         if r and j["lat"]:
-            j["drive_km"], j["drive_min"] = r["km"], r["min"]
+            if r.get("km") is not None:
+                j["drive_km"], j["drive_min"] = r["km"], r["min"]
+            if r.get("g_min"):  # Google 尖峰路況版本優先
+                j["drive_km"], j["drive_min"], j["peak"] = r.get("g_km", r.get("km")), r["g_min"], True
             if r.get("transit_min"):
                 j["transit_min"] = r["transit_min"]
 
 
-def fetch_transit_times(jobs: list[dict], cache: dict, now: datetime):
-    """(選用)有設 GOOGLE_MAPS_API_KEY 時,用 Google Routes API 算大眾運輸時間。
-    以「下一個平日早上 08:30 出發」估計通勤時間,每天最多查 60 筆控制用量。"""
+def fetch_google_routes(jobs: list[dict], cache: dict, now: datetime):
+    """(選用)有設 GOOGLE_MAPS_API_KEY 時,用 Google Routes API 補兩件事:
+    1. 開車時間升級成「平日早上尖峰出發」的塞車估計(TRAFFIC_AWARE)
+    2. 大眾運輸通勤分鐘數
+    以「下一個平日 08:00 出發」計算。每天最多處理 60 筆職缺(約 120 次呼叫,
+    遠低於免費額度);金鑰剛加入時會花幾天把既有職缺補完,之後只查新職缺。"""
     key = os.environ.get("GOOGLE_MAPS_API_KEY", "")
     if not key:
         return
-    dep = now.replace(hour=8, minute=30, second=0, microsecond=0) + timedelta(days=1)
+    dep = now.replace(hour=PEAK_H, minute=PEAK_M, second=0, microsecond=0) + timedelta(days=1)
     while dep.weekday() >= 5:
         dep += timedelta(days=1)
     dep_utc = dep.astimezone(ZoneInfo("UTC")).strftime("%Y-%m-%dT%H:%M:%SZ")
-    todo = [j for j in jobs if j["lat"] and cache.get(j["no"], {}).get("transit_min") is None][:60]
-    for j in todo:
-        body = json.dumps({
+
+    def route(j, mode):
+        body = {
             "origin": {"location": {"latLng": {"latitude": GD_LAT, "longitude": GD_LON}}},
             "destination": {"location": {"latLng": {"latitude": j["lat"], "longitude": j["lon"]}}},
-            "travelMode": "TRANSIT", "departureTime": dep_utc,
-        }).encode()
-        req = Request("https://routes.googleapis.com/directions/v2:computeRoutes", data=body, headers={
-            "Content-Type": "application/json", "X-Goog-Api-Key": key,
-            "X-Goog-FieldMask": "routes.duration",
-        })
+            "travelMode": mode, "departureTime": dep_utc,
+        }
+        if mode == "DRIVE":
+            body["routingPreference"] = "TRAFFIC_AWARE"
+        req = Request("https://routes.googleapis.com/directions/v2:computeRoutes",
+                      data=json.dumps(body).encode(), headers={
+                          "Content-Type": "application/json", "X-Goog-Api-Key": key,
+                          "X-Goog-FieldMask": "routes.duration,routes.distanceMeters",
+                      })
         try:
             with urlopen(req, timeout=30) as r:
                 d = json.load(r)
-            sec = int((d.get("routes") or [{}])[0].get("duration", "0s").rstrip("s") or 0)
-            if sec:
-                cache.setdefault(j["no"], {})["transit_min"] = round(sec / 60)
-                j["transit_min"] = round(sec / 60)
+            top = (d.get("routes") or [{}])[0]
+            sec = int(top.get("duration", "0s").rstrip("s") or 0)
+            km = round(int(top.get("distanceMeters", 0)) / 1000, 1)
+            return (km, max(1, round(sec / 60))) if sec else None
         except Exception:
-            pass
-        time.sleep(0.3)
+            return None
+
+    todo = [j for j in jobs if j["lat"] and (
+        cache.get(j["no"], {}).get("g_min") is None
+        or cache.get(j["no"], {}).get("transit_min") is None)][:60]
+    for j in todo:
+        c = cache.setdefault(j["no"], {})
+        if c.get("g_min") is None:
+            r = route(j, "DRIVE")
+            if r:
+                c["g_km"], c["g_min"] = r
+                j["drive_km"], j["drive_min"], j["peak"] = r[0], r[1], True
+        if c.get("transit_min") is None:
+            r = route(j, "TRANSIT")
+            if r:
+                c["transit_min"] = r[1]
+                j["transit_min"] = r[1]
+        time.sleep(0.2)
 
 
 def load_state() -> dict:
@@ -283,7 +310,7 @@ def main():
     for j in display:
         enrich_location(j, stations)
     fetch_drive_routes(display, routes)
-    fetch_transit_times(display, routes, now)
+    fetch_google_routes(display, routes, now)
     routes = {k: v for k, v in routes.items() if k in state}  # 跟著 state 一起清舊資料
 
     # 離巨蛋站近的優先(沒有座標的排最後)
@@ -334,7 +361,8 @@ def job_row_html(j: dict) -> str:
     color = "#d97706" if j["salary_class"] == "negotiable" else "#059669"
     parts = []
     if j.get("drive_km") is not None:
-        parts.append(f"🚗 開車 {j['drive_km']} km・約 {j['drive_min']} 分")
+        peak = "尖峰約" if j.get("peak") else "約"
+        parts.append(f"🚗 開車 {j['drive_km']} km・{peak} {j['drive_min']} 分")
     elif j.get("dist_km") is not None:
         parts.append(f"📍 直線約 {j['dist_km']} km")
     if j.get("transit_min"):

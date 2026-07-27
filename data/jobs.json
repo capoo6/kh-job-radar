@@ -32,6 +32,7 @@
   "near_st": "巨蛋",
   "near_line": "紅線",
   "walk_m": 50,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6653181,120.3035174&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6653181,120.3035174&travelmode=transit"
  },
@@ -68,6 +69,7 @@
   "near_st": "巨蛋",
   "near_line": "紅線",
   "walk_m": 150,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6653259,120.3018633&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6653259,120.3018633&travelmode=transit"
  },
@@ -104,6 +106,7 @@
   "near_st": "巨蛋",
   "near_line": "紅線",
   "walk_m": 100,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.665,120.303724&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.665,120.303724&travelmode=transit"
  },
@@ -140,6 +143,7 @@
   "near_st": "巨蛋",
   "near_line": "紅線",
   "walk_m": 50,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.665398,120.30364&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.665398,120.30364&travelmode=transit"
  },
@@ -176,6 +180,7 @@
   "near_st": "巨蛋",
   "near_line": "紅線",
   "walk_m": 100,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.665,120.303724&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.665,120.303724&travelmode=transit"
  },
@@ -212,6 +217,7 @@
   "near_st": "巨蛋",
   "near_line": "紅線",
   "walk_m": 100,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.665825,120.304381&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.665825,120.304381&travelmode=transit"
  },
@@ -248,6 +254,7 @@
   "near_st": "巨蛋",
   "near_line": "紅線",
   "walk_m": 100,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.665825,120.304381&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.665825,120.304381&travelmode=transit"
  },
@@ -284,6 +291,7 @@
   "near_st": "巨蛋",
   "near_line": "紅線",
   "walk_m": 100,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6659175,120.3043725&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6659175,120.3043725&travelmode=transit"
  },
@@ -318,6 +326,7 @@
   "near_st": "巨蛋",
   "near_line": "紅線",
   "walk_m": 350,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6629663,120.3051673&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6629663,120.3051673&travelmode=transit"
  },
@@ -354,6 +363,7 @@
   "near_st": "巨蛋",
   "near_line": "紅線",
   "walk_m": 350,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6629663,120.3051673&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6629663,120.3051673&travelmode=transit"
  },
@@ -390,6 +400,7 @@
   "near_st": "巨蛋",
   "near_line": "紅線",
   "walk_m": 500,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6646367,120.2983922&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6646367,120.2983922&travelmode=transit"
  },
@@ -426,6 +437,7 @@
   "near_st": "巨蛋",
   "near_line": "紅線",
   "walk_m": 500,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6646926,120.2983077&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6646926,120.2983077&travelmode=transit"
  },
@@ -462,6 +474,7 @@
   "near_st": "凹子底",
   "near_line": "紅線",
   "walk_m": 500,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.660861,120.305654&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.660861,120.305654&travelmode=transit"
  },
@@ -499,6 +512,7 @@
   "near_st": "巨蛋",
   "near_line": "紅線",
   "walk_m": 600,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6709923,120.3040502&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6709923,120.3040502&travelmode=transit"
  },
@@ -536,6 +550,7 @@
   "near_st": "巨蛋",
   "near_line": "紅線",
   "walk_m": 600,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6709923,120.3040502&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6709923,120.3040502&travelmode=transit"
  },
@@ -570,6 +585,7 @@
   "near_st": "新上國小",
   "near_line": "輕軌",
   "walk_m": 150,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6577165,120.3079212&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6577165,120.3079212&travelmode=transit"
  },
@@ -606,6 +622,7 @@
   "near_st": "龍華國小",
   "near_line": "輕軌",
   "walk_m": 700,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6609587,120.2947497&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6609587,120.2947497&travelmode=transit"
  },
@@ -642,6 +659,7 @@
   "near_st": "後驛",
   "near_line": "紅線",
   "walk_m": 400,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6513625,120.3033242&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6513625,120.3033242&travelmode=transit"
  },
@@ -678,6 +696,7 @@
   "near_st": "聯合醫院",
   "near_line": "輕軌",
   "walk_m": 650,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.660471,120.2921337&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.660471,120.2921337&travelmode=transit"
  },
@@ -714,6 +733,7 @@
   "near_st": "聯合醫院",
   "near_line": "輕軌",
   "walk_m": 650,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.660471,120.2921337&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.660471,120.2921337&travelmode=transit"
  },
@@ -750,6 +770,7 @@
   "near_st": "後驛",
   "near_line": "紅線",
   "walk_m": 300,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6503197,120.3027506&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6503197,120.3027506&travelmode=transit"
  },
@@ -784,6 +805,7 @@
   "near_st": "新上國小",
   "near_line": "輕軌",
   "walk_m": 250,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6559831,120.3111842&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6559831,120.3111842&travelmode=transit"
  },
@@ -818,6 +840,7 @@
   "near_st": "聯合醫院",
   "near_line": "輕軌",
   "walk_m": 550,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6598084,120.2904526&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6598084,120.2904526&travelmode=transit"
  },
@@ -854,6 +877,7 @@
   "near_st": "新上國小",
   "near_line": "輕軌",
   "walk_m": 300,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6540982,120.3095623&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6540982,120.3095623&travelmode=transit"
  },
@@ -888,6 +912,7 @@
   "near_st": "大順民族",
   "near_line": "輕軌",
   "walk_m": 500,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.659602,120.3169624&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.659602,120.3169624&travelmode=transit"
  },
@@ -924,6 +949,7 @@
   "near_st": "新上國小",
   "near_line": "輕軌",
   "walk_m": 400,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6533051,120.309724&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6533051,120.309724&travelmode=transit"
  },
@@ -960,6 +986,7 @@
   "near_st": "新上國小",
   "near_line": "輕軌",
   "walk_m": 400,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.653311,120.309719&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.653311,120.309719&travelmode=transit"
  },
@@ -996,6 +1023,7 @@
   "near_st": "生態園區",
   "near_line": "紅線",
   "walk_m": 950,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6738319,120.3150624&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6738319,120.3150624&travelmode=transit"
  },
@@ -1032,6 +1060,7 @@
   "near_st": "生態園區",
   "near_line": "紅線",
   "walk_m": 700,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6814424,120.3106515&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6814424,120.3106515&travelmode=transit"
  },
@@ -1066,6 +1095,7 @@
   "near_st": "生態園區",
   "near_line": "紅線",
   "walk_m": 650,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.677951,120.3125609&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.677951,120.3125609&travelmode=transit"
  },
@@ -1100,6 +1130,7 @@
   "near_st": "美術館",
   "near_line": "輕軌",
   "walk_m": 100,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6548374,120.2880767&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6548374,120.2880767&travelmode=transit"
  },
@@ -1134,6 +1165,7 @@
   "near_st": "美術館",
   "near_line": "輕軌",
   "walk_m": 100,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6548374,120.2880767&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6548374,120.2880767&travelmode=transit"
  },
@@ -1168,6 +1200,7 @@
   "near_st": "美術館",
   "near_line": "輕軌",
   "walk_m": 100,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6548374,120.2880767&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6548374,120.2880767&travelmode=transit"
  },
@@ -1202,6 +1235,7 @@
   "near_st": "美術館",
   "near_line": "輕軌",
   "walk_m": 100,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6548374,120.2880767&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6548374,120.2880767&travelmode=transit"
  },
@@ -1236,6 +1270,7 @@
   "near_st": "美術館",
   "near_line": "輕軌",
   "walk_m": 100,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6548374,120.2880767&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6548374,120.2880767&travelmode=transit"
  },
@@ -1270,6 +1305,7 @@
   "near_st": "美術館",
   "near_line": "輕軌",
   "walk_m": 100,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6548374,120.2880767&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6548374,120.2880767&travelmode=transit"
  },
@@ -1304,6 +1340,7 @@
   "near_st": "美術館",
   "near_line": "輕軌",
   "walk_m": 100,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6548374,120.2880767&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6548374,120.2880767&travelmode=transit"
  },
@@ -1338,6 +1375,7 @@
   "near_st": "左營",
   "near_line": "紅線",
   "walk_m": 700,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.68577,120.315479&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.68577,120.315479&travelmode=transit"
  },
@@ -1374,6 +1412,7 @@
   "near_st": "美術館",
   "near_line": "輕軌",
   "walk_m": 400,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.651283,120.2874345&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.651283,120.2874345&travelmode=transit"
  },
@@ -1410,6 +1449,7 @@
   "near_st": "美術館",
   "near_line": "輕軌",
   "walk_m": 400,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.651283,120.2874345&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.651283,120.2874345&travelmode=transit"
  },
@@ -1446,6 +1486,7 @@
   "near_st": "大順民族",
   "near_line": "輕軌",
   "walk_m": 200,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6549947,120.3170695&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6549947,120.3170695&travelmode=transit"
  },
@@ -1482,6 +1523,7 @@
   "near_st": "後驛",
   "near_line": "紅線",
   "walk_m": 850,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.64541,120.295379&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.64541,120.295379&travelmode=transit"
  },
@@ -1516,6 +1558,7 @@
   "near_st": "高雄車",
   "near_line": "紅線",
   "walk_m": 900,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6431746,120.29506&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6431746,120.29506&travelmode=transit"
  },
@@ -1552,6 +1595,7 @@
   "near_st": "生態園區",
   "near_line": "紅線",
   "walk_m": 1300,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6767352,120.3192133&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6767352,120.3192133&travelmode=transit"
  },
@@ -1586,6 +1630,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6877358,120.2916524&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6877358,120.2916524&travelmode=transit"
  },
@@ -1622,6 +1667,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.687736,120.291652&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.687736,120.291652&travelmode=transit"
  },
@@ -1658,6 +1704,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6877358,120.2916524&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6877358,120.2916524&travelmode=transit"
  },
@@ -1694,6 +1741,7 @@
   "near_st": "高雄高工",
   "near_line": "輕軌",
   "walk_m": 250,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6483444,120.3262535&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6483444,120.3262535&travelmode=transit"
  },
@@ -1731,6 +1779,7 @@
   "near_st": "高雄高工",
   "near_line": "輕軌",
   "walk_m": 250,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6483444,120.3262535&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6483444,120.3262535&travelmode=transit"
  },
@@ -1767,6 +1816,7 @@
   "near_st": "高雄高工",
   "near_line": "輕軌",
   "walk_m": 250,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6483444,120.3262535&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6483444,120.3262535&travelmode=transit"
  },
@@ -1803,6 +1853,7 @@
   "near_st": "美麗島",
   "near_line": "橘線",
   "walk_m": 150,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6300024,120.3017892&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6300024,120.3017892&travelmode=transit"
  },
@@ -1839,6 +1890,7 @@
   "near_st": "左營",
   "near_line": "紅線",
   "walk_m": 1200,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6865138,120.3203521&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6865138,120.3203521&travelmode=transit"
  },
@@ -1875,6 +1927,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6733834,120.3323893&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6733834,120.3323893&travelmode=transit"
  },
@@ -1911,6 +1964,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6741426,120.3328205&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6741426,120.3328205&travelmode=transit"
  },
@@ -1947,6 +2001,7 @@
   "near_st": "前金",
   "near_line": "橘線",
   "walk_m": 250,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.629944,120.296824&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.629944,120.296824&travelmode=transit"
  },
@@ -1981,6 +2036,7 @@
   "near_st": "鼓山區公所",
   "near_line": "輕軌",
   "walk_m": 700,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6355597,120.2895922&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6355597,120.2895922&travelmode=transit"
  },
@@ -2017,6 +2073,7 @@
   "near_st": "馬卡道",
   "near_line": "輕軌",
   "walk_m": 1350,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6495866,120.2685799&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6495866,120.2685799&travelmode=transit"
  },
@@ -2051,6 +2108,7 @@
   "near_st": "前金",
   "near_line": "橘線",
   "walk_m": 250,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6287873,120.2970545&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6287873,120.2970545&travelmode=transit"
  },
@@ -2087,6 +2145,7 @@
   "near_st": "前金",
   "near_line": "橘線",
   "walk_m": 50,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.629318,120.294907&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.629318,120.294907&travelmode=transit"
  },
@@ -2123,6 +2182,7 @@
   "near_st": "信義國小",
   "near_line": "橘線",
   "walk_m": 300,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6307026,120.308379&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6307026,120.308379&travelmode=transit"
  },
@@ -2159,6 +2219,7 @@
   "near_st": "美麗島",
   "near_line": "橘線",
   "walk_m": 550,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6283893,120.3060706&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6283893,120.3060706&travelmode=transit"
  },
@@ -2193,6 +2254,7 @@
   "near_st": "前金",
   "near_line": "橘線",
   "walk_m": 100,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.629369,120.2952475&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.629369,120.2952475&travelmode=transit"
  },
@@ -2229,6 +2291,7 @@
   "near_st": "科工館",
   "near_line": "輕軌",
   "walk_m": 300,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6394537,120.3275372&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6394537,120.3275372&travelmode=transit"
  },
@@ -2263,6 +2326,7 @@
   "near_st": "樹德家商",
   "near_line": "輕軌",
   "walk_m": 350,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6410832,120.328174&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6410832,120.328174&travelmode=transit"
  },
@@ -2297,6 +2361,7 @@
   "near_st": "中央公園",
   "near_line": "紅線",
   "walk_m": 200,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6231117,120.3015085&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6231117,120.3015085&travelmode=transit"
  },
@@ -2331,6 +2396,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6904441,120.3237508&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6904441,120.3237508&travelmode=transit"
  },
@@ -2365,6 +2431,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6904441,120.3237508&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6904441,120.3237508&travelmode=transit"
  },
@@ -2402,6 +2469,7 @@
   "near_st": "前金",
   "near_line": "橘線",
   "walk_m": 250,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6280209,120.2925603&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6280209,120.2925603&travelmode=transit"
  },
@@ -2439,6 +2507,7 @@
   "near_st": "前金",
   "near_line": "橘線",
   "walk_m": 250,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6280209,120.2925603&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6280209,120.2925603&travelmode=transit"
  },
@@ -2475,6 +2544,7 @@
   "near_st": "前金",
   "near_line": "橘線",
   "walk_m": 250,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6274756,120.2927454&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6274756,120.2927454&travelmode=transit"
  },
@@ -2511,6 +2581,7 @@
   "near_st": "前金",
   "near_line": "橘線",
   "walk_m": 250,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6277427,120.2925514&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6277427,120.2925514&travelmode=transit"
  },
@@ -2547,6 +2618,7 @@
   "near_st": "前金",
   "near_line": "橘線",
   "walk_m": 250,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6277427,120.2925514&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6277427,120.2925514&travelmode=transit"
  },
@@ -2583,6 +2655,7 @@
   "near_st": "前金",
   "near_line": "橘線",
   "walk_m": 250,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6277427,120.2925514&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6277427,120.2925514&travelmode=transit"
  },
@@ -2619,6 +2692,7 @@
   "near_st": "中央公園",
   "near_line": "紅線",
   "walk_m": 350,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6234917,120.29794100000004&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6234917,120.29794100000004&travelmode=transit"
  },
@@ -2655,6 +2729,7 @@
   "near_st": "前金",
   "near_line": "橘線",
   "walk_m": 200,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6281772,120.293067&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6281772,120.293067&travelmode=transit"
  },
@@ -2691,6 +2766,7 @@
   "near_st": "前金",
   "near_line": "橘線",
   "walk_m": 700,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.63072,120.28809&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.63072,120.28809&travelmode=transit"
  },
@@ -2727,6 +2803,7 @@
   "near_st": "前金",
   "near_line": "橘線",
   "walk_m": 200,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6281772,120.293067&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6281772,120.293067&travelmode=transit"
  },
@@ -2763,6 +2840,7 @@
   "near_st": "信義國小",
   "near_line": "橘線",
   "walk_m": 200,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6302499,120.3135756&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6302499,120.3135756&travelmode=transit"
  },
@@ -2799,6 +2877,7 @@
   "near_st": "信義國小",
   "near_line": "橘線",
   "walk_m": 200,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6302499,120.3135756&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6302499,120.3135756&travelmode=transit"
  },
@@ -2835,6 +2914,7 @@
   "near_st": "前金",
   "near_line": "橘線",
   "walk_m": 200,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6281772,120.293067&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6281772,120.293067&travelmode=transit"
  },
@@ -2871,6 +2951,7 @@
   "near_st": "前金",
   "near_line": "橘線",
   "walk_m": 150,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.628182,120.293179&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.628182,120.293179&travelmode=transit"
  },
@@ -2907,6 +2988,7 @@
   "near_st": "信義國小",
   "near_line": "橘線",
   "walk_m": 400,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6271841,120.3101886&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6271841,120.3101886&travelmode=transit"
  },
@@ -2943,42 +3025,7 @@
   "near_st": "信義國小",
   "near_line": "橘線",
   "walk_m": 400,
-  "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6271222,120.3102587&travelmode=driving",
-  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6271222,120.3102587&travelmode=transit"
- },
- {
-  "no": "14225251",
-  "name": "International Sales Representative - 高雄市",
-  "company": "飛輪電商有限公司",
-  "url": "https://www.104.com.tw/job/8gw9v",
-  "co_url": "https://www.104.com.tw/company/1a2x6bl3s7",
-  "area": "高雄市新興區",
-  "industry": "工商顧問服務業",
-  "date": "2026-07-27",
-  "apply": 4,
-  "salary": "月薪 60,000~80,000 元",
-  "salary_class": "salary",
-  "salary_low": 60000,
-  "period": "經歷不拘",
-  "edu": "專科以上",
-  "employees": 170,
-  "langs": [
-   "英文(略懂)"
-  ],
-  "trip": false,
-  "remote": true,
-  "desc": "1. 銷售選品與市場分析 (40%) (1)每日追蹤 Amazon Seller Central 以及公司內部ERP系統（含 ASIN 銷量、轉換率、ROI、庫存週轉天數） (2)以數據為基礎提出「選品 / 調價 / 促銷」等決策，並每月製作月報追蹤銷售表現 (3)分析產品的銷售趨勢、利潤結構與競品強弱 (4)根據季節",
-  "lat": 22.6271222,
-  "lon": 120.3102587,
-  "first_seen": "2026-07-27",
-  "is_new": true,
-  "dist_km": 4.3,
-  "drive_km": 5.2,
-  "drive_min": 8,
-  "transit_min": null,
-  "near_st": "信義國小",
-  "near_line": "橘線",
-  "walk_m": 400,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6271222,120.3102587&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6271222,120.3102587&travelmode=transit"
  },
@@ -3015,6 +3062,44 @@
   "near_st": "信義國小",
   "near_line": "橘線",
   "walk_m": 400,
+  "peak": false,
+  "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6271222,120.3102587&travelmode=driving",
+  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6271222,120.3102587&travelmode=transit"
+ },
+ {
+  "no": "14225251",
+  "name": "International Sales Representative - 高雄市",
+  "company": "飛輪電商有限公司",
+  "url": "https://www.104.com.tw/job/8gw9v",
+  "co_url": "https://www.104.com.tw/company/1a2x6bl3s7",
+  "area": "高雄市新興區",
+  "industry": "工商顧問服務業",
+  "date": "2026-07-27",
+  "apply": 4,
+  "salary": "月薪 60,000~80,000 元",
+  "salary_class": "salary",
+  "salary_low": 60000,
+  "period": "經歷不拘",
+  "edu": "專科以上",
+  "employees": 170,
+  "langs": [
+   "英文(略懂)"
+  ],
+  "trip": false,
+  "remote": true,
+  "desc": "1. 銷售選品與市場分析 (40%) (1)每日追蹤 Amazon Seller Central 以及公司內部ERP系統（含 ASIN 銷量、轉換率、ROI、庫存週轉天數） (2)以數據為基礎提出「選品 / 調價 / 促銷」等決策，並每月製作月報追蹤銷售表現 (3)分析產品的銷售趨勢、利潤結構與競品強弱 (4)根據季節",
+  "lat": 22.6271222,
+  "lon": 120.3102587,
+  "first_seen": "2026-07-27",
+  "is_new": true,
+  "dist_km": 4.3,
+  "drive_km": 5.2,
+  "drive_min": 8,
+  "transit_min": null,
+  "near_st": "信義國小",
+  "near_line": "橘線",
+  "walk_m": 400,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6271222,120.3102587&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6271222,120.3102587&travelmode=transit"
  },
@@ -3051,6 +3136,7 @@
   "near_st": "信義國小",
   "near_line": "橘線",
   "walk_m": 400,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6271841,120.3101886&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6271841,120.3101886&travelmode=transit"
  },
@@ -3087,6 +3173,7 @@
   "near_st": "信義國小",
   "near_line": "橘線",
   "walk_m": 450,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6270238,120.3102934&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6270238,120.3102934&travelmode=transit"
  },
@@ -3123,6 +3210,7 @@
   "near_st": "信義國小",
   "near_line": "橘線",
   "walk_m": 450,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6270238,120.3102934&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6270238,120.3102934&travelmode=transit"
  },
@@ -3159,6 +3247,7 @@
   "near_st": "信義國小",
   "near_line": "橘線",
   "walk_m": 400,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6271222,120.3102587&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6271222,120.3102587&travelmode=transit"
  },
@@ -3195,6 +3284,7 @@
   "near_st": "信義國小",
   "near_line": "橘線",
   "walk_m": 450,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6270238,120.3102934&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6270238,120.3102934&travelmode=transit"
  },
@@ -3231,6 +3321,7 @@
   "near_st": "信義國小",
   "near_line": "橘線",
   "walk_m": 450,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6270238,120.3102934&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6270238,120.3102934&travelmode=transit"
  },
@@ -3267,6 +3358,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6967453,120.3228074&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6967453,120.3228074&travelmode=transit"
  },
@@ -3303,6 +3395,7 @@
   "near_st": "信義國小",
   "near_line": "橘線",
   "walk_m": 450,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6270133,120.310328&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6270133,120.310328&travelmode=transit"
  },
@@ -3339,6 +3432,7 @@
   "near_st": "信義國小",
   "near_line": "橘線",
   "walk_m": 400,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6271841,120.3101886&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6271841,120.3101886&travelmode=transit"
  },
@@ -3375,6 +3469,7 @@
   "near_st": "信義國小",
   "near_line": "橘線",
   "walk_m": 450,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6270238,120.3102934&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6270238,120.3102934&travelmode=transit"
  },
@@ -3411,6 +3506,7 @@
   "near_st": "信義國小",
   "near_line": "橘線",
   "walk_m": 450,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6270238,120.3102934&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6270238,120.3102934&travelmode=transit"
  },
@@ -3447,6 +3543,7 @@
   "near_st": "中央公園",
   "near_line": "紅線",
   "walk_m": 600,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6217292,120.2961566&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6217292,120.2961566&travelmode=transit"
  },
@@ -3481,6 +3578,7 @@
   "near_st": "光榮碼頭",
   "near_line": "輕軌",
   "walk_m": 600,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6212734,120.296114&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6212734,120.296114&travelmode=transit"
  },
@@ -3517,6 +3615,7 @@
   "near_st": "鹽埕埔",
   "near_line": "橘線",
   "walk_m": 250,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6260509,120.2848837&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6260509,120.2848837&travelmode=transit"
  },
@@ -3553,6 +3652,7 @@
   "near_st": "鹽埕埔",
   "near_line": "橘線",
   "walk_m": 200,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6260078,120.2849262&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6260078,120.2849262&travelmode=transit"
  },
@@ -3589,6 +3689,7 @@
   "near_st": "三多商圈",
   "near_line": "紅線",
   "walk_m": 550,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.618793,120.302925&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.618793,120.302925&travelmode=transit"
  },
@@ -3625,6 +3726,7 @@
   "near_st": "三多商圈",
   "near_line": "紅線",
   "walk_m": 800,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.619533,120.309927&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.619533,120.309927&travelmode=transit"
  },
@@ -3659,6 +3761,7 @@
   "near_st": "鹽埕埔",
   "near_line": "橘線",
   "walk_m": 100,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6246729,120.2846822&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6246729,120.2846822&travelmode=transit"
  },
@@ -3695,6 +3798,7 @@
   "near_st": "三多商圈",
   "near_line": "紅線",
   "walk_m": 350,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6162241,120.3016954&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6162241,120.3016954&travelmode=transit"
  },
@@ -3731,6 +3835,7 @@
   "near_st": "三多商圈",
   "near_line": "紅線",
   "walk_m": 350,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6162241,120.3016954&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6162241,120.3016954&travelmode=transit"
  },
@@ -3768,6 +3873,7 @@
   "near_st": "三多商圈",
   "near_line": "紅線",
   "walk_m": 350,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6162241,120.3016954&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6162241,120.3016954&travelmode=transit"
  },
@@ -3802,6 +3908,7 @@
   "near_st": "三多商圈",
   "near_line": "紅線",
   "walk_m": 350,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6162583,120.3017466&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6162583,120.3017466&travelmode=transit"
  },
@@ -3836,6 +3943,7 @@
   "near_st": "三多商圈",
   "near_line": "紅線",
   "walk_m": 350,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.61437,120.300927&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.61437,120.300927&travelmode=transit"
  },
@@ -3872,6 +3980,7 @@
   "near_st": "三多商圈",
   "near_line": "紅線",
   "walk_m": 100,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6133061,120.3051863&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6133061,120.3051863&travelmode=transit"
  },
@@ -3908,6 +4017,7 @@
   "near_st": "鹽埕埔",
   "near_line": "橘線",
   "walk_m": 100,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6235157,120.2837442&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6235157,120.2837442&travelmode=transit"
  },
@@ -3944,6 +4054,7 @@
   "near_st": "鹽埕埔",
   "near_line": "橘線",
   "walk_m": 100,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6235157,120.2837442&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6235157,120.2837442&travelmode=transit"
  },
@@ -3980,6 +4091,7 @@
   "near_st": "三多商圈",
   "near_line": "紅線",
   "walk_m": 100,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6151862,120.3040414&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6151862,120.3040414&travelmode=transit"
  },
@@ -4016,6 +4128,7 @@
   "near_st": "三多商圈",
   "near_line": "紅線",
   "walk_m": 950,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6199078,120.311166&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6199078,120.311166&travelmode=transit"
  },
@@ -4052,6 +4165,7 @@
   "near_st": "三多商圈",
   "near_line": "紅線",
   "walk_m": 950,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6199079,120.311166&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6199079,120.311166&travelmode=transit"
  },
@@ -4088,6 +4202,7 @@
   "near_st": "三多商圈",
   "near_line": "紅線",
   "walk_m": 300,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6129561,120.3015375&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6129561,120.3015375&travelmode=transit"
  },
@@ -4125,6 +4240,7 @@
   "near_st": "三多商圈",
   "near_line": "紅線",
   "walk_m": 950,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6199078,120.311166&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6199078,120.311166&travelmode=transit"
  },
@@ -4161,6 +4277,7 @@
   "near_st": "五塊厝",
   "near_line": "橘線",
   "walk_m": 300,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6268814,120.3262535&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6268814,120.3262535&travelmode=transit"
  },
@@ -4197,6 +4314,7 @@
   "near_st": "五塊厝",
   "near_line": "橘線",
   "walk_m": 300,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6268814,120.3262535&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6268814,120.3262535&travelmode=transit"
  },
@@ -4233,6 +4351,7 @@
   "near_st": "光榮碼頭",
   "near_line": "輕軌",
   "walk_m": 400,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6149245,120.2965835&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6149245,120.2965835&travelmode=transit"
  },
@@ -4269,6 +4388,7 @@
   "near_st": "五塊厝",
   "near_line": "橘線",
   "walk_m": 300,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6268814,120.3262535&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6268814,120.3262535&travelmode=transit"
  },
@@ -4303,6 +4423,7 @@
   "near_st": "五塊厝",
   "near_line": "橘線",
   "walk_m": 300,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6268814,120.3262535&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6268814,120.3262535&travelmode=transit"
  },
@@ -4340,6 +4461,7 @@
   "near_st": "三多商圈",
   "near_line": "紅線",
   "walk_m": 950,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6199078,120.311166&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6199078,120.311166&travelmode=transit"
  },
@@ -4376,6 +4498,7 @@
   "near_st": "三多商圈",
   "near_line": "紅線",
   "walk_m": 350,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6128852,120.301364&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6128852,120.301364&travelmode=transit"
  },
@@ -4412,6 +4535,7 @@
   "near_st": "三多商圈",
   "near_line": "紅線",
   "walk_m": 950,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6199078,120.311166&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6199078,120.311166&travelmode=transit"
  },
@@ -4448,6 +4572,7 @@
   "near_st": "光榮碼頭",
   "near_line": "輕軌",
   "walk_m": 50,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.616581,120.2934659&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.616581,120.2934659&travelmode=transit"
  },
@@ -4484,6 +4609,7 @@
   "near_st": "光榮碼頭",
   "near_line": "輕軌",
   "walk_m": 50,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6165628,120.2936322&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6165628,120.2936322&travelmode=transit"
  },
@@ -4520,6 +4646,7 @@
   "near_st": "三多商圈",
   "near_line": "紅線",
   "walk_m": 950,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6199078,120.311166&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6199078,120.311166&travelmode=transit"
  },
@@ -4556,6 +4683,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6815482,120.3473895&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6815482,120.3473895&travelmode=transit"
  },
@@ -4592,6 +4720,7 @@
   "near_st": "三多商圈",
   "near_line": "紅線",
   "walk_m": 950,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6199078,120.311166&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6199078,120.311166&travelmode=transit"
  },
@@ -4626,6 +4755,7 @@
   "near_st": "五塊厝",
   "near_line": "橘線",
   "walk_m": 300,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6268814,120.3262535&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6268814,120.3262535&travelmode=transit"
  },
@@ -4662,6 +4792,7 @@
   "near_st": "三多商圈",
   "near_line": "紅線",
   "walk_m": 100,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6133062,120.3051101&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6133062,120.3051101&travelmode=transit"
  },
@@ -4698,6 +4829,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7013812,120.3258873&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7013812,120.3258873&travelmode=transit"
  },
@@ -4734,6 +4866,7 @@
   "near_st": "光榮碼頭",
   "near_line": "輕軌",
   "walk_m": 150,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6154957,120.292874&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6154957,120.292874&travelmode=transit"
  },
@@ -4770,6 +4903,7 @@
   "near_st": "光榮碼頭",
   "near_line": "輕軌",
   "walk_m": 150,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6154958,120.292874&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6154958,120.292874&travelmode=transit"
  },
@@ -4806,6 +4940,7 @@
   "near_st": "三多商圈",
   "near_line": "紅線",
   "walk_m": 350,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6118094,120.3020207&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6118094,120.3020207&travelmode=transit"
  },
@@ -4842,6 +4977,7 @@
   "near_st": "三多商圈",
   "near_line": "紅線",
   "walk_m": 350,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6117632,120.3020774&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6117632,120.3020774&travelmode=transit"
  },
@@ -4878,6 +5014,7 @@
   "near_st": "五塊厝",
   "near_line": "橘線",
   "walk_m": 50,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6296986,120.327973&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6296986,120.327973&travelmode=transit"
  },
@@ -4914,6 +5051,7 @@
   "near_st": "苓雅運動園區",
   "near_line": "橘線",
   "walk_m": 250,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6285412,120.3326476&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6285412,120.3326476&travelmode=transit"
  },
@@ -4950,6 +5088,7 @@
   "near_st": "三多商圈",
   "near_line": "紅線",
   "walk_m": 500,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6097668,120.3046243&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6097668,120.3046243&travelmode=transit"
  },
@@ -4987,6 +5126,7 @@
   "near_st": "三多商圈",
   "near_line": "紅線",
   "walk_m": 500,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6097668,120.3046243&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6097668,120.3046243&travelmode=transit"
  },
@@ -5023,6 +5163,7 @@
   "near_st": "高雄展覽館",
   "near_line": "輕軌",
   "walk_m": 250,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.612304,120.298872&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.612304,120.298872&travelmode=transit"
  },
@@ -5057,6 +5198,7 @@
   "near_st": "衛武營",
   "near_line": "橘線",
   "walk_m": 1250,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6363337,120.3424857&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6363337,120.3424857&travelmode=transit"
  },
@@ -5093,6 +5235,7 @@
   "near_st": "高雄展覽館",
   "near_line": "輕軌",
   "walk_m": 300,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6114147,120.3005177&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6114147,120.3005177&travelmode=transit"
  },
@@ -5129,6 +5272,7 @@
   "near_st": "高雄展覽館",
   "near_line": "輕軌",
   "walk_m": 300,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6114147,120.3005177&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6114147,120.3005177&travelmode=transit"
  },
@@ -5165,6 +5309,7 @@
   "near_st": "高雄展覽館",
   "near_line": "輕軌",
   "walk_m": 250,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.612304,120.298872&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.612304,120.298872&travelmode=transit"
  },
@@ -5201,6 +5346,7 @@
   "near_st": "衛武營",
   "near_line": "橘線",
   "walk_m": 1300,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.636674,120.342866&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.636674,120.342866&travelmode=transit"
  },
@@ -5238,6 +5384,7 @@
   "near_st": "衛武營",
   "near_line": "橘線",
   "walk_m": 1300,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.636674,120.342866&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.636674,120.342866&travelmode=transit"
  },
@@ -5274,6 +5421,7 @@
   "near_st": "獅甲",
   "near_line": "紅線",
   "walk_m": 650,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6105265,120.3119056&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6105265,120.3119056&travelmode=transit"
  },
@@ -5310,6 +5458,7 @@
   "near_st": "凱旋二聖",
   "near_line": "輕軌",
   "walk_m": 750,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.612836,120.3196843&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.612836,120.3196843&travelmode=transit"
  },
@@ -5346,6 +5495,7 @@
   "near_st": "凱旋二聖",
   "near_line": "輕軌",
   "walk_m": 750,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.612836,120.3196843&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.612836,120.3196843&travelmode=transit"
  },
@@ -5382,6 +5532,7 @@
   "near_st": "凱旋武昌",
   "near_line": "輕軌",
   "walk_m": 450,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6150511,120.3227361&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6150511,120.3227361&travelmode=transit"
  },
@@ -5418,6 +5569,7 @@
   "near_st": "凱旋二聖",
   "near_line": "輕軌",
   "walk_m": 750,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.612852,120.319847&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.612852,120.319847&travelmode=transit"
  },
@@ -5454,6 +5606,7 @@
   "near_st": "凱旋二聖",
   "near_line": "輕軌",
   "walk_m": 750,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.612836,120.3196843&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.612836,120.3196843&travelmode=transit"
  },
@@ -5490,6 +5643,7 @@
   "near_st": "凱旋二聖",
   "near_line": "輕軌",
   "walk_m": 750,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.612852,120.319847&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.612852,120.319847&travelmode=transit"
  },
@@ -5526,6 +5680,7 @@
   "near_st": "凱旋二聖",
   "near_line": "輕軌",
   "walk_m": 750,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.612852,120.319847&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.612852,120.319847&travelmode=transit"
  },
@@ -5562,6 +5717,7 @@
   "near_st": "凱旋二聖",
   "near_line": "輕軌",
   "walk_m": 750,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.612851,120.319657&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.612851,120.319657&travelmode=transit"
  },
@@ -5598,6 +5754,7 @@
   "near_st": "凱旋二聖",
   "near_line": "輕軌",
   "walk_m": 750,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.612851,120.319657&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.612851,120.319657&travelmode=transit"
  },
@@ -5634,6 +5791,7 @@
   "near_st": "楠梓科技園區",
   "near_line": "紅線",
   "walk_m": 850,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7168562,120.2990891&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7168562,120.2990891&travelmode=transit"
  },
@@ -5671,6 +5829,7 @@
   "near_st": "獅甲",
   "near_line": "紅線",
   "walk_m": 250,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6077188,120.3095484&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6077188,120.3095484&travelmode=transit"
  },
@@ -5707,6 +5866,7 @@
   "near_st": "獅甲",
   "near_line": "紅線",
   "walk_m": 200,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6050964,120.3095381&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6050964,120.3095381&travelmode=transit"
  },
@@ -5743,6 +5903,7 @@
   "near_st": "三多商圈",
   "near_line": "紅線",
   "walk_m": 400,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6111353,120.3025145&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6111353,120.3025145&travelmode=transit"
  },
@@ -5779,6 +5940,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7064118,120.3330682&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7064118,120.3330682&travelmode=transit"
  },
@@ -5815,6 +5977,7 @@
   "near_st": "獅甲",
   "near_line": "紅線",
   "walk_m": 850,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6123652,120.312911&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6123652,120.312911&travelmode=transit"
  },
@@ -5851,6 +6014,7 @@
   "near_st": "獅甲",
   "near_line": "紅線",
   "walk_m": 250,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6048976,120.3096639&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6048976,120.3096639&travelmode=transit"
  },
@@ -5887,6 +6051,7 @@
   "near_st": "楠梓科技園區",
   "near_line": "紅線",
   "walk_m": 0,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7186939,120.3070681&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7186939,120.3070681&travelmode=transit"
  },
@@ -5923,6 +6088,7 @@
   "near_st": "軟體園區",
   "near_line": "輕軌",
   "walk_m": 50,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6053186,120.3002794&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6053186,120.3002794&travelmode=transit"
  },
@@ -5957,6 +6123,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7067031,120.3327627&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7067031,120.3327627&travelmode=transit"
  },
@@ -5991,6 +6158,7 @@
   "near_st": "軟體園區",
   "near_line": "輕軌",
   "walk_m": 150,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6046572,120.3002442&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6046572,120.3002442&travelmode=transit"
  },
@@ -6025,6 +6193,7 @@
   "near_st": "軟體園區",
   "near_line": "輕軌",
   "walk_m": 50,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6053186,120.3002794&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6053186,120.3002794&travelmode=transit"
  },
@@ -6061,6 +6230,7 @@
   "near_st": "軟體園區",
   "near_line": "輕軌",
   "walk_m": 100,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6047344,120.3001513&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6047344,120.3001513&travelmode=transit"
  },
@@ -6097,6 +6267,7 @@
   "near_st": "軟體園區",
   "near_line": "輕軌",
   "walk_m": 100,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6047344,120.3001513&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6047344,120.3001513&travelmode=transit"
  },
@@ -6133,6 +6304,7 @@
   "near_st": "軟體園區",
   "near_line": "輕軌",
   "walk_m": 100,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6047344,120.3001513&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6047344,120.3001513&travelmode=transit"
  },
@@ -6169,6 +6341,7 @@
   "near_st": "楠梓科技園區",
   "near_line": "紅線",
   "walk_m": 350,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7208031,120.3094497&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7208031,120.3094497&travelmode=transit"
  },
@@ -6205,6 +6378,7 @@
   "near_st": "軟體園區",
   "near_line": "輕軌",
   "walk_m": 150,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.604678,120.2998688&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.604678,120.2998688&travelmode=transit"
  },
@@ -6241,6 +6415,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6858298,120.3611179&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6858298,120.3611179&travelmode=transit"
  },
@@ -6277,6 +6452,7 @@
   "near_st": "楠梓科技園區",
   "near_line": "紅線",
   "walk_m": 400,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7209603,120.3038629&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7209603,120.3038629&travelmode=transit"
  },
@@ -6313,6 +6489,7 @@
   "near_st": "軟體園區",
   "near_line": "輕軌",
   "walk_m": 150,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6046829,120.2998747&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6046829,120.2998747&travelmode=transit"
  },
@@ -6347,6 +6524,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7052412,120.3357692&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7052412,120.3357692&travelmode=transit"
  },
@@ -6383,6 +6561,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7092153,120.333401&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7092153,120.333401&travelmode=transit"
  },
@@ -6419,6 +6598,7 @@
   "near_st": "軟體園區",
   "near_line": "輕軌",
   "walk_m": 250,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6042407,120.2989535&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6042407,120.2989535&travelmode=transit"
  },
@@ -6455,6 +6635,7 @@
   "near_st": "軟體園區",
   "near_line": "輕軌",
   "walk_m": 300,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6038559,120.2983822&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6038559,120.2983822&travelmode=transit"
  },
@@ -6491,6 +6672,7 @@
   "near_st": "楠梓科技園區",
   "near_line": "紅線",
   "walk_m": 450,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7226271,120.308705&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7226271,120.308705&travelmode=transit"
  },
@@ -6527,6 +6709,7 @@
   "near_st": "楠梓科技園區",
   "near_line": "紅線",
   "walk_m": 450,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7175372,120.3031871&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7175372,120.3031871&travelmode=transit"
  },
@@ -6563,6 +6746,7 @@
   "near_st": "凱旋",
   "near_line": "紅線",
   "walk_m": 50,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5970794,120.3147208&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5970794,120.3147208&travelmode=transit"
  },
@@ -6599,6 +6783,7 @@
   "near_st": "凱旋",
   "near_line": "紅線",
   "walk_m": 50,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5970794,120.3147208&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5970794,120.3147208&travelmode=transit"
  },
@@ -6635,6 +6820,7 @@
   "near_st": "楠梓科技園區",
   "near_line": "紅線",
   "walk_m": 850,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7241848,120.3013275&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7241848,120.3013275&travelmode=transit"
  },
@@ -6671,6 +6857,7 @@
   "near_st": "凱旋",
   "near_line": "紅線",
   "walk_m": 50,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5970794,120.3147208&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5970794,120.3147208&travelmode=transit"
  },
@@ -6708,6 +6895,7 @@
   "near_st": "凱旋",
   "near_line": "紅線",
   "walk_m": 50,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5970794,120.3147208&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5970794,120.3147208&travelmode=transit"
  },
@@ -6745,6 +6933,7 @@
   "near_st": "凱旋",
   "near_line": "紅線",
   "walk_m": 50,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5970794,120.3147208&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5970794,120.3147208&travelmode=transit"
  },
@@ -6782,6 +6971,7 @@
   "near_st": "凱旋",
   "near_line": "紅線",
   "walk_m": 50,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5970794,120.3147208&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5970794,120.3147208&travelmode=transit"
  },
@@ -6819,6 +7009,7 @@
   "near_st": "凱旋",
   "near_line": "紅線",
   "walk_m": 50,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5970794,120.3147208&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5970794,120.3147208&travelmode=transit"
  },
@@ -6856,6 +7047,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6886289,120.3670712&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6886289,120.3670712&travelmode=transit"
  },
@@ -6892,6 +7084,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6886289,120.3670712&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6886289,120.3670712&travelmode=transit"
  },
@@ -6928,6 +7121,7 @@
   "near_st": "凱旋",
   "near_line": "紅線",
   "walk_m": 50,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5970794,120.3147208&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5970794,120.3147208&travelmode=transit"
  },
@@ -6964,6 +7158,7 @@
   "near_st": "楠梓科技園區",
   "near_line": "紅線",
   "walk_m": 850,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7241848,120.3013275&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7241848,120.3013275&travelmode=transit"
  },
@@ -6998,6 +7193,7 @@
   "near_st": "凱旋",
   "near_line": "紅線",
   "walk_m": 50,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5970794,120.3147208&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5970794,120.3147208&travelmode=transit"
  },
@@ -7034,6 +7230,7 @@
   "near_st": "凱旋",
   "near_line": "紅線",
   "walk_m": 50,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5970794,120.3147208&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5970794,120.3147208&travelmode=transit"
  },
@@ -7070,6 +7267,7 @@
   "near_st": "凱旋",
   "near_line": "紅線",
   "walk_m": 50,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5970794,120.3147208&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5970794,120.3147208&travelmode=transit"
  },
@@ -7104,6 +7302,7 @@
   "near_st": "鳳山西",
   "near_line": "橘線",
   "walk_m": 200,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6257799,120.3501548&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6257799,120.3501548&travelmode=transit"
  },
@@ -7138,6 +7337,7 @@
   "near_st": "鳳山西",
   "near_line": "橘線",
   "walk_m": 200,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6257799,120.3501548&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6257799,120.3501548&travelmode=transit"
  },
@@ -7172,6 +7372,7 @@
   "near_st": "鳳山西",
   "near_line": "橘線",
   "walk_m": 200,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6257799,120.3501548&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6257799,120.3501548&travelmode=transit"
  },
@@ -7206,6 +7407,7 @@
   "near_st": "鳳山西",
   "near_line": "橘線",
   "walk_m": 200,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6257799,120.3501548&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6257799,120.3501548&travelmode=transit"
  },
@@ -7243,6 +7445,7 @@
   "near_st": "後勁",
   "near_line": "紅線",
   "walk_m": 750,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7258695,120.3101293&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7258695,120.3101293&travelmode=transit"
  },
@@ -7279,6 +7482,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6417323,120.3710794&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6417323,120.3710794&travelmode=transit"
  },
@@ -7313,6 +7517,7 @@
   "near_st": "輕軌機廠",
   "near_line": "輕軌",
   "walk_m": 550,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6052604,120.3302572&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6052604,120.3302572&travelmode=transit"
  },
@@ -7349,6 +7554,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7107628,120.3429989&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7107628,120.3429989&travelmode=transit"
  },
@@ -7385,6 +7591,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.718862,120.330666&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.718862,120.330666&travelmode=transit"
  },
@@ -7421,6 +7628,7 @@
   "near_st": "都會公園",
   "near_line": "紅線",
   "walk_m": 1350,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7207069,120.3295995&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7207069,120.3295995&travelmode=transit"
  },
@@ -7457,6 +7665,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6400402,120.3751955&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6400402,120.3751955&travelmode=transit"
  },
@@ -7493,6 +7702,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.663075955817188,120.36671753862305&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.663075955817188,120.36671753862305&travelmode=transit"
  },
@@ -7529,6 +7739,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7002102,120.3427804&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7002102,120.3427804&travelmode=transit"
  },
@@ -7565,6 +7776,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7322681,120.2910209&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7322681,120.2910209&travelmode=transit"
  },
@@ -7601,6 +7813,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7210829,120.3339824&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7210829,120.3339824&travelmode=transit"
  },
@@ -7637,6 +7850,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7210829,120.3339824&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7210829,120.3339824&travelmode=transit"
  },
@@ -7673,6 +7887,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7168158,120.3334159&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7168158,120.3334159&travelmode=transit"
  },
@@ -7709,6 +7924,7 @@
   "near_st": "前鎮高中",
   "near_line": "紅線",
   "walk_m": 550,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5858534,120.3260658&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5858534,120.3260658&travelmode=transit"
  },
@@ -7745,6 +7961,7 @@
   "near_st": "草衙",
   "near_line": "紅線",
   "walk_m": 450,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.583285,120.325738&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.583285,120.325738&travelmode=transit"
  },
@@ -7781,6 +7998,7 @@
   "near_st": "前鎮高中",
   "near_line": "紅線",
   "walk_m": 1000,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5844571,120.3132299&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5844571,120.3132299&travelmode=transit"
  },
@@ -7817,6 +8035,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6380929,120.3743443&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6380929,120.3743443&travelmode=transit"
  },
@@ -7853,6 +8072,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6380251,120.3743783&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6380251,120.3743783&travelmode=transit"
  },
@@ -7889,6 +8109,7 @@
   "near_st": "夢時代",
   "near_line": "輕軌",
   "walk_m": 1100,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5899364,120.2959839&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5899364,120.2959839&travelmode=transit"
  },
@@ -7925,6 +8146,7 @@
   "near_st": "夢時代",
   "near_line": "輕軌",
   "walk_m": 1100,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5899364,120.2959839&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5899364,120.2959839&travelmode=transit"
  },
@@ -7961,6 +8183,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6997633,120.3529375&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6997633,120.3529375&travelmode=transit"
  },
@@ -7997,6 +8220,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7119255,120.3362207&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7119255,120.3362207&travelmode=transit"
  },
@@ -8033,6 +8257,7 @@
   "near_st": "前鎮高中",
   "near_line": "紅線",
   "walk_m": 900,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5831884,120.3148538&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5831884,120.3148538&travelmode=transit"
  },
@@ -8069,6 +8294,7 @@
   "near_st": "前鎮高中",
   "near_line": "紅線",
   "walk_m": 900,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.583286,120.314877&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.583286,120.314877&travelmode=transit"
  },
@@ -8105,6 +8331,7 @@
   "near_st": "夢時代",
   "near_line": "輕軌",
   "walk_m": 1150,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.591396,120.294497&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.591396,120.294497&travelmode=transit"
  },
@@ -8141,6 +8368,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6967685,120.3609307&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6967685,120.3609307&travelmode=transit"
  },
@@ -8177,6 +8405,7 @@
   "near_st": "前鎮高中",
   "near_line": "紅線",
   "walk_m": 1000,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5821585,120.3144399&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5821585,120.3144399&travelmode=transit"
  },
@@ -8211,6 +8440,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.697399,120.37327&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.697399,120.37327&travelmode=transit"
  },
@@ -8245,6 +8475,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6113591,120.3493158&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6113591,120.3493158&travelmode=transit"
  },
@@ -8279,6 +8510,7 @@
   "near_st": "凱旋瑞田",
   "near_line": "輕軌",
   "walk_m": 1050,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5960091,120.3291901&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5960091,120.3291901&travelmode=transit"
  },
@@ -8315,6 +8547,7 @@
   "near_st": "前鎮高中",
   "near_line": "紅線",
   "walk_m": 1000,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5811844,120.316292&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5811844,120.316292&travelmode=transit"
  },
@@ -8351,6 +8584,7 @@
   "near_st": "前鎮高中",
   "near_line": "紅線",
   "walk_m": 1050,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5807962,120.3157635&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5807962,120.3157635&travelmode=transit"
  },
@@ -8387,6 +8621,7 @@
   "near_st": "前鎮高中",
   "near_line": "紅線",
   "walk_m": 1050,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5807962,120.3157635&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5807962,120.3157635&travelmode=transit"
  },
@@ -8423,6 +8658,7 @@
   "near_st": "經貿園區",
   "near_line": "輕軌",
   "walk_m": 1000,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5964478,120.2939053&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5964478,120.2939053&travelmode=transit"
  },
@@ -8459,6 +8695,7 @@
   "near_st": "經貿園區",
   "near_line": "輕軌",
   "walk_m": 1000,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5964478,120.2939053&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5964478,120.2939053&travelmode=transit"
  },
@@ -8495,6 +8732,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7406327,120.3319022&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7406327,120.3319022&travelmode=transit"
  },
@@ -8531,6 +8769,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6430023,120.3825393&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6430023,120.3825393&travelmode=transit"
  },
@@ -8567,6 +8806,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6368141,120.3850668&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6368141,120.3850668&travelmode=transit"
  },
@@ -8603,6 +8843,7 @@
   "near_st": "經貿園區",
   "near_line": "輕軌",
   "walk_m": 1050,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5983935,120.2928444&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5983935,120.2928444&travelmode=transit"
  },
@@ -8639,6 +8880,7 @@
   "near_st": "經貿園區",
   "near_line": "輕軌",
   "walk_m": 1000,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.598638,120.293016&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.598638,120.293016&travelmode=transit"
  },
@@ -8675,6 +8917,7 @@
   "near_st": "草衙",
   "near_line": "紅線",
   "walk_m": 1150,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5768015,120.3181096&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5768015,120.3181096&travelmode=transit"
  },
@@ -8711,6 +8954,7 @@
   "near_st": "草衙",
   "near_line": "紅線",
   "walk_m": 1150,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5768015,120.3181096&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5768015,120.3181096&travelmode=transit"
  },
@@ -8747,6 +8991,7 @@
   "near_st": "軟體園區",
   "near_line": "輕軌",
   "walk_m": 1100,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6001718,120.2917747&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6001718,120.2917747&travelmode=transit"
  },
@@ -8781,6 +9026,7 @@
   "near_st": "草衙",
   "near_line": "紅線",
   "walk_m": 1350,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5759637,120.3168163&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5759637,120.3168163&travelmode=transit"
  },
@@ -8817,6 +9063,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6509261,120.3908694&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6509261,120.3908694&travelmode=transit"
  },
@@ -8853,6 +9100,7 @@
   "near_st": "經貿園區",
   "near_line": "輕軌",
   "walk_m": 1250,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5994751,120.2906511&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5994751,120.2906511&travelmode=transit"
  },
@@ -8889,6 +9137,7 @@
   "near_st": "經貿園區",
   "near_line": "輕軌",
   "walk_m": 1250,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5994751,120.2906511&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5994751,120.2906511&travelmode=transit"
  },
@@ -8926,6 +9175,7 @@
   "near_st": "草衙",
   "near_line": "紅線",
   "walk_m": 1350,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5759337,120.316776&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5759337,120.316776&travelmode=transit"
  },
@@ -8960,6 +9210,7 @@
   "near_st": "軟體園區",
   "near_line": "輕軌",
   "walk_m": 1150,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6014948,120.2907962&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6014948,120.2907962&travelmode=transit"
  },
@@ -8996,6 +9247,7 @@
   "near_st": "大寮",
   "near_line": "橘線",
   "walk_m": 1100,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6291659,120.3833016&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6291659,120.3833016&travelmode=transit"
  },
@@ -9032,6 +9284,7 @@
   "near_st": "前鎮高中",
   "near_line": "紅線",
   "walk_m": 1250,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5802322,120.3130433&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5802322,120.3130433&travelmode=transit"
  },
@@ -9068,6 +9321,7 @@
   "near_st": "大寮",
   "near_line": "橘線",
   "walk_m": 1050,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6291245,120.3840685&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6291245,120.3840685&travelmode=transit"
  },
@@ -9104,6 +9358,7 @@
   "near_st": "高雄國際機場",
   "near_line": "紅線",
   "walk_m": 1200,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5696213,120.3300269&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5696213,120.3300269&travelmode=transit"
  },
@@ -9140,6 +9395,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6413426,120.3886595&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6413426,120.3886595&travelmode=transit"
  },
@@ -9176,6 +9432,7 @@
   "near_st": "高雄國際機場",
   "near_line": "紅線",
   "walk_m": 1200,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5696213,120.3300269&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5696213,120.3300269&travelmode=transit"
  },
@@ -9212,6 +9469,7 @@
   "near_st": "草衙",
   "near_line": "紅線",
   "walk_m": 1150,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5717477,120.3225506&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5717477,120.3225506&travelmode=transit"
  },
@@ -9248,6 +9506,7 @@
   "near_st": "高雄國際機場",
   "near_line": "紅線",
   "walk_m": 1300,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.568281,120.329018&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.568281,120.329018&travelmode=transit"
  },
@@ -9284,6 +9543,7 @@
   "near_st": "高雄國際機場",
   "near_line": "紅線",
   "walk_m": 1300,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.568281,120.329018&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.568281,120.329018&travelmode=transit"
  },
@@ -9322,6 +9582,7 @@
   "near_st": "旅運中心",
   "near_line": "輕軌",
   "walk_m": 750,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6066898,120.2881307&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6066898,120.2881307&travelmode=transit"
  },
@@ -9358,6 +9619,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6984386,120.389328&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6984386,120.389328&travelmode=transit"
  },
@@ -9394,6 +9656,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.698659878013242,120.38933373903501&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.698659878013242,120.38933373903501&travelmode=transit"
  },
@@ -9430,6 +9693,7 @@
   "near_st": "旅運中心",
   "near_line": "輕軌",
   "walk_m": 850,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6064102,120.2871838&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6064102,120.2871838&travelmode=transit"
  },
@@ -9467,6 +9731,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5691358,120.318644&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5691358,120.318644&travelmode=transit"
  },
@@ -9503,6 +9768,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7467906,120.3459564&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7467906,120.3459564&travelmode=transit"
  },
@@ -9539,6 +9805,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5673642,120.3162914&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5673642,120.3162914&travelmode=transit"
  },
@@ -9576,6 +9843,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7490509,120.3444114&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7490509,120.3444114&travelmode=transit"
  },
@@ -9612,6 +9880,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7376505,120.3612391&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7376505,120.3612391&travelmode=transit"
  },
@@ -9648,6 +9917,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7380022,120.3611945&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7380022,120.3611945&travelmode=transit"
  },
@@ -9684,6 +9954,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6394316,120.4027516&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6394316,120.4027516&travelmode=transit"
  },
@@ -9720,6 +9991,7 @@
   "near_st": "橋頭火車",
   "near_line": "紅線",
   "walk_m": 750,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7616505,120.3181841&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7616505,120.3181841&travelmode=transit"
  },
@@ -9756,6 +10028,7 @@
   "near_st": "橋頭火車",
   "near_line": "紅線",
   "walk_m": 750,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7616505,120.3181841&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7616505,120.3181841&travelmode=transit"
  },
@@ -9792,6 +10065,7 @@
   "near_st": "橋頭火車",
   "near_line": "紅線",
   "walk_m": 750,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7616505,120.3181841&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7616505,120.3181841&travelmode=transit"
  },
@@ -9829,6 +10103,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7564228,120.2607154&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7564228,120.2607154&travelmode=transit"
  },
@@ -9865,6 +10140,7 @@
   "near_st": "小港",
   "near_line": "紅線",
   "walk_m": 750,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5710417,120.3548324&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5710417,120.3548324&travelmode=transit"
  },
@@ -9902,6 +10178,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5669151,120.3231848&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5669151,120.3231848&travelmode=transit"
  },
@@ -9938,6 +10215,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5924533,120.3903642&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5924533,120.3903642&travelmode=transit"
  },
@@ -9974,6 +10252,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7698383,120.2807977&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7698383,120.2807977&travelmode=transit"
  },
@@ -10010,6 +10289,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7660541,120.3775487&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7660541,120.3775487&travelmode=transit"
  },
@@ -10046,6 +10326,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6611668,120.4258156&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6611668,120.4258156&travelmode=transit"
  },
@@ -10082,6 +10363,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7891202,120.3278265&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7891202,120.3278265&travelmode=transit"
  },
@@ -10118,6 +10400,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7868848,120.3277826&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7868848,120.3277826&travelmode=transit"
  },
@@ -10152,6 +10435,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7933985,120.3273954&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7933985,120.3273954&travelmode=transit"
  },
@@ -10188,6 +10472,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5838061,120.4126118&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5838061,120.4126118&travelmode=transit"
  },
@@ -10224,6 +10509,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7859062,120.3297128&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7859062,120.3297128&travelmode=transit"
  },
@@ -10261,6 +10547,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.537055,120.367025&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.537055,120.367025&travelmode=transit"
  },
@@ -10297,6 +10584,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7860915,120.3301721&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7860915,120.3301721&travelmode=transit"
  },
@@ -10333,6 +10621,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.576976,120.4092108&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.576976,120.4092108&travelmode=transit"
  },
@@ -10369,6 +10658,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.76951,120.3857842&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.76951,120.3857842&travelmode=transit"
  },
@@ -10405,6 +10695,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7946761,120.2408951&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7946761,120.2408951&travelmode=transit"
  },
@@ -10441,6 +10732,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6146417,120.4272943&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6146417,120.4272943&travelmode=transit"
  },
@@ -10477,6 +10769,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6146417,120.4272943&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6146417,120.4272943&travelmode=transit"
  },
@@ -10513,6 +10806,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7939233,120.2408753&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7939233,120.2408753&travelmode=transit"
  },
@@ -10549,6 +10843,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6146015,120.4272334&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6146015,120.4272334&travelmode=transit"
  },
@@ -10583,6 +10878,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.613297,120.4275042&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.613297,120.4275042&travelmode=transit"
  },
@@ -10619,6 +10915,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7911428,120.3437083&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7911428,120.3437083&travelmode=transit"
  },
@@ -10656,6 +10953,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5801789,120.4230698&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5801789,120.4230698&travelmode=transit"
  },
@@ -10692,6 +10990,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7845898,120.3370082&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7845898,120.3370082&travelmode=transit"
  },
@@ -10728,6 +11027,7 @@
   "near_st": "岡山車",
   "near_line": "紅線",
   "walk_m": 900,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7956056,120.3069635&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7956056,120.3069635&travelmode=transit"
  },
@@ -10764,6 +11064,7 @@
   "near_st": "岡山車",
   "near_line": "紅線",
   "walk_m": 900,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7956056,120.3069635&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7956056,120.3069635&travelmode=transit"
  },
@@ -10800,6 +11101,7 @@
   "near_st": "岡山車",
   "near_line": "紅線",
   "walk_m": 950,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7945452,120.3082466&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7945452,120.3082466&travelmode=transit"
  },
@@ -10836,6 +11138,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.592861300031032,120.42808701639406&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.592861300031032,120.42808701639406&travelmode=transit"
  },
@@ -10872,6 +11175,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.592861300031032,120.42808701639406&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.592861300031032,120.42808701639406&travelmode=transit"
  },
@@ -10909,6 +11213,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.784029,120.3442221&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.784029,120.3442221&travelmode=transit"
  },
@@ -10945,6 +11250,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7830294,120.3445753&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7830294,120.3445753&travelmode=transit"
  },
@@ -10981,6 +11287,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7830386,120.3446177&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7830386,120.3446177&travelmode=transit"
  },
@@ -11017,6 +11324,7 @@
   "near_st": "岡山車",
   "near_line": "紅線",
   "walk_m": 650,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7884465,120.2944891&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7884465,120.2944891&travelmode=transit"
  },
@@ -11053,6 +11361,7 @@
   "near_st": "岡山車",
   "near_line": "紅線",
   "walk_m": 650,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7884465,120.2944891&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7884465,120.2944891&travelmode=transit"
  },
@@ -11090,6 +11399,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5892519,120.432828&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5892519,120.432828&travelmode=transit"
  },
@@ -11127,6 +11437,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7908546,120.3557562&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7908546,120.3557562&travelmode=transit"
  },
@@ -11163,6 +11474,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8077747,120.3073428&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8077747,120.3073428&travelmode=transit"
  },
@@ -11199,6 +11511,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.776489,120.3444361&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.776489,120.3444361&travelmode=transit"
  },
@@ -11233,6 +11546,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7771973,120.3448009&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7771973,120.3448009&travelmode=transit"
  },
@@ -11269,6 +11583,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.776489,120.3444361&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.776489,120.3444361&travelmode=transit"
  },
@@ -11305,6 +11620,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5863825,120.4236549&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5863825,120.4236549&travelmode=transit"
  },
@@ -11341,6 +11657,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7908137,120.356293&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7908137,120.356293&travelmode=transit"
  },
@@ -11377,6 +11694,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8076761,120.3029506&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8076761,120.3029506&travelmode=transit"
  },
@@ -11413,6 +11731,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8076756,120.3029599&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8076756,120.3029599&travelmode=transit"
  },
@@ -11449,6 +11768,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5831094,120.4343862&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5831094,120.4343862&travelmode=transit"
  },
@@ -11485,6 +11805,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5832284,120.4344703&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5832284,120.4344703&travelmode=transit"
  },
@@ -11521,6 +11842,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5831094,120.4343862&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5831094,120.4343862&travelmode=transit"
  },
@@ -11557,6 +11879,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5832284,120.4344703&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5832284,120.4344703&travelmode=transit"
  },
@@ -11591,6 +11914,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5790439,120.4259056&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5790439,120.4259056&travelmode=transit"
  },
@@ -11625,6 +11949,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5790439,120.4259056&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5790439,120.4259056&travelmode=transit"
  },
@@ -11661,6 +11986,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5789416,120.4246662&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5789416,120.4246662&travelmode=transit"
  },
@@ -11697,6 +12023,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5790959,120.4334001&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5790959,120.4334001&travelmode=transit"
  },
@@ -11733,6 +12060,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.579246,120.433192&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.579246,120.433192&travelmode=transit"
  },
@@ -11769,6 +12097,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5794452,120.4335042&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5794452,120.4335042&travelmode=transit"
  },
@@ -11805,6 +12134,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5790927,120.4333979&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5790927,120.4333979&travelmode=transit"
  },
@@ -11841,6 +12171,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7823697,120.378138&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7823697,120.378138&travelmode=transit"
  },
@@ -11877,6 +12208,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7823697,120.378138&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7823697,120.378138&travelmode=transit"
  },
@@ -11913,6 +12245,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7823697,120.378138&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7823697,120.378138&travelmode=transit"
  },
@@ -11949,6 +12282,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.806988,120.294317&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.806988,120.294317&travelmode=transit"
  },
@@ -11985,6 +12319,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8235636,120.2440384&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8235636,120.2440384&travelmode=transit"
  },
@@ -12021,6 +12356,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8221291,120.2344649&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8221291,120.2344649&travelmode=transit"
  },
@@ -12057,6 +12393,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8016472,120.2858846&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8016472,120.2858846&travelmode=transit"
  },
@@ -12093,6 +12430,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8016472,120.2858846&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8016472,120.2858846&travelmode=transit"
  },
@@ -12129,6 +12467,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8016472,120.2858846&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8016472,120.2858846&travelmode=transit"
  },
@@ -12165,6 +12504,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.808956,120.284364&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.808956,120.284364&travelmode=transit"
  },
@@ -12201,6 +12541,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.808956,120.284364&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.808956,120.284364&travelmode=transit"
  },
@@ -12237,6 +12578,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8116018,120.280265&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8116018,120.280265&travelmode=transit"
  },
@@ -12273,6 +12615,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.831868329606632,120.24284958836058&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.831868329606632,120.24284958836058&travelmode=transit"
  },
@@ -12310,6 +12653,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.818012,120.2865806&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.818012,120.2865806&travelmode=transit"
  },
@@ -12346,6 +12690,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8179851,120.2865606&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8179851,120.2865606&travelmode=transit"
  },
@@ -12382,6 +12727,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.818012,120.2865806&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.818012,120.2865806&travelmode=transit"
  },
@@ -12418,6 +12764,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8057582,120.2778859&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8057582,120.2778859&travelmode=transit"
  },
@@ -12454,6 +12801,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8331903,120.2414497&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8331903,120.2414497&travelmode=transit"
  },
@@ -12488,6 +12836,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8092394,120.2772312&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8092394,120.2772312&travelmode=transit"
  },
@@ -12525,6 +12874,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.80915670149542,120.27721779999997&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.80915670149542,120.27721779999997&travelmode=transit"
  },
@@ -12559,6 +12909,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.812515,120.272285&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.812515,120.272285&travelmode=transit"
  },
@@ -12593,6 +12944,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8049528,120.2689736&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8049528,120.2689736&travelmode=transit"
  },
@@ -12629,6 +12981,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8133756,120.2758468&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8133756,120.2758468&travelmode=transit"
  },
@@ -12663,6 +13016,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8173895,120.2678111&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8173895,120.2678111&travelmode=transit"
  },
@@ -12699,6 +13053,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8178933,120.2655776&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8178933,120.2655776&travelmode=transit"
  },
@@ -12735,6 +13090,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8163234,120.2671257&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8163234,120.2671257&travelmode=transit"
  },
@@ -12771,6 +13127,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8240828,120.3176207&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8240828,120.3176207&travelmode=transit"
  },
@@ -12807,6 +13164,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8239674,120.3176285&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8239674,120.3176285&travelmode=transit"
  },
@@ -12843,6 +13201,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8257893,120.2725514&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8257893,120.2725514&travelmode=transit"
  },
@@ -12879,6 +13238,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8122949,120.2654337&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8122949,120.2654337&travelmode=transit"
  },
@@ -12915,6 +13275,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8311577,120.2705481&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8311577,120.2705481&travelmode=transit"
  },
@@ -12951,6 +13312,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8311577,120.2705481&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8311577,120.2705481&travelmode=transit"
  },
@@ -12985,6 +13347,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8314487,120.2699034&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8314487,120.2699034&travelmode=transit"
  },
@@ -13021,6 +13384,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8100585,120.2654749&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8100585,120.2654749&travelmode=transit"
  },
@@ -13057,6 +13421,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8426538,120.2802456&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8426538,120.2802456&travelmode=transit"
  },
@@ -13093,6 +13458,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8338073,120.2619058&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8338073,120.2619058&travelmode=transit"
  },
@@ -13129,6 +13495,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8425988,120.279847&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8425988,120.279847&travelmode=transit"
  },
@@ -13165,6 +13532,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8120514,120.2532318&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8120514,120.2532318&travelmode=transit"
  },
@@ -13202,6 +13570,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.814183,120.2544328&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.814183,120.2544328&travelmode=transit"
  },
@@ -13238,6 +13607,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8147101,120.2520325&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8147101,120.2520325&travelmode=transit"
  },
@@ -13275,6 +13645,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8156913,120.2519808&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8156913,120.2519808&travelmode=transit"
  },
@@ -13311,6 +13682,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8133598,120.2488632&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8133598,120.2488632&travelmode=transit"
  },
@@ -13347,6 +13719,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8412372,120.2626777&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8412372,120.2626777&travelmode=transit"
  },
@@ -13381,6 +13754,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8494042,120.2628111&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8494042,120.2628111&travelmode=transit"
  },
@@ -13417,6 +13791,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8799348,120.2829017&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8799348,120.2829017&travelmode=transit"
  },
@@ -13453,6 +13828,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5016651,120.4062493&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5016651,120.4062493&travelmode=transit"
  },
@@ -13489,6 +13865,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5016651,120.4062493&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5016651,120.4062493&travelmode=transit"
  },
@@ -13525,6 +13902,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8278859,120.2579731&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8278859,120.2579731&travelmode=transit"
  },
@@ -13561,6 +13939,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.827285,120.257891&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.827285,120.257891&travelmode=transit"
  },
@@ -13597,6 +13976,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8791082,120.2914703&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8791082,120.2914703&travelmode=transit"
  },
@@ -13633,6 +14013,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.827285,120.257891&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.827285,120.257891&travelmode=transit"
  },
@@ -13669,6 +14050,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8274453,120.257966&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8274453,120.257966&travelmode=transit"
  },
@@ -13705,6 +14087,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8274453,120.257966&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8274453,120.257966&travelmode=transit"
  },
@@ -13741,6 +14124,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.828093,120.2588538&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.828093,120.2588538&travelmode=transit"
  },
@@ -13777,6 +14161,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8798308,120.2910815&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8798308,120.2910815&travelmode=transit"
  },
@@ -13813,6 +14198,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8321551,120.2602083&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8321551,120.2602083&travelmode=transit"
  },
@@ -13849,6 +14235,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8888705,120.3032928&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8888705,120.3032928&travelmode=transit"
  },
@@ -13885,6 +14272,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8777104,120.248984&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8777104,120.248984&travelmode=transit"
  },
@@ -13921,6 +14309,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.869312,120.2366935&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.869312,120.2366935&travelmode=transit"
  },
@@ -13957,6 +14346,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.9130385,120.1871814&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.9130385,120.1871814&travelmode=transit"
  },
@@ -13991,6 +14381,7 @@
   "near_st": "",
   "near_line": "",
   "walk_m": null,
+  "peak": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.9135328,120.1809681&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.9135328,120.1809681&travelmode=transit"
  },
@@ -14026,6 +14417,7 @@
   "transit_min": null,
   "near_st": "",
   "near_line": "",
-  "walk_m": null
+  "walk_m": null,
+  "peak": false
  }
 ]

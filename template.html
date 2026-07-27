@@ -122,7 +122,7 @@ function card(j){
     j.remote ? '<span class="badge b-remote">可遠端</span>' : "",
   ].join("");
   const traffic = [];
-  if(j.drive_km!=null) traffic.push(`🚗 開車 ${j.drive_km} km・約 ${j.drive_min} 分`);
+  if(j.drive_km!=null) traffic.push(`🚗 開車 ${j.drive_km} km・${j.peak?"尖峰約":"約"} ${j.drive_min} 分`);
   else if(j.dist_km!=null) traffic.push(`📍 直線約 ${j.dist_km} km`);
   if(j.transit_min) traffic.push(`🚌 大眾運輸約 ${j.transit_min} 分`);
   if(j.near_st) traffic.push(`🚇 近${j.near_line}「${j.near_st}」站・約 ${j.walk_m} m`);

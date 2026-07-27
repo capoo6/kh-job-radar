@@ -59,15 +59,20 @@ git push -u origin main
 - `GD_LAT / GD_LON / ORIGIN_NAME`:距離計算的出發點（預設捷運巨蛋站），搬家改這裡
 - 排程時間改 `.github/workflows/daily.yml` 裡的 cron（UTC 時間 = 台灣時間 −8 小時）
 
-## 大眾運輸時間（選用）
+## Google 金鑰（選用）:尖峰開車時間 + 大眾運輸分鐘數
 
-免費服務算不出精確的「公車+捷運要幾分鐘」，所以預設提供:最近捷運站+步行距離、
-「紅線直達」標記（和巨蛋同一條線）、以及每筆職缺的 Google Maps 大眾運輸路線連結（點開就是即時路線）。
+預設的開車時間由 OSRM 計算，**不含路況**（等於路不塞時的車程），尖峰時段會偏樂觀。
+大眾運輸則預設提供:最近捷運站+步行距離、「紅線直達」標記、每筆職缺的 Google Maps 路線連結。
 
-想在網頁上直接顯示大眾運輸分鐘數，需要 Google Maps 的 Routes API:
-到 [console.cloud.google.com](https://console.cloud.google.com) 建專案 → 啟用 **Routes API** → 建 API key（需綁信用卡，
-但本工具每天最多查 60 筆新職缺，遠低於免費額度）→ 把 key 填進 Secret `GOOGLE_MAPS_API_KEY`。
-以「下一個平日 08:30 出發」估計通勤時間。
+填入 Google 金鑰後自動升級兩件事（以「下一個平日 08:00 出發」計算，時間可改 `main.py` 的 `PEAK_H/PEAK_M`）:
+
+1. 開車時間改用 **Google 歷史路況（TRAFFIC_AWARE）**，顯示為「尖峰約 X 分」
+2. 網頁與信件直接顯示**大眾運輸分鐘數**
+
+申請方式:到 [console.cloud.google.com](https://console.cloud.google.com) 建專案 → 啟用 **Routes API** → 建 API key
+（需綁信用卡，但本工具每天最多處理 60 筆職缺、約 120 次呼叫，遠低於每月免費額度;
+擔心的話可在後台把配額上限設成每日 200 次保險）→ 把 key 填進 Secret `GOOGLE_MAPS_API_KEY`。
+金鑰剛加入的前幾天會逐步補完既有職缺，之後每天只查新職缺。
 
 改完 commit + push 即可生效。
 
