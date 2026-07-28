@@ -539,14 +539,20 @@ def fetch_li_routes(li_jobs: list[dict], cache: dict, stations: list[dict], now:
             return None
 
     places_blocked = False
+    places_ok = 0
     for j in li_jobs:
         c = cache.get(j["no"])
         if c is None and key and not places_blocked:
             plat, plon = places_lookup(j["company"])
+            if plat == "blocked" and places_ok:  # 已有成功紀錄 → 只是暫時性 403,重試一次
+                time.sleep(3)
+                plat, plon = places_lookup(j["company"])
             if plat == "blocked":
-                places_blocked = True
-                print("Places API 未啟用,LinkedIn 職缺暫無距離資訊(啟用後會自動補算)")
+                if not places_ok:
+                    places_blocked = True
+                    print("Places API 未啟用,LinkedIn 職缺暫無距離資訊(啟用後會自動補算)")
                 continue
+            places_ok += 1
             if plat and haversine_km(GD_LAT, GD_LON, plat, plon) <= 80:
                 c = {"lat": plat, "lon": plon}
                 r = route(plat, plon, "DRIVE")
