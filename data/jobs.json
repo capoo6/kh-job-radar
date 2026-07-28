@@ -18,6 +18,10 @@
   "co_jobs": 4,
   "co_other": 2,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -59,6 +63,10 @@
   "co_jobs": 4,
   "co_other": 2,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -100,6 +108,10 @@
   "co_jobs": 4,
   "co_other": 2,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -141,6 +153,10 @@
   "co_jobs": 4,
   "co_other": 2,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -182,6 +198,10 @@
   "co_jobs": 35,
   "co_other": 33,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -223,6 +243,10 @@
   "co_jobs": 12,
   "co_other": 9,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -264,6 +288,10 @@
   "co_jobs": 12,
   "co_other": 9,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -305,6 +333,10 @@
   "co_jobs": 7,
   "co_other": 5,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -344,6 +376,10 @@
   "co_jobs": 7,
   "co_other": 5,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -385,6 +421,10 @@
   "co_jobs": 30,
   "co_other": 30,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)",
    "日文(略懂)"
@@ -427,6 +467,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -468,6 +512,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "俄文(精通)",
    "英文(中等)"
@@ -510,6 +558,10 @@
   "co_jobs": 21,
   "co_other": 20,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -551,6 +603,10 @@
   "co_jobs": 7,
   "co_other": 6,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 3,
+  "vio_oth": 0,
+  "vio_latest": "2025-06-09",
   "langs": [
    "英文(略懂)"
   ],
@@ -592,6 +648,10 @@
   "co_jobs": 4,
   "co_other": 4,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -631,6 +691,10 @@
   "co_jobs": 12,
   "co_other": 11,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -672,6 +736,10 @@
   "co_jobs": 14,
   "co_other": 11,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 1,
+  "vio_oth": 0,
+  "vio_latest": "2023-11-07",
   "langs": [
    "英文(精通)"
   ],
@@ -713,6 +781,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -754,6 +826,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -795,6 +871,10 @@
   "co_jobs": 10,
   "co_other": 6,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 2,
+  "vio_oth": 0,
+  "vio_latest": "2024-05-07",
   "langs": [
    "英文(中等)"
   ],
@@ -836,6 +916,10 @@
   "co_jobs": 19,
   "co_other": 18,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -877,6 +961,10 @@
   "co_jobs": 6,
   "co_other": 5,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -916,6 +1004,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -957,6 +1049,10 @@
   "co_jobs": 4,
   "co_other": 3,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -996,6 +1092,10 @@
   "co_jobs": 2,
   "co_other": 0,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -1037,6 +1137,10 @@
   "co_jobs": 2,
   "co_other": 0,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -1078,6 +1182,10 @@
   "co_jobs": 40,
   "co_other": 23,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 1,
+  "vio_oth": 0,
+  "vio_latest": "2025-05-05",
   "langs": [
    "英文(精通)"
   ],
@@ -1119,6 +1227,10 @@
   "co_jobs": 10,
   "co_other": 6,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(中等)"
   ],
@@ -1160,6 +1272,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -1201,6 +1317,10 @@
   "co_jobs": 31,
   "co_other": 31,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": true,
@@ -1240,6 +1360,10 @@
   "co_jobs": 31,
   "co_other": 31,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": true,
@@ -1279,6 +1403,10 @@
   "co_jobs": 31,
   "co_other": 31,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": true,
@@ -1318,6 +1446,10 @@
   "co_jobs": 40,
   "co_other": 40,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -1357,6 +1489,10 @@
   "co_jobs": 31,
   "co_other": 31,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": true,
   "remote": true,
@@ -1396,6 +1532,10 @@
   "co_jobs": 31,
   "co_other": 31,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": true,
@@ -1435,6 +1575,10 @@
   "co_jobs": 31,
   "co_other": 31,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": true,
@@ -1474,6 +1618,10 @@
   "co_jobs": 31,
   "co_other": 31,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": true,
@@ -1513,6 +1661,10 @@
   "co_jobs": 7,
   "co_other": 4,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -1552,6 +1704,10 @@
   "co_jobs": 3,
   "co_other": 2,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -1593,6 +1749,10 @@
   "co_jobs": 3,
   "co_other": 2,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -1634,6 +1794,10 @@
   "co_jobs": 5,
   "co_other": 3,
   "co_plus": false,
+  "vio_lb": 1,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "2023-10-04",
   "langs": [
    "英文(精通)"
   ],
@@ -1675,6 +1839,10 @@
   "co_jobs": 1,
   "co_other": 1,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -1714,6 +1882,10 @@
   "co_jobs": 3,
   "co_other": 2,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -1755,6 +1927,10 @@
   "co_jobs": 32,
   "co_other": 31,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -1796,6 +1972,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(中等)"
   ],
@@ -1819,47 +1999,6 @@
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.687736,120.291652&travelmode=transit"
  },
  {
-  "no": "11707628",
-  "name": "南部cisco 資深業務專員",
-  "company": "大綜電腦系統股份有限公司",
-  "url": "https://www.104.com.tw/job/6yxnw",
-  "co_url": "https://www.104.com.tw/company/13j9o5ls",
-  "area": "高雄市左營區",
-  "industry": "電腦系統整合服務業",
-  "date": "2026-07-22",
-  "apply": 0,
-  "salary": "面議(經常性薪資達4萬元)",
-  "salary_class": "negotiable",
-  "salary_m": 40001,
-  "period": "4 年以上經歷",
-  "employees": 290,
-  "cust_no": "86059612000",
-  "co_jobs": 37,
-  "co_other": 19,
-  "co_plus": true,
-  "langs": [
-   "英文(精通)"
-  ],
-  "trip": false,
-  "remote": false,
-  "desc": "1.開發潛在客戶，拓展市場，以達成業績目標。 2.定期拜訪經銷客戶，維繫穩定客戶關係。 3.負責國內外業務接洽及訂單處理。 4.負責產品報價及產品展示，並處理帳款回收相關事宜。 5.負責業務推展，傳達及說明公司各項業務重大訊息、活動及產品。 具相關工作經驗3年以上佳 英語精通佳（須達口說流利） 對資訊系統整合(SI)領",
-  "lat": 22.6865138,
-  "lon": 120.3203521,
-  "first_seen": "2026-07-27",
-  "is_new": false,
-  "dist_km": 2.9,
-  "drive_km": 3.8,
-  "drive_min": 11,
-  "transit_min": 31,
-  "near_st": "左營",
-  "near_line": "紅線",
-  "walk_m": 1200,
-  "peak": true,
-  "approx": false,
-  "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6865138,120.3203521&travelmode=driving",
-  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6865138,120.3203521&travelmode=transit"
- },
- {
   "no": "15161045",
   "name": "【國際行銷部】高雄 業務專員",
   "company": "皇昇科技有限公司",
@@ -1878,6 +2017,10 @@
   "co_jobs": 23,
   "co_other": 11,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -1919,6 +2062,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 2,
+  "vio_oth": 0,
+  "vio_latest": "2024-04-09",
   "langs": [
    "英文(略懂)",
    "日文(略懂)"
@@ -1961,6 +2108,10 @@
   "co_jobs": 10,
   "co_other": 5,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -2002,6 +2153,10 @@
   "co_jobs": 11,
   "co_other": 6,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(中等)"
   ],
@@ -2043,6 +2198,10 @@
   "co_jobs": 27,
   "co_other": 25,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -2084,6 +2243,10 @@
   "co_jobs": 6,
   "co_other": 2,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 1,
+  "vio_latest": "2023-08-10",
   "langs": [
    "英文(略懂)"
   ],
@@ -2125,6 +2288,10 @@
   "co_jobs": 7,
   "co_other": 5,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -2164,6 +2331,10 @@
   "co_jobs": 9,
   "co_other": 9,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -2203,6 +2374,10 @@
   "co_jobs": 7,
   "co_other": 5,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -2242,6 +2417,10 @@
   "co_jobs": 4,
   "co_other": 1,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -2281,6 +2460,10 @@
   "co_jobs": 2,
   "co_other": 1,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -2322,6 +2505,10 @@
   "co_jobs": 14,
   "co_other": 14,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -2363,6 +2550,10 @@
   "co_jobs": 31,
   "co_other": 23,
   "co_plus": true,
+  "vio_lb": 1,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "2024-01-05",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -2384,6 +2575,52 @@
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.629369,120.2952475&travelmode=transit"
  },
  {
+  "no": "14399939",
+  "name": "日文儲備業務",
+  "company": "新光今井貿易股份有限公司",
+  "url": "https://www.104.com.tw/job/8kn2b",
+  "co_url": "https://www.104.com.tw/company/1a2x6bi83l",
+  "area": "高雄市三民區",
+  "industry": "合成樹脂／塑膠及橡膠製造業",
+  "date": "2026-07-28",
+  "apply": 4,
+  "salary": "月薪 32,000~36,000 元",
+  "salary_class": "salary",
+  "salary_m": 32000,
+  "period": "2 年以上經歷",
+  "employees": 7,
+  "cust_no": "130000000011393",
+  "co_jobs": 2,
+  "co_other": 0,
+  "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
+  "langs": [
+   "日文(精通)",
+   "英文(中等)"
+  ],
+  "trip": false,
+  "remote": false,
+  "desc": "【公司簡介】 本公司為日本企業100%出資之台灣獨立法人，據點位於高雄。承接日本母公司與客戶之業務，協調台灣工廠生產與交付，為台日之間的商務樞紐。 【工作內容】 儲備目標：二至三年內成長為獨立對應日本客戶的業務人員。 1. 處理日本客戶日文郵件與商務文書，逐步接手客戶對應 2. 前往台灣工廠（大社、屏東、大寮等地）參與",
+  "lat": 22.639423,
+  "lon": 120.3274224,
+  "first_seen": "2026-07-28",
+  "is_new": true,
+  "dist_km": 3.8,
+  "drive_km": 4.7,
+  "drive_min": 12,
+  "transit_min": 21,
+  "near_st": "科工館",
+  "near_line": "輕軌",
+  "walk_m": 300,
+  "peak": true,
+  "approx": false,
+  "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.639423,120.3274224&travelmode=driving",
+  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.639423,120.3274224&travelmode=transit"
+ },
+ {
   "no": "12915926",
   "name": "內外銷業務儲備幹部",
   "company": "華榮電線電纜股份有限公司",
@@ -2402,6 +2639,10 @@
   "co_jobs": 15,
   "co_other": 13,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 2,
+  "vio_oth": 0,
+  "vio_latest": "2026-01-12",
   "langs": [
    "英文(略懂)"
   ],
@@ -2443,6 +2684,10 @@
   "co_jobs": 1,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(中等)"
   ],
@@ -2484,6 +2729,10 @@
   "co_jobs": 40,
   "co_other": 29,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -2523,6 +2772,10 @@
   "co_jobs": 7,
   "co_other": 3,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -2564,6 +2817,10 @@
   "co_jobs": 4,
   "co_other": 3,
   "co_plus": true,
+  "vio_lb": 3,
+  "vio_osh": 0,
+  "vio_oth": 7,
+  "vio_latest": "2025-10-13",
   "langs": [
    "英文(略懂)"
   ],
@@ -2605,6 +2862,10 @@
   "co_jobs": 20,
   "co_other": 20,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -2644,6 +2905,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)",
    "日文(精通)"
@@ -2686,6 +2951,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)",
    "日文(精通)"
@@ -2728,6 +2997,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)",
    "日文(精通)"
@@ -2770,6 +3043,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -2811,6 +3088,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "日文(略懂)"
   ],
@@ -2852,6 +3133,10 @@
   "co_jobs": 5,
   "co_other": 2,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(中等)"
   ],
@@ -2893,6 +3178,10 @@
   "co_jobs": 5,
   "co_other": 2,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -2934,6 +3223,10 @@
   "co_jobs": 5,
   "co_other": 2,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -2975,6 +3268,10 @@
   "co_jobs": 5,
   "co_other": 5,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -3016,6 +3313,10 @@
   "co_jobs": 5,
   "co_other": 2,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -3057,6 +3358,10 @@
   "co_jobs": 15,
   "co_other": 13,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 1,
+  "vio_oth": 0,
+  "vio_latest": "2026-04-15",
   "langs": [
    "英文(略懂)"
   ],
@@ -3098,6 +3403,10 @@
   "co_jobs": 1,
   "co_other": 1,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -3139,6 +3448,10 @@
   "co_jobs": 1,
   "co_other": 1,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -3180,6 +3493,10 @@
   "co_jobs": 40,
   "co_other": 37,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 1,
+  "vio_oth": 0,
+  "vio_latest": "2023-09-07",
   "langs": [
    "英文(略懂)"
   ],
@@ -3221,6 +3538,10 @@
   "co_jobs": 15,
   "co_other": 8,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -3262,6 +3583,10 @@
   "co_jobs": 15,
   "co_other": 8,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -3303,6 +3628,10 @@
   "co_jobs": 15,
   "co_other": 8,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -3344,6 +3673,10 @@
   "co_jobs": 15,
   "co_other": 8,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -3385,6 +3718,10 @@
   "co_jobs": 15,
   "co_other": 8,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -3426,6 +3763,10 @@
   "co_jobs": 15,
   "co_other": 8,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -3467,6 +3808,10 @@
   "co_jobs": 15,
   "co_other": 15,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -3508,6 +3853,10 @@
   "co_jobs": 15,
   "co_other": 8,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -3549,6 +3898,10 @@
   "co_jobs": 15,
   "co_other": 8,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -3590,6 +3943,10 @@
   "co_jobs": 15,
   "co_other": 8,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -3631,6 +3988,10 @@
   "co_jobs": 30,
   "co_other": 16,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(中等)"
   ],
@@ -3672,6 +4033,10 @@
   "co_jobs": 4,
   "co_other": 3,
   "co_plus": true,
+  "vio_lb": 1,
+  "vio_osh": 0,
+  "vio_oth": 1,
+  "vio_latest": "2025-10-07",
   "langs": [
    "英文(中等)"
   ],
@@ -3695,88 +4060,6 @@
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6271841,120.3101886&travelmode=transit"
  },
  {
-  "no": "12440285",
-  "name": "電商營運專案管理師 Amazon Project Assistant - 高雄市",
-  "company": "飛輪電商有限公司",
-  "url": "https://www.104.com.tw/job/7emzh",
-  "co_url": "https://www.104.com.tw/company/1a2x6bl3s7",
-  "area": "高雄市新興區",
-  "industry": "工商顧問服務業",
-  "date": "2026-07-22",
-  "apply": 7,
-  "salary": "月薪 45,000 元以上",
-  "salary_class": "salary",
-  "salary_m": 45000,
-  "period": "經歷不拘",
-  "employees": 170,
-  "cust_no": "130000000145767",
-  "co_jobs": 15,
-  "co_other": 8,
-  "co_plus": true,
-  "langs": [
-   "英文(精通)"
-  ],
-  "trip": false,
-  "remote": true,
-  "desc": "一、職涯發展： 入職新人由專案助理 （Project Assistant）職位任用，於入職前即確認未來任職團隊，入職後有兩個月針對亞馬遜或其他電商平台等完整教育訓練。通過考核後依據部門類別晉升為專案經理（Project Manager），鑽研獨立的電商工作項目，作為獨立貢獻者的角色。或是轉任為 部門經理（Manager",
-  "lat": 22.6270238,
-  "lon": 120.3102934,
-  "first_seen": "2026-07-27",
-  "is_new": false,
-  "dist_km": 4.4,
-  "drive_km": 5.3,
-  "drive_min": 13,
-  "transit_min": 32,
-  "near_st": "信義國小",
-  "near_line": "橘線",
-  "walk_m": 450,
-  "peak": true,
-  "approx": false,
-  "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6270238,120.3102934&travelmode=driving",
-  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6270238,120.3102934&travelmode=transit"
- },
- {
-  "no": "12988506",
-  "name": "【亞馬遜Amazon】電商實習生 (兼職、轉正機會) Amazon Project Assistant Intern - 高雄市",
-  "company": "飛輪電商有限公司",
-  "url": "https://www.104.com.tw/job/7qdzu",
-  "co_url": "https://www.104.com.tw/company/1a2x6bl3s7",
-  "area": "高雄市新興區",
-  "industry": "工商顧問服務業",
-  "date": "2026-07-22",
-  "apply": 3,
-  "salary": "時薪 200 元以上",
-  "salary_class": "salary",
-  "salary_m": 34800,
-  "period": "經歷不拘",
-  "employees": 170,
-  "cust_no": "130000000145767",
-  "co_jobs": 15,
-  "co_other": 8,
-  "co_plus": true,
-  "langs": [
-   "英文(略懂)"
-  ],
-  "trip": false,
-  "remote": true,
-  "desc": "【Hour Loop 飛輪電商】在2013年成立，並於2022年初在美國那斯達克上市。作為亞馬遜 (Amazon) 電商平台第三方賣家，我們的工作不只廠商開發，還包括商品上架、價格制定，以及物流與庫存管理，通通一手包辦。 在電商世界的百萬競爭對手中，我們透過獨特的營運模式，成功實現十年來的持續成長，並脫穎而出，在202",
-  "lat": 22.6270238,
-  "lon": 120.3102934,
-  "first_seen": "2026-07-27",
-  "is_new": false,
-  "dist_km": 4.4,
-  "drive_km": 5.3,
-  "drive_min": 13,
-  "transit_min": 32,
-  "near_st": "信義國小",
-  "near_line": "橘線",
-  "walk_m": 450,
-  "peak": true,
-  "approx": false,
-  "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6270238,120.3102934&travelmode=driving",
-  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6270238,120.3102934&travelmode=transit"
- },
- {
   "no": "12369865",
   "name": "Sales Master / 業務菁英",
   "company": "貫倫船務代理有限公司",
@@ -3795,6 +4078,10 @@
   "co_jobs": 4,
   "co_other": 1,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -3836,6 +4123,10 @@
   "co_jobs": 5,
   "co_other": 3,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -3877,6 +4168,10 @@
   "co_jobs": 25,
   "co_other": 18,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -3916,6 +4211,10 @@
   "co_jobs": 2,
   "co_other": 0,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 1,
+  "vio_latest": "2026-01-15",
   "langs": [
    "英文(精通)"
   ],
@@ -3957,6 +4256,10 @@
   "co_jobs": 2,
   "co_other": 0,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 1,
+  "vio_latest": "2026-01-15",
   "langs": [
    "英文(精通)"
   ],
@@ -3998,6 +4301,10 @@
   "co_jobs": 1,
   "co_other": 1,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -4039,6 +4346,10 @@
   "co_jobs": 19,
   "co_other": 9,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": true,
   "remote": true,
@@ -4078,6 +4389,10 @@
   "co_jobs": 4,
   "co_other": 1,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -4119,6 +4434,10 @@
   "co_jobs": 3,
   "co_other": 2,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -4158,6 +4477,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 4,
+  "vio_oth": 0,
+  "vio_latest": "2025-11-14",
   "langs": [
    "英文(精通)"
   ],
@@ -4199,6 +4522,10 @@
   "co_jobs": 6,
   "co_other": 4,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -4240,6 +4567,10 @@
   "co_jobs": 6,
   "co_other": 4,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -4281,6 +4612,10 @@
   "co_jobs": 21,
   "co_other": 16,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -4322,6 +4657,10 @@
   "co_jobs": 11,
   "co_other": 5,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 2,
+  "vio_latest": "2024-05-10",
   "langs": [
    "英文(中等)"
   ],
@@ -4363,6 +4702,10 @@
   "co_jobs": 3,
   "co_other": 1,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -4402,6 +4745,10 @@
   "co_jobs": 16,
   "co_other": 16,
   "co_plus": true,
+  "vio_lb": 1,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "2024-11-04",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -4441,6 +4788,10 @@
   "co_jobs": 3,
   "co_other": 2,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -4482,6 +4833,10 @@
   "co_jobs": 21,
   "co_other": 16,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -4523,6 +4878,10 @@
   "co_jobs": 1,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "西班牙文(中等)"
   ],
@@ -4564,6 +4923,10 @@
   "co_jobs": 3,
   "co_other": 2,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -4605,6 +4968,10 @@
   "co_jobs": 29,
   "co_other": 13,
   "co_plus": true,
+  "vio_lb": 1,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "2026-05-08",
   "langs": [
    "英文(精通)"
   ],
@@ -4646,6 +5013,10 @@
   "co_jobs": 29,
   "co_other": 13,
   "co_plus": true,
+  "vio_lb": 1,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "2026-05-08",
   "langs": [
    "英文(精通)"
   ],
@@ -4687,6 +5058,10 @@
   "co_jobs": 5,
   "co_other": 2,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -4728,6 +5103,10 @@
   "co_jobs": 33,
   "co_other": 26,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -4769,6 +5148,10 @@
   "co_jobs": 10,
   "co_other": 9,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -4810,6 +5193,10 @@
   "co_jobs": 2,
   "co_other": 1,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 1,
+  "vio_latest": "2025-11-14",
   "langs": [
    "英文(精通)"
   ],
@@ -4851,6 +5238,10 @@
   "co_jobs": 42,
   "co_other": 40,
   "co_plus": true,
+  "vio_lb": 3,
+  "vio_osh": 0,
+  "vio_oth": 4,
+  "vio_latest": "2026-07-15",
   "langs": [
    "英文(略懂)"
   ],
@@ -4892,6 +5283,10 @@
   "co_jobs": 1,
   "co_other": 1,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -4933,6 +5328,10 @@
   "co_jobs": 17,
   "co_other": 13,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(中等)"
   ],
@@ -4974,6 +5373,10 @@
   "co_jobs": 3,
   "co_other": 1,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)",
    "日文(略懂)"
@@ -5016,6 +5419,10 @@
   "co_jobs": 2,
   "co_other": 2,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -5057,6 +5464,10 @@
   "co_jobs": 1,
   "co_other": 0,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "日文(略懂)",
    "英文(精通)"
@@ -5099,6 +5510,10 @@
   "co_jobs": 9,
   "co_other": 5,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(中等)"
   ],
@@ -5140,6 +5555,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -5181,6 +5600,10 @@
   "co_jobs": 3,
   "co_other": 2,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -5222,6 +5645,10 @@
   "co_jobs": 13,
   "co_other": 5,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -5263,6 +5690,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -5304,6 +5735,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 2,
+  "vio_oth": 0,
+  "vio_latest": "2026-05-13",
   "langs": [
    "英文(略懂)"
   ],
@@ -5345,6 +5780,10 @@
   "co_jobs": 2,
   "co_other": 0,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "日文(略懂)"
   ],
@@ -5386,6 +5825,10 @@
   "co_jobs": 4,
   "co_other": 4,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -5427,6 +5870,10 @@
   "co_jobs": 10,
   "co_other": 5,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -5468,6 +5915,10 @@
   "co_jobs": 10,
   "co_other": 5,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)",
    "日文(精通)"
@@ -5510,6 +5961,10 @@
   "co_jobs": 18,
   "co_other": 17,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "印尼文(精通)"
   ],
@@ -5551,6 +6006,10 @@
   "co_jobs": 18,
   "co_other": 17,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "印尼文(精通)"
   ],
@@ -5592,6 +6051,10 @@
   "co_jobs": 16,
   "co_other": 13,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 1,
+  "vio_oth": 0,
+  "vio_latest": "2024-05-07",
   "langs": [
    "英文(略懂)"
   ],
@@ -5633,6 +6096,10 @@
   "co_jobs": 34,
   "co_other": 25,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -5674,6 +6141,10 @@
   "co_jobs": 34,
   "co_other": 25,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)",
    "西班牙文(略懂)"
@@ -5716,6 +6187,10 @@
   "co_jobs": 8,
   "co_other": 6,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -5757,6 +6232,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(中等)"
   ],
@@ -5798,6 +6277,10 @@
   "co_jobs": 3,
   "co_other": 2,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -5839,6 +6322,10 @@
   "co_jobs": 3,
   "co_other": 1,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -5878,6 +6365,10 @@
   "co_jobs": 6,
   "co_other": 5,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -5919,6 +6410,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 6,
+  "vio_osh": 1,
+  "vio_oth": 0,
+  "vio_latest": "2026-07-06",
   "langs": [
    "英文(精通)"
   ],
@@ -5960,6 +6455,10 @@
   "co_jobs": 12,
   "co_other": 8,
   "co_plus": true,
+  "vio_lb": 1,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "2026-03-11",
   "langs": [
    "英文(略懂)"
   ],
@@ -6001,6 +6500,10 @@
   "co_jobs": 21,
   "co_other": 18,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -6042,6 +6545,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)",
    "日文(精通)"
@@ -6084,6 +6591,10 @@
   "co_jobs": 7,
   "co_other": 5,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -6125,6 +6636,10 @@
   "co_jobs": 26,
   "co_other": 25,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -6148,6 +6663,141 @@
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6053186,120.3002794&travelmode=transit"
  },
  {
+  "no": "12515932",
+  "name": "外銷業務助理",
+  "company": "久奈司體育事業有限公司",
+  "url": "https://www.104.com.tw/job/7g9cs",
+  "co_url": "https://www.104.com.tw/company/1a2x6bks73",
+  "area": "高雄市前鎮區",
+  "industry": "育樂用品製造業",
+  "date": "2026-07-28",
+  "apply": 2,
+  "salary": "月薪 33,000 元以上",
+  "salary_class": "salary",
+  "salary_m": 33000,
+  "period": "經歷不拘",
+  "employees": 20,
+  "cust_no": "130000000130751",
+  "co_jobs": 10,
+  "co_other": 4,
+  "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
+  "langs": [
+   "英文(精通)"
+  ],
+  "trip": false,
+  "remote": false,
+  "desc": "1. 協助業務主管/業務工程處理相關作業(報價、訂單、進出口報關作業等) 2. 客戶回覆.新客戶開發.舊客戶維繫.客戶接待之相關作業 3. 產品行銷推廣擬定與執行(網站更新.國內外展覽.宣傳文案.市場分析等) 4. 售後服務接洽 5. 主管交辦事項與行政資料彙整 本職位是一個非常重要的職位，具有廣闊的發展前景，將有機會",
+  "lat": 22.6047344,
+  "lon": 120.3001513,
+  "first_seen": "2026-07-27",
+  "is_new": false,
+  "dist_km": 6.8,
+  "drive_km": 7.5,
+  "drive_min": 18,
+  "transit_min": 32,
+  "near_st": "軟體園區",
+  "near_line": "輕軌",
+  "walk_m": 100,
+  "peak": true,
+  "approx": false,
+  "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6047344,120.3001513&travelmode=driving",
+  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6047344,120.3001513&travelmode=transit"
+ },
+ {
+  "no": "13250402",
+  "name": "國際業務專員",
+  "company": "久奈司體育事業有限公司",
+  "url": "https://www.104.com.tw/job/7w02q",
+  "co_url": "https://www.104.com.tw/company/1a2x6bks73",
+  "area": "高雄市前鎮區",
+  "industry": "育樂用品製造業",
+  "date": "2026-07-28",
+  "apply": 2,
+  "salary": "月薪 38,000 元以上",
+  "salary_class": "salary",
+  "salary_m": 38000,
+  "period": "4 年以上經歷",
+  "employees": 20,
+  "cust_no": "130000000130751",
+  "co_jobs": 10,
+  "co_other": 4,
+  "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
+  "langs": [
+   "英文(略懂)"
+  ],
+  "trip": false,
+  "remote": false,
+  "desc": "1. 開發國外潛在客戶，拓展國際市場，以達成業績目標。 2. 市場訊息的蒐集與分析、客戶銷售方案的策劃與執行。 3. 負責國外業務接洽及訂單處理。 4. 負責產品報價及產品展示，並處理帳款回收相關事宜。 5. 負責國外業務推展，傳達及說明公司各項業務重大訊息、活動及產品。 6. 進行商品行銷，產品特色分析介紹，並提供產",
+  "lat": 22.6047344,
+  "lon": 120.3001513,
+  "first_seen": "2026-07-27",
+  "is_new": false,
+  "dist_km": 6.8,
+  "drive_km": 7.5,
+  "drive_min": 18,
+  "transit_min": 32,
+  "near_st": "軟體園區",
+  "near_line": "輕軌",
+  "walk_m": 100,
+  "peak": true,
+  "approx": false,
+  "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6047344,120.3001513&travelmode=driving",
+  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6047344,120.3001513&travelmode=transit"
+ },
+ {
+  "no": "12465889",
+  "name": "跨境電商專員 E-commerce sales sales representative",
+  "company": "久奈司體育事業有限公司",
+  "url": "https://www.104.com.tw/job/7f6qp",
+  "co_url": "https://www.104.com.tw/company/1a2x6bks73",
+  "area": "高雄市前鎮區",
+  "industry": "育樂用品製造業",
+  "date": "2026-07-28",
+  "apply": 4,
+  "salary": "月薪 35,000~48,000 元",
+  "salary_class": "salary",
+  "salary_m": 35000,
+  "period": "2 年以上經歷",
+  "employees": 20,
+  "cust_no": "130000000130751",
+  "co_jobs": 10,
+  "co_other": 4,
+  "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
+  "langs": [
+   "英文(略懂)"
+  ],
+  "trip": false,
+  "remote": false,
+  "desc": "1.負責跨境電商整體建置、營運、維護、操作、訂單管理。 2.跨境電商平台管理與操作，並回報與分析平台績效。 3.行銷活動提案、執行，廣告投放策略擬定、執行、優化與數據分析。 4.開發國外市場及新的電商通路，推展國外業務與客戶。 5.主管交辦事項 ",
+  "lat": 22.6047344,
+  "lon": 120.3001513,
+  "first_seen": "2026-07-27",
+  "is_new": false,
+  "dist_km": 6.8,
+  "drive_km": 7.5,
+  "drive_min": 18,
+  "transit_min": 32,
+  "near_st": "軟體園區",
+  "near_line": "輕軌",
+  "walk_m": 100,
+  "peak": true,
+  "approx": false,
+  "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6047344,120.3001513&travelmode=driving",
+  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6047344,120.3001513&travelmode=transit"
+ },
+ {
   "no": "13701393",
   "name": "英文國貿業務",
   "company": "鮪軒貿易股份有限公司",
@@ -6166,6 +6816,10 @@
   "co_jobs": 29,
   "co_other": 25,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -6207,6 +6861,10 @@
   "co_jobs": 29,
   "co_other": 25,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -6246,6 +6904,10 @@
   "co_jobs": 7,
   "co_other": 6,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -6287,6 +6949,10 @@
   "co_jobs": 8,
   "co_other": 3,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -6328,6 +6994,10 @@
   "co_jobs": 10,
   "co_other": 6,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -6369,6 +7039,10 @@
   "co_jobs": 10,
   "co_other": 6,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -6410,6 +7084,10 @@
   "co_jobs": 8,
   "co_other": 3,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -6451,6 +7129,10 @@
   "co_jobs": 17,
   "co_other": 13,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -6492,6 +7174,10 @@
   "co_jobs": 16,
   "co_other": 13,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -6533,6 +7219,10 @@
   "co_jobs": 17,
   "co_other": 13,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -6574,6 +7264,10 @@
   "co_jobs": 17,
   "co_other": 13,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -6615,6 +7309,10 @@
   "co_jobs": 16,
   "co_other": 13,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -6656,6 +7354,10 @@
   "co_jobs": 16,
   "co_other": 13,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -6697,6 +7399,10 @@
   "co_jobs": 9,
   "co_other": 5,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -6736,6 +7442,10 @@
   "co_jobs": 9,
   "co_other": 9,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -6777,6 +7487,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 1,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "2024-01-07",
   "langs": [
    "英文(略懂)"
   ],
@@ -6818,6 +7532,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 18,
+  "vio_osh": 1,
+  "vio_oth": 2,
+  "vio_latest": "2026-07-09",
   "langs": [
    "英文(精通)"
   ],
@@ -6859,6 +7577,10 @@
   "co_jobs": 23,
   "co_other": 19,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 1,
+  "vio_oth": 0,
+  "vio_latest": "2026-04-03",
   "langs": [
    "英文(略懂)"
   ],
@@ -6900,6 +7622,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -6939,6 +7665,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 4,
+  "vio_osh": 2,
+  "vio_oth": 0,
+  "vio_latest": "2026-02-01",
   "langs": [
    "英文(略懂)"
   ],
@@ -6980,6 +7710,10 @@
   "co_jobs": 9,
   "co_other": 8,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -7021,6 +7755,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 4,
+  "vio_osh": 2,
+  "vio_oth": 0,
+  "vio_latest": "2026-02-01",
   "langs": [
    "英文(略懂)"
   ],
@@ -7062,6 +7800,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(中等)"
   ],
@@ -7103,6 +7845,10 @@
   "co_jobs": 40,
   "co_other": 38,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -7144,6 +7890,10 @@
   "co_jobs": 40,
   "co_other": 38,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -7185,6 +7935,10 @@
   "co_jobs": 3,
   "co_other": 2,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -7226,6 +7980,10 @@
   "co_jobs": 3,
   "co_other": 3,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 1,
+  "vio_oth": 0,
+  "vio_latest": "2024-04-16",
   "langs": [
    "英文(略懂)"
   ],
@@ -7267,6 +8025,10 @@
   "co_jobs": 26,
   "co_other": 25,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)",
    "俄文(略懂)"
@@ -7309,6 +8071,10 @@
   "co_jobs": 26,
   "co_other": 25,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)",
    "越南文(略懂)"
@@ -7351,6 +8117,10 @@
   "co_jobs": 26,
   "co_other": 25,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)",
    "越南文(略懂)"
@@ -7393,6 +8163,10 @@
   "co_jobs": 26,
   "co_other": 25,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)",
    "越南文(略懂)"
@@ -7435,6 +8209,10 @@
   "co_jobs": 3,
   "co_other": 2,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -7476,6 +8254,10 @@
   "co_jobs": 4,
   "co_other": 3,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 5,
+  "vio_latest": "2026-05-15",
   "langs": [
    "英文(略懂)"
   ],
@@ -7517,6 +8299,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 3,
+  "vio_osh": 1,
+  "vio_oth": 0,
+  "vio_latest": "2026-05-13",
   "langs": [
    "英文(略懂)"
   ],
@@ -7558,6 +8344,10 @@
   "co_jobs": 5,
   "co_other": 3,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -7599,6 +8389,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 3,
+  "vio_osh": 1,
+  "vio_oth": 0,
+  "vio_latest": "2026-05-13",
   "langs": [
    "英文(略懂)",
    "日文(略懂)"
@@ -7641,6 +8435,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 1,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "2025-04-09",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -7680,6 +8478,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -7721,6 +8523,10 @@
   "co_jobs": 4,
   "co_other": 4,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -7762,6 +8568,10 @@
   "co_jobs": 23,
   "co_other": 21,
   "co_plus": false,
+  "vio_lb": 1,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "2023-09-06",
   "langs": [
    "英文(精通)"
   ],
@@ -7803,6 +8613,10 @@
   "co_jobs": 13,
   "co_other": 10,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -7844,6 +8658,10 @@
   "co_jobs": 13,
   "co_other": 10,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -7885,6 +8703,10 @@
   "co_jobs": 15,
   "co_other": 15,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -7924,6 +8746,10 @@
   "co_jobs": 15,
   "co_other": 15,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -7963,6 +8789,10 @@
   "co_jobs": 3,
   "co_other": 2,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -8004,6 +8834,10 @@
   "co_jobs": 4,
   "co_other": 2,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 1,
+  "vio_latest": "2024-08-12",
   "langs": [
    "英文(略懂)"
   ],
@@ -8045,6 +8879,10 @@
   "co_jobs": 6,
   "co_other": 5,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -8086,6 +8924,10 @@
   "co_jobs": 1,
   "co_other": 1,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -8127,6 +8969,10 @@
   "co_jobs": 16,
   "co_other": 8,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -8168,6 +9014,10 @@
   "co_jobs": 16,
   "co_other": 8,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -8209,6 +9059,10 @@
   "co_jobs": 4,
   "co_other": 4,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -8250,6 +9104,10 @@
   "co_jobs": 4,
   "co_other": 4,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "日文(略懂)"
   ],
@@ -8291,6 +9149,10 @@
   "co_jobs": 7,
   "co_other": 5,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -8332,6 +9194,10 @@
   "co_jobs": 7,
   "co_other": 5,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -8373,6 +9239,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -8414,6 +9284,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 2,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "2023-09-10",
   "langs": [
    "日文(略懂)"
   ],
@@ -8455,6 +9329,10 @@
   "co_jobs": 1,
   "co_other": 1,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -8496,6 +9374,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -8537,6 +9419,10 @@
   "co_jobs": 22,
   "co_other": 15,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 2,
+  "vio_oth": 0,
+  "vio_latest": "2023-09-28",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -8576,6 +9462,10 @@
   "co_jobs": 3,
   "co_other": 2,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -8617,6 +9507,10 @@
   "co_jobs": 2,
   "co_other": 1,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -8658,6 +9552,10 @@
   "co_jobs": 3,
   "co_other": 2,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -8699,6 +9597,10 @@
   "co_jobs": 3,
   "co_other": 2,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -8740,6 +9642,10 @@
   "co_jobs": 11,
   "co_other": 6,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -8781,6 +9687,10 @@
   "co_jobs": 4,
   "co_other": 2,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 2,
+  "vio_latest": "2026-07-15",
   "langs": [
    "英文(中等)"
   ],
@@ -8822,6 +9732,10 @@
   "co_jobs": 24,
   "co_other": 20,
   "co_plus": false,
+  "vio_lb": 3,
+  "vio_osh": 1,
+  "vio_oth": 0,
+  "vio_latest": "2026-05-04",
   "langs": [
    "英文(中等)"
   ],
@@ -8863,6 +9777,10 @@
   "co_jobs": 8,
   "co_other": 6,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -8902,6 +9820,10 @@
   "co_jobs": 8,
   "co_other": 6,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -8941,6 +9863,10 @@
   "co_jobs": 8,
   "co_other": 6,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -8980,6 +9906,10 @@
   "co_jobs": 8,
   "co_other": 6,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -9019,6 +9949,10 @@
   "co_jobs": 24,
   "co_other": 20,
   "co_plus": false,
+  "vio_lb": 3,
+  "vio_osh": 1,
+  "vio_oth": 0,
+  "vio_latest": "2026-05-04",
   "langs": [],
   "trip": true,
   "remote": false,
@@ -9058,6 +9992,10 @@
   "co_jobs": 5,
   "co_other": 4,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -9099,6 +10037,10 @@
   "co_jobs": 16,
   "co_other": 14,
   "co_plus": true,
+  "vio_lb": 1,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "2025-11-06",
   "langs": [
    "英文(略懂)"
   ],
@@ -9140,6 +10082,10 @@
   "co_jobs": 8,
   "co_other": 7,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "日文(略懂)"
   ],
@@ -9181,6 +10127,10 @@
   "co_jobs": 16,
   "co_other": 7,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(中等)"
   ],
@@ -9222,6 +10172,10 @@
   "co_jobs": 9,
   "co_other": 6,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -9263,6 +10217,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 1,
+  "vio_osh": 2,
+  "vio_oth": 0,
+  "vio_latest": "2026-07-01",
   "langs": [
    "英文(精通)"
   ],
@@ -9304,6 +10262,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 1,
+  "vio_osh": 2,
+  "vio_oth": 0,
+  "vio_latest": "2026-07-01",
   "langs": [
    "英文(精通)"
   ],
@@ -9345,6 +10307,10 @@
   "co_jobs": 6,
   "co_other": 4,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 2,
+  "vio_latest": "2026-02-13",
   "langs": [
    "英文(略懂)"
   ],
@@ -9386,6 +10352,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -9425,6 +10395,10 @@
   "co_jobs": 15,
   "co_other": 11,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -9466,6 +10440,10 @@
   "co_jobs": 10,
   "co_other": 6,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)",
    "俄文(略懂)"
@@ -9508,6 +10486,10 @@
   "co_jobs": 10,
   "co_other": 6,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -9549,6 +10531,10 @@
   "co_jobs": 15,
   "co_other": 11,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -9590,6 +10576,10 @@
   "co_jobs": 3,
   "co_other": 1,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -9631,6 +10621,10 @@
   "co_jobs": 2,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -9672,6 +10666,10 @@
   "co_jobs": 2,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -9713,6 +10711,10 @@
   "co_jobs": 11,
   "co_other": 10,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -9754,6 +10756,10 @@
   "co_jobs": 5,
   "co_other": 4,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 2,
+  "vio_oth": 0,
+  "vio_latest": "2025-10-29",
   "langs": [
    "印尼文(略懂)",
    "英文(精通)",
@@ -9797,6 +10803,10 @@
   "co_jobs": 22,
   "co_other": 15,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 2,
+  "vio_oth": 0,
+  "vio_latest": "2023-09-28",
   "langs": [
    "英文(略懂)"
   ],
@@ -9838,6 +10848,10 @@
   "co_jobs": 22,
   "co_other": 15,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 2,
+  "vio_oth": 0,
+  "vio_latest": "2023-09-28",
   "langs": [
    "英文(略懂)"
   ],
@@ -9879,6 +10893,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 1,
+  "vio_latest": "2024-11-11",
   "langs": [
    "日文(略懂)",
    "英文(精通)"
@@ -9921,6 +10939,10 @@
   "co_jobs": 5,
   "co_other": 2,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "日文(略懂)"
   ],
@@ -9962,6 +10984,10 @@
   "co_jobs": 5,
   "co_other": 2,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -10003,6 +11029,10 @@
   "co_jobs": 5,
   "co_other": 2,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "日文(略懂)"
   ],
@@ -10044,6 +11074,10 @@
   "co_jobs": 3,
   "co_other": 1,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 1,
+  "vio_oth": 0,
+  "vio_latest": "2024-04-19",
   "langs": [
    "英文(略懂)"
   ],
@@ -10085,6 +11119,10 @@
   "co_jobs": 8,
   "co_other": 6,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -10124,6 +11162,10 @@
   "co_jobs": 25,
   "co_other": 20,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(中等)"
   ],
@@ -10165,6 +11207,10 @@
   "co_jobs": 40,
   "co_other": 40,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -10204,6 +11250,10 @@
   "co_jobs": 6,
   "co_other": 5,
   "co_plus": false,
+  "vio_lb": 1,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "2025-07-08",
   "langs": [
    "日文(中等)",
    "英文(精通)"
@@ -10246,6 +11296,10 @@
   "co_jobs": 4,
   "co_other": 3,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 1,
+  "vio_oth": 0,
+  "vio_latest": "2024-11-15",
   "langs": [
    "英文(略懂)"
   ],
@@ -10287,6 +11341,10 @@
   "co_jobs": 15,
   "co_other": 14,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "日文(略懂)",
    "英文(略懂)"
@@ -10329,6 +11387,10 @@
   "co_jobs": 10,
   "co_other": 8,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 1,
+  "vio_oth": 0,
+  "vio_latest": "2024-05-10",
   "langs": [
    "英文(精通)"
   ],
@@ -10370,6 +11432,10 @@
   "co_jobs": 10,
   "co_other": 8,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 1,
+  "vio_oth": 0,
+  "vio_latest": "2024-05-10",
   "langs": [
    "英文(精通)"
   ],
@@ -10411,6 +11477,10 @@
   "co_jobs": 29,
   "co_other": 28,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 3,
+  "vio_oth": 0,
+  "vio_latest": "2026-02-05",
   "langs": [
    "英文(略懂)"
   ],
@@ -10452,6 +11522,10 @@
   "co_jobs": 1,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -10493,6 +11567,10 @@
   "co_jobs": 11,
   "co_other": 9,
   "co_plus": false,
+  "vio_lb": 1,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "2026-03-01",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -10532,6 +11610,10 @@
   "co_jobs": 8,
   "co_other": 6,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -10573,6 +11655,10 @@
   "co_jobs": 32,
   "co_other": 29,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 1,
+  "vio_oth": 0,
+  "vio_latest": "2025-01-16",
   "langs": [
    "英文(精通)"
   ],
@@ -10614,6 +11700,10 @@
   "co_jobs": 14,
   "co_other": 10,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -10655,6 +11745,10 @@
   "co_jobs": 9,
   "co_other": 8,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)",
    "日文(精通)"
@@ -10697,6 +11791,10 @@
   "co_jobs": 3,
   "co_other": 1,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "俄文(略懂)",
    "英文(精通)"
@@ -10739,6 +11837,10 @@
   "co_jobs": 2,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -10780,6 +11882,10 @@
   "co_jobs": 6,
   "co_other": 2,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "日文(精通)"
   ],
@@ -10821,6 +11927,10 @@
   "co_jobs": 6,
   "co_other": 2,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -10862,6 +11972,10 @@
   "co_jobs": 27,
   "co_other": 24,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 4,
+  "vio_oth": 0,
+  "vio_latest": "2025-06-11",
   "langs": [
    "英文(略懂)"
   ],
@@ -10903,6 +12017,10 @@
   "co_jobs": 8,
   "co_other": 5,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -10944,6 +12062,10 @@
   "co_jobs": 6,
   "co_other": 6,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 1,
+  "vio_latest": "2025-05-12",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -10983,6 +12105,10 @@
   "co_jobs": 7,
   "co_other": 5,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -11024,6 +12150,10 @@
   "co_jobs": 7,
   "co_other": 6,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -11065,6 +12195,10 @@
   "co_jobs": 18,
   "co_other": 17,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 1,
+  "vio_oth": 0,
+  "vio_latest": "2026-06-15",
   "langs": [
    "英文(精通)"
   ],
@@ -11106,6 +12240,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -11147,6 +12285,10 @@
   "co_jobs": 10,
   "co_other": 8,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -11188,6 +12330,10 @@
   "co_jobs": 5,
   "co_other": 2,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -11229,6 +12375,10 @@
   "co_jobs": 2,
   "co_other": 0,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -11270,6 +12420,10 @@
   "co_jobs": 11,
   "co_other": 9,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -11311,6 +12465,10 @@
   "co_jobs": 11,
   "co_other": 9,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -11352,6 +12510,10 @@
   "co_jobs": 11,
   "co_other": 9,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -11393,6 +12555,10 @@
   "co_jobs": 16,
   "co_other": 13,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "日文(略懂)"
   ],
@@ -11434,6 +12600,10 @@
   "co_jobs": 16,
   "co_other": 13,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -11475,6 +12645,10 @@
   "co_jobs": 16,
   "co_other": 13,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -11516,6 +12690,10 @@
   "co_jobs": 10,
   "co_other": 7,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -11555,6 +12733,10 @@
   "co_jobs": 14,
   "co_other": 5,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -11596,6 +12778,10 @@
   "co_jobs": 14,
   "co_other": 5,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -11637,6 +12823,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(中等)",
    "日文(略懂)"
@@ -11679,6 +12869,10 @@
   "co_jobs": 5,
   "co_other": 3,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 3,
+  "vio_latest": "2026-03-13",
   "langs": [
    "英文(略懂)"
   ],
@@ -11720,6 +12914,10 @@
   "co_jobs": 5,
   "co_other": 3,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 3,
+  "vio_latest": "2026-03-13",
   "langs": [
    "英文(精通)"
   ],
@@ -11761,6 +12959,10 @@
   "co_jobs": 7,
   "co_other": 5,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "日文(略懂)"
   ],
@@ -11802,6 +13004,10 @@
   "co_jobs": 7,
   "co_other": 5,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -11843,6 +13049,10 @@
   "co_jobs": 4,
   "co_other": 1,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)",
    "俄文(精通)"
@@ -11885,6 +13095,10 @@
   "co_jobs": 2,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -11926,6 +13140,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -11967,6 +13185,10 @@
   "co_jobs": 7,
   "co_other": 6,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -12008,6 +13230,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 5,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "2025-12-10",
   "langs": [
    "英文(略懂)"
   ],
@@ -12049,6 +13275,10 @@
   "co_jobs": 4,
   "co_other": 1,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -12090,6 +13320,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -12131,6 +13365,10 @@
   "co_jobs": 28,
   "co_other": 28,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -12172,6 +13410,10 @@
   "co_jobs": 3,
   "co_other": 1,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 1,
+  "vio_oth": 0,
+  "vio_latest": "2025-07-08",
   "langs": [
    "西班牙文(精通)",
    "英文(精通)"
@@ -12214,6 +13456,10 @@
   "co_jobs": 7,
   "co_other": 4,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -12255,6 +13501,10 @@
   "co_jobs": 3,
   "co_other": 1,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -12296,6 +13546,10 @@
   "co_jobs": 3,
   "co_other": 1,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -12337,6 +13591,10 @@
   "co_jobs": 27,
   "co_other": 24,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 4,
+  "vio_oth": 0,
+  "vio_latest": "2025-06-11",
   "langs": [
    "英文(略懂)"
   ],
@@ -12378,6 +13636,10 @@
   "co_jobs": 4,
   "co_other": 3,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(中等)",
    "日文(略懂)"
@@ -12420,6 +13682,10 @@
   "co_jobs": 6,
   "co_other": 6,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -12461,6 +13727,10 @@
   "co_jobs": 3,
   "co_other": 2,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -12502,6 +13772,10 @@
   "co_jobs": 3,
   "co_other": 2,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -12543,6 +13817,10 @@
   "co_jobs": 3,
   "co_other": 2,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -12584,6 +13862,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)",
    "西班牙文(精通)"
@@ -12626,6 +13908,10 @@
   "co_jobs": 16,
   "co_other": 15,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 1,
+  "vio_oth": 0,
+  "vio_latest": "2024-04-16",
   "langs": [
    "英文(略懂)"
   ],
@@ -12667,6 +13953,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 1,
+  "vio_oth": 0,
+  "vio_latest": "2026-04-15",
   "langs": [
    "英文(精通)"
   ],
@@ -12708,6 +13998,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 1,
+  "vio_oth": 0,
+  "vio_latest": "2026-04-15",
   "langs": [
    "英文(精通)"
   ],
@@ -12749,6 +14043,10 @@
   "co_jobs": 9,
   "co_other": 8,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)",
    "日文(精通)"
@@ -12791,6 +14089,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -12832,6 +14134,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -12873,6 +14179,10 @@
   "co_jobs": 18,
   "co_other": 13,
   "co_plus": false,
+  "vio_lb": 1,
+  "vio_osh": 2,
+  "vio_oth": 0,
+  "vio_latest": "2025-01-09",
   "langs": [
    "英文(精通)"
   ],
@@ -12914,6 +14224,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 1,
+  "vio_oth": 0,
+  "vio_latest": "2026-06-15",
   "langs": [
    "英文(略懂)"
   ],
@@ -12955,6 +14269,10 @@
   "co_jobs": 8,
   "co_other": 7,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -12996,6 +14314,10 @@
   "co_jobs": 11,
   "co_other": 9,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 1,
+  "vio_oth": 0,
+  "vio_latest": "2026-05-13",
   "langs": [
    "英文(精通)",
    "日文(精通)"
@@ -13038,6 +14360,10 @@
   "co_jobs": 11,
   "co_other": 9,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -13079,6 +14405,10 @@
   "co_jobs": 11,
   "co_other": 9,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -13120,6 +14450,10 @@
   "co_jobs": 11,
   "co_other": 9,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 1,
+  "vio_oth": 0,
+  "vio_latest": "2026-05-13",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -13159,6 +14493,10 @@
   "co_jobs": 22,
   "co_other": 18,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)",
    "德文(精通)"
@@ -13201,6 +14539,10 @@
   "co_jobs": 22,
   "co_other": 18,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -13242,6 +14584,10 @@
   "co_jobs": 35,
   "co_other": 30,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "日文(略懂)"
   ],
@@ -13283,6 +14629,10 @@
   "co_jobs": 35,
   "co_other": 30,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -13324,6 +14674,10 @@
   "co_jobs": 35,
   "co_other": 30,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -13365,6 +14719,10 @@
   "co_jobs": 35,
   "co_other": 30,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -13406,6 +14764,10 @@
   "co_jobs": 17,
   "co_other": 15,
   "co_plus": false,
+  "vio_lb": 3,
+  "vio_osh": 2,
+  "vio_oth": 0,
+  "vio_latest": "2025-11-14",
   "langs": [
    "英文(精通)"
   ],
@@ -13447,6 +14809,10 @@
   "co_jobs": 1,
   "co_other": 1,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 1,
+  "vio_latest": "2024-06-11",
   "langs": [],
   "trip": true,
   "remote": false,
@@ -13486,6 +14852,10 @@
   "co_jobs": 1,
   "co_other": 1,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 1,
+  "vio_latest": "2024-06-11",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -13525,6 +14895,10 @@
   "co_jobs": 2,
   "co_other": 2,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -13564,6 +14938,10 @@
   "co_jobs": 25,
   "co_other": 21,
   "co_plus": false,
+  "vio_lb": 1,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "2025-06-09",
   "langs": [
    "英文(略懂)"
   ],
@@ -13605,6 +14983,10 @@
   "co_jobs": 25,
   "co_other": 21,
   "co_plus": false,
+  "vio_lb": 1,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "2025-06-09",
   "langs": [
    "英文(精通)"
   ],
@@ -13646,6 +15028,10 @@
   "co_jobs": 25,
   "co_other": 21,
   "co_plus": false,
+  "vio_lb": 1,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "2025-06-09",
   "langs": [
    "英文(精通)"
   ],
@@ -13687,6 +15073,10 @@
   "co_jobs": 25,
   "co_other": 21,
   "co_plus": false,
+  "vio_lb": 1,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "2025-06-09",
   "langs": [
    "英文(略懂)"
   ],
@@ -13728,6 +15118,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 2,
+  "vio_oth": 0,
+  "vio_latest": "2026-05-13",
   "langs": [
    "英文(精通)"
   ],
@@ -13769,6 +15163,10 @@
   "co_jobs": 5,
   "co_other": 5,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -13808,6 +15206,10 @@
   "co_jobs": 9,
   "co_other": 6,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -13831,47 +15233,6 @@
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8122949,120.2654337&travelmode=transit"
  },
  {
-  "no": "15123718",
-  "name": "國外業務人員",
-  "company": "商后企業有限公司",
-  "url": "https://www.104.com.tw/job/905ja",
-  "co_url": "https://www.104.com.tw/company/13r4in1s",
-  "area": "高雄市岡山區",
-  "industry": "電力機械器材製造修配業",
-  "date": "2026-07-22",
-  "apply": 0,
-  "salary": "月薪 36,000~45,000 元",
-  "salary_class": "salary",
-  "salary_m": 36000,
-  "period": "3 年以上經歷",
-  "employees": 40,
-  "cust_no": "86534686000",
-  "co_jobs": 6,
-  "co_other": 5,
-  "co_plus": false,
-  "langs": [
-   "英文(精通)"
-  ],
-  "trip": false,
-  "remote": false,
-  "desc": "1. 開發推展並維繫國外客戶 2. 英文能力，說讀寫中等以上",
-  "lat": 22.8100585,
-  "lon": 120.2654749,
-  "first_seen": "2026-07-27",
-  "is_new": false,
-  "dist_km": 16.5,
-  "drive_km": 25.0,
-  "drive_min": 43,
-  "transit_min": 58,
-  "near_st": "",
-  "near_line": "",
-  "walk_m": null,
-  "peak": true,
-  "approx": false,
-  "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8100585,120.2654749&travelmode=driving",
-  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8100585,120.2654749&travelmode=transit"
- },
- {
   "no": "15130939",
   "name": "鋼鐵業務員",
   "company": "加銘鋼鐵工業股份有限公司",
@@ -13890,6 +15251,10 @@
   "co_jobs": 5,
   "co_other": 3,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -13929,6 +15294,10 @@
   "co_jobs": 14,
   "co_other": 11,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -13970,6 +15339,10 @@
   "co_jobs": 14,
   "co_other": 11,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -14011,6 +15384,10 @@
   "co_jobs": 6,
   "co_other": 6,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -14052,6 +15429,10 @@
   "co_jobs": 4,
   "co_other": 4,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 1,
+  "vio_oth": 0,
+  "vio_latest": "2024-03-14",
   "langs": [
    "英文(精通)"
   ],
@@ -14093,6 +15474,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -14134,6 +15519,10 @@
   "co_jobs": 7,
   "co_other": 7,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 2,
+  "vio_oth": 0,
+  "vio_latest": "2024-10-01",
   "langs": [
    "日文(略懂)"
   ],
@@ -14175,6 +15564,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -14216,6 +15609,10 @@
   "co_jobs": 1,
   "co_other": 1,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -14257,6 +15654,10 @@
   "co_jobs": 15,
   "co_other": 13,
   "co_plus": false,
+  "vio_lb": 1,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "2023-08-28",
   "langs": [
    "英文(略懂)"
   ],
@@ -14298,6 +15699,10 @@
   "co_jobs": 15,
   "co_other": 13,
   "co_plus": false,
+  "vio_lb": 1,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "2023-08-28",
   "langs": [
    "英文(略懂)"
   ],
@@ -14339,6 +15744,10 @@
   "co_jobs": 1,
   "co_other": 1,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "日文(略懂)"
   ],
@@ -14380,6 +15789,10 @@
   "co_jobs": 1,
   "co_other": 1,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "日文(略懂)"
   ],
@@ -14421,6 +15834,10 @@
   "co_jobs": 9,
   "co_other": 6,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -14462,6 +15879,10 @@
   "co_jobs": 9,
   "co_other": 6,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -14503,6 +15924,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -14544,6 +15969,10 @@
   "co_jobs": 24,
   "co_other": 22,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -14583,6 +16012,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 1,
+  "vio_oth": 0,
+  "vio_latest": "2024-09-05",
   "langs": [
    "英文(精通)"
   ],
@@ -14624,6 +16057,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 1,
+  "vio_oth": 0,
+  "vio_latest": "2024-09-05",
   "langs": [
    "英文(中等)"
   ],
@@ -14665,6 +16102,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -14704,6 +16145,10 @@
   "co_jobs": 4,
   "co_other": 2,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -14745,6 +16190,10 @@
   "co_jobs": 3,
   "co_other": 2,
   "co_plus": true,
+  "vio_lb": 1,
+  "vio_osh": 1,
+  "vio_oth": 0,
+  "vio_latest": "2025-10-08",
   "langs": [
    "英文(精通)"
   ],
@@ -14786,6 +16235,10 @@
   "co_jobs": 29,
   "co_other": 26,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -14827,6 +16280,10 @@
   "co_jobs": 11,
   "co_other": 10,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -14868,6 +16325,10 @@
   "co_jobs": 14,
   "co_other": 12,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -14909,6 +16370,10 @@
   "co_jobs": 4,
   "co_other": 2,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 1,
+  "vio_oth": 0,
+  "vio_latest": "2025-03-24",
   "langs": [
    "英文(略懂)"
   ],
@@ -14950,6 +16415,10 @@
   "co_jobs": 2,
   "co_other": 1,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(精通)"
   ],
@@ -14991,6 +16460,10 @@
   "co_jobs": 11,
   "co_other": 6,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -15032,6 +16505,10 @@
   "co_jobs": 37,
   "co_other": 34,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 3,
+  "vio_oth": 0,
+  "vio_latest": "2025-10-13",
   "langs": [
    "英文(略懂)"
   ],
@@ -15073,6 +16550,10 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "日文(略懂)"
   ],
@@ -15114,6 +16595,10 @@
   "co_jobs": 2,
   "co_other": 1,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -15153,6 +16638,10 @@
   "co_jobs": 3,
   "co_other": 2,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -15194,6 +16683,10 @@
   "co_jobs": 4,
   "co_other": 0,
   "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [
    "英文(略懂)"
   ],
@@ -15233,6 +16726,10 @@
   "co_jobs": null,
   "co_other": null,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -15271,6 +16768,10 @@
   "co_jobs": null,
   "co_other": null,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -15309,6 +16810,10 @@
   "co_jobs": null,
   "co_other": null,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -15347,6 +16852,10 @@
   "co_jobs": null,
   "co_other": null,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -15385,6 +16894,10 @@
   "co_jobs": null,
   "co_other": null,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,
@@ -15423,6 +16936,136 @@
   "co_jobs": null,
   "co_other": null,
   "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
+  "langs": [],
+  "trip": false,
+  "remote": false,
+  "desc": "",
+  "lat": null,
+  "lon": null,
+  "source": "li",
+  "first_seen": "2026-07-28",
+  "is_new": true,
+  "dist_km": null,
+  "drive_km": null,
+  "drive_min": null,
+  "transit_min": null,
+  "near_st": "",
+  "near_line": "",
+  "walk_m": null,
+  "peak": false,
+  "approx": false
+ },
+ {
+  "no": "li4427942245",
+  "name": "Director of Sales & Marketing - Hyatt Regency Kaohsiung",
+  "company": "Hyatt Regency",
+  "url": "https://tw.linkedin.com/jobs/view/director-of-sales-marketing-hyatt-regency-kaohsiung-at-hyatt-regency-4427942245",
+  "co_url": "",
+  "area": "高雄市(LinkedIn)",
+  "industry": "外商/LinkedIn",
+  "date": "2026-06-12",
+  "apply": null,
+  "salary": "薪資未列(見原頁)",
+  "salary_class": "negotiable",
+  "salary_m": 40001,
+  "period": "條件詳見原頁",
+  "employees": 0,
+  "cust_no": "",
+  "co_jobs": null,
+  "co_other": null,
+  "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
+  "langs": [],
+  "trip": false,
+  "remote": false,
+  "desc": "",
+  "lat": null,
+  "lon": null,
+  "source": "li",
+  "first_seen": "2026-07-28",
+  "is_new": true,
+  "dist_km": null,
+  "drive_km": null,
+  "drive_min": null,
+  "transit_min": null,
+  "near_st": "",
+  "near_line": "",
+  "walk_m": null,
+  "peak": false,
+  "approx": false
+ },
+ {
+  "no": "li4441714598",
+  "name": "業務人員",
+  "company": "Gofast Co., Ltd.",
+  "url": "https://tw.linkedin.com/jobs/view/%E6%A5%AD%E5%8B%99%E4%BA%BA%E5%93%A1-at-gofast-co-ltd-4441714598",
+  "co_url": "",
+  "area": "高雄市(LinkedIn)",
+  "industry": "外商/LinkedIn",
+  "date": "2026-07-18",
+  "apply": null,
+  "salary": "薪資未列(見原頁)",
+  "salary_class": "negotiable",
+  "salary_m": 40001,
+  "period": "條件詳見原頁",
+  "employees": 0,
+  "cust_no": "",
+  "co_jobs": null,
+  "co_other": null,
+  "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
+  "langs": [],
+  "trip": false,
+  "remote": false,
+  "desc": "",
+  "lat": null,
+  "lon": null,
+  "source": "li",
+  "first_seen": "2026-07-28",
+  "is_new": true,
+  "dist_km": null,
+  "drive_km": null,
+  "drive_min": null,
+  "transit_min": null,
+  "near_st": "",
+  "near_line": "",
+  "walk_m": null,
+  "peak": false,
+  "approx": false
+ },
+ {
+  "no": "li4393510037",
+  "name": "Sales Associate 業務開發專員 (高雄)",
+  "company": "Lalamove",
+  "url": "https://tw.linkedin.com/jobs/view/sales-associate-%E6%A5%AD%E5%8B%99%E9%96%8B%E7%99%BC%E5%B0%88%E5%93%A1-%E9%AB%98%E9%9B%84-at-lalamove-4393510037",
+  "co_url": "",
+  "area": "高雄市(LinkedIn)",
+  "industry": "外商/LinkedIn",
+  "date": "2026-07-17",
+  "apply": null,
+  "salary": "薪資未列(見原頁)",
+  "salary_class": "negotiable",
+  "salary_m": 40001,
+  "period": "條件詳見原頁",
+  "employees": 0,
+  "cust_no": "",
+  "co_jobs": null,
+  "co_other": null,
+  "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
   "langs": [],
   "trip": false,
   "remote": false,

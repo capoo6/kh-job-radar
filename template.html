@@ -63,6 +63,7 @@ main{padding:14px 16px 40px}
 .meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
 .chip{font-size:12px;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:2px 8px;color:var(--muted)}
 .chip.lang{background:var(--ok-soft);color:var(--ok);border-color:transparent}
+.chip.vio{background:var(--new-soft);color:var(--new);border-color:transparent;font-weight:700}
 .desc{font-size:13px;color:var(--muted);margin-top:8px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .row-bottom{display:flex;justify-content:space-between;align-items:center;margin-top:10px;font-size:12.5px;color:var(--muted);flex-wrap:wrap;gap:6px}
 .apply-btn{background:var(--brand);color:#fff;text-decoration:none;font-size:13px;font-weight:700;border-radius:8px;padding:6px 14px}
@@ -179,11 +180,15 @@ function card(j){
   if(j.gmap_transit) traffic.push(
     `<a href="${esc(j.gmap_drive)}" target="_blank" rel="noopener">開車路線</a>`,
     `<a href="${esc(j.gmap_transit)}" target="_blank" rel="noopener">大眾運輸路線</a>`);
+  traffic.push(
+    `<a href="https://salary.tw/search?keyword=${encodeURIComponent(j.company)}" target="_blank" rel="noopener">比薪水</a>`,
+    `<a href="https://interview.tw/search?keyword=${encodeURIComponent(j.company)}" target="_blank" rel="noopener">面試趣</a>`);
   const trafficRow = traffic.length ? `<div class="traffic">${traffic.join("<span style='color:var(--line)'>|</span>")}</div>` : "";
   const langs = j.langs.map(l=>`<span class="chip lang">${esc(l)}</span>`).join("");
   const emp = j.employees ? `<span class="chip">員工 ${j.employees} 人</span>` : "";
   const plus = j.co_plus ? "+" : "";
   const co = j.co_jobs!=null ? `<span class="chip">🏢 公司全台在徵 ${j.co_jobs}${plus} 缺・非業務職 ${j.co_other}${plus}</span>` : "";
+  const vio = (j.vio_lb||j.vio_osh) ? `<span class="chip vio">⚠️ 近3年違規:勞基法 ${j.vio_lb}・職安 ${j.vio_osh} 件</span>` : "";
   return `<div class="card${j.is_new?" new":""}">
     <div class="row1"><a class="jobname" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.name)}</a>${badges}</div>
     <div class="company">${j.co_url?`<a href="${esc(j.co_url)}" target="_blank" rel="noopener">${esc(j.company)}</a>`:esc(j.company)} <span class="ind">${esc(j.industry)}</span></div>
@@ -192,7 +197,7 @@ function card(j){
     <div class="meta">
       <span class="chip">📍 ${esc(j.area)}</span>
       <span class="chip">${esc(j.period)}</span>
-      ${langs}${emp}${co}
+      ${langs}${emp}${co}${vio}
     </div>
     <div class="desc">${esc(j.desc)}</div>
     <div class="row-bottom">

@@ -17,7 +17,8 @@ from email.utils import formataddr
 from pathlib import Path
 from urllib.error import HTTPError
 from urllib.parse import urlencode
-from urllib.request import Request, urlopen
+from urllib.request import (HTTPCookieProcessor, HTTPSHandler, Request,
+                            build_opener, urlopen)
 from zoneinfo import ZoneInfo
 
 # ============================ 設定區 ============================
@@ -39,6 +40,9 @@ LI_KEYWORDS = ["international sales", "export sales", "overseas sales",
                "國外業務", "外銷業務", "國際業務", "business development"]  # LinkedIn 搜尋關鍵字
 LI_MAX_AGE_DAYS = 60              # LinkedIn 職缺只收 N 天內刊登的(它有萬年舊缺)
 LI_TITLE_INCLUDE = r"(?i)sales|business development|account manager|業務|外銷|商務開發"  # LinkedIn 職稱必須符合
+MOL_MAX_PER_RUN = 60              # 勞動部違規查詢:每次執行最多查幾家公司
+MOL_REFRESH_DAYS = 30             # 每家公司的違規紀錄多久重查一次
+MOL_RECENT_YEARS = 3              # 只統計近 N 年的處分
 # ===============================================================
 
 ROOT = Path(__file__).resolve().parent
@@ -161,6 +165,7 @@ def normalize(raw: dict) -> dict | None:
         "employees": int(raw.get("employeeCount") or 0),
         "cust_no": str(raw.get("custNo") or ""),
         "co_jobs": None, "co_other": None, "co_plus": False,
+        "vio_lb": None, "vio_osh": None, "vio_oth": None, "vio_latest": "",
         "langs": langs,
         "trip": trip,
         "remote": int(raw.get("remoteWorkType") or 0) > 0,
@@ -339,6 +344,94 @@ def fetch_company_counts(jobs: list[dict], now: datetime):
     print(f"公司職缺數:本次查了 {len(todo)} 家,{done}/{len(jobs)} 筆職缺已有公司資料")
 
 
+# ---------------------------- 勞動部違規紀錄 ----------------------------
+
+def fetch_violations(jobs: list[dict], now: datetime):
+    """查勞動部「違反勞動法令事業單位」公開名單(announcement.mol.gov.tw)。
+    每家公司下載一份 ODS 清冊,統計近 N 年勞基法群/職安法/其他的處分筆數。
+    政府開放資料,查詢合法;結果快取 MOL_REFRESH_DAYS 天。"""
+    import http.cookiejar
+    import zipfile
+
+    p = DATA / "violations.json"
+    cache = json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}
+    fresh = (now - timedelta(days=MOL_REFRESH_DAYS)).strftime("%Y-%m-%d")
+    today = now.strftime("%Y-%m-%d")
+    recent = (now - timedelta(days=365 * MOL_RECENT_YEARS))
+
+    firms = sorted({j["company"] for j in jobs if j["company"]})
+    todo = [n for n in firms if cache.get(n, {}).get("d", "") < fresh][:MOL_MAX_PER_RUN]
+    if todo:
+        # 政府憑證鏈缺 Subject Key Identifier,新版 Python 驗不過;公開唯讀資料,放寬驗證
+        ctx = ssl.create_default_context()
+        ctx.check_hostname = False
+        ctx.verify_mode = ssl.CERT_NONE
+        cj = http.cookiejar.CookieJar()
+        op = build_opener(HTTPCookieProcessor(cj), HTTPSHandler(context=ctx))
+        op.addheaders = [("User-Agent", UA)]
+        try:
+            home = op.open("https://announcement.mol.gov.tw/", timeout=60).read().decode("utf-8", "ignore")
+            token = re.search(r'name="_csrf_token" value="([^"]+)"', home).group(1)
+        except Exception as e:
+            print(f"勞動部系統連線失敗,本次略過違規查詢: {e}")
+            todo = []
+        for name in todo:
+            data = urlencode({
+                "_csrf_token": token, "CITYNO": "", "UNITNAME": name,
+                "DOCstartDate": "", "DOCEndDate": "", "REGNUMBER": "", "REGNO": "",
+                "FINE": "", "downloadType": "1",
+                "sortName1": "", "sortName2": "", "sortName3": "", "sortName4": "", "Page3": "1",
+            }).encode()
+            try:
+                body = op.open(Request("https://announcement.mol.gov.tw/Download/", data=data),
+                               timeout=120).read()
+            except Exception:
+                continue  # 失敗不記快取,下次再試
+            if body[:2] != b"PK":
+                cache[name] = {"lb": 0, "osh": 0, "oth": 0, "latest": "", "d": today}
+                time.sleep(1.5)
+                continue
+            counts = {"lb": 0, "osh": 0, "oth": 0}
+            latest = ""
+            try:
+                xml = zipfile.ZipFile(io_bytes(body)).read("content.xml").decode("utf-8", "ignore")
+                for tm in re.finditer(r'<table:table\s[^>]*table:name="([^"]+)"(.*?)</table:table>', xml, re.S):
+                    tname, tbody = tm.group(1), tm.group(2)
+                    kind = ("lb" if "勞基法" in tname else
+                            "osh" if "職業安全" in tname else
+                            "oth" if ("就服法" in tname or "勞退" in tname) else None)
+                    if not kind:
+                        continue
+                    for row in re.findall(r"<table:table-row.*?</table:table-row>", tbody, re.S):
+                        cells = re.findall(r"<text:p>([^<]*)</text:p>", row)
+                        if not (cells and cells[0].strip().isdigit()):
+                            continue
+                        dates = [datetime(int(y) + 1911, int(m), int(d), tzinfo=TZ)
+                                 for y, m, d in re.findall(r"\b(\d{2,3})/(\d{2})/(\d{2})\b", row)
+                                 if 1 <= int(m) <= 12 and 1 <= int(d) <= 31]
+                        if dates and max(dates) >= recent:
+                            counts[kind] += 1
+                            latest = max(latest, max(dates).strftime("%Y-%m-%d"))
+            except Exception:
+                continue
+            cache[name] = {**counts, "latest": latest, "d": today}
+            time.sleep(1.5)
+    cache = {k: v for k, v in cache.items() if k in set(firms)}
+    p.write_text(json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8")
+    done = 0
+    for j in jobs:
+        c = cache.get(j["company"])
+        if c:
+            j["vio_lb"], j["vio_osh"], j["vio_oth"], j["vio_latest"] = c["lb"], c["osh"], c["oth"], c["latest"]
+            done += 1
+    print(f"勞動部違規紀錄:本次查了 {len(todo)} 家,{done}/{len(jobs)} 筆職缺已有資料")
+
+
+def io_bytes(b: bytes):
+    import io as _io
+    return _io.BytesIO(b)
+
+
 # ---------------------------- LinkedIn 外商職缺 ----------------------------
 
 def fetch_linkedin(now: datetime) -> list[dict]:
@@ -380,6 +473,7 @@ def fetch_linkedin(now: datetime) -> list[dict]:
                 "salary": "薪資未列(見原頁)", "salary_class": "negotiable", "salary_m": 40001,
                 "period": "條件詳見原頁", "employees": 0,
                 "cust_no": "", "co_jobs": None, "co_other": None, "co_plus": False,
+                "vio_lb": None, "vio_osh": None, "vio_oth": None, "vio_latest": "",
                 "langs": [], "trip": False, "remote": False, "desc": "",
                 "lat": None, "lon": None, "source": "li",
             }
@@ -523,6 +617,7 @@ def main():
     fetch_google_routes(display, routes, now)
     fetch_li_routes(li_jobs, routes, stations, now)
     fetch_company_counts(display, now)
+    fetch_violations(display, now)
     routes = {k: v for k, v in routes.items() if k in state}  # 跟著 state 一起清舊資料
 
     # 離巨蛋站近的優先(沒有座標的排最後)
@@ -569,6 +664,8 @@ def job_row_html(j: dict) -> str:
         badges.append("語言:" + "、".join(j["langs"]))
     if j["trip"]:
         badges.append("需出差/外派")
+    if j.get("vio_lb") or j.get("vio_osh"):
+        badges.append(f'<span style="color:#dc2626">⚠️ 近3年違規:勞基法 {j["vio_lb"]}・職安 {j["vio_osh"]} 件</span>')
     meta = f'{j["area"]}|{j["period"]}' + ("|" + "|".join(badges) if badges else "")
     color = "#d97706" if j["salary_class"] == "negotiable" else "#059669"
     parts = []
