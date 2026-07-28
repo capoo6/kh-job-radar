@@ -1,95 +1,5 @@
 [
  {
-  "no": "12622586",
-  "name": "業務秘書",
-  "company": "瑞滬企業股份有限公司",
-  "url": "https://www.104.com.tw/job/7ijne",
-  "co_url": "https://www.104.com.tw/company/7qafdy0",
-  "area": "高雄市左營區",
-  "industry": "綜合商品批發代理業",
-  "date": "2026-07-22",
-  "apply": 3,
-  "salary": "月薪 35,000~38,000 元",
-  "salary_class": "salary",
-  "salary_m": 35000,
-  "period": "3 年以上經歷",
-  "employees": 30,
-  "cust_no": "16827111000",
-  "co_jobs": 4,
-  "co_other": 2,
-  "co_plus": false,
-  "vio_lb": 0,
-  "vio_osh": 0,
-  "vio_oth": 0,
-  "vio_latest": "",
-  "langs": [
-   "英文(略懂)"
-  ],
-  "trip": false,
-  "remote": false,
-  "desc": "1.公司國內外參展展務處理。 2.中英文行銷文案規劃與素材設計、美編。 3.中英文網站圖文內容編排與更新。 4.業務部門文書資料處理、彙整、建檔。 5.客戶信件回覆與資料維護。 6.主管交辦事頁。 ",
-  "lat": 22.6653181,
-  "lon": 120.3035174,
-  "first_seen": "2026-07-27",
-  "is_new": false,
-  "dist_km": 0.0,
-  "drive_km": 0.2,
-  "drive_min": 1,
-  "transit_min": 1,
-  "near_st": "巨蛋",
-  "near_line": "紅線",
-  "walk_m": 50,
-  "peak": true,
-  "approx": false,
-  "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6653181,120.3035174&travelmode=driving",
-  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6653181,120.3035174&travelmode=transit"
- },
- {
-  "no": "15299062",
-  "name": "外貿專員(海外外派)",
-  "company": "瑞滬企業股份有限公司",
-  "url": "https://www.104.com.tw/job/93wty",
-  "co_url": "https://www.104.com.tw/company/7qafdy0",
-  "area": "高雄市左營區",
-  "industry": "綜合商品批發代理業",
-  "date": "2026-07-22",
-  "apply": 8,
-  "salary": "面議(經常性薪資達4萬元)",
-  "salary_class": "negotiable",
-  "salary_m": 40001,
-  "period": "3 年以上經歷",
-  "employees": 30,
-  "cust_no": "16827111000",
-  "co_jobs": 4,
-  "co_other": 2,
-  "co_plus": false,
-  "vio_lb": 0,
-  "vio_osh": 0,
-  "vio_oth": 0,
-  "vio_latest": "",
-  "langs": [
-   "英文(略懂)"
-  ],
-  "trip": false,
-  "remote": false,
-  "desc": "1.國外客戶接待與關係維護、新客戶開發與追蹤、客訴處理、海外參展 2.處理國內外訂單業務(信件、報價、訂單、掌握生產進度、追蹤交期、出貨等)以達業績目標。 3.國內供應商採購詢價、內部行政事務。 4.英文聽說寫流暢且具獨立作業能力。 5.熟悉電腦文書作業、具相關產業工作經驗者尤佳。。",
-  "lat": 22.665,
-  "lon": 120.303724,
-  "first_seen": "2026-07-27",
-  "is_new": false,
-  "dist_km": 0.1,
-  "drive_km": 0.2,
-  "drive_min": 1,
-  "transit_min": 2,
-  "near_st": "巨蛋",
-  "near_line": "紅線",
-  "walk_m": 100,
-  "peak": true,
-  "approx": false,
-  "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.665,120.303724&travelmode=driving",
-  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.665,120.303724&travelmode=transit"
- },
- {
   "no": "6231852",
   "name": "外貿專員",
   "company": "瑞滬企業股份有限公司",
@@ -112,6 +22,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -157,6 +68,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -202,6 +114,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -247,6 +160,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -292,6 +206,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -337,6 +252,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -380,6 +296,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -425,6 +342,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)",
    "日文(略懂)"
@@ -471,6 +389,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -516,6 +435,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "俄文(精通)",
    "英文(中等)"
@@ -562,6 +482,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -607,6 +528,23 @@
   "vio_osh": 3,
   "vio_oth": 0,
   "vio_latest": "2025-06-09",
+  "vio_items": [
+   {
+    "date": "2025-06-09",
+    "law": "",
+    "txt": ""
+   },
+   {
+    "date": "2024-03-09",
+    "law": "",
+    "txt": ""
+   },
+   {
+    "date": "2024-03-09",
+    "law": "職業安全衛生法第27條第1項第1、2、3款",
+    "txt": "事業單位與承攬人分別僱用勞工共同作業時，為防止職業災害，原事業單位應採取下列必要措施：一、設立協議組織，並指定工作場所負責人，擔任指揮、監督及協調之工作。二、工作之連繫與調整。三、工作場所之巡視。…。"
+   }
+  ],
   "langs": [
    "英文(略懂)"
   ],
@@ -652,6 +590,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -695,6 +634,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -740,6 +680,13 @@
   "vio_osh": 1,
   "vio_oth": 0,
   "vio_latest": "2023-11-07",
+  "vio_items": [
+   {
+    "date": "2023-11-07",
+    "law": "職業安全衛生設施規則第21條及職業安全衛生設施規則第287條暨職業安全衛生法第6條第1項",
+    "txt": "雇主對於勞工工作場所之通道、地板、階梯、坡道、工作台或其他勞工踩踏場所，未保持不致使勞工跌倒、滑倒、踩傷、滾落等之安全狀態，或採取必要之預防措施；對於勞工有暴露於高溫、低溫、非游離輻射線、生物病原體、有害氣體、蒸氣、粉塵"
+   }
+  ],
   "langs": [
    "英文(精通)"
   ],
@@ -785,6 +732,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -830,6 +778,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -875,6 +824,18 @@
   "vio_osh": 2,
   "vio_oth": 0,
   "vio_latest": "2024-05-07",
+  "vio_items": [
+   {
+    "date": "2024-05-07",
+    "law": "職業安全衛生設施規則第245條、同規則第250條暨職業安全衛生法第6條第1項",
+    "txt": ""
+   },
+   {
+    "date": "2023-08-04",
+    "law": "職業安全衛生設施規則第43條第1項及機械設備器具安全標準第97條第1項暨職業安全衛生法第6條第1項",
+    "txt": "雇主對於機械之原動機、轉軸、齒輪、帶輪、飛輪、傳動輪、傳動帶等有危害勞工之虞之部分，未有護罩、護圍、套胴、跨橋等設備；研磨輪之護罩，未依規定覆蓋。"
+   }
+  ],
   "langs": [
    "英文(中等)"
   ],
@@ -920,6 +881,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -965,6 +927,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -1008,6 +971,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -1053,6 +1017,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -1072,51 +1037,6 @@
   "approx": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6590145,120.3158518&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6590145,120.3158518&travelmode=transit"
- },
- {
-  "no": "13286757",
-  "name": "外貿業務開發/助理人員",
-  "company": "鑫廣工業有限公司",
-  "url": "https://www.104.com.tw/job/7ws4l",
-  "co_url": "https://www.104.com.tw/company/1a2x6bi5pq",
-  "area": "高雄市三民區",
-  "industry": "汽機車及其零配件用品／批發業",
-  "date": "2026-07-22",
-  "apply": 0,
-  "salary": "月薪 30,000~50,000 元",
-  "salary_class": "salary",
-  "salary_m": 30000,
-  "period": "2 年以上經歷",
-  "employees": 30,
-  "cust_no": "130000000008302",
-  "co_jobs": 2,
-  "co_other": 0,
-  "co_plus": true,
-  "vio_lb": 0,
-  "vio_osh": 0,
-  "vio_oth": 0,
-  "vio_latest": "",
-  "langs": [
-   "英文(略懂)"
-  ],
-  "trip": false,
-  "remote": false,
-  "desc": "1.高額開發獎金 2.開發新客戶，負責報價及訂單相關事宜。 3.負責安排及接待客戶來訪之相關事宜。 4.協助國內外參展的規劃與執行。 5.定期提供業務接單狀況分析報表。 6.協助聯繫各部門與客戶之相關事務。 ",
-  "lat": 22.6533051,
-  "lon": 120.309724,
-  "first_seen": "2026-07-27",
-  "is_new": false,
-  "dist_km": 1.5,
-  "drive_km": 2.1,
-  "drive_min": 6,
-  "transit_min": 16,
-  "near_st": "新上國小",
-  "near_line": "輕軌",
-  "walk_m": 400,
-  "peak": true,
-  "approx": false,
-  "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6533051,120.309724&travelmode=driving",
-  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6533051,120.309724&travelmode=transit"
  },
  {
   "no": "6028026",
@@ -1141,6 +1061,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -1186,6 +1107,13 @@
   "vio_osh": 1,
   "vio_oth": 0,
   "vio_latest": "2025-05-05",
+  "vio_items": [
+   {
+    "date": "2025-05-05",
+    "law": "職業安全衛生管理辦法第3條第1項暨職業安全衛生法第23條第1項",
+    "txt": "未設置管理人員。"
+   }
+  ],
   "langs": [
    "英文(精通)"
   ],
@@ -1231,6 +1159,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(中等)"
   ],
@@ -1276,6 +1205,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -1321,6 +1251,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": true,
@@ -1364,6 +1295,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": true,
@@ -1407,6 +1339,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": true,
@@ -1450,6 +1383,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -1493,6 +1427,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": true,
   "remote": true,
@@ -1536,6 +1471,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": true,
@@ -1579,6 +1515,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": true,
@@ -1622,6 +1559,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": true,
@@ -1665,6 +1603,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -1708,6 +1647,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -1753,6 +1693,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -1798,6 +1739,13 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "2023-10-04",
+  "vio_items": [
+   {
+    "date": "2023-10-04",
+    "law": "勞動基準法第32條第2項",
+    "txt": "延長工作時間超過法令規定。"
+   }
+  ],
   "langs": [
    "英文(精通)"
   ],
@@ -1843,6 +1791,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -1886,6 +1835,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -1931,6 +1881,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -1976,6 +1927,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(中等)"
   ],
@@ -2021,6 +1973,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -2063,9 +2016,10 @@
   "co_other": 0,
   "co_plus": false,
   "vio_lb": 0,
-  "vio_osh": 2,
+  "vio_osh": 0,
   "vio_oth": 0,
-  "vio_latest": "2024-04-09",
+  "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)",
    "日文(略懂)"
@@ -2112,6 +2066,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -2157,6 +2112,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(中等)"
   ],
@@ -2202,6 +2158,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -2247,6 +2204,13 @@
   "vio_osh": 0,
   "vio_oth": 1,
   "vio_latest": "2023-08-10",
+  "vio_items": [
+   {
+    "date": "2023-08-10",
+    "law": "勞工職業災害保險及保護法第17條",
+    "txt": "投保薪資金額以多報少或以少報多，或未於期限內通知月投保薪資之調整。"
+   }
+  ],
   "langs": [
    "英文(略懂)"
   ],
@@ -2292,6 +2256,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -2335,6 +2300,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -2378,6 +2344,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -2421,6 +2388,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -2464,6 +2432,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -2509,6 +2478,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -2554,6 +2524,13 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "2024-01-05",
+  "vio_items": [
+   {
+    "date": "2024-01-05",
+    "law": "勞動基準法第32條第2項",
+    "txt": "延長工作時間超過法令規定"
+   }
+  ],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -2597,6 +2574,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "日文(精通)",
    "英文(中等)"
@@ -2643,6 +2621,18 @@
   "vio_osh": 2,
   "vio_oth": 0,
   "vio_latest": "2026-01-12",
+  "vio_items": [
+   {
+    "date": "2026-01-12",
+    "law": "職業安全衛生法第6條第1項第1款",
+    "txt": "對於捲曲機之調整有導致危害勞工之虞，未停止相關機械運轉。"
+   },
+   {
+    "date": "2025-06-11",
+    "law": "職業安全衛生法第6條第1項第5款",
+    "txt": "對於使勞工從事水池底泥清潔後驗收作業，勞工至深度4公尺池底過程中有墜落之虞者，未使勞工確實使用安全帶、安全帽及其他必要之防護具。"
+   }
+  ],
   "langs": [
    "英文(略懂)"
   ],
@@ -2688,6 +2678,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(中等)"
   ],
@@ -2733,6 +2724,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -2776,6 +2768,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -2786,6 +2779,50 @@
   "lon": 120.2685799,
   "first_seen": "2026-07-27",
   "is_new": false,
+  "dist_km": 4.0,
+  "drive_km": 4.8,
+  "drive_min": 12,
+  "transit_min": 59,
+  "near_st": "馬卡道",
+  "near_line": "輕軌",
+  "walk_m": 1350,
+  "peak": true,
+  "approx": false,
+  "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6495866,120.2685799&travelmode=driving",
+  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6495866,120.2685799&travelmode=transit"
+ },
+ {
+  "no": "11600742",
+  "name": "門市人員【底薪+獎金】(高雄店)",
+  "company": "LoisBaby孕。童攝影_童畫王國攝影館",
+  "url": "https://www.104.com.tw/job/6wn6u",
+  "co_url": "https://www.104.com.tw/company/1a2x6bjr74",
+  "area": "高雄市鼓山區",
+  "industry": "攝影沖印服務業",
+  "date": "2026-07-28",
+  "apply": 3,
+  "salary": "月薪 29,500~50,000 元",
+  "salary_class": "salary",
+  "salary_m": 29500,
+  "period": "經歷不拘",
+  "employees": 35,
+  "cust_no": "130000000082800",
+  "co_jobs": 6,
+  "co_other": 6,
+  "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
+  "vio_items": [],
+  "langs": [],
+  "trip": false,
+  "remote": false,
+  "desc": "✿在LoisBaby，你不只是門市人員，更是陪伴家庭走進影像記憶的第一位溫暖向導✿ 【一、接待與顧客服務】 ・親切迎接到店的家庭/協助引導家庭入場，營造安心、溫暖的氛圍。 ・協助孕媽咪、爸爸與小寶貝了解拍攝流程。 ・主動關心客戶需求，提供合適的方案說明。 ・維持門市環境整潔。 【二、預約管理與溝通協調】 ・協助處理拍攝",
+  "lat": 22.6495866,
+  "lon": 120.2685799,
+  "first_seen": "2026-07-28",
+  "is_new": true,
   "dist_km": 4.0,
   "drive_km": 4.8,
   "drive_min": 12,
@@ -2821,6 +2858,58 @@
   "vio_osh": 0,
   "vio_oth": 7,
   "vio_latest": "2025-10-13",
+  "vio_items": [
+   {
+    "date": "2025-10-13",
+    "law": "",
+    "txt": ""
+   },
+   {
+    "date": "2025-09-04",
+    "law": "勞動基準法第22條第2項",
+    "txt": "工資未全額給付"
+   },
+   {
+    "date": "2025-07-10",
+    "law": "",
+    "txt": ""
+   },
+   {
+    "date": "2025-04-10",
+    "law": "",
+    "txt": ""
+   },
+   {
+    "date": "2025-02-10",
+    "law": "",
+    "txt": ""
+   },
+   {
+    "date": "2025-02-10",
+    "law": "",
+    "txt": ""
+   },
+   {
+    "date": "2024-12-10",
+    "law": "",
+    "txt": ""
+   },
+   {
+    "date": "2024-08-16",
+    "law": "勞動基準法第39條",
+    "txt": "假日工資未給或於休假日工作未依規定加給工資"
+   },
+   {
+    "date": "2024-08-16",
+    "law": "勞動基準法第24條",
+    "txt": "延長工作時間未依規定加給工資"
+   },
+   {
+    "date": "2023-08-10",
+    "law": "",
+    "txt": ""
+   }
+  ],
   "langs": [
    "英文(略懂)"
   ],
@@ -2866,6 +2955,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -2909,6 +2999,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -2953,6 +3044,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)",
    "日文(精通)"
@@ -2999,6 +3091,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)",
    "日文(精通)"
@@ -3045,6 +3138,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)",
    "日文(精通)"
@@ -3091,6 +3185,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -3136,6 +3231,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "日文(略懂)"
   ],
@@ -3181,6 +3277,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(中等)"
   ],
@@ -3226,6 +3323,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -3247,51 +3345,6 @@
   "approx": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6274756,120.2927454&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6274756,120.2927454&travelmode=transit"
- },
- {
-  "no": "15293315",
-  "name": "南區醫療設備產品專員-擴大編制",
-  "company": "台灣達孚股份有限公司",
-  "url": "https://www.104.com.tw/job/93seb",
-  "co_url": "https://www.104.com.tw/company/5rek3q0",
-  "area": "高雄市前金區",
-  "industry": "醫療器材製造業",
-  "date": "2026-07-22",
-  "apply": 1,
-  "salary": "面議(經常性薪資達4萬元)",
-  "salary_class": "negotiable",
-  "salary_m": 40001,
-  "period": "2 年以上經歷",
-  "employees": 0,
-  "cust_no": "12540951000",
-  "co_jobs": 5,
-  "co_other": 2,
-  "co_plus": true,
-  "vio_lb": 0,
-  "vio_osh": 0,
-  "vio_oth": 0,
-  "vio_latest": "",
-  "langs": [
-   "英文(精通)"
-  ],
-  "trip": false,
-  "remote": false,
-  "desc": "1. 全球醫療頂尖品牌-BK超音波,GE X光機, STERIS滅菌設備及耗材推廣活動 2. 維護客戶關係 3. 參加原廠活動, 公司會議, 培訓和展覽 4. 遵守公司政策規章及作業流程 ※提供完整教育訓練及各項補助(含油資、停車費及手機等)※",
-  "lat": 22.6281772,
-  "lon": 120.293067,
-  "first_seen": "2026-07-27",
-  "is_new": false,
-  "dist_km": 4.3,
-  "drive_km": 5.1,
-  "drive_min": 13,
-  "transit_min": 29,
-  "near_st": "前金",
-  "near_line": "橘線",
-  "walk_m": 200,
-  "peak": true,
-  "approx": false,
-  "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6281772,120.293067&travelmode=driving",
-  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6281772,120.293067&travelmode=transit"
  },
  {
   "no": "4906195",
@@ -3316,6 +3369,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -3361,6 +3415,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -3406,6 +3461,13 @@
   "vio_osh": 1,
   "vio_oth": 0,
   "vio_latest": "2026-04-15",
+  "vio_items": [
+   {
+    "date": "2026-04-15",
+    "law": "職業安全衛生法第6條第1項第1款",
+    "txt": "對於使用座式操作之配衡型堆高機，擔任駕駛之勞工未確實使用駕駛座安全帶。"
+   }
+  ],
   "langs": [
    "英文(略懂)"
   ],
@@ -3451,6 +3513,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -3496,6 +3559,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -3541,6 +3605,13 @@
   "vio_osh": 1,
   "vio_oth": 0,
   "vio_latest": "2023-09-07",
+  "vio_items": [
+   {
+    "date": "2023-09-07",
+    "law": "職業安全衛生設施規則第21條暨職業安全衛生法第6條第1項",
+    "txt": "雇主對於勞工工作場所之通道、地板、階梯、坡道、工作台或其他勞工踩踏場所，未保持不致使勞工跌倒、滑倒、踩傷、滾落等之安全狀態，或採取必要之預防措施。"
+   }
+  ],
   "langs": [
    "英文(略懂)"
   ],
@@ -3586,6 +3657,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -3631,6 +3703,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -3676,6 +3749,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -3721,6 +3795,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -3766,6 +3841,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -3811,6 +3887,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -3856,6 +3933,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -3901,6 +3979,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -3946,6 +4025,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -3991,6 +4071,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -4036,6 +4117,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(中等)"
   ],
@@ -4081,6 +4163,18 @@
   "vio_osh": 0,
   "vio_oth": 1,
   "vio_latest": "2025-10-07",
+  "vio_items": [
+   {
+    "date": "2025-10-07",
+    "law": "勞動基準法第30條第6項",
+    "txt": "出勤紀錄未逐日記載勞工出勤情形至分鐘為止"
+   },
+   {
+    "date": "2023-12-11",
+    "law": "",
+    "txt": ""
+   }
+  ],
   "langs": [
    "英文(中等)"
   ],
@@ -4126,6 +4220,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -4171,6 +4266,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -4216,6 +4312,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -4259,6 +4356,13 @@
   "vio_osh": 0,
   "vio_oth": 1,
   "vio_latest": "2026-01-15",
+  "vio_items": [
+   {
+    "date": "2026-01-15",
+    "law": "勞工職業災害保險及保護法第12條",
+    "txt": "未為所屬勞工辦理投保、退保手續。"
+   }
+  ],
   "langs": [
    "英文(精通)"
   ],
@@ -4304,6 +4408,13 @@
   "vio_osh": 0,
   "vio_oth": 1,
   "vio_latest": "2026-01-15",
+  "vio_items": [
+   {
+    "date": "2026-01-15",
+    "law": "勞工職業災害保險及保護法第12條",
+    "txt": "未為所屬勞工辦理投保、退保手續。"
+   }
+  ],
   "langs": [
    "英文(精通)"
   ],
@@ -4349,6 +4460,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -4394,6 +4506,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": true,
   "remote": true,
@@ -4437,6 +4550,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -4482,6 +4596,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -4525,6 +4640,28 @@
   "vio_osh": 4,
   "vio_oth": 0,
   "vio_latest": "2025-11-14",
+  "vio_items": [
+   {
+    "date": "2025-11-14",
+    "law": "職業安全衛生法第6條第1項第1款",
+    "txt": "對於車床加工調整作業有導致危害勞工之虞，未停止相關機械運轉及送料。"
+   },
+   {
+    "date": "2025-08-11",
+    "law": "職業安全衛生法第6條第1項第1款",
+    "txt": "對於以動力驅動之衝剪機械，未具有安全護圍、安全模、特定用途之專用衝剪機械或自動衝剪機械。"
+   },
+   {
+    "date": "2024-07-11",
+    "law": "職業安全衛生法第6條第1項第13款",
+    "txt": "對於廠內勞工行經通道時，未確實保持不致使勞工跌倒、滑倒、踩傷、滾落等之安全狀態，或採取必要之預防措施，至勞工發生職業災害。"
+   },
+   {
+    "date": "2024-07-11",
+    "law": "職業安全衛生法第37條第2項第3款",
+    "txt": "事業單位勞動場所發生災害之罹災人數在一人以上，且需住院治療之職業災害時，雇主未於8小時內通報勞動檢查機構。"
+   }
+  ],
   "langs": [
    "英文(精通)"
   ],
@@ -4570,6 +4707,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -4615,6 +4753,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -4660,6 +4799,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -4705,6 +4845,18 @@
   "vio_osh": 0,
   "vio_oth": 2,
   "vio_latest": "2024-05-10",
+  "vio_items": [
+   {
+    "date": "2024-05-10",
+    "law": "",
+    "txt": ""
+   },
+   {
+    "date": "2024-04-10",
+    "law": "勞工職業災害保險及保護法第17條",
+    "txt": "投保薪資金額以多報少或以少報多，或未於期限內通知月投保薪資之調整。"
+   }
+  ],
   "langs": [
    "英文(中等)"
   ],
@@ -4750,6 +4902,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -4793,6 +4946,13 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "2024-11-04",
+  "vio_items": [
+   {
+    "date": "2024-11-04",
+    "law": "勞動基準法第24條;勞動基準法第32條第2項",
+    "txt": "延長工作時間未依規定加給工資;延長工作時間超過法令規定"
+   }
+  ],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -4836,6 +4996,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -4881,6 +5042,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -4926,6 +5088,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -4970,6 +5133,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -5014,6 +5178,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "西班牙文(中等)"
   ],
@@ -5059,6 +5224,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -5104,6 +5270,13 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "2026-05-08",
+  "vio_items": [
+   {
+    "date": "2026-05-08",
+    "law": "勞動基準法第32條第2項",
+    "txt": "延長工作時間超過法定1個月46小時之限制"
+   }
+  ],
   "langs": [
    "英文(精通)"
   ],
@@ -5149,6 +5322,13 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "2026-05-08",
+  "vio_items": [
+   {
+    "date": "2026-05-08",
+    "law": "勞動基準法第32條第2項",
+    "txt": "延長工作時間超過法定1個月46小時之限制"
+   }
+  ],
   "langs": [
    "英文(精通)"
   ],
@@ -5194,6 +5374,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -5239,6 +5420,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -5284,6 +5466,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -5329,6 +5512,13 @@
   "vio_osh": 0,
   "vio_oth": 1,
   "vio_latest": "2025-11-14",
+  "vio_items": [
+   {
+    "date": "2025-11-14",
+    "law": "勞工職業災害保險及保護法第12條",
+    "txt": "未為所屬勞工辦理投保、退保手續。"
+   }
+  ],
   "langs": [
    "英文(精通)"
   ],
@@ -5374,6 +5564,43 @@
   "vio_osh": 0,
   "vio_oth": 4,
   "vio_latest": "2026-07-15",
+  "vio_items": [
+   {
+    "date": "2026-07-15",
+    "law": "勞工職業災害保險及保護法第12條",
+    "txt": "未為所屬勞工辦理投保、退保手續。"
+   },
+   {
+    "date": "2026-04-15",
+    "law": "勞工職業災害保險及保護法第12條",
+    "txt": "未為所屬勞工辦理投保、退保手續。"
+   },
+   {
+    "date": "2025-12-05",
+    "law": "勞動基準法第22條第2項",
+    "txt": "工資未依法給付給勞工"
+   },
+   {
+    "date": "2025-06-10",
+    "law": "勞工職業災害保險及保護法第12條",
+    "txt": "未為所屬勞工辦理投保、退保手續。"
+   },
+   {
+    "date": "2025-03-05",
+    "law": "勞動基準法第24條第1項",
+    "txt": "延長工作時間未依規定加給工資"
+   },
+   {
+    "date": "2023-11-10",
+    "law": "",
+    "txt": ""
+   },
+   {
+    "date": "2023-08-07",
+    "law": "勞動基準法第36條第1項",
+    "txt": "未使勞工每7日中有2日之休息，其中1日為例假，1日為休息日"
+   }
+  ],
   "langs": [
    "英文(略懂)"
   ],
@@ -5419,6 +5646,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -5464,6 +5692,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(中等)"
   ],
@@ -5509,6 +5738,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)",
    "日文(略懂)"
@@ -5555,6 +5785,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -5600,6 +5831,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "日文(略懂)",
    "英文(精通)"
@@ -5646,6 +5878,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(中等)"
   ],
@@ -5691,6 +5924,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -5736,6 +5970,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -5781,6 +6016,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -5826,6 +6062,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -5870,6 +6107,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -5891,51 +6129,6 @@
   "approx": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6117632,120.3020774&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6117632,120.3020774&travelmode=transit"
- },
- {
-  "no": "11063417",
-  "name": "國外業務人員",
-  "company": "易連工業股份有限公司",
-  "url": "https://www.104.com.tw/job/6l4l5",
-  "co_url": "https://www.104.com.tw/company/13pjcyns",
-  "area": "高雄市苓雅區",
-  "industry": "其他金屬相關製造業",
-  "date": "2026-07-22",
-  "apply": 3,
-  "salary": "月薪 37,000 元以上",
-  "salary_class": "salary",
-  "salary_m": 37000,
-  "period": "經歷不拘",
-  "employees": 310,
-  "cust_no": "86438683000",
-  "co_jobs": 0,
-  "co_other": 0,
-  "co_plus": false,
-  "vio_lb": 0,
-  "vio_osh": 2,
-  "vio_oth": 0,
-  "vio_latest": "2026-05-13",
-  "langs": [
-   "英文(略懂)"
-  ],
-  "trip": false,
-  "remote": false,
-  "desc": "1. 熟悉欲銷售之產品、公司規章作業流程 2. 顧客市場開發並推銷產品 3. 市場訊息的蒐集與分析、客戶銷售方案的策劃與執行 4. 客戶關係的維護與顧客售後滿意度維持 (如: 顧客抱怨及問題反應處理、維持顧客對公司及業務員信賴度) 5. 定期與主管做業績、績效檢討，回報進度 6. 不定期國外參展開發客戶 7. 完成公司",
-  "lat": 22.6296986,
-  "lon": 120.327973,
-  "first_seen": "2026-07-27",
-  "is_new": false,
-  "dist_km": 4.7,
-  "drive_km": 6.4,
-  "drive_min": 18,
-  "transit_min": 32,
-  "near_st": "五塊厝",
-  "near_line": "橘線",
-  "walk_m": 50,
-  "peak": true,
-  "approx": false,
-  "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6296986,120.327973&travelmode=driving",
-  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6296986,120.327973&travelmode=transit"
  },
  {
   "no": "13847976",
@@ -5960,6 +6153,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "日文(略懂)"
   ],
@@ -6005,6 +6199,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -6050,6 +6245,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -6095,6 +6291,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)",
    "日文(精通)"
@@ -6141,6 +6338,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "印尼文(精通)"
   ],
@@ -6186,6 +6384,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "印尼文(精通)"
   ],
@@ -6231,6 +6430,13 @@
   "vio_osh": 1,
   "vio_oth": 0,
   "vio_latest": "2024-05-07",
+  "vio_items": [
+   {
+    "date": "2024-05-07",
+    "law": "職業安全衛生設施規則第57條第2項暨職業安全衛生法第6條第1項",
+    "txt": "前項機械停止運轉時，有彈簧等彈性元件、液壓、氣壓或真空蓄能等殘壓引起之危險者，雇主未採釋壓、關斷或阻隔等適當設備或措施。"
+   }
+  ],
   "langs": [
    "英文(略懂)"
   ],
@@ -6276,6 +6482,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -6321,6 +6528,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)",
    "西班牙文(略懂)"
@@ -6367,6 +6575,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -6411,6 +6620,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -6456,6 +6666,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(中等)"
   ],
@@ -6501,6 +6712,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -6546,6 +6758,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -6589,6 +6802,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -6634,6 +6848,43 @@
   "vio_osh": 1,
   "vio_oth": 0,
   "vio_latest": "2026-07-06",
+  "vio_items": [
+   {
+    "date": "2026-07-06",
+    "law": "性別平等工作法第21條第2項",
+    "txt": "受僱者為生理假相關之請求，遭受不利處分"
+   },
+   {
+    "date": "2026-06-11",
+    "law": "勞動基準法第24條第1項;勞動基準法第32條第2項",
+    "txt": "250,000"
+   },
+   {
+    "date": "2026-02-01",
+    "law": "勞動基準法第30條第5項",
+    "txt": "未依規定置備勞工出勤紀錄或出勤紀錄未依規定保存5年"
+   },
+   {
+    "date": "2025-11-06",
+    "law": "勞動基準法第36條",
+    "txt": "使勞工例假工作"
+   },
+   {
+    "date": "2025-07-16",
+    "law": "職業安全衛生設施規則第57條第1項暨職業安全衛生法第6條第1項",
+    "txt": "雇主對於機械、設備及其相關配件之掃除、上油、檢查、修理或調整有導致危害勞工之虞者，應停止相關機械運轉及送料。為防止他人操作該機械、設備及其相關配件之起動等裝置或誤送料，應採上鎖或設置標示等措施，並設置防止落下物導致危害勞"
+   },
+   {
+    "date": "2025-01-06",
+    "law": "勞動基準法第24條第1項;勞動基準法第32條第2項",
+    "txt": "未依規定給付工作日加班費;1日正常工作時間連同延長工作時間超過13小時"
+   },
+   {
+    "date": "2023-08-02",
+    "law": "勞動基準法第24條",
+    "txt": "未依規定給付延長工作時間工資"
+   }
+  ],
   "langs": [
    "英文(精通)"
   ],
@@ -6679,6 +6930,13 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "2026-03-11",
+  "vio_items": [
+   {
+    "date": "2026-03-11",
+    "law": "勞動基準法第24條",
+    "txt": "延長工作時間未依規定加給工資。"
+   }
+  ],
   "langs": [
    "英文(略懂)"
   ],
@@ -6724,6 +6982,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -6769,6 +7028,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)",
    "日文(精通)"
@@ -6815,6 +7075,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -6860,6 +7121,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -6905,6 +7167,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -6950,6 +7213,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -6995,6 +7259,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -7040,6 +7305,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -7085,6 +7351,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -7128,6 +7395,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -7173,6 +7441,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -7218,6 +7487,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -7263,6 +7533,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -7308,6 +7579,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -7353,6 +7625,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -7398,6 +7671,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -7443,6 +7717,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -7488,6 +7763,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -7533,6 +7809,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -7578,6 +7855,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -7623,6 +7901,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -7666,6 +7945,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -7711,6 +7991,13 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "2024-01-07",
+  "vio_items": [
+   {
+    "date": "2024-01-07",
+    "law": "勞動基準法第24條;勞動基準法第32條;勞動基準法第36條",
+    "txt": "未依規定發給勞工延長工作時間工資;使勞工超時工作;使勞工連續工作7天以上"
+   }
+  ],
   "langs": [
    "英文(略懂)"
   ],
@@ -7756,6 +8043,68 @@
   "vio_osh": 1,
   "vio_oth": 2,
   "vio_latest": "2026-07-09",
+  "vio_items": [
+   {
+    "date": "2026-07-09",
+    "law": "職業安全衛生設施規則第287條暨職業安全衛生法第6條第1項",
+    "txt": "雇主對於勞工有暴露於高溫、低溫、非游離輻射線、生物病原體、有害氣體、蒸氣、粉塵或其他有害物之虞者，應置備適當安全衛生防護具，並使勞工確實使用。"
+   },
+   {
+    "date": "2025-04-08",
+    "law": "勞動基準法第22條第2項",
+    "txt": "工資未全額給付移工"
+   },
+   {
+    "date": "2024-12-04",
+    "law": "勞動基準法第24條第1項;勞動基準法第32條第2項",
+    "txt": "未依規定給付工作日加班費;1日正常工作時間連同延長工作時間超過12小時"
+   },
+   {
+    "date": "2024-10-08",
+    "law": "勞動基準法第24條第2項",
+    "txt": "未依規定給付休息日加班費"
+   },
+   {
+    "date": "2024-10-08",
+    "law": "勞動基準法第24條第2項",
+    "txt": "未依規定給付休息日加班費"
+   },
+   {
+    "date": "2024-10-08",
+    "law": "勞動基準法第24條第2項",
+    "txt": "未依規定給付休息日加班費"
+   },
+   {
+    "date": "2024-07-04",
+    "law": "勞動基準法第24條第2項",
+    "txt": "休息日延長工作時間之工資未加給。"
+   },
+   {
+    "date": "2024-07-04",
+    "law": "勞動基準法第24條第2項",
+    "txt": "休息日延長工作時間之工資未加給。"
+   },
+   {
+    "date": "2024-07-04",
+    "law": "勞動基準法第24條第2項",
+    "txt": "休息日延長工作時間之工資未加給。"
+   },
+   {
+    "date": "2024-07-04",
+    "law": "勞動基準法第24條第2項;勞動基準法第32條第2項",
+    "txt": "休息日延長工作時間之工資未加給;延長之工作時間1個月不得超過46小時。"
+   },
+   {
+    "date": "2024-05-01",
+    "law": "勞動基準法第22條",
+    "txt": "未依規定工資應全額直接給付勞工"
+   },
+   {
+    "date": "2024-03-05",
+    "law": "勞動基準法第24條第2項;勞動基準法第32條第2項",
+    "txt": "未依規定給付勞工休息日延長工作時間之工資,使勞工1個月延長工作時間逾法定上限"
+   }
+  ],
   "langs": [
    "英文(精通)"
   ],
@@ -7801,6 +8150,13 @@
   "vio_osh": 1,
   "vio_oth": 0,
   "vio_latest": "2026-04-03",
+  "vio_items": [
+   {
+    "date": "2026-04-03",
+    "law": "職業安全衛生法第26條第2項",
+    "txt": "承攬人未事前告知再承攬人依規定應採取措施。"
+   }
+  ],
   "langs": [
    "英文(略懂)"
   ],
@@ -7846,6 +8202,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -7885,10 +8242,11 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
-  "vio_lb": 4,
-  "vio_osh": 2,
+  "vio_lb": 0,
+  "vio_osh": 0,
   "vio_oth": 0,
-  "vio_latest": "2026-02-01",
+  "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -7934,6 +8292,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -7975,10 +8334,11 @@
   "co_jobs": 0,
   "co_other": 0,
   "co_plus": false,
-  "vio_lb": 4,
-  "vio_osh": 2,
+  "vio_lb": 0,
+  "vio_osh": 0,
   "vio_oth": 0,
-  "vio_latest": "2026-02-01",
+  "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -8024,6 +8384,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(中等)"
   ],
@@ -8069,6 +8430,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -8114,6 +8476,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -8159,6 +8522,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -8204,6 +8568,13 @@
   "vio_osh": 1,
   "vio_oth": 0,
   "vio_latest": "2024-04-16",
+  "vio_items": [
+   {
+    "date": "2024-04-16",
+    "law": "職業安全衛生法第6條第1項",
+    "txt": "罹災勞工在所設廠房操作桌上型沖床機(屏加-沖床-12)，欲收集下腳料時，不慎誤踩踏板開關，致右手大拇指壓傷之職災憾事。"
+   }
+  ],
   "langs": [
    "英文(略懂)"
   ],
@@ -8249,6 +8620,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)",
    "俄文(略懂)"
@@ -8295,6 +8667,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)",
    "越南文(略懂)"
@@ -8341,6 +8714,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)",
    "越南文(略懂)"
@@ -8387,6 +8761,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)",
    "越南文(略懂)"
@@ -8433,6 +8808,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -8478,6 +8854,33 @@
   "vio_osh": 0,
   "vio_oth": 5,
   "vio_latest": "2026-05-15",
+  "vio_items": [
+   {
+    "date": "2026-05-15",
+    "law": "",
+    "txt": ""
+   },
+   {
+    "date": "2026-04-15",
+    "law": "",
+    "txt": ""
+   },
+   {
+    "date": "2026-03-13",
+    "law": "",
+    "txt": ""
+   },
+   {
+    "date": "2025-12-15",
+    "law": "",
+    "txt": ""
+   },
+   {
+    "date": "2025-10-13",
+    "law": "",
+    "txt": ""
+   }
+  ],
   "langs": [
    "英文(略懂)"
   ],
@@ -8523,6 +8926,28 @@
   "vio_osh": 1,
   "vio_oth": 0,
   "vio_latest": "2026-05-13",
+  "vio_items": [
+   {
+    "date": "2026-05-13",
+    "law": "勞基法第32條第2項",
+    "txt": "延長工作時間超過法令規定"
+   },
+   {
+    "date": "2026-02-01",
+    "law": "勞動基準法第32條第2項;勞動基準法第39條",
+    "txt": "延長工作時間超過法令規定;依規定應放假之日出勤，未依規定加給工資"
+   },
+   {
+    "date": "2026-02-01",
+    "law": "勞動基準法第22條第2項;勞動基準法第24條第1項;勞動基準法第24條第2項;勞動基準法第32條第2項",
+    "txt": "工資未全額直接給付勞工;延長工作時間未依規定加給工資;休息日出勤未依規定加給工資;延長工作時間超過法令規定"
+   },
+   {
+    "date": "2025-10-09",
+    "law": "職業安全衛生設施規則第153條暨職業安全衛生法第6條第1項",
+    "txt": "雇主對於搬運、堆放或處置物料，為防止倒塌、崩塌或掉落，應採取繩索捆綁、護網、擋樁、限制高度或變更堆積等必要設施，並禁止與作業無關人員進入該等場所。"
+   }
+  ],
   "langs": [
    "英文(略懂)"
   ],
@@ -8568,6 +8993,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -8589,52 +9015,6 @@
   "approx": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6858298,120.3611179&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6858298,120.3611179&travelmode=transit"
- },
- {
-  "no": "15124358",
-  "name": "日文業務/SA320(高雄)",
-  "company": "致茂電子股份有限公司",
-  "url": "https://www.104.com.tw/job/90612",
-  "co_url": "https://www.104.com.tw/company/4cgulm0",
-  "area": "高雄市楠梓區",
-  "industry": "其他電子零組件相關業",
-  "date": "2026-07-23",
-  "apply": 2,
-  "salary": "面議(經常性薪資達4萬元)",
-  "salary_class": "negotiable",
-  "salary_m": 40001,
-  "period": "3 年以上經歷",
-  "employees": 1950,
-  "cust_no": "9461025000",
-  "co_jobs": 0,
-  "co_other": 0,
-  "co_plus": false,
-  "vio_lb": 3,
-  "vio_osh": 1,
-  "vio_oth": 0,
-  "vio_latest": "2026-05-13",
-  "langs": [
-   "英文(略懂)",
-   "日文(略懂)"
-  ],
-  "trip": false,
-  "remote": false,
-  "desc": "負責銷售半導體自動化設備 1、海外客戶需求開發與專案管理 2、訂單交付與管理 3、協助內部 RD/FAE 進行客戶需求評估 4、協助取得市場同業產品訊息 5、分公司 / 代理商業務支援與訓練",
-  "lat": 22.7258695,
-  "lon": 120.3101293,
-  "first_seen": "2026-07-27",
-  "is_new": false,
-  "dist_km": 6.7,
-  "drive_km": 8.6,
-  "drive_min": 25,
-  "transit_min": 33,
-  "near_st": "後勁",
-  "near_line": "紅線",
-  "walk_m": 750,
-  "peak": true,
-  "approx": false,
-  "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7258695,120.3101293&travelmode=driving",
-  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7258695,120.3101293&travelmode=transit"
  },
  {
   "no": "11819917",
@@ -8659,6 +9039,13 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "2025-04-09",
+  "vio_items": [
+   {
+    "date": "2025-04-09",
+    "law": "勞動基準法第22條第2項;勞動基準法第24條;勞動基準法第32條第2項",
+    "txt": "工資未全額直接給付勞工;延長工作時間未依規定加給工資;延長工作時間超過法令規定。"
+   }
+  ],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -8702,6 +9089,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -8747,6 +9135,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -8792,6 +9181,13 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "2023-09-06",
+  "vio_items": [
+   {
+    "date": "2023-09-06",
+    "law": "勞基法第24條第1項",
+    "txt": "延長工作時間未依規定加給工資"
+   }
+  ],
   "langs": [
    "英文(精通)"
   ],
@@ -8837,6 +9233,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -8882,6 +9279,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -8927,6 +9325,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -8970,6 +9369,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -9013,6 +9413,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -9058,6 +9459,13 @@
   "vio_osh": 0,
   "vio_oth": 1,
   "vio_latest": "2024-08-12",
+  "vio_items": [
+   {
+    "date": "2024-08-12",
+    "law": "",
+    "txt": ""
+   }
+  ],
   "langs": [
    "英文(略懂)"
   ],
@@ -9103,6 +9511,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -9148,6 +9557,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -9193,6 +9603,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -9238,6 +9649,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -9283,6 +9695,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -9328,6 +9741,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "日文(略懂)"
   ],
@@ -9373,6 +9787,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -9418,6 +9833,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -9463,6 +9879,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -9508,6 +9925,18 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "2023-09-10",
+  "vio_items": [
+   {
+    "date": "2023-09-10",
+    "law": "勞動基準法第32條第2項",
+    "txt": "延長工作時間超過法令規定。"
+   },
+   {
+    "date": "2023-09-07",
+    "law": "勞動基準法第24條;勞動基準法第32條第2項",
+    "txt": "延長工作時間未依規定加給工資;延長工作時間超過法令規定。"
+   }
+  ],
   "langs": [
    "日文(略懂)"
   ],
@@ -9553,6 +9982,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -9598,6 +10028,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -9642,6 +10073,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -9687,6 +10119,18 @@
   "vio_osh": 2,
   "vio_oth": 0,
   "vio_latest": "2023-09-28",
+  "vio_items": [
+   {
+    "date": "2023-09-28",
+    "law": "職業安全衛生法第6條第1項第1款",
+    "txt": "對於以動力驅動之衝壓機械，未具有安全護圍。"
+   },
+   {
+    "date": "2023-09-28",
+    "law": "職業安全衛生法第6條第1項第11款",
+    "txt": "對於從事危險物製造或處置之作業（鎂鋁合金屑料），未指定專人於製造或處置危險物之設備及其附屬設備，有異常時應即採取必要措施。"
+   }
+  ],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -9730,6 +10174,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -9775,6 +10220,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -9820,6 +10266,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -9865,6 +10312,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -9910,6 +10358,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -9955,6 +10404,18 @@
   "vio_osh": 0,
   "vio_oth": 2,
   "vio_latest": "2026-07-15",
+  "vio_items": [
+   {
+    "date": "2026-07-15",
+    "law": "",
+    "txt": ""
+   },
+   {
+    "date": "2025-10-13",
+    "law": "",
+    "txt": ""
+   }
+  ],
   "langs": [
    "英文(中等)"
   ],
@@ -10000,6 +10461,28 @@
   "vio_osh": 1,
   "vio_oth": 0,
   "vio_latest": "2026-05-04",
+  "vio_items": [
+   {
+    "date": "2026-05-04",
+    "law": "勞動基準法第32條第2項",
+    "txt": "延長工作時間超過法令規定。"
+   },
+   {
+    "date": "2024-10-07",
+    "law": "勞動基準法第24條;勞動基準法第32條第2項",
+    "txt": "延長工作時間未依規定加給工資;延長工作時間超過法令規定。"
+   },
+   {
+    "date": "2023-11-09",
+    "law": "勞動基準法第24條;勞動基準法第32條第2項",
+    "txt": "延長工作時間未依規定加給工資;延長工作時間超過法令規定。"
+   },
+   {
+    "date": "2023-07-31",
+    "law": "職業安全衛生法第6條第1項第1款",
+    "txt": "對於粉碎機內塑膠骨料之掃除，有導致危害勞工之虞，未停止相關機械運轉，致生勞工被夾之災害。"
+   }
+  ],
   "langs": [
    "英文(中等)"
   ],
@@ -10045,135 +10528,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
-  "langs": [],
-  "trip": false,
-  "remote": false,
-  "desc": "如果你對於徵信社-私家偵探有興趣，對抓姦、離婚相關、債務相關、感情挽回、投資詐騙、蒐證、工商調查、侵害配偶權等相關。並且你熱愛挑戰且渴望擁有自由度的工作環境，歡迎你加入我們的團隊！ **工作內容：** 作為徵信社業務，您將負責與客戶溝通、提供諮詢服務，並協助他們解決各類問題。您需要具備調查員的專業知識和經驗，並能夠熟練",
-  "lat": 22.6257799,
-  "lon": 120.3501548,
-  "first_seen": "2026-07-27",
-  "is_new": false,
-  "dist_km": 6.5,
-  "drive_km": 11.1,
-  "drive_min": 22,
-  "transit_min": 48,
-  "near_st": "鳳山西",
-  "near_line": "橘線",
-  "walk_m": 200,
-  "peak": true,
-  "approx": false,
-  "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6257799,120.3501548&travelmode=driving",
-  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6257799,120.3501548&travelmode=transit"
- },
- {
-  "no": "14936851",
-  "name": "徵信社離婚證人(高雄鼓山區)",
-  "company": "大愛徵信有限公司",
-  "url": "https://www.104.com.tw/job/8w5cj",
-  "co_url": "https://www.104.com.tw/company/60pvyww",
-  "area": "高雄市鳳山區",
-  "industry": "徵信相關業",
-  "date": "2026-07-23",
-  "apply": 0,
-  "salary": "月薪 30,000 元以上",
-  "salary_class": "salary",
-  "salary_m": 30000,
-  "period": "經歷不拘",
-  "employees": 300,
-  "cust_no": "13104176000",
-  "co_jobs": 8,
-  "co_other": 6,
-  "co_plus": true,
-  "vio_lb": 0,
-  "vio_osh": 0,
-  "vio_oth": 0,
-  "vio_latest": "",
-  "langs": [],
-  "trip": false,
-  "remote": false,
-  "desc": "如果你對於徵信社-私家偵探有興趣，對抓姦、離婚相關、債務相關、感情挽回、投資詐騙、蒐證、工商調查、侵害配偶權等相關。並且你熱愛挑戰且渴望擁有自由度的工作環境，歡迎你加入我們的團隊！ **工作內容：** 作為徵信社業務，您將負責與客戶溝通、提供諮詢服務，並協助他們解決各類問題。您需要具備調查員的專業知識和經驗，並能夠熟練",
-  "lat": 22.6257799,
-  "lon": 120.3501548,
-  "first_seen": "2026-07-27",
-  "is_new": false,
-  "dist_km": 6.5,
-  "drive_km": 11.1,
-  "drive_min": 22,
-  "transit_min": 48,
-  "near_st": "鳳山西",
-  "near_line": "橘線",
-  "walk_m": 200,
-  "peak": true,
-  "approx": false,
-  "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6257799,120.3501548&travelmode=driving",
-  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6257799,120.3501548&travelmode=transit"
- },
- {
-  "no": "14950052",
-  "name": "徵信社離婚證人(高雄梓官區)",
-  "company": "大愛徵信有限公司",
-  "url": "https://www.104.com.tw/job/8wfj8",
-  "co_url": "https://www.104.com.tw/company/60pvyww",
-  "area": "高雄市鳳山區",
-  "industry": "徵信相關業",
-  "date": "2026-07-23",
-  "apply": 0,
-  "salary": "月薪 30,000 元以上",
-  "salary_class": "salary",
-  "salary_m": 30000,
-  "period": "經歷不拘",
-  "employees": 300,
-  "cust_no": "13104176000",
-  "co_jobs": 8,
-  "co_other": 6,
-  "co_plus": true,
-  "vio_lb": 0,
-  "vio_osh": 0,
-  "vio_oth": 0,
-  "vio_latest": "",
-  "langs": [],
-  "trip": false,
-  "remote": false,
-  "desc": "如果你對於徵信社-私家偵探有興趣，對抓姦、離婚相關、債務相關、感情挽回、投資詐騙、蒐證、工商調查、侵害配偶權等相關。並且你熱愛挑戰且渴望擁有自由度的工作環境，歡迎你加入我們的團隊！ **工作內容：** 作為徵信社業務，您將負責與客戶溝通、提供諮詢服務，並協助他們解決各類問題。您需要具備調查員的專業知識和經驗，並能夠熟練",
-  "lat": 22.6257799,
-  "lon": 120.3501548,
-  "first_seen": "2026-07-27",
-  "is_new": false,
-  "dist_km": 6.5,
-  "drive_km": 11.1,
-  "drive_min": 22,
-  "transit_min": 48,
-  "near_st": "鳳山西",
-  "near_line": "橘線",
-  "walk_m": 200,
-  "peak": true,
-  "approx": false,
-  "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6257799,120.3501548&travelmode=driving",
-  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6257799,120.3501548&travelmode=transit"
- },
- {
-  "no": "14936860",
-  "name": "徵信社離婚證人(高雄前鎮區)",
-  "company": "大愛徵信有限公司",
-  "url": "https://www.104.com.tw/job/8w5cs",
-  "co_url": "https://www.104.com.tw/company/60pvyww",
-  "area": "高雄市鳳山區",
-  "industry": "徵信相關業",
-  "date": "2026-07-23",
-  "apply": 1,
-  "salary": "月薪 30,000 元以上",
-  "salary_class": "salary",
-  "salary_m": 30000,
-  "period": "經歷不拘",
-  "employees": 300,
-  "cust_no": "13104176000",
-  "co_jobs": 8,
-  "co_other": 6,
-  "co_plus": true,
-  "vio_lb": 0,
-  "vio_osh": 0,
-  "vio_oth": 0,
-  "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -10217,6 +10572,28 @@
   "vio_osh": 1,
   "vio_oth": 0,
   "vio_latest": "2026-05-04",
+  "vio_items": [
+   {
+    "date": "2026-05-04",
+    "law": "勞動基準法第32條第2項",
+    "txt": "延長工作時間超過法令規定。"
+   },
+   {
+    "date": "2024-10-07",
+    "law": "勞動基準法第24條;勞動基準法第32條第2項",
+    "txt": "延長工作時間未依規定加給工資;延長工作時間超過法令規定。"
+   },
+   {
+    "date": "2023-11-09",
+    "law": "勞動基準法第24條;勞動基準法第32條第2項",
+    "txt": "延長工作時間未依規定加給工資;延長工作時間超過法令規定。"
+   },
+   {
+    "date": "2023-07-31",
+    "law": "職業安全衛生法第6條第1項第1款",
+    "txt": "對於粉碎機內塑膠骨料之掃除，有導致危害勞工之虞，未停止相關機械運轉，致生勞工被夾之災害。"
+   }
+  ],
   "langs": [],
   "trip": true,
   "remote": false,
@@ -10260,6 +10637,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -10305,6 +10683,13 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "2025-11-06",
+  "vio_items": [
+   {
+    "date": "2025-11-06",
+    "law": "勞動基準法第24條第1項",
+    "txt": "延長工作時間未依規定加給工資"
+   }
+  ],
   "langs": [
    "英文(略懂)"
   ],
@@ -10350,6 +10735,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "日文(略懂)"
   ],
@@ -10395,6 +10781,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(中等)"
   ],
@@ -10440,6 +10827,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -10485,6 +10873,23 @@
   "vio_osh": 2,
   "vio_oth": 0,
   "vio_latest": "2026-07-01",
+  "vio_items": [
+   {
+    "date": "2026-07-01",
+    "law": "勞動基準法第24條第1項",
+    "txt": "延長工作時間未依規定加給工資"
+   },
+   {
+    "date": "2026-05-04",
+    "law": "職業安全衛生設施規則第57條第1項暨職業安全衛生法第6條第1項",
+    "txt": "雇主對於機械、設備及其相關配件之掃除、上油、檢查、修理或調整有導致危害勞工之虞者，應停止相關機械運轉及送料。為防止他人操作該機械、設備及其相關配件之起動等裝置或誤送料，應採上鎖或設置標示等措施，並設置防止落下物導致危害勞"
+   },
+   {
+    "date": "2025-10-29",
+    "law": "職業安全衛生設施規則第57條第1項暨職業安全衛生法第6條第1項;職業安全衛生設施規則第58條第5款暨職業安全衛生法第6條",
+    "txt": "雇主對於機械、設備及其相關配件之掃除、上油、檢查、修理或調整有導致危害勞工之虞者，應停止相關機械運轉及送料。為防止他人操作該機械、設備及其相關配件之起動等裝置或誤送料，應採上鎖或設置標示等措施，並設置防止落下物導致危害勞"
+   }
+  ],
   "langs": [
    "英文(精通)"
   ],
@@ -10530,6 +10935,23 @@
   "vio_osh": 2,
   "vio_oth": 0,
   "vio_latest": "2026-07-01",
+  "vio_items": [
+   {
+    "date": "2026-07-01",
+    "law": "勞動基準法第24條第1項",
+    "txt": "延長工作時間未依規定加給工資"
+   },
+   {
+    "date": "2026-05-04",
+    "law": "職業安全衛生設施規則第57條第1項暨職業安全衛生法第6條第1項",
+    "txt": "雇主對於機械、設備及其相關配件之掃除、上油、檢查、修理或調整有導致危害勞工之虞者，應停止相關機械運轉及送料。為防止他人操作該機械、設備及其相關配件之起動等裝置或誤送料，應採上鎖或設置標示等措施，並設置防止落下物導致危害勞"
+   },
+   {
+    "date": "2025-10-29",
+    "law": "職業安全衛生設施規則第57條第1項暨職業安全衛生法第6條第1項;職業安全衛生設施規則第58條第5款暨職業安全衛生法第6條",
+    "txt": "雇主對於機械、設備及其相關配件之掃除、上油、檢查、修理或調整有導致危害勞工之虞者，應停止相關機械運轉及送料。為防止他人操作該機械、設備及其相關配件之起動等裝置或誤送料，應採上鎖或設置標示等措施，並設置防止落下物導致危害勞"
+   }
+  ],
   "langs": [
    "英文(精通)"
   ],
@@ -10575,6 +10997,18 @@
   "vio_osh": 0,
   "vio_oth": 2,
   "vio_latest": "2026-02-13",
+  "vio_items": [
+   {
+    "date": "2026-02-13",
+    "law": "",
+    "txt": ""
+   },
+   {
+    "date": "2026-02-13",
+    "law": "勞工職業災害保險及保護法第17條",
+    "txt": "投保薪資金額以多報少或以少報多，或未於期限內通知月投保薪資之調整。"
+   }
+  ],
   "langs": [
    "英文(略懂)"
   ],
@@ -10620,6 +11054,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -10663,6 +11098,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -10708,6 +11144,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)",
    "俄文(略懂)"
@@ -10754,6 +11191,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -10799,6 +11237,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -10844,6 +11283,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -10889,6 +11329,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -10934,6 +11375,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -10998,7 +11440,8 @@
   "peak": true,
   "approx": true,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6907338,120.3626103&travelmode=driving",
-  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6907338,120.3626103&travelmode=transit"
+  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6907338,120.3626103&travelmode=transit",
+  "vio_items": []
  },
  {
   "no": "11861704",
@@ -11023,6 +11466,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -11065,9 +11509,10 @@
   "co_other": 4,
   "co_plus": true,
   "vio_lb": 0,
-  "vio_osh": 2,
+  "vio_osh": 0,
   "vio_oth": 0,
-  "vio_latest": "2025-10-29",
+  "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "印尼文(略懂)",
    "英文(精通)",
@@ -11115,6 +11560,18 @@
   "vio_osh": 2,
   "vio_oth": 0,
   "vio_latest": "2023-09-28",
+  "vio_items": [
+   {
+    "date": "2023-09-28",
+    "law": "職業安全衛生法第6條第1項第1款",
+    "txt": "對於以動力驅動之衝壓機械，未具有安全護圍。"
+   },
+   {
+    "date": "2023-09-28",
+    "law": "職業安全衛生法第6條第1項第11款",
+    "txt": "對於從事危險物製造或處置之作業（鎂鋁合金屑料），未指定專人於製造或處置危險物之設備及其附屬設備，有異常時應即採取必要措施。"
+   }
+  ],
   "langs": [
    "英文(略懂)"
   ],
@@ -11160,6 +11617,18 @@
   "vio_osh": 2,
   "vio_oth": 0,
   "vio_latest": "2023-09-28",
+  "vio_items": [
+   {
+    "date": "2023-09-28",
+    "law": "職業安全衛生法第6條第1項第1款",
+    "txt": "對於以動力驅動之衝壓機械，未具有安全護圍。"
+   },
+   {
+    "date": "2023-09-28",
+    "law": "職業安全衛生法第6條第1項第11款",
+    "txt": "對於從事危險物製造或處置之作業（鎂鋁合金屑料），未指定專人於製造或處置危險物之設備及其附屬設備，有異常時應即採取必要措施。"
+   }
+  ],
   "langs": [
    "英文(略懂)"
   ],
@@ -11205,6 +11674,13 @@
   "vio_osh": 0,
   "vio_oth": 1,
   "vio_latest": "2024-11-11",
+  "vio_items": [
+   {
+    "date": "2024-11-11",
+    "law": "勞工職業災害保險及保護法第17條",
+    "txt": "投保薪資金額以多報少或以少報多，或未於期限內通知月投保薪資之調整。"
+   }
+  ],
   "langs": [
    "日文(略懂)",
    "英文(精通)"
@@ -11251,6 +11727,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "日文(略懂)"
   ],
@@ -11296,6 +11773,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -11341,6 +11819,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "日文(略懂)"
   ],
@@ -11383,9 +11862,10 @@
   "co_other": 1,
   "co_plus": true,
   "vio_lb": 0,
-  "vio_osh": 1,
+  "vio_osh": 0,
   "vio_oth": 0,
-  "vio_latest": "2024-04-19",
+  "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -11407,49 +11887,6 @@
   "approx": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6394316,120.4027516&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6394316,120.4027516&travelmode=transit"
- },
- {
-  "no": "9003138",
-  "name": "抓姦偵探專員(高雄)",
-  "company": "大愛徵信有限公司",
-  "url": "https://www.104.com.tw/job/5cyv6",
-  "co_url": "https://www.104.com.tw/company/60pvyww",
-  "area": "高雄市鳳山區",
-  "industry": "徵信相關業",
-  "date": "2026-07-23",
-  "apply": 0,
-  "salary": "月薪 30,000~150,000 元",
-  "salary_class": "salary",
-  "salary_m": 30000,
-  "period": "經歷不拘",
-  "employees": 300,
-  "cust_no": "13104176000",
-  "co_jobs": 8,
-  "co_other": 6,
-  "co_plus": true,
-  "vio_lb": 0,
-  "vio_osh": 0,
-  "vio_oth": 0,
-  "vio_latest": "",
-  "langs": [],
-  "trip": false,
-  "remote": false,
-  "desc": "如果你對於徵信社有興趣，對抓姦、離婚相關、債務相關、感情挽回、投資詐騙、蒐證、工商調查、侵害配偶權等相關。並且你渴望在一個充滿學習與成長機會的環境中，踏出你的職業生涯第一步，我們誠摯地邀請您加入我們的團隊！ **工作內容：** 1.主動尋求案件接洽 2.跟客戶接洽 3.於公司內部負責行政事務、其他主管交辦事項 4.邀約",
-  "lat": 22.6113591,
-  "lon": 120.3493158,
-  "first_seen": "2026-07-27",
-  "is_new": false,
-  "dist_km": 7.7,
-  "drive_km": 13.5,
-  "drive_min": 22,
-  "transit_min": 51,
-  "near_st": "",
-  "near_line": "",
-  "walk_m": null,
-  "peak": true,
-  "approx": false,
-  "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6113591,120.3493158&travelmode=driving",
-  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.6113591,120.3493158&travelmode=transit"
  },
  {
   "no": "14387091",
@@ -11474,6 +11911,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(中等)"
   ],
@@ -11519,6 +11957,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -11562,6 +12001,13 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "2025-07-08",
+  "vio_items": [
+   {
+    "date": "2025-07-08",
+    "law": "勞動基準法第22條第2項",
+    "txt": "工資未全額直接給付勞工。"
+   }
+  ],
   "langs": [
    "日文(中等)",
    "英文(精通)"
@@ -11608,6 +12054,13 @@
   "vio_osh": 1,
   "vio_oth": 0,
   "vio_latest": "2024-11-15",
+  "vio_items": [
+   {
+    "date": "2024-11-15",
+    "law": "職業安全衛生法第6條第1項第11款",
+    "txt": "對物料之堆放，已妨礙消防器具之緊急使用。"
+   }
+  ],
   "langs": [
    "英文(略懂)"
   ],
@@ -11653,6 +12106,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "日文(略懂)",
    "英文(略懂)"
@@ -11699,6 +12153,13 @@
   "vio_osh": 1,
   "vio_oth": 0,
   "vio_latest": "2024-05-10",
+  "vio_items": [
+   {
+    "date": "2024-05-10",
+    "law": "",
+    "txt": ""
+   }
+  ],
   "langs": [
    "英文(精通)"
   ],
@@ -11744,6 +12205,13 @@
   "vio_osh": 1,
   "vio_oth": 0,
   "vio_latest": "2024-05-10",
+  "vio_items": [
+   {
+    "date": "2024-05-10",
+    "law": "",
+    "txt": ""
+   }
+  ],
   "langs": [
    "英文(精通)"
   ],
@@ -11789,6 +12257,23 @@
   "vio_osh": 3,
   "vio_oth": 0,
   "vio_latest": "2026-02-05",
+  "vio_items": [
+   {
+    "date": "2026-02-05",
+    "law": "職業安全衛生設施規則第43條第1項、同規則第57條第3項暨職業安全衛生法第6條第1項",
+    "txt": ""
+   },
+   {
+    "date": "2025-03-10",
+    "law": "職業安全衛生設施規則第116條第15款暨職業安全衛生法第6條第1項",
+    "txt": "雇主對於勞動場所作業之車輛機械，應規定駕駛者或有關人員負責執行：車輛機械之作業或移動，有撞擊工作者之虞時，未置管制引導人員。"
+   },
+   {
+    "date": "2024-02-05",
+    "law": "職業安全衛生設施規則第116條第15款暨職業安全衛生法第6條第1項",
+    "txt": "雇主對於勞動場所作業之車輛機械，未使駕駛者或有關人員負責執行下列事項：十五、車輛機械之作業或移動，有撞擊工作者之虞時，應置管制引導人員。"
+   }
+  ],
   "langs": [
    "英文(略懂)"
   ],
@@ -11834,6 +12319,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -11879,6 +12365,13 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "2026-03-01",
+  "vio_items": [
+   {
+    "date": "2026-03-01",
+    "law": "勞動基準法第32條第2項",
+    "txt": "延長工作時間超過法令規定"
+   }
+  ],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -11922,6 +12415,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -11967,6 +12461,13 @@
   "vio_osh": 1,
   "vio_oth": 0,
   "vio_latest": "2025-01-16",
+  "vio_items": [
+   {
+    "date": "2025-01-16",
+    "law": "職業安全衛生法第23條第1項",
+    "txt": "未依規定按其勞工人數規模置職業安全衛生管理人員，經通知改善仍未改善。"
+   }
+  ],
   "langs": [
    "英文(精通)"
   ],
@@ -11988,51 +12489,6 @@
   "approx": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7660541,120.3775487&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7660541,120.3775487&travelmode=transit"
- },
- {
-  "no": "14840805",
-  "name": "國外採購專員(高雄)",
-  "company": "義合旺興業股份有限公司",
-  "url": "https://www.104.com.tw/job/8u38l",
-  "co_url": "https://www.104.com.tw/company/1a2x6bie0r",
-  "area": "高雄市前鎮區",
-  "industry": "農／畜／水產品批發業",
-  "date": "2026-07-22",
-  "apply": 5,
-  "salary": "月薪 40,000~50,000 元",
-  "salary_class": "salary",
-  "salary_m": 40000,
-  "period": "經歷不拘",
-  "employees": 30,
-  "cust_no": "130000000019067",
-  "co_jobs": 14,
-  "co_other": 10,
-  "co_plus": true,
-  "vio_lb": 0,
-  "vio_osh": 0,
-  "vio_oth": 0,
-  "vio_latest": "",
-  "langs": [
-   "英文(略懂)"
-  ],
-  "trip": true,
-  "remote": false,
-  "desc": "1. 國外廠商聯繫與開發 2. 產品採購與規劃 3. 進出口作業 4. 主管交辦事務 5. 國外出差.參展 6.有經驗者佳",
-  "lat": 22.5717477,
-  "lon": 120.3225506,
-  "first_seen": "2026-07-27",
-  "is_new": false,
-  "dist_km": 10.6,
-  "drive_km": 17.2,
-  "drive_min": 26,
-  "transit_min": 41,
-  "near_st": "草衙",
-  "near_line": "紅線",
-  "walk_m": 1150,
-  "peak": true,
-  "approx": false,
-  "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5717477,120.3225506&travelmode=driving",
-  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5717477,120.3225506&travelmode=transit"
  },
  {
   "no": "14374044",
@@ -12057,6 +12513,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)",
    "日文(精通)"
@@ -12103,6 +12560,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "俄文(略懂)",
    "英文(精通)"
@@ -12149,6 +12607,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -12194,6 +12653,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "日文(精通)"
   ],
@@ -12239,6 +12699,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -12284,6 +12745,28 @@
   "vio_osh": 4,
   "vio_oth": 0,
   "vio_latest": "2025-06-11",
+  "vio_items": [
+   {
+    "date": "2025-06-11",
+    "law": "職業安全衛生法第6條第1項第1款",
+    "txt": "對於廠內進行固定式起重機吊?拉升作業，過捲預防裝置未具有自動遮斷動力及制動動作之機能。"
+   },
+   {
+    "date": "2025-03-24",
+    "law": "職業安全衛生法第6條第1項第8款",
+    "txt": "對於勞工從事鋅池除渣作業，有暴露於高溫或其他有害物之虞者，未置備安全衛生防護具，如安全面罩、防塵口罩、防毒面具、防護眼鏡、防護衣等適當之防護具，並使勞工確實使用。"
+   },
+   {
+    "date": "2024-07-11",
+    "law": "職業安全衛生法第6條第1項第5款",
+    "txt": "對於使勞工在二公尺以上之開口旁作業，對於開口上方設置之護蓋，未以有效方法防止滑溜、掉落、掀出或移動，致勞工發生職業災害。"
+   },
+   {
+    "date": "2023-09-28",
+    "law": "職業安全衛生法第6條第1項第8款",
+    "txt": "對於勞工從事爐前輥旋轉接頭拆卸作業，暴露於高溫、蒸氣或其他有害物之虞者，未置備安全衛生防護具，如安全面罩、防塵口罩、防毒面具、防護眼鏡、防護衣等適當之防護具，並使勞工確實使用，致生勞工顏面、雙側前臂、前胸、腹部二至三度接"
+   }
+  ],
   "langs": [
    "英文(略懂)"
   ],
@@ -12329,6 +12812,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -12374,6 +12858,13 @@
   "vio_osh": 0,
   "vio_oth": 1,
   "vio_latest": "2025-05-12",
+  "vio_items": [
+   {
+    "date": "2025-05-12",
+    "law": "勞工職業災害保險及保護法第12條",
+    "txt": "未為所屬勞工辦理投保、退保手續。"
+   }
+  ],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -12417,6 +12908,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -12438,51 +12930,6 @@
   "approx": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7859062,120.3297128&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7859062,120.3297128&travelmode=transit"
- },
- {
-  "no": "14472876",
-  "name": "【捲門廠】國外業務",
-  "company": "斯特樂科技有限公司",
-  "url": "https://www.104.com.tw/job/8m7cc",
-  "co_url": "https://www.104.com.tw/company/7oehof4",
-  "area": "高雄市燕巢區",
-  "industry": "綜合商品批發代理業",
-  "date": "2026-07-23",
-  "apply": 0,
-  "salary": "面議(經常性薪資達4萬元)",
-  "salary_class": "negotiable",
-  "salary_m": 40001,
-  "period": "經歷不拘",
-  "employees": 45,
-  "cust_no": "16713004000",
-  "co_jobs": 7,
-  "co_other": 6,
-  "co_plus": true,
-  "vio_lb": 0,
-  "vio_osh": 0,
-  "vio_oth": 0,
-  "vio_latest": "",
-  "langs": [
-   "英文(精通)"
-  ],
-  "trip": false,
-  "remote": false,
-  "desc": "1. 新市場拓展與開發。 2. 網頁與APP製作，後台管理，客戶聯繫。 3. 協助公司突破業績成長。 4. 參展規劃與拜訪國外客戶。 5. 客戶報價並確認訂單。 6. 主管交辦事項。 基本要求：TOEIC(多益測驗)",
-  "lat": 22.76951,
-  "lon": 120.3857842,
-  "first_seen": "2026-07-27",
-  "is_new": false,
-  "dist_km": 14.3,
-  "drive_km": 18.4,
-  "drive_min": 26,
-  "transit_min": 68,
-  "near_st": "",
-  "near_line": "",
-  "walk_m": null,
-  "peak": true,
-  "approx": false,
-  "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.76951,120.3857842&travelmode=driving",
-  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.76951,120.3857842&travelmode=transit"
  },
  {
   "no": "13567306",
@@ -12507,6 +12954,13 @@
   "vio_osh": 1,
   "vio_oth": 0,
   "vio_latest": "2026-06-15",
+  "vio_items": [
+   {
+    "date": "2026-06-15",
+    "law": "職業安全衛生法第6條第1項第5款",
+    "txt": "對於機械、設備及其相關配件之掃除、上油、檢查、修理或調整有導致危害勞工之虞者，未設置防止落下物導致危害勞工之安全設備與措施。"
+   }
+  ],
   "langs": [
    "英文(精通)"
   ],
@@ -12552,6 +13006,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -12597,6 +13052,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -12618,6 +13074,56 @@
   "approx": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7939233,120.2408753&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7939233,120.2408753&travelmode=transit"
+ },
+ {
+  "no": "12334678",
+  "name": "冷凍監控人員",
+  "company": "郵台工程顧問股份有限公司",
+  "url": "https://www.104.com.tw/job/7cdhy",
+  "co_url": "https://www.104.com.tw/company/at3391k",
+  "area": "高雄市小港區",
+  "industry": "自動控制相關業",
+  "date": "2026-07-28",
+  "apply": 1,
+  "salary": "月薪 38,000~45,000 元",
+  "salary_class": "salary",
+  "salary_m": 38000,
+  "period": "經歷不拘",
+  "employees": 50,
+  "cust_no": "23526533000",
+  "co_jobs": 5,
+  "co_other": 5,
+  "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 1,
+  "vio_oth": 0,
+  "vio_latest": "2025-02-10",
+  "vio_items": [
+   {
+    "date": "2025-02-10",
+    "law": "職業安全衛生法第6條第1項第3款",
+    "txt": "對勞工於作業中或通行時，有接觸空壓機電源線之虞，其絕緣被覆未設置保護設施。"
+   }
+  ],
+  "langs": [],
+  "trip": false,
+  "remote": false,
+  "desc": "**依工作能力調薪** 1. 從事冷凍櫃插拔電及溫度巡視。 2. 冷凍櫃清洗(洗櫃另有獎金1500元~3500元)。 3 另有輪班津貼和誤餐津貼 (2000元~4000元) 4. 除底薪外另有年終獎金",
+  "lat": 22.5631765,
+  "lon": 120.326136,
+  "first_seen": "2026-07-28",
+  "is_new": true,
+  "dist_km": 11.6,
+  "drive_km": 18.9,
+  "drive_min": 25,
+  "transit_min": 54,
+  "near_st": "",
+  "near_line": "",
+  "walk_m": null,
+  "peak": true,
+  "approx": false,
+  "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5631765,120.326136&travelmode=driving",
+  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5631765,120.326136&travelmode=transit"
  },
  {
   "no": "14155609",
@@ -12642,6 +13148,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -12663,6 +13170,50 @@
   "approx": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5924533,120.3903642&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5924533,120.3903642&travelmode=transit"
+ },
+ {
+  "no": "14758734",
+  "name": "【岡山寶雅物流中心】固定班 倉儲理貨人員 33-40K",
+  "company": "美德富管理顧問有限公司",
+  "url": "https://www.104.com.tw/job/8sbwu",
+  "co_url": "https://www.104.com.tw/company/1a2x6bkbe7",
+  "area": "高雄市岡山區",
+  "industry": "人力仲介代徵",
+  "date": "2026-07-28",
+  "apply": 3,
+  "salary": "月薪 33,000~40,000 元",
+  "salary_class": "salary",
+  "salary_m": 33000,
+  "period": "經歷不拘",
+  "employees": 0,
+  "cust_no": "130000000108975",
+  "co_jobs": 25,
+  "co_other": 24,
+  "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
+  "vio_items": [],
+  "langs": [],
+  "trip": false,
+  "remote": false,
+  "desc": ">工作內容： 1、貨品分貨、揀貨、驗收、出貨等作業 2、簡單易上手、走動式需久站 >工作時間： <10小時，休息1.5小時> 早班：週三~週六 08:00-19:30 夜班：週二~週五 20:00-07:30 ◎ 需配合加班，加班費另計 ◎ >休假方式：做四休三 >薪資待遇： 早班：33000-36000元 免費供午餐",
+  "lat": 22.7969306,
+  "lon": 120.3121905,
+  "first_seen": "2026-07-28",
+  "is_new": true,
+  "dist_km": 14.6,
+  "drive_km": 19.2,
+  "drive_min": 30,
+  "transit_min": 57,
+  "near_st": "岡山車",
+  "near_line": "紅線",
+  "walk_m": 1450,
+  "peak": true,
+  "approx": false,
+  "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7969306,120.3121905&travelmode=driving",
+  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7969306,120.3121905&travelmode=transit"
  },
  {
   "no": "13035765",
@@ -12687,6 +13238,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -12732,6 +13284,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -12777,6 +13330,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -12822,6 +13376,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -12867,6 +13422,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "日文(略懂)"
   ],
@@ -12912,6 +13468,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -12957,6 +13514,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -13002,6 +13560,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -13045,6 +13604,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -13090,6 +13650,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -13135,6 +13696,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(中等)",
    "日文(略懂)"
@@ -13181,6 +13743,23 @@
   "vio_osh": 0,
   "vio_oth": 3,
   "vio_latest": "2026-03-13",
+  "vio_items": [
+   {
+    "date": "2026-03-13",
+    "law": "",
+    "txt": ""
+   },
+   {
+    "date": "2025-12-15",
+    "law": "",
+    "txt": ""
+   },
+   {
+    "date": "2025-10-13",
+    "law": "",
+    "txt": ""
+   }
+  ],
   "langs": [
    "英文(略懂)"
   ],
@@ -13226,6 +13805,23 @@
   "vio_osh": 0,
   "vio_oth": 3,
   "vio_latest": "2026-03-13",
+  "vio_items": [
+   {
+    "date": "2026-03-13",
+    "law": "",
+    "txt": ""
+   },
+   {
+    "date": "2025-12-15",
+    "law": "",
+    "txt": ""
+   },
+   {
+    "date": "2025-10-13",
+    "law": "",
+    "txt": ""
+   }
+  ],
   "langs": [
    "英文(精通)"
   ],
@@ -13271,6 +13867,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "日文(略懂)"
   ],
@@ -13316,6 +13913,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -13361,6 +13959,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)",
    "俄文(精通)"
@@ -13407,6 +14006,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -13452,6 +14052,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -13497,6 +14098,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -13518,51 +14120,6 @@
   "approx": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8076761,120.3029506&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8076761,120.3029506&travelmode=transit"
- },
- {
-  "no": "15284388",
-  "name": "家登集團-朝宇-業務專員(歡迎擅長外文者)",
-  "company": "家登精密工業股份有限公司",
-  "url": "https://www.104.com.tw/job/93lic",
-  "co_url": "https://www.104.com.tw/company/7jbxn20",
-  "area": "高雄市岡山區",
-  "industry": "半導體製造業",
-  "date": "2026-07-23",
-  "apply": 5,
-  "salary": "月薪 40,000~50,000 元",
-  "salary_class": "salary",
-  "salary_m": 40000,
-  "period": "3 年以上經歷",
-  "employees": 1300,
-  "cust_no": "16406379000",
-  "co_jobs": 0,
-  "co_other": 0,
-  "co_plus": false,
-  "vio_lb": 5,
-  "vio_osh": 0,
-  "vio_oth": 0,
-  "vio_latest": "2025-12-10",
-  "langs": [
-   "英文(略懂)"
-  ],
-  "trip": false,
-  "remote": false,
-  "desc": "【公司介紹】 全球航太產業正在起飛 — 商用航空復甦、低軌衛星爆發、國防供應鏈重組，未來十年的成長曲線清晰且明確。 這不是一間「在守成」的公司，而是一間正在乘著產業風口快速成長的成長型企業。 【職務內容】 1. 訂單全流程處理：負責產品報價作業，執行系統(SAP)訂單輸入、轉單與進度追蹤。 2. 出貨與財務作業：協調出",
-  "lat": 22.8076756,
-  "lon": 120.3029599,
-  "first_seen": "2026-07-27",
-  "is_new": false,
-  "dist_km": 15.8,
-  "drive_km": 21.2,
-  "drive_min": 34,
-  "transit_min": 59,
-  "near_st": "",
-  "near_line": "",
-  "walk_m": null,
-  "peak": true,
-  "approx": false,
-  "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8076756,120.3029599&travelmode=driving",
-  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8076756,120.3029599&travelmode=transit"
  },
  {
   "no": "11101250",
@@ -13587,6 +14144,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -13632,6 +14190,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -13677,6 +14236,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -13722,6 +14282,13 @@
   "vio_osh": 1,
   "vio_oth": 0,
   "vio_latest": "2025-07-08",
+  "vio_items": [
+   {
+    "date": "2025-07-08",
+    "law": "職業安全衛生法第6條第1項第7款",
+    "txt": "對於勞工從事其身體或衣著有被污染之虞之特殊作業時，未置備該勞工洗眼、洗澡、漱口、更衣、洗滌等設備。"
+   }
+  ],
   "langs": [
    "西班牙文(精通)",
    "英文(精通)"
@@ -13768,6 +14335,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -13789,141 +14357,6 @@
   "approx": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8133598,120.2488632&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8133598,120.2488632&travelmode=transit"
- },
- {
-  "no": "14777158",
-  "name": "外銷業務人員",
-  "company": "雲義科技股份有限公司",
-  "url": "https://www.104.com.tw/job/8sq4m",
-  "co_url": "https://www.104.com.tw/company/5twqz2g",
-  "area": "高雄市燕巢區",
-  "industry": "電腦軟體服務業",
-  "date": "2026-07-23",
-  "apply": 0,
-  "salary": "月薪 35,000~50,000 元",
-  "salary_class": "salary",
-  "salary_m": 35000,
-  "period": "2 年以上經歷",
-  "employees": 45,
-  "cust_no": "12692437000",
-  "co_jobs": 3,
-  "co_other": 1,
-  "co_plus": false,
-  "vio_lb": 0,
-  "vio_osh": 0,
-  "vio_oth": 0,
-  "vio_latest": "",
-  "langs": [
-   "英文(精通)"
-  ],
-  "trip": false,
-  "remote": false,
-  "desc": "1、開發國際市場客戶，提升客戶滿意度與合作深度。 2、進行市場調研，分析市場需求並制定相應外銷策略。 3、建立通路。 4、處理訂單、報價及進出口報關作業，確保流程順暢。 5、提供國際客戶技術支持，解說產品操作與問題解決策略。",
-  "lat": 22.7823697,
-  "lon": 120.378138,
-  "first_seen": "2026-07-27",
-  "is_new": false,
-  "dist_km": 15.1,
-  "drive_km": 21.8,
-  "drive_min": 32,
-  "transit_min": 90,
-  "near_st": "",
-  "near_line": "",
-  "walk_m": null,
-  "peak": true,
-  "approx": false,
-  "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7823697,120.378138&travelmode=driving",
-  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7823697,120.378138&travelmode=transit"
- },
- {
-  "no": "14777176",
-  "name": "產品業務經理",
-  "company": "雲義科技股份有限公司",
-  "url": "https://www.104.com.tw/job/8sq54",
-  "co_url": "https://www.104.com.tw/company/5twqz2g",
-  "area": "高雄市燕巢區",
-  "industry": "電腦軟體服務業",
-  "date": "2026-07-23",
-  "apply": 1,
-  "salary": "月薪 35,000~45,000 元",
-  "salary_class": "salary",
-  "salary_m": 35000,
-  "period": "3 年以上經歷",
-  "employees": 45,
-  "cust_no": "12692437000",
-  "co_jobs": 3,
-  "co_other": 1,
-  "co_plus": false,
-  "vio_lb": 0,
-  "vio_osh": 0,
-  "vio_oth": 0,
-  "vio_latest": "",
-  "langs": [
-   "英文(精通)"
-  ],
-  "trip": false,
-  "remote": false,
-  "desc": "1、駐點業務工作，執行資訊弱電維護案 2、視衛通AI安防產品銷售、租賃、共同契約通路與業務 3、視衛通AI安防產品行銷",
-  "lat": 22.7823697,
-  "lon": 120.378138,
-  "first_seen": "2026-07-27",
-  "is_new": false,
-  "dist_km": 15.1,
-  "drive_km": 21.8,
-  "drive_min": 32,
-  "transit_min": 90,
-  "near_st": "",
-  "near_line": "",
-  "walk_m": null,
-  "peak": true,
-  "approx": false,
-  "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7823697,120.378138&travelmode=driving",
-  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7823697,120.378138&travelmode=transit"
- },
- {
-  "no": "13603095",
-  "name": "國貿業務分析師 (Business Analyst)",
-  "company": "裕鐵企業股份有限公司",
-  "url": "https://www.104.com.tw/job/83k7r",
-  "co_url": "https://www.104.com.tw/company/13hxbiso",
-  "area": "高雄市燕巢區",
-  "industry": "鋼鐵基本工業",
-  "date": "2026-07-23",
-  "apply": 1,
-  "salary": "月薪 36,000~46,000 元",
-  "salary_class": "salary",
-  "salary_m": 36000,
-  "period": "3 年以上經歷",
-  "employees": 500,
-  "cust_no": "85978401000",
-  "co_jobs": 27,
-  "co_other": 24,
-  "co_plus": false,
-  "vio_lb": 0,
-  "vio_osh": 4,
-  "vio_oth": 0,
-  "vio_latest": "2025-06-11",
-  "langs": [
-   "英文(略懂)"
-  ],
-  "trip": false,
-  "remote": false,
-  "desc": "1.開發國外市場與外銷業務之推動。 2.熟悉國貿作業流程，能獨立作業者佳。 3.銷售大數據分析。 ",
-  "lat": 22.7823697,
-  "lon": 120.378138,
-  "first_seen": "2026-07-27",
-  "is_new": false,
-  "dist_km": 15.1,
-  "drive_km": 21.8,
-  "drive_min": 32,
-  "transit_min": 90,
-  "near_st": "",
-  "near_line": "",
-  "walk_m": null,
-  "peak": true,
-  "approx": false,
-  "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7823697,120.378138&travelmode=driving",
-  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.7823697,120.378138&travelmode=transit"
  },
  {
   "no": "9413553",
@@ -13948,6 +14381,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(中等)",
    "日文(略懂)"
@@ -13972,51 +14406,6 @@
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.814183,120.2544328&travelmode=transit"
  },
  {
-  "no": "8298694",
-  "name": "國貿人員",
-  "company": "新倡發工業股份有限公司",
-  "url": "https://www.104.com.tw/job/4xvba",
-  "co_url": "https://www.104.com.tw/company/13diu1f4",
-  "area": "高雄市岡山區",
-  "industry": "其他機械製造修配業",
-  "date": "2026-07-22",
-  "apply": 0,
-  "salary": "月薪 35,000~40,000 元",
-  "salary_class": "salary",
-  "salary_m": 35000,
-  "period": "經歷不拘",
-  "employees": 150,
-  "cust_no": "85712206000",
-  "co_jobs": 6,
-  "co_other": 6,
-  "co_plus": true,
-  "vio_lb": 0,
-  "vio_osh": 0,
-  "vio_oth": 0,
-  "vio_latest": "",
-  "langs": [
-   "英文(精通)"
-  ],
-  "trip": false,
-  "remote": false,
-  "desc": "1.空運，船務報關 2.貨櫃協調安排 3.保持與客戶間之聯繫，並確認交貨期。 4.維持客戶關係, 處理詢價、報價事宜, 處理及審查進出口文件, 辦理出口通關手續 5.處理外銷業務 報價訂單 ",
-  "lat": 22.806988,
-  "lon": 120.294317,
-  "first_seen": "2026-07-27",
-  "is_new": false,
-  "dist_km": 15.7,
-  "drive_km": 22.3,
-  "drive_min": 37,
-  "transit_min": 55,
-  "near_st": "",
-  "near_line": "",
-  "walk_m": null,
-  "peak": true,
-  "approx": false,
-  "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.806988,120.294317&travelmode=driving",
-  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.806988,120.294317&travelmode=transit"
- },
- {
   "no": "15119909",
   "name": "國外業務助理",
   "company": "緯紘精密工業股份有限公司",
@@ -14039,6 +14428,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -14084,6 +14474,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -14129,6 +14520,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -14174,6 +14566,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)",
    "西班牙文(精通)"
@@ -14220,6 +14613,13 @@
   "vio_osh": 1,
   "vio_oth": 0,
   "vio_latest": "2024-04-16",
+  "vio_items": [
+   {
+    "date": "2024-04-16",
+    "law": "職業安全衛生法第6條第1項第4款",
+    "txt": "對於堆高機之操作，載運之貨物未保持穩固狀態，致勞工發生職業災害。"
+   }
+  ],
   "langs": [
    "英文(略懂)"
   ],
@@ -14265,6 +14665,13 @@
   "vio_osh": 1,
   "vio_oth": 0,
   "vio_latest": "2026-04-15",
+  "vio_items": [
+   {
+    "date": "2026-04-15",
+    "law": "職業安全衛生法第6條第1項第1款",
+    "txt": "對於機械、設備及其相關配件之掃除、上油、檢查、修理或調整有導致危害勞工之虞者，未停止相關機械運轉及送料。"
+   }
+  ],
   "langs": [
    "英文(精通)"
   ],
@@ -14310,6 +14717,13 @@
   "vio_osh": 1,
   "vio_oth": 0,
   "vio_latest": "2026-04-15",
+  "vio_items": [
+   {
+    "date": "2026-04-15",
+    "law": "職業安全衛生法第6條第1項第1款",
+    "txt": "對於機械、設備及其相關配件之掃除、上油、檢查、修理或調整有導致危害勞工之虞者，未停止相關機械運轉及送料。"
+   }
+  ],
   "langs": [
    "英文(精通)"
   ],
@@ -14355,6 +14769,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)",
    "日文(精通)"
@@ -14401,6 +14816,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -14446,6 +14862,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -14491,6 +14908,23 @@
   "vio_osh": 2,
   "vio_oth": 0,
   "vio_latest": "2025-01-09",
+  "vio_items": [
+   {
+    "date": "2025-01-09",
+    "law": "職業安全衛生設施規則第324之3條第1項第1、2、3、4款暨職業安全衛生法第6條第2項",
+    "txt": "雇主使勞工於執行職務時為預防因他人行為遭受身體或精神上不法侵害，未依職業安全衛生設施規則第324之3條第1項第1、2、3、4款之規定，應採取辨識及評估危害、適當配置作業場所、工作適性適當調整人力及建構行為規範之有關預防措"
+   },
+   {
+    "date": "2024-09-04",
+    "law": "勞動基準法第24條",
+    "txt": "延長工作時間未依規定加給工資。"
+   },
+   {
+    "date": "2024-07-11",
+    "law": "職業安全衛生法第6條第1項第1款",
+    "txt": "對於使用有刺角物之美工刀從事膠帶樣品裁切作業時，未置備適當之手套並使勞工確實使用，致勞工發生職業災害。"
+   }
+  ],
   "langs": [
    "英文(精通)"
   ],
@@ -14536,6 +14970,13 @@
   "vio_osh": 1,
   "vio_oth": 0,
   "vio_latest": "2026-06-15",
+  "vio_items": [
+   {
+    "date": "2026-06-15",
+    "law": "職業安全衛生法第6條第1項第1款",
+    "txt": "對於以動力驅動之衝剪機械，未具有安全護圍、安全模、特定用途之專用衝剪機械或自動衝剪機械。"
+   }
+  ],
   "langs": [
    "英文(略懂)"
   ],
@@ -14581,6 +15022,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -14626,6 +15068,13 @@
   "vio_osh": 1,
   "vio_oth": 0,
   "vio_latest": "2026-05-13",
+  "vio_items": [
+   {
+    "date": "2026-05-13",
+    "law": "職業安全衛生法第6條第1項第1款",
+    "txt": "對於機械、設備及其相關配件之掃除、上油、檢查、修理或調整有導致危害勞工之虞者，未停止相關機械運轉及送料。"
+   }
+  ],
   "langs": [
    "英文(精通)",
    "日文(精通)"
@@ -14672,6 +15121,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -14717,6 +15167,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -14762,6 +15213,13 @@
   "vio_osh": 1,
   "vio_oth": 0,
   "vio_latest": "2026-05-13",
+  "vio_items": [
+   {
+    "date": "2026-05-13",
+    "law": "職業安全衛生法第6條第1項第1款",
+    "txt": "對於機械、設備及其相關配件之掃除、上油、檢查、修理或調整有導致危害勞工之虞者，未停止相關機械運轉及送料。"
+   }
+  ],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -14805,6 +15263,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)",
    "德文(精通)"
@@ -14851,6 +15310,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -14896,6 +15356,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "日文(略懂)"
   ],
@@ -14941,6 +15402,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -14962,51 +15424,6 @@
   "approx": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5831094,120.4343862&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5831094,120.4343862&travelmode=transit"
- },
- {
-  "no": "14970084",
-  "name": "國外業務專員(保障年薪14個月)",
-  "company": "寶凱電子企業股份有限公司",
-  "url": "https://www.104.com.tw/job/8wuzo",
-  "co_url": "https://www.104.com.tw/company/aq4d0ts",
-  "area": "高雄市大寮區",
-  "industry": "消費性電子產品製造業",
-  "date": "2026-07-22",
-  "apply": 6,
-  "salary": "月薪 50,000 元以上",
-  "salary_class": "salary",
-  "salary_m": 50000,
-  "period": "經歷不拘",
-  "employees": 280,
-  "cust_no": "23347270000",
-  "co_jobs": 35,
-  "co_other": 30,
-  "co_plus": true,
-  "vio_lb": 0,
-  "vio_osh": 0,
-  "vio_oth": 0,
-  "vio_latest": "",
-  "langs": [
-   "英文(略懂)"
-  ],
-  "trip": false,
-  "remote": false,
-  "desc": "1.客戶開發與維持客戶關係，處理客戶需求與客訴 2.配合公司市場推廣計劃，蒐集市場訊息 3.專案開發管理流程，確保交期 4.執行展覽計畫、訂定行政目標 5.年度業績成果分析與未來業績推展計劃 ✔歡迎無經驗者加入 ✔業績獎金另計",
-  "lat": 22.5832284,
-  "lon": 120.4344703,
-  "first_seen": "2026-07-27",
-  "is_new": false,
-  "dist_km": 16.3,
-  "drive_km": 24.1,
-  "drive_min": 32,
-  "transit_min": 81,
-  "near_st": "",
-  "near_line": "",
-  "walk_m": null,
-  "peak": true,
-  "approx": false,
-  "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5832284,120.4344703&travelmode=driving",
-  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5832284,120.4344703&travelmode=transit"
  },
  {
   "no": "13860286",
@@ -15031,6 +15448,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -15076,6 +15494,33 @@
   "vio_osh": 2,
   "vio_oth": 0,
   "vio_latest": "2025-11-14",
+  "vio_items": [
+   {
+    "date": "2025-11-14",
+    "law": "職業安全衛生法第6條第1項第1款",
+    "txt": "對於人員使用座式操作之配衡型堆高機作業，未使擔任駕駛之勞工確實使用駕駛座安全帶；對於荷重在1公噸以上之堆高機，未指派經特殊作業安全衛生教育訓練人員操作。"
+   },
+   {
+    "date": "2025-11-07",
+    "law": "勞動基準法第24條;勞動基準法第32條第2項",
+    "txt": "延長工作時間未依規定加給工資;延長工作時間超過法令規定。"
+   },
+   {
+    "date": "2024-12-06",
+    "law": "勞動基準法第24條;勞動基準法第32條第2項",
+    "txt": "延長工作時間未依規定加給工資;延長工作時間超過法令規定。"
+   },
+   {
+    "date": "2024-07-11",
+    "law": "職業安全衛生法第6條第1項第1款",
+    "txt": "對於勞工進行紙盒成型機溢膠清潔作業，未停止相關機械運轉，致勞工發生職業災害。"
+   },
+   {
+    "date": "2023-09-07",
+    "law": "勞動基準法第32條第2項",
+    "txt": "延長工作時間超過法令規定。"
+   }
+  ],
   "langs": [
    "英文(精通)"
   ],
@@ -15121,6 +15566,13 @@
   "vio_osh": 0,
   "vio_oth": 1,
   "vio_latest": "2024-06-11",
+  "vio_items": [
+   {
+    "date": "2024-06-11",
+    "law": "",
+    "txt": ""
+   }
+  ],
   "langs": [],
   "trip": true,
   "remote": false,
@@ -15164,6 +15616,13 @@
   "vio_osh": 0,
   "vio_oth": 1,
   "vio_latest": "2024-06-11",
+  "vio_items": [
+   {
+    "date": "2024-06-11",
+    "law": "",
+    "txt": ""
+   }
+  ],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -15183,49 +15642,6 @@
   "approx": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5790439,120.4259056&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.5790439,120.4259056&travelmode=transit"
- },
- {
-  "no": "13399497",
-  "name": "日文行政專員",
-  "company": "台灣金井企業股份有限公司",
-  "url": "https://www.104.com.tw/job/7z749",
-  "co_url": "https://www.104.com.tw/company/1a2x6bmi0g",
-  "area": "高雄市岡山區",
-  "industry": "其他金屬相關製造業",
-  "date": "2026-07-23",
-  "apply": 5,
-  "salary": "月薪 35,000~40,000 元",
-  "salary_class": "salary",
-  "salary_m": 35000,
-  "period": "2 年以上經歷",
-  "employees": 70,
-  "cust_no": "130000000210864",
-  "co_jobs": 2,
-  "co_other": 2,
-  "co_plus": true,
-  "vio_lb": 0,
-  "vio_osh": 0,
-  "vio_oth": 0,
-  "vio_latest": "",
-  "langs": [],
-  "trip": false,
-  "remote": false,
-  "desc": "1.接收日本訂單、交期回覆 2.業務相關資料彙整與維護 3.文件翻譯 4.主管交辦事項",
-  "lat": 22.8049528,
-  "lon": 120.2689736,
-  "first_seen": "2026-07-27",
-  "is_new": false,
-  "dist_km": 15.9,
-  "drive_km": 24.3,
-  "drive_min": 41,
-  "transit_min": 58,
-  "near_st": "",
-  "near_line": "",
-  "walk_m": null,
-  "peak": true,
-  "approx": false,
-  "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8049528,120.2689736&travelmode=driving",
-  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8049528,120.2689736&travelmode=transit"
  },
  {
   "no": "10736581",
@@ -15250,6 +15666,13 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "2025-06-09",
+  "vio_items": [
+   {
+    "date": "2025-06-09",
+    "law": "勞動基準法第38條",
+    "txt": "未依規定給予特別休假。"
+   }
+  ],
   "langs": [
    "英文(略懂)"
   ],
@@ -15295,6 +15718,13 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "2025-06-09",
+  "vio_items": [
+   {
+    "date": "2025-06-09",
+    "law": "勞動基準法第38條",
+    "txt": "未依規定給予特別休假。"
+   }
+  ],
   "langs": [
    "英文(精通)"
   ],
@@ -15340,6 +15770,13 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "2025-06-09",
+  "vio_items": [
+   {
+    "date": "2025-06-09",
+    "law": "勞動基準法第38條",
+    "txt": "未依規定給予特別休假。"
+   }
+  ],
   "langs": [
    "英文(精通)"
   ],
@@ -15385,6 +15822,13 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "2025-06-09",
+  "vio_items": [
+   {
+    "date": "2025-06-09",
+    "law": "勞動基準法第38條",
+    "txt": "未依規定給予特別休假。"
+   }
+  ],
   "langs": [
    "英文(略懂)"
   ],
@@ -15406,51 +15850,6 @@
   "approx": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.579246,120.433192&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.579246,120.433192&travelmode=transit"
- },
- {
-  "no": "13945512",
-  "name": "業務助理(本洲廠)",
-  "company": "易連工業股份有限公司",
-  "url": "https://www.104.com.tw/job/8awfc",
-  "co_url": "https://www.104.com.tw/company/13pjcyns",
-  "area": "高雄市岡山區",
-  "industry": "其他金屬相關製造業",
-  "date": "2026-07-22",
-  "apply": 4,
-  "salary": "月薪 32,000 元以上",
-  "salary_class": "salary",
-  "salary_m": 32000,
-  "period": "經歷不拘",
-  "employees": 310,
-  "cust_no": "86438683000",
-  "co_jobs": 0,
-  "co_other": 0,
-  "co_plus": false,
-  "vio_lb": 0,
-  "vio_osh": 2,
-  "vio_oth": 0,
-  "vio_latest": "2026-05-13",
-  "langs": [
-   "英文(精通)"
-  ],
-  "trip": false,
-  "remote": false,
-  "desc": "1.詢報價 2.訂單處理 3.協助國外業務處理事務 4.主管交辦事項 **受訓後工作地點:岡山本洲工業區 ",
-  "lat": 22.8133756,
-  "lon": 120.2758468,
-  "first_seen": "2026-07-27",
-  "is_new": false,
-  "dist_km": 16.7,
-  "drive_km": 24.5,
-  "drive_min": 41,
-  "transit_min": 64,
-  "near_st": "",
-  "near_line": "",
-  "walk_m": null,
-  "peak": true,
-  "approx": false,
-  "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8133756,120.2758468&travelmode=driving",
-  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.8133756,120.2758468&travelmode=transit"
  },
  {
   "no": "15272124",
@@ -15475,6 +15874,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -15518,6 +15918,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -15563,6 +15964,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -15606,6 +16008,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -15651,6 +16054,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -15696,6 +16100,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -15741,6 +16146,13 @@
   "vio_osh": 1,
   "vio_oth": 0,
   "vio_latest": "2024-03-14",
+  "vio_items": [
+   {
+    "date": "2024-03-14",
+    "law": "職業安全衛生法第6條第1項第5款",
+    "txt": "對於使勞工協助操作桿吊掛作業，未檢視荷物(操作桿)之形狀、大小及材質等特性選用適當吊掛用具及採取正確吊掛方法，且未使勞工於操作桿起吊離地後，不得以手碰觸荷物，致發生勞工受傷之職業災害。"
+   }
+  ],
   "langs": [
    "英文(精通)"
   ],
@@ -15786,6 +16198,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -15831,6 +16244,18 @@
   "vio_osh": 2,
   "vio_oth": 0,
   "vio_latest": "2024-10-01",
+  "vio_items": [
+   {
+    "date": "2024-10-01",
+    "law": "",
+    "txt": ""
+   },
+   {
+    "date": "2024-01-01",
+    "law": "",
+    "txt": ""
+   }
+  ],
   "langs": [
    "日文(略懂)"
   ],
@@ -15876,6 +16301,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -15921,6 +16347,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -15966,6 +16393,13 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "2023-08-28",
+  "vio_items": [
+   {
+    "date": "2023-08-28",
+    "law": "勞動基準法第23條第1項",
+    "txt": "補發加班費未於給付工資時提供工資各項目計算方式明細"
+   }
+  ],
   "langs": [
    "英文(略懂)"
   ],
@@ -16011,6 +16445,13 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "2023-08-28",
+  "vio_items": [
+   {
+    "date": "2023-08-28",
+    "law": "勞動基準法第23條第1項",
+    "txt": "補發加班費未於給付工資時提供工資各項目計算方式明細"
+   }
+  ],
   "langs": [
    "英文(略懂)"
   ],
@@ -16056,6 +16497,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "日文(略懂)"
   ],
@@ -16101,6 +16543,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "日文(略懂)"
   ],
@@ -16146,6 +16589,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -16191,6 +16635,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -16236,6 +16681,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -16281,6 +16727,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -16324,6 +16771,13 @@
   "vio_osh": 1,
   "vio_oth": 0,
   "vio_latest": "2024-09-05",
+  "vio_items": [
+   {
+    "date": "2024-09-05",
+    "law": "職業安全衛生法第27條第1項第1、2、3款",
+    "txt": "與承攬人共同作業時，未設置協議組織並指定工作場所負責人擔任指揮、監督及協調之工作、未採取工作連繫與調整之必要措施、未巡視工作場所。"
+   }
+  ],
   "langs": [
    "英文(精通)"
   ],
@@ -16369,6 +16823,13 @@
   "vio_osh": 1,
   "vio_oth": 0,
   "vio_latest": "2024-09-05",
+  "vio_items": [
+   {
+    "date": "2024-09-05",
+    "law": "職業安全衛生法第27條第1項第1、2、3款",
+    "txt": "與承攬人共同作業時，未設置協議組織並指定工作場所負責人擔任指揮、監督及協調之工作、未採取工作連繫與調整之必要措施、未巡視工作場所。"
+   }
+  ],
   "langs": [
    "英文(中等)"
   ],
@@ -16414,6 +16875,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -16457,6 +16919,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -16502,6 +16965,18 @@
   "vio_osh": 1,
   "vio_oth": 0,
   "vio_latest": "2025-10-08",
+  "vio_items": [
+   {
+    "date": "2025-10-08",
+    "law": "勞動基準法第24條",
+    "txt": "延長工作時間未依規定加給工資。"
+   },
+   {
+    "date": "2024-05-16",
+    "law": "職業安全衛生法第6條第1項第4款",
+    "txt": "對於荷重在一公噸以上之堆高機，未指派經特殊作業安全衛生教育訓練人員操作；對於堆高機之操作，其載運之貨物未保持穩固狀態，防止翻倒。"
+   }
+  ],
   "langs": [
    "英文(精通)"
   ],
@@ -16547,6 +17022,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -16592,6 +17068,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -16637,6 +17114,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -16682,6 +17160,13 @@
   "vio_osh": 1,
   "vio_oth": 0,
   "vio_latest": "2025-03-24",
+  "vio_items": [
+   {
+    "date": "2025-03-24",
+    "law": "職業安全衛生法第6條第1項第5款",
+    "txt": "對於使用起重機具從事吊掛作業之勞工，未使其確認吊運路線，並警示、清空擅入吊運路線範圍內之無關人員。"
+   }
+  ],
   "langs": [
    "英文(略懂)"
   ],
@@ -16727,6 +17212,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(精通)"
   ],
@@ -16772,6 +17258,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -16817,6 +17304,23 @@
   "vio_osh": 3,
   "vio_oth": 0,
   "vio_latest": "2025-10-13",
+  "vio_items": [
+   {
+    "date": "2025-10-13",
+    "law": "職業安全衛生法第6條第1項第13款",
+    "txt": "對於勞工駕駛堆高機搬運物料時，運輸路線未妥善規劃，並作標示。"
+   },
+   {
+    "date": "2025-04-21",
+    "law": "職業安全衛生法第6條第1項",
+    "txt": "未符合規定之必要安全衛生設備及措施"
+   },
+   {
+    "date": "2023-07-31",
+    "law": "職業安全衛生法第6條第1項第1款",
+    "txt": "對於衝壓機械作業有導致危害勞工之虞，未設置安全護圍、安全模，致生勞工手部遭夾之職業災害。"
+   }
+  ],
   "langs": [
    "英文(略懂)"
   ],
@@ -16862,6 +17366,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "日文(略懂)"
   ],
@@ -16907,6 +17412,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -16950,6 +17456,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -16971,6 +17478,824 @@
   "approx": false,
   "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.9130385,120.1871814&travelmode=driving",
   "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.9130385,120.1871814&travelmode=transit"
+ },
+ {
+  "no": "14589711",
+  "name": "印務排版約聘工讀生-台南",
+  "company": "翰林出版事業股份有限公司",
+  "url": "https://www.104.com.tw/job/8ophr",
+  "co_url": "https://www.104.com.tw/company/vvggsdk",
+  "area": "台南市南區",
+  "industry": "書籍出版業",
+  "date": "2026-07-28",
+  "apply": 4,
+  "salary": "時薪 196 元",
+  "salary_class": "salary",
+  "salary_m": 34104,
+  "period": "經歷不拘",
+  "employees": 0,
+  "cust_no": "69382361000",
+  "co_jobs": 0,
+  "co_other": 0,
+  "co_plus": false,
+  "vio_lb": 1,
+  "vio_osh": 3,
+  "vio_oth": 0,
+  "vio_latest": "2025-11-10",
+  "vio_items": [
+   {
+    "date": "2025-11-10",
+    "law": "勞工健康保護規則第3條第1項暨職業安全衛生法第22條第1項",
+    "txt": "事業單位勞工人數在三百人以上或從事特別危害健康作業之勞工人數在五十人以上者，未視其規模及性質，分別依附表二與附表三所定之人力配置及臨場服務頻率，僱用或特約從事勞工健康服務之醫師及僱用從事勞工健康服務之護理人員（以下簡稱醫"
+   },
+   {
+    "date": "2025-10-10",
+    "law": "勞動基準法第24條;勞動基準法第32條第2項",
+    "txt": "延長工作時間未依規定加給工資;延長工作時間超過法令規定。"
+   },
+   {
+    "date": "2025-07-10",
+    "law": "職業安全衛生設施規則第21條暨職業安全衛生法第6條第1項",
+    "txt": "雇主對於勞工工作場所之通道、地板、階梯、坡道、工作台或其他勞工踩踏場所，未保持不致使勞工跌倒、滑倒、踩傷、滾落等之安全狀態，或採取必要之預防措施。"
+   },
+   {
+    "date": "2023-12-12",
+    "law": "職業安全衛生法第37條第2項第3款",
+    "txt": "事業單位勞動場所發生下列職業災害之一者，雇主應於八小時內通報勞動檢查機構：三、發生災害之罹災人數在一人以上，且需住院治療。"
+   }
+  ],
+  "langs": [
+   "英文(中等)"
+  ],
+  "trip": false,
+  "remote": false,
+  "desc": "※此職務工作實際起訖期間，於面談時洽談約定 1、出版品印製檔轉word編排、檔案加工處理、集檔。 2、出版印務庶務：影印、彩印、資料紙張打包/分裝、搬運等。 3、其他指定事務。",
+  "lat": 22.9797608,
+  "lon": 120.1823586,
+  "first_seen": "2026-07-28",
+  "is_new": true,
+  "dist_km": 37.1,
+  "drive_km": 49.7,
+  "drive_min": 56,
+  "transit_min": 85,
+  "near_st": "",
+  "near_line": "",
+  "walk_m": null,
+  "peak": true,
+  "approx": false,
+  "gmap_drive": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.9797608,120.1823586&travelmode=driving",
+  "gmap_transit": "https://www.google.com/maps/dir/?api=1&origin=22.665621,120.303256&destination=22.9797608,120.1823586&travelmode=transit"
+ },
+ {
+  "no": "14797347",
+  "name": "食品包裝計時人員【無經驗可，週休二日，鄰近海山捷運站】",
+  "company": "廷冠食品有限公司",
+  "url": "https://www.104.com.tw/job/8t5pf",
+  "co_url": "https://www.104.com.tw/company/1a2x6bnexi",
+  "area": "新北市土城區",
+  "industry": "食品什貨批發業",
+  "date": "2026-07-28",
+  "apply": 5,
+  "salary": "時薪 196 元",
+  "salary_class": "salary",
+  "salary_m": 34104,
+  "period": "經歷不拘",
+  "employees": 0,
+  "cust_no": "130000000253526",
+  "co_jobs": 6,
+  "co_other": 5,
+  "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
+  "vio_items": [],
+  "langs": [],
+  "trip": false,
+  "remote": false,
+  "desc": "1.食品分裝、貼標、裝箱，能久站 2.生產線機器，設備之操作 3.作業區及環境清潔打掃維護 4.與其他作業員進行協調，以符合生產及程序標準 5.完成主管及現場同仁交辦有關生產包裝產品程序事宜",
+  "lat": null,
+  "lon": null,
+  "first_seen": "2026-07-28",
+  "is_new": true,
+  "dist_km": null,
+  "drive_km": null,
+  "drive_min": null,
+  "transit_min": null,
+  "near_st": "",
+  "near_line": "",
+  "walk_m": null,
+  "peak": false,
+  "approx": false
+ },
+ {
+  "no": "15182692",
+  "name": "【豐原區中正路】兼職牙醫櫃台人員",
+  "company": "醫安生醫科技股份有限公司",
+  "url": "https://www.104.com.tw/job/91f1g",
+  "co_url": "https://www.104.com.tw/company/1a2x6bjoey",
+  "area": "台中市豐原區",
+  "industry": "其他醫療保健服務業",
+  "date": "2026-07-28",
+  "apply": 5,
+  "salary": "時薪 196 元以上",
+  "salary_class": "salary",
+  "salary_m": 34104,
+  "period": "經歷不拘",
+  "employees": 25,
+  "cust_no": "130000000079194",
+  "co_jobs": 22,
+  "co_other": 22,
+  "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
+  "vio_items": [],
+  "langs": [],
+  "trip": false,
+  "remote": false,
+  "desc": "<晶悅牙醫診所> 多則評論的優質診所！升遷制度完善、多項員工福利！我們需要優質的同仁，無經驗可，歡迎有積極學習態度、有服務熱忱的你加入我們！有牙科經驗者佳，可當作長期職涯規劃！有心挑戰自我者，亦可嘗試管理職務！ 我們適合這樣的你： （1）活潑外向，願意與人溝通！ （2）面帶微笑，不會常擺臭臉！ （3）親切有禮，談吐禮儀",
+  "lat": null,
+  "lon": null,
+  "first_seen": "2026-07-28",
+  "is_new": true,
+  "dist_km": null,
+  "drive_km": null,
+  "drive_min": null,
+  "transit_min": null,
+  "near_st": "",
+  "near_line": "",
+  "walk_m": null,
+  "peak": false,
+  "approx": false
+ },
+ {
+  "no": "15270548",
+  "name": "Revenue Accounting Controller II",
+  "company": "台灣先藝科技股份有限公司",
+  "url": "https://www.104.com.tw/job/93atw",
+  "co_url": "https://www.104.com.tw/company/cs9k128",
+  "area": "新竹縣竹北市",
+  "industry": "其他半導體相關業",
+  "date": "2026-07-28",
+  "apply": 5,
+  "salary": "面議(經常性薪資達4萬元)",
+  "salary_class": "negotiable",
+  "salary_m": 40001,
+  "period": "經歷不拘",
+  "employees": 450,
+  "cust_no": "27830492000",
+  "co_jobs": 22,
+  "co_other": 21,
+  "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
+  "vio_items": [],
+  "langs": [
+   "英文(略懂)"
+  ],
+  "trip": false,
+  "remote": true,
+  "desc": "請準備英文履歷，透過官網投遞，謝謝 https://www.asm.com/open-vacancies/controller-ii-revenue-accounting-4775602101?gh_jid=4775602101 ---------------------------------------------",
+  "lat": null,
+  "lon": null,
+  "first_seen": "2026-07-28",
+  "is_new": true,
+  "dist_km": null,
+  "drive_km": null,
+  "drive_min": null,
+  "transit_min": null,
+  "near_st": "",
+  "near_line": "",
+  "walk_m": null,
+  "peak": false,
+  "approx": false
+ },
+ {
+  "no": "13910200",
+  "name": "生產線儲備幹部",
+  "company": "九灃興業股份有限公司",
+  "url": "https://www.104.com.tw/job/8a56g",
+  "co_url": "https://www.104.com.tw/company/d7reujk",
+  "area": "台中市大雅區",
+  "industry": "建材／傢俱批發業",
+  "date": "2026-07-28",
+  "apply": 0,
+  "salary": "月薪 38,000~50,000 元",
+  "salary_class": "salary",
+  "salary_m": 38000,
+  "period": "3 年以上經歷",
+  "employees": 70,
+  "cust_no": "28767476000",
+  "co_jobs": 15,
+  "co_other": 14,
+  "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
+  "vio_items": [],
+  "langs": [],
+  "trip": false,
+  "remote": false,
+  "desc": "1. 在主管人員指導之下，依據既定政策，從事各項業務之工作（如：物料管理、生產製作等）。 2. 維持產線的正常運轉，並掌控產線每日產出量。 3. 協助生產流程順暢。 4. 協助產線自動化系統的推展。 5. 負責生產規劃並跟催生產進度。 6. 定期檢測製程設備的重點參數。 7. 持續改善現有生產製程。 8. 調查並處理生",
+  "lat": null,
+  "lon": null,
+  "first_seen": "2026-07-28",
+  "is_new": true,
+  "dist_km": null,
+  "drive_km": null,
+  "drive_min": null,
+  "transit_min": null,
+  "near_st": "",
+  "near_line": "",
+  "walk_m": null,
+  "peak": false,
+  "approx": false
+ },
+ {
+  "no": "14741376",
+  "name": "R00141869  (資深)業務代表, 愛力根醫學美容_桃園/新竹(診所,自費經驗,皮膚科相關尤佳)",
+  "company": "瑞士商艾伯維藥品有限公司台灣分公司",
+  "url": "https://www.104.com.tw/job/8ryio",
+  "co_url": "https://www.104.com.tw/company/1a2x6bi4ft",
+  "area": "台北市中山區",
+  "industry": "藥品製造業",
+  "date": "2026-07-28",
+  "apply": 5,
+  "salary": "面議(經常性薪資達4萬元)",
+  "salary_class": "negotiable",
+  "salary_m": 40001,
+  "period": "4 年以上經歷",
+  "employees": 0,
+  "cust_no": "130000000006649",
+  "co_jobs": 7,
+  "co_other": 1,
+  "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
+  "vio_items": [],
+  "langs": [
+   "英文(精通)"
+  ],
+  "trip": false,
+  "remote": false,
+  "desc": "Responsible territory: 桃園/ 新竹 This role will report into Senior Key Account and Sales Manager: PRIMARY FUNCTION/OBJECTIVE: Work in the assigned sales territory ",
+  "lat": null,
+  "lon": null,
+  "first_seen": "2026-07-28",
+  "is_new": true,
+  "dist_km": null,
+  "drive_km": null,
+  "drive_min": null,
+  "transit_min": null,
+  "near_st": "",
+  "near_line": "",
+  "walk_m": null,
+  "peak": false,
+  "approx": false
+ },
+ {
+  "no": "15034389",
+  "name": "電商訂單出貨人員包裝人員倉管人員",
+  "company": "榮耀文創有限公司",
+  "url": "https://www.104.com.tw/job/8y8lx",
+  "co_url": "https://www.104.com.tw/company/1a2x6bmhq2",
+  "area": "新北市中和區",
+  "industry": "文教／育樂用品批發業",
+  "date": "2026-07-28",
+  "apply": 5,
+  "salary": "月薪 32,000~35,000 元",
+  "salary_class": "salary",
+  "salary_m": 32000,
+  "period": "2 年以上經歷",
+  "employees": 0,
+  "cust_no": "130000000210490",
+  "co_jobs": 9,
+  "co_other": 9,
+  "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
+  "vio_items": [],
+  "langs": [],
+  "trip": false,
+  "remote": false,
+  "desc": "我們正在尋找細心負責、認真踏實的你，來加入我們的物流團隊！ 這不只是一份工作，而是電商運作中不可或缺的關鍵角色，讓你的努力成就每一筆交易！ 你的工作內容 負責產品包裝與出貨 確保每筆訂單準時送達 協助倉庫整理 讓商品擺放整齊好管理 進貨與產品盤點 確保庫存準確不出錯 訂單處理與系統輸入 保持資料正確無誤 我們需要這樣的",
+  "lat": null,
+  "lon": null,
+  "first_seen": "2026-07-28",
+  "is_new": true,
+  "dist_km": null,
+  "drive_km": null,
+  "drive_min": null,
+  "transit_min": null,
+  "near_st": "",
+  "near_line": "",
+  "walk_m": null,
+  "peak": false,
+  "approx": false
+ },
+ {
+  "no": "8483403",
+  "name": "【凱基證券/保經行政作業部】行政人員",
+  "company": "凱基金融控股股份有限公司|凱基證券|凱基銀行|中華開發資本|凱基投信",
+  "url": "https://www.104.com.tw/job/51tu3",
+  "co_url": "https://www.104.com.tw/company/wjcsmhk",
+  "area": "台北市中山區",
+  "industry": "金融控股業",
+  "date": "2026-07-28",
+  "apply": 3,
+  "salary": "面議(經常性薪資達4萬元)",
+  "salary_class": "negotiable",
+  "salary_m": 40001,
+  "period": "經歷不拘",
+  "employees": 24000,
+  "cust_no": "70827383000",
+  "co_jobs": 0,
+  "co_other": 0,
+  "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
+  "vio_items": [],
+  "langs": [],
+  "trip": false,
+  "remote": false,
+  "desc": "1.保險文件審查及建檔檢查工作與支援代理： (1)壽險文件初步檢查及整理點收 (2)產險分公司建檔檢查 (3)依公司規範電訪稿執行電訪作業 (4)每日製作統計報表及發送 (5)每日照會內容協助轉寄 (6)每月例行性報表及明細製作 2.部門內網維護 (1)商品文件及佣金率表格維護上架 (2)重要公告及各專區日常更新維護 ",
+  "lat": null,
+  "lon": null,
+  "first_seen": "2026-07-28",
+  "is_new": true,
+  "dist_km": null,
+  "drive_km": null,
+  "drive_min": null,
+  "transit_min": null,
+  "near_st": "",
+  "near_line": "",
+  "walk_m": null,
+  "peak": false,
+  "approx": false
+ },
+ {
+  "no": "13701336",
+  "name": "東旅飯店-台北館_飯店櫃台人員",
+  "company": "東旅集團_東旅休閒股份有限公司",
+  "url": "https://www.104.com.tw/job/85o0o",
+  "co_url": "https://www.104.com.tw/company/1a2x6bk1dg",
+  "area": "台北市松山區",
+  "industry": "旅館業",
+  "date": "2026-07-28",
+  "apply": 3,
+  "salary": "月薪 36,000 元以上",
+  "salary_class": "salary",
+  "salary_m": 36000,
+  "period": "經歷不拘",
+  "employees": 90,
+  "cust_no": "130000000095988",
+  "co_jobs": 28,
+  "co_other": 28,
+  "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
+  "vio_items": [],
+  "langs": [
+   "英文(精通)"
+  ],
+  "trip": false,
+  "remote": false,
+  "desc": "＊外籍人士有符合之職缺將協助申請在台工作證 ＊The company will assist with applying for a work permit in Taiwan for foreign nationals who qualify for the position. 【工作內容】 ＊負責接待和服務顧客，確",
+  "lat": null,
+  "lon": null,
+  "first_seen": "2026-07-28",
+  "is_new": true,
+  "dist_km": null,
+  "drive_km": null,
+  "drive_min": null,
+  "transit_min": null,
+  "near_st": "",
+  "near_line": "",
+  "walk_m": null,
+  "peak": false,
+  "approx": false
+ },
+ {
+  "no": "14480494",
+  "name": "【桃園大園】正職倉庫文書人員●週休二日見紅休●月薪31K-34K",
+  "company": "芮可企管顧問股份有限公司",
+  "url": "https://www.104.com.tw/job/8md7y",
+  "co_url": "https://www.104.com.tw/company/1a2x6bj7wa",
+  "area": "桃園市大園區",
+  "industry": "人力派遣服務",
+  "date": "2026-07-28",
+  "apply": 1,
+  "salary": "月薪 31,000 元",
+  "salary_class": "salary",
+  "salary_m": 31000,
+  "period": "經歷不拘",
+  "employees": 0,
+  "cust_no": "130000000057786",
+  "co_jobs": 28,
+  "co_other": 27,
+  "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
+  "vio_items": [],
+  "langs": [],
+  "trip": false,
+  "remote": false,
+  "desc": "【工作內容】 ● 退貨部 (行政、現場)： 1. 行政文書作業，文件歸檔。 2. 協助退貨入帳作業流程。 3. 依照作業準則，清點並檢查退貨，依退貨政策將退貨產品分類。 4. 檢查退貨文作件填寫。 ● 運輸部： 1. 理單異常處理作業 2. 單據整理/分類/掃描/歸檔 ● 進貨部： 1. 進貨的藥品溫層儲放(九成可從外",
+  "lat": null,
+  "lon": null,
+  "first_seen": "2026-07-28",
+  "is_new": true,
+  "dist_km": null,
+  "drive_km": null,
+  "drive_min": null,
+  "transit_min": null,
+  "near_st": "",
+  "near_line": "",
+  "walk_m": null,
+  "peak": false,
+  "approx": false
+ },
+ {
+  "no": "12380320",
+  "name": "送貨司機/態度良好/送貨彈性",
+  "company": "鴻益科技有限公司",
+  "url": "https://www.104.com.tw/job/7dcps",
+  "co_url": "https://www.104.com.tw/company/1a2x6blo5t",
+  "area": "桃園市龜山區",
+  "industry": "其他電子零組件相關業",
+  "date": "2026-07-28",
+  "apply": 1,
+  "salary": "月薪 32,000~35,000 元",
+  "salary_class": "salary",
+  "salary_m": 32000,
+  "period": "2 年以上經歷",
+  "employees": 0,
+  "cust_no": "130000000172177",
+  "co_jobs": 5,
+  "co_other": 4,
+  "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
+  "vio_items": [],
+  "langs": [],
+  "trip": false,
+  "remote": false,
+  "desc": "送貨司機/態度良好/送貨彈性",
+  "lat": null,
+  "lon": null,
+  "first_seen": "2026-07-28",
+  "is_new": true,
+  "dist_km": null,
+  "drive_km": null,
+  "drive_min": null,
+  "transit_min": null,
+  "near_st": "",
+  "near_line": "",
+  "walk_m": null,
+  "peak": false,
+  "approx": false
+ },
+ {
+  "no": "14507872",
+  "name": "【蝦皮總部】智取店客服 (純電話/大夜班)｜月薪45,000 ~ 52,000 + 職務津貼｜完整培訓 _ NO",
+  "company": "新加坡商立福人事顧問有限公司台灣分公司",
+  "url": "https://www.104.com.tw/job/8mycg",
+  "co_url": "https://www.104.com.tw/company/1a2x6bkwyv",
+  "area": "台北市信義區",
+  "industry": "人力仲介代徵",
+  "date": "2026-07-28",
+  "apply": 2,
+  "salary": "月薪 35,000~52,000 元",
+  "salary_class": "salary",
+  "salary_m": 35000,
+  "period": "經歷不拘",
+  "employees": 0,
+  "cust_no": "130000000136935",
+  "co_jobs": 42,
+  "co_other": 40,
+  "co_plus": true,
+  "vio_lb": 3,
+  "vio_osh": 0,
+  "vio_oth": 4,
+  "vio_latest": "2026-07-15",
+  "vio_items": [
+   {
+    "date": "2026-07-15",
+    "law": "勞工職業災害保險及保護法第12條",
+    "txt": "未為所屬勞工辦理投保、退保手續。"
+   },
+   {
+    "date": "2026-04-15",
+    "law": "勞工職業災害保險及保護法第12條",
+    "txt": "未為所屬勞工辦理投保、退保手續。"
+   },
+   {
+    "date": "2025-12-05",
+    "law": "勞動基準法第22條第2項",
+    "txt": "工資未依法給付給勞工"
+   },
+   {
+    "date": "2025-06-10",
+    "law": "勞工職業災害保險及保護法第12條",
+    "txt": "未為所屬勞工辦理投保、退保手續。"
+   },
+   {
+    "date": "2025-03-05",
+    "law": "勞動基準法第24條第1項",
+    "txt": "延長工作時間未依規定加給工資"
+   },
+   {
+    "date": "2023-11-10",
+    "law": "",
+    "txt": ""
+   },
+   {
+    "date": "2023-08-07",
+    "law": "勞動基準法第36條第1項",
+    "txt": "未使勞工每7日中有2日之休息，其中1日為例假，1日為休息日"
+   }
+  ],
+  "langs": [],
+  "trip": false,
+  "remote": false,
+  "desc": "【為什麼這個「固定大夜班」是你快速累積存款的首選？】 夜貓族看過來！如果你習慣深夜的寧靜，且想要有一份穩定、高收入的工作，這就是為你量身打造的舞台！ 蝦皮店到店「智取門市（無人店）」全台大擴張，我們正在招募專屬大夜班電話客服。除了 35K~42K 的優渥本薪，每天出勤再加碼發放 450 元夜班津貼（每月實質收入上看 4",
+  "lat": null,
+  "lon": null,
+  "first_seen": "2026-07-28",
+  "is_new": true,
+  "dist_km": null,
+  "drive_km": null,
+  "drive_min": null,
+  "transit_min": null,
+  "near_st": "",
+  "near_line": "",
+  "walk_m": null,
+  "peak": false,
+  "approx": false
+ },
+ {
+  "no": "15203466",
+  "name": "誠徵會開車的您｜桃園宅配司機｜月薪6萬元起｜日薪2300元 (蘆竹+龜山區)-客-DM",
+  "company": "德萌有限公司",
+  "url": "https://www.104.com.tw/job/91v2i",
+  "co_url": "https://www.104.com.tw/company/1a2x6bkk8g",
+  "area": "桃園市蘆竹區",
+  "industry": "人力派遣服務",
+  "date": "2026-07-28",
+  "apply": 2,
+  "salary": "月薪 60,000 元",
+  "salary_class": "salary",
+  "salary_m": 60000,
+  "period": "經歷不拘",
+  "employees": 40,
+  "cust_no": "130000000120432",
+  "co_jobs": 7,
+  "co_other": 5,
+  "co_plus": false,
+  "vio_lb": 1,
+  "vio_osh": 0,
+  "vio_oth": 5,
+  "vio_latest": "2026-06-15",
+  "vio_items": [
+   {
+    "date": "2026-06-15",
+    "law": "",
+    "txt": ""
+   },
+   {
+    "date": "2026-04-10",
+    "law": "勞動基準法第24條第1項",
+    "txt": "延長工作時間未依規定加給工資"
+   },
+   {
+    "date": "2025-08-11",
+    "law": "",
+    "txt": ""
+   },
+   {
+    "date": "2024-07-10",
+    "law": "",
+    "txt": ""
+   },
+   {
+    "date": "2023-09-11",
+    "law": "",
+    "txt": ""
+   },
+   {
+    "date": "2023-08-10",
+    "law": "勞工職業災害保險及保護法第17條",
+    "txt": "投保薪資金額以多報少或以少報多，或未於期限內通知月投保薪資之調整。"
+   }
+  ],
+  "langs": [],
+  "trip": false,
+  "remote": false,
+  "desc": "【職務特色】 ★固定休週日 ★享有勞健保 ★享三節禮金/禮品 ★歡迎車老闆合作 【職務資訊】 工作職稱：宅配收送貨司機 工作時段：08:00~17:30 休假制度：固定休週日 薪資待遇：60,000元以上(日薪2,300元起) 【工作內容】 1. 按時運送、交付、簽收貨物。 2. 依照載重限制及運輸法規安全駕駛。 3.",
+  "lat": null,
+  "lon": null,
+  "first_seen": "2026-07-28",
+  "is_new": true,
+  "dist_km": null,
+  "drive_km": null,
+  "drive_min": null,
+  "transit_min": null,
+  "near_st": "",
+  "near_line": "",
+  "walk_m": null,
+  "peak": false,
+  "approx": false
+ },
+ {
+  "no": "14988399",
+  "name": "【行政採購部】採購專員",
+  "company": "逢興生物科技股份有限公司",
+  "url": "https://www.104.com.tw/job/8x94f",
+  "co_url": "https://www.104.com.tw/company/5y8yjdc",
+  "area": "新北市中和區",
+  "industry": "其他食品製造業",
+  "date": "2026-07-28",
+  "apply": 3,
+  "salary": "面議(經常性薪資達4萬元)",
+  "salary_class": "negotiable",
+  "salary_m": 40001,
+  "period": "3 年以上經歷",
+  "employees": 200,
+  "cust_no": "12954810000",
+  "co_jobs": 34,
+  "co_other": 26,
+  "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
+  "vio_items": [],
+  "langs": [
+   "英文(精通)"
+  ],
+  "trip": false,
+  "remote": false,
+  "desc": "1. 負責工廠工程、設備及庶務採購作業。 2. 執行採購流程、詢比議價、供應商開發與管理。 3. 商務合約條件協商，完成議定簽約作業。 4. 跨部門需求確認與協調，確保採購效率、品質與成本效益。 5. 其它主管交辦事項。 我們在意的你： 1.細心、積極、具高度責任感，能獨立完成工作。 2.良好溝通與協調能力，能跨部門合",
+  "lat": null,
+  "lon": null,
+  "first_seen": "2026-07-28",
+  "is_new": true,
+  "dist_km": null,
+  "drive_km": null,
+  "drive_min": null,
+  "transit_min": null,
+  "near_st": "",
+  "near_line": "",
+  "walk_m": null,
+  "peak": false,
+  "approx": false
+ },
+ {
+  "no": "12825792",
+  "name": "Curves運動指導員_中壢中原店",
+  "company": "佑晨有限公司",
+  "url": "https://www.104.com.tw/job/7mwg0",
+  "co_url": "https://www.104.com.tw/company/1a2x6bigns",
+  "area": "桃園市中壢區",
+  "industry": "運動服務業",
+  "date": "2026-07-28",
+  "apply": 3,
+  "salary": "月薪 35,000 元以上",
+  "salary_class": "salary",
+  "salary_m": 35000,
+  "period": "經歷不拘",
+  "employees": 10,
+  "cust_no": "130000000022488",
+  "co_jobs": 2,
+  "co_other": 2,
+  "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
+  "vio_items": [],
+  "langs": [],
+  "trip": false,
+  "remote": false,
+  "desc": "Curves全台最大女性專屬連鎖健身品牌，我們承諾 「提供一個充滿愛與支持的環境，從運動開始，讓所有接觸到Curves的人，勇於蛻變，綻放價值」 【工作內容】 1.提供運動健身諮詢服務，並指導會員操作運動器材。 2.針對會員量身結果給予個別指導讓會員達成運動目標。 3.企劃各項會員活動提升運動趣味性加強運動意願。 4.",
+  "lat": null,
+  "lon": null,
+  "first_seen": "2026-07-28",
+  "is_new": true,
+  "dist_km": null,
+  "drive_km": null,
+  "drive_min": null,
+  "transit_min": null,
+  "near_st": "",
+  "near_line": "",
+  "walk_m": null,
+  "peak": false,
+  "approx": false
+ },
+ {
+  "no": "15296676",
+  "name": "【新竹】行政專員(每年調薪/視訊面談/日文N1/彈性上下班)",
+  "company": "特瑞科技有限公司",
+  "url": "https://www.104.com.tw/job/93uzo",
+  "co_url": "https://www.104.com.tw/company/1a2x6blx2c",
+  "area": "新竹市",
+  "industry": "人力仲介代徵",
+  "date": "2026-07-28",
+  "apply": 3,
+  "salary": "月薪 37,000~43,000 元",
+  "salary_class": "salary",
+  "salary_m": 37000,
+  "period": "2 年以上經歷",
+  "employees": 210,
+  "cust_no": "130000000183716",
+  "co_jobs": 40,
+  "co_other": 40,
+  "co_plus": true,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
+  "vio_items": [],
+  "langs": [
+   "日文(略懂)"
+  ],
+  "trip": false,
+  "remote": false,
+  "desc": "1.與日籍工程師、日本總公司聯繫，商業日文回覆e-mail，協助處理相關需求。 2.申辦外國專業人員工作許可、居留證、銀行開戶、租屋等(無經驗亦可，提供教學)。 3.考勤管理，如: 線上假單、排班及休假管理、出勤記錄核對、補助申請管理等。有人資背景、人資系統操作經驗尤佳(無亦可，提供教學)。 4.維護公司相關資料，如：",
+  "lat": null,
+  "lon": null,
+  "first_seen": "2026-07-28",
+  "is_new": true,
+  "dist_km": null,
+  "drive_km": null,
+  "drive_min": null,
+  "transit_min": null,
+  "near_st": "",
+  "near_line": "",
+  "walk_m": null,
+  "peak": false,
+  "approx": false
+ },
+ {
+  "no": "15300001",
+  "name": "D85 資深公關企劃 (可遠端工作)",
+  "company": "台灣固網股份有限公司",
+  "url": "https://www.104.com.tw/job/93xk1",
+  "co_url": "https://www.104.com.tw/company/d2tfs80",
+  "area": "台北市大安區",
+  "industry": "電信相關業",
+  "date": "2026-07-28",
+  "apply": 2,
+  "salary": "月薪 39,400~48,500 元",
+  "salary_class": "salary",
+  "salary_m": 39400,
+  "period": "4 年以上經歷",
+  "employees": 310,
+  "cust_no": "28468548000",
+  "co_jobs": 0,
+  "co_other": 0,
+  "co_plus": false,
+  "vio_lb": 0,
+  "vio_osh": 0,
+  "vio_oth": 0,
+  "vio_latest": "",
+  "vio_items": [],
+  "langs": [
+   "英文(精通)"
+  ],
+  "trip": false,
+  "remote": true,
+  "desc": "1. 媒體公關與新聞議題操作 (1) 規劃並執行新聞稿撰寫、發布與追蹤，確保品牌與產品訊息精準傳遞。 (2) 建立並維護媒體關係，掌握產業動態與媒體版面，提升企業曝光與正面形象。 2. 媒體及VIP經營專案規劃與執行 (1) 擬定年度／專案媒體公關計畫，協調傳統媒體、網路媒體及自媒體之曝光規劃。 (2) 監測輿情與媒體",
+  "lat": null,
+  "lon": null,
+  "first_seen": "2026-07-28",
+  "is_new": true,
+  "dist_km": null,
+  "drive_km": null,
+  "drive_min": null,
+  "transit_min": null,
+  "near_st": "",
+  "near_line": "",
+  "walk_m": null,
+  "peak": false,
+  "approx": false
  },
  {
   "no": "12236361",
@@ -16995,6 +18320,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [
    "英文(略懂)"
   ],
@@ -17038,6 +18364,7 @@
   "vio_osh": 0,
   "vio_oth": 0,
   "vio_latest": "",
+  "vio_items": [],
   "langs": [],
   "trip": false,
   "remote": false,
@@ -17097,6 +18424,7 @@
   "near_line": "",
   "walk_m": null,
   "peak": false,
-  "approx": false
+  "approx": false,
+  "vio_items": []
  }
 ]

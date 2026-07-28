@@ -165,7 +165,7 @@ def normalize(raw: dict) -> dict | None:
         "employees": int(raw.get("employeeCount") or 0),
         "cust_no": str(raw.get("custNo") or ""),
         "co_jobs": None, "co_other": None, "co_plus": False,
-        "vio_lb": None, "vio_osh": None, "vio_oth": None, "vio_latest": "",
+        "vio_lb": None, "vio_osh": None, "vio_oth": None, "vio_latest": "", "vio_items": [],
         "langs": langs,
         "trip": trip,
         "remote": int(raw.get("remoteWorkType") or 0) > 0,
@@ -393,6 +393,7 @@ def fetch_violations(jobs: list[dict], now: datetime):
                 continue
             counts = {"lb": 0, "osh": 0, "oth": 0}
             latest = ""
+            items = []
             try:
                 xml = zipfile.ZipFile(io_bytes(body)).read("content.xml").decode("utf-8", "ignore")
                 for tm in re.finditer(r'<table:table\s[^>]*table:name="([^"]+)"(.*?)</table:table>', xml, re.S):
@@ -403,18 +404,26 @@ def fetch_violations(jobs: list[dict], now: datetime):
                     if not kind:
                         continue
                     for row in re.findall(r"<table:table-row.*?</table:table-row>", tbody, re.S):
-                        cells = re.findall(r"<text:p>([^<]*)</text:p>", row)
-                        if not (cells and cells[0].strip().isdigit()):
+                        cells = [c.strip() for c in re.findall(r"<text:p>([^<]*)</text:p>", row)]
+                        if not (cells and cells[0].isdigit()):
                             continue
                         dates = [datetime(int(y) + 1911, int(m), int(d), tzinfo=TZ)
                                  for y, m, d in re.findall(r"\b(\d{2,3})/(\d{2})/(\d{2})\b", row)
                                  if 1 <= int(m) <= 12 and 1 <= int(d) <= 31]
-                        if dates and max(dates) >= recent:
-                            counts[kind] += 1
-                            latest = max(latest, max(dates).strftime("%Y-%m-%d"))
+                        if not (dates and max(dates) >= recent):
+                            continue
+                        counts[kind] += 1
+                        latest = max(latest, max(dates).strftime("%Y-%m-%d"))
+                        # 細項:法條在含「法第」的儲存格,違規敘述通常是它的下一格
+                        law = next((c for c in cells if "法第" in c), "")
+                        idx = cells.index(law) if law else -1
+                        txt = cells[idx + 1] if 0 <= idx < len(cells) - 1 else ""
+                        items.append({"date": max(dates).strftime("%Y-%m-%d"),
+                                      "law": law[:90], "txt": txt[:110]})
             except Exception:
                 continue
-            cache[name] = {**counts, "latest": latest, "d": today}
+            items.sort(key=lambda x: x["date"], reverse=True)
+            cache[name] = {**counts, "latest": latest, "items": items[:12], "d": today}
             time.sleep(1.5)
     cache = {k: v for k, v in cache.items() if k in set(firms)}
     p.write_text(json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -423,6 +432,7 @@ def fetch_violations(jobs: list[dict], now: datetime):
         c = cache.get(j["company"])
         if c:
             j["vio_lb"], j["vio_osh"], j["vio_oth"], j["vio_latest"] = c["lb"], c["osh"], c["oth"], c["latest"]
+            j["vio_items"] = c.get("items", [])
             done += 1
     print(f"勞動部違規紀錄:本次查了 {len(todo)} 家,{done}/{len(jobs)} 筆職缺已有資料")
 
@@ -473,7 +483,7 @@ def fetch_linkedin(now: datetime) -> list[dict]:
                 "salary": "薪資未列(見原頁)", "salary_class": "negotiable", "salary_m": 40001,
                 "period": "條件詳見原頁", "employees": 0,
                 "cust_no": "", "co_jobs": None, "co_other": None, "co_plus": False,
-                "vio_lb": None, "vio_osh": None, "vio_oth": None, "vio_latest": "",
+                "vio_lb": None, "vio_osh": None, "vio_oth": None, "vio_latest": "", "vio_items": [],
                 "langs": [], "trip": False, "remote": False, "desc": "",
                 "lat": None, "lon": None, "source": "li",
             }
@@ -670,8 +680,8 @@ def job_row_html(j: dict) -> str:
         badges.append("語言:" + "、".join(j["langs"]))
     if j["trip"]:
         badges.append("需出差/外派")
-    if j.get("vio_lb") or j.get("vio_osh"):
-        badges.append(f'<span style="color:#dc2626">⚠️ 近3年違規:勞基法 {j["vio_lb"]}・職安 {j["vio_osh"]} 件</span>')
+    if j.get("vio_lb") or j.get("vio_osh") or j.get("vio_oth"):
+        badges.append(f'<span style="color:#dc2626">⚠️ 近3年違規:勞基法 {j["vio_lb"]}・職安 {j["vio_osh"]}・其他 {j["vio_oth"]} 件</span>')
     meta = f'{j["area"]}|{j["period"]}' + ("|" + "|".join(badges) if badges else "")
     color = "#d97706" if j["salary_class"] == "negotiable" else "#059669"
     parts = []

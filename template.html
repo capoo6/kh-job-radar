@@ -63,7 +63,14 @@ main{padding:14px 16px 40px}
 .meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
 .chip{font-size:12px;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:2px 8px;color:var(--muted)}
 .chip.lang{background:var(--ok-soft);color:var(--ok);border-color:transparent}
-.chip.vio{background:var(--new-soft);color:var(--new);border-color:transparent;font-weight:700}
+.chip.vio{background:var(--new-soft);color:var(--new);border-color:transparent;font-weight:700;cursor:pointer}
+.vio-d{display:inline-block}
+.vio-d summary{list-style:none}
+.vio-d summary::-webkit-details-marker{display:none}
+.vio-list{margin:6px 0 2px;padding:8px 10px;background:var(--new-soft);border-radius:8px;font-size:12.5px;color:var(--ink);list-style:none;max-width:640px}
+.vio-list li{padding:3px 0;border-bottom:1px dashed rgba(220,38,38,.2)}
+.vio-list li:last-child{border-bottom:none}
+.vio-list b{color:var(--new);font-weight:700;margin-right:4px}
 .desc{font-size:13px;color:var(--muted);margin-top:8px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .row-bottom{display:flex;justify-content:space-between;align-items:center;margin-top:10px;font-size:12.5px;color:var(--muted);flex-wrap:wrap;gap:6px}
 .apply-btn{background:var(--brand);color:#fff;text-decoration:none;font-size:13px;font-weight:700;border-radius:8px;padding:6px 14px}
@@ -188,7 +195,18 @@ function card(j){
   const emp = j.employees ? `<span class="chip">員工 ${j.employees} 人</span>` : "";
   const plus = j.co_plus ? "+" : "";
   const co = j.co_jobs!=null ? `<span class="chip">🏢 公司全台在徵 ${j.co_jobs}${plus} 缺・非業務職 ${j.co_other}${plus}</span>` : "";
-  const vio = (j.vio_lb||j.vio_osh) ? `<span class="chip vio">⚠️ 近3年違規:勞基法 ${j.vio_lb}・職安 ${j.vio_osh} 件</span>` : "";
+  const vioParts = [];
+  if(j.vio_lb) vioParts.push(`勞基法 ${j.vio_lb}`);
+  if(j.vio_osh) vioParts.push(`職安 ${j.vio_osh}`);
+  if(j.vio_oth) vioParts.push(`其他 ${j.vio_oth}`);
+  const vioItems = (j.vio_items||[]).map(v=>
+    `<li><b>${esc(v.date)}</b>${esc(v.law)}${v.txt?` — ${esc(v.txt)}`:""}</li>`).join("");
+  const vioMore = (j.vio_lb+j.vio_osh+j.vio_oth) > (j.vio_items||[]).length
+    ? `<li>…僅列最近 ${(j.vio_items||[]).length} 件,完整名單見勞動部查詢系統</li>` : "";
+  const vio = vioParts.length ? `<details class="vio-d">
+      <summary class="chip vio">⚠️ 近3年違規:${vioParts.join("・")} 件 ▾</summary>
+      <ul class="vio-list">${vioItems}${vioMore}</ul>
+    </details>` : "";
   return `<div class="card${j.is_new?" new":""}">
     <div class="row1"><a class="jobname" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.name)}</a>${badges}</div>
     <div class="company">${j.co_url?`<a href="${esc(j.co_url)}" target="_blank" rel="noopener">${esc(j.company)}</a>`:esc(j.company)} <span class="ind">${esc(j.industry)}</span></div>
