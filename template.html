@@ -20,6 +20,14 @@ header p{opacity:.85;font-size:13px;margin-top:6px}
 .stat{background:rgba(255,255,255,.14);border-radius:10px;padding:8px 14px;font-size:13px}
 .stat b{font-size:19px;margin-right:4px}
 .controls{position:sticky;top:0;z-index:5;background:var(--bg);padding:12px 16px;border-bottom:1px solid var(--line)}
+.tabs{width:100%;display:flex;gap:8px;margin-bottom:8px}
+.tab{border:1px solid var(--line);background:var(--card);color:var(--muted);border-radius:999px;padding:7px 16px;font-size:14px;font-weight:700;cursor:pointer}
+.tab.active{background:var(--brand);border-color:var(--brand);color:#fff}
+.fav-btn{position:absolute;top:10px;right:12px;border:none;background:none;font-size:22px;line-height:1;cursor:pointer;color:#c8cedb;padding:4px}
+.fav-btn:hover{color:#f59e0b}
+.fav-btn.on{color:#f59e0b}
+.card{position:relative}
+.card.gone{opacity:.75;border-style:dashed}
 .controls .wrap{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
 .controls input[type=search],.controls select{border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:14px;background:var(--card);color:var(--ink)}
 .controls input[type=search]{flex:1;min-width:160px}
@@ -96,6 +104,10 @@ footer{text-align:center;color:var(--muted);font-size:12px;padding:20px 16px 40p
 
 <div class="controls">
   <div class="wrap">
+    <div class="tabs">
+      <button class="tab active" data-view="all" type="button">全部職缺</button>
+      <button class="tab" data-view="fav" type="button">⭐ 我的最愛 (<span id="fav-count">0</span>)</button>
+    </div>
     <input id="q" type="search" placeholder="搜尋職稱、公司、工作內容…">
     <div class="dd">
       <button id="dist-btn" type="button">地區:全部 ▾</button>
@@ -126,6 +138,33 @@ const JOBS = __DATA__;
 
 const $ = id => document.getElementById(id);
 const esc = s => String(s??"").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+// 我的最愛(存在瀏覽器本機)
+let VIEW = "all";
+let FAVS = {};
+try{ FAVS = JSON.parse(localStorage.getItem("khjr_favs")) || {}; }catch(e){}
+function saveFavs(){
+  try{ localStorage.setItem("khjr_favs", JSON.stringify(FAVS)); }catch(e){}
+  $("fav-count").textContent = Object.keys(FAVS).length;
+}
+function toggleFav(no){
+  if(FAVS[no]) delete FAVS[no];
+  else{
+    const j = JOBS.find(x=>x.no===no);
+    if(j) FAVS[no] = {no:j.no, name:j.name, company:j.company, url:j.url,
+                      salary:j.salary, area:j.area, date:j.date};
+  }
+  saveFavs(); render();
+}
+function goneCard(f){
+  return `<div class="card gone">
+    <button class="fav-btn on" data-no="${esc(f.no)}" title="移出最愛" type="button">★</button>
+    <div class="row1" style="padding-right:30px"><span class="jobname" style="color:var(--muted)">${esc(f.name)}</span><span class="badge b-trip">可能已下架</span></div>
+    <div class="company">${esc(f.company)}</div>
+    <div class="row-bottom"><span>${esc(f.area)}|收藏時:${esc(f.salary)}|刊登 ${esc(f.date)}</span>
+    <a class="apply-btn" href="${esc(f.url)}" target="_blank" rel="noopener">原連結 →</a></div>
+  </div>`;
+}
 
 // 統計與地區選單
 $("st-total").textContent = JOBS.length;
@@ -191,6 +230,7 @@ function card(j){
     `<a href="https://salary.tw/search?keyword=${encodeURIComponent(j.company)}" target="_blank" rel="noopener">比薪水</a>`,
     `<a href="https://interview.tw/search?keyword=${encodeURIComponent(j.company)}" target="_blank" rel="noopener">面試趣</a>`);
   const trafficRow = traffic.length ? `<div class="traffic">${traffic.join("<span style='color:var(--line)'>|</span>")}</div>` : "";
+  const favBtn = `<button class="fav-btn${FAVS[j.no]?" on":""}" data-no="${esc(j.no)}" title="${FAVS[j.no]?"移出最愛":"加到最愛"}" type="button">${FAVS[j.no]?"★":"☆"}</button>`;
   const langs = j.langs.map(l=>`<span class="chip lang">${esc(l)}</span>`).join("");
   const emp = j.employees ? `<span class="chip">員工 ${j.employees} 人</span>` : "";
   const plus = j.co_plus ? "+" : "";
@@ -207,8 +247,8 @@ function card(j){
       <summary class="chip vio">⚠️ 近3年違規:${vioParts.join("・")} 件 ▾</summary>
       <ul class="vio-list">${vioItems}${vioMore}</ul>
     </details>` : "";
-  return `<div class="card${j.is_new?" new":""}">
-    <div class="row1"><a class="jobname" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.name)}</a>${badges}</div>
+  return `<div class="card${j.is_new?" new":""}">${favBtn}
+    <div class="row1" style="padding-right:30px"><a class="jobname" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.name)}</a>${badges}</div>
     <div class="company">${j.co_url?`<a href="${esc(j.co_url)}" target="_blank" rel="noopener">${esc(j.company)}</a>`:esc(j.company)} <span class="ind">${esc(j.industry)}</span></div>
     <div class="salary ${j.salary_class}">${esc(j.salary)}</div>
     ${trafficRow}
@@ -241,15 +281,38 @@ function render(){
     if(q && !(j.name+j.company+j.desc+j.industry).toLowerCase().includes(q)) return false;
     return true;
   });
+  if(VIEW==="fav") rows = rows.filter(j=>FAVS[j.no]);
   const sort = $("sort").value;
   const distOf = j => j.drive_km ?? j.dist_km ?? 9999;
   if(sort==="salary") rows.sort((a,b)=>b.salary_m-a.salary_m);
   else if(sort==="apply") rows.sort((a,b)=>a.apply-b.apply || (a.date<b.date?1:-1));
   else if(sort==="date") rows.sort((a,b)=>a.date<b.date?1:a.date>b.date?-1:b.is_new-a.is_new);
   else rows.sort((a,b)=>distOf(a)-distOf(b));
-  $("count").textContent = `符合條件 ${rows.length} 筆`;
-  $("list").innerHTML = rows.map(card).join("") || '<div class="empty">沒有符合條件的職缺</div>';
+  let html = rows.map(card).join("");
+  if(VIEW==="fav"){
+    const gone = Object.values(FAVS).filter(f=>!JOBS.some(j=>j.no===f.no));
+    html += gone.map(goneCard).join("");
+    $("count").textContent = `收藏中 ${rows.length + gone.length} 筆`;
+    if(!html) html = '<div class="empty">還沒有收藏的職缺——點卡片右上角的 ☆ 加到最愛</div>';
+  }else{
+    $("count").textContent = `符合條件 ${rows.length} 筆`;
+    if(!html) html = '<div class="empty">沒有符合條件的職缺</div>';
+  }
+  $("list").innerHTML = html;
 }
+
+// 星星按鈕(事件委派,重繪後仍有效)
+$("list").addEventListener("click", e=>{
+  const b = e.target.closest(".fav-btn");
+  if(b) toggleFav(b.dataset.no);
+});
+// 頁籤切換
+document.querySelectorAll(".tab").forEach(t=>t.addEventListener("click", ()=>{
+  VIEW = t.dataset.view;
+  document.querySelectorAll(".tab").forEach(x=>x.classList.toggle("active", x===t));
+  render();
+}));
+saveFavs();
 
 ["q","sort","only-new","show-neg","f-drive","f-transit","f-salary"].forEach(id=>{
   $(id).addEventListener("input", render);
