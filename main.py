@@ -50,6 +50,16 @@ LI_KEYWORDS = ["international sales", "export sales", "overseas sales",
                "國外業務", "外銷業務", "國際業務", "business development"]  # LinkedIn 搜尋關鍵字
 LI_MAX_AGE_DAYS = 60              # LinkedIn 職缺只收 N 天內刊登的(它有萬年舊缺)
 LI_TITLE_INCLUDE = r"(?i)sales|business development|account manager|業務|外銷|商務開發"  # LinkedIn 職稱必須符合
+BIG_COMPANIES = [                 # 百大企業監測:每天搜這些公司在南部的業務類職缺
+    "台灣積體電路製造股份有限公司", "鴻海精密工業股份有限公司", "日月光半導體製造股份有限公司",
+    "聯華電子股份有限公司", "中國鋼鐵股份有限公司", "群創光電股份有限公司",
+    "友達光電股份有限公司", "台達電子工業股份有限公司", "華邦電子股份有限公司",
+    "長榮海運股份有限公司", "陽明海運股份有限公司", "萬海航運股份有限公司",
+    "國巨股份有限公司", "台灣塑膠工業股份有限公司", "南亞塑膠工業股份有限公司",
+    "中國石油化學工業開發股份有限公司", "台灣國際造船股份有限公司", "東和鋼鐵企業股份有限公司",
+]
+BIG_CO_AREAS = ["6001016000", "6001014000"]   # 百大監測範圍:高雄市+台南市
+BIG_TITLE_INCLUDE = LI_TITLE_INCLUDE          # 百大職缺的職稱過濾(業務類才收)
 MOL_MAX_PER_RUN = 60              # 勞動部違規查詢:每次執行最多查幾家公司
 MOL_REFRESH_DAYS = 30             # 每家公司的違規紀錄多久重查一次
 MOL_RECENT_YEARS = 3              # 只統計近 N 年的處分
@@ -361,6 +371,41 @@ def fetch_company_counts(jobs: list[dict], now: datetime):
     print(f"公司職缺數:本次查了 {len(todo)} 家,{done}/{len(jobs)} 筆職缺已有公司資料")
 
 
+# ---------------------------- 百大企業職缺 ----------------------------
+
+def fetch_big_companies(exclude_nos: set) -> list[dict]:
+    """搜 BIG_COMPANIES 各公司在高雄+台南的職缺(104 上大企業都有官方刊登),
+    只收職稱符合業務類的,已在主搜尋出現過的編號不重複收。"""
+    jobs = []
+    for name in BIG_COMPANIES:
+        rows, page, last = [], 1, 1
+        try:
+            while page <= min(last, 5):
+                d = _get_json(API + "?" + urlencode({
+                    "jobsource": "index_s", "mode": "s", "keyword": name,
+                    "area": ",".join(BIG_CO_AREAS), "page": page, "pagesize": 20}))
+                last = d.get("metadata", {}).get("pagination", {}).get("lastPage", 1)
+                rows += d.get("data", [])
+                page += 1
+                time.sleep(1.2)
+        except Exception as e:
+            print(f"百大查詢失敗({name[:8]}): {e}")
+            continue
+        for r in rows:
+            cn = r.get("custName", "")
+            if not (name in cn or cn in name):      # 只收公司本體(關鍵字會撈到其他公司)
+                continue
+            if not re.search(BIG_TITLE_INCLUDE, r.get("jobName", "")):
+                continue
+            j = normalize(r)
+            if j and j["no"] not in exclude_nos:
+                j["source"] = "big"
+                exclude_nos.add(j["no"])
+                jobs.append(j)
+    print(f"百大企業南部業務職缺:{len(jobs)} 筆")
+    return jobs
+
+
 # ---------------------------- 勞動部違規紀錄 ----------------------------
 
 def fetch_violations(jobs: list[dict], now: datetime):
@@ -621,6 +666,7 @@ def main():
         if j and j["no"] not in seen_nos:
             seen_nos.add(j["no"])
             jobs.append(j)
+    jobs += fetch_big_companies(seen_nos)
 
     li_jobs = fetch_linkedin(now)
 

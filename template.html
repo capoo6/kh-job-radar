@@ -214,6 +214,7 @@ function card(j){
   const badges = [
     j.is_new ? '<span class="badge b-new">NEW</span>' : "",
     j.source==="li" ? '<span class="badge b-li">🌐 LinkedIn 外商</span>' : "",
+    j.source==="big" ? '<span class="badge b-big">🏆 百大</span>' : "",
     (j.near_line==="紅線" && j.walk_m<=1000) ? '<span class="badge b-direct">紅線直達</span>' : "",
     j.trip ? '<span class="badge b-trip">出差/外派</span>' : "",
     j.remote ? '<span class="badge b-remote">可遠端</span>' : "",
