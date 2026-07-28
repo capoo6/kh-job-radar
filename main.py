@@ -29,6 +29,10 @@ AREAS = ["6001016000"]            # 地區:高雄市
 KEYWORD = ""                      # 額外關鍵字,留空 = 只用職務類別過濾
 EXCLUDE_TITLE = r"國內(?!外)|工程師|[Ee]ngineer"  # 職稱排除:國內(非國內外)、工程師職
 MAX_EDU = 4                       # 學歷上限:4=大學。要求碩士(5)/博士(6)以上的職缺排除
+EXCLUDE_INDUSTRIES = [            # 行業別含這些字樣的職缺不顯示(比對 104 的產業別欄位)
+    "補習班", "書籍出版", "醫療器材製造", "食品什貨批發", "飲料店",
+    "不動產經營", "其他教育服務", "旅館", "證券及期貨", "攝影沖印", "診所",
+]
 KEEP_DAYS = 30                    # 網頁只顯示最近 N 天內刊登/更新的職缺
 STATE_PRUNE_DAYS = 120            # 超過 N 天沒再出現的職缺,從記錄中清除
 SEND_WHEN_EMPTY = False           # 今日沒有新職缺時是否仍寄信
@@ -135,6 +139,9 @@ def monthly_equiv(low, high, s10) -> int:
 def normalize(raw: dict) -> dict | None:
     name = raw.get("jobName", "")
     if EXCLUDE_TITLE and re.search(EXCLUDE_TITLE, name):
+        return None
+    industry = raw.get("coIndustryDesc", "") or ""
+    if any(x in industry for x in EXCLUDE_INDUSTRIES):
         return None
     desc = raw.get("description") or ""
     s_text, s_class, s_low = salary_info(raw.get("salaryLow"), raw.get("salaryHigh"), raw.get("s10"))
