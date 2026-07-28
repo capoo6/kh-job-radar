@@ -216,6 +216,7 @@ function card(j){
     (j.near_line==="紅線" && j.walk_m<=1000) ? '<span class="badge b-direct">紅線直達</span>' : "",
     j.trip ? '<span class="badge b-trip">出差/外派</span>' : "",
     j.remote ? '<span class="badge b-remote">可遠端</span>' : "",
+    j.repost>=2 ? `<span class="badge b-trip" title="同一職缺換編號重新刊登,可能是長期都在徵的缺">♻️ 重複刊登${j.repost}次</span>` : "",
   ].join("");
   const traffic = [];
   const approx = j.approx ? "(依公司名定位)" : "";

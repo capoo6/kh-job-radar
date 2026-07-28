@@ -3,6 +3,8 @@
 每天從 104 抓取職缺 → 產生靜態網頁 (docs/index.html) → 寄出新職缺通知信。
 只用 Python 標準函式庫，不需要安裝任何套件。
 """
+import difflib
+import hashlib
 import json
 import os
 import re
@@ -607,19 +609,48 @@ def main():
 
     li_jobs = fetch_linkedin(now)
 
-    # 標記新職缺:第一次出現在記錄中的才算 NEW
+    # 標記新職缺。除了職缺編號,還用「職缺指紋」(公司+正規化職稱)抓重新刊登:
+    # 萬年缺常換編號重貼、職稱改一兩個字,指紋相同或相似度>=0.88 就視為同一缺。
     state = load_state()
+    if "jobs" not in state:  # 舊格式遷移
+        state = {"jobs": state, "fps": {}}
+    sjobs, fps = state["jobs"], state["fps"]
+
+    def norm_title(s):
+        return re.sub(r"[\s\W_]+", "", s.lower())
+
     for j in jobs + li_jobs:
-        if j["no"] not in state:
-            state[j["no"]] = {"first_seen": today, "last_seen": today}
+        cust = j["cust_no"] or j["company"]
+        nt = norm_title(j["name"])
+        key = hashlib.md5(f"{cust}|{nt}".encode()).hexdigest()[:12]
+        fp = fps.get(key)
+        if fp is None:  # 沒有完全相同的,模糊比對同公司的舊職稱(容忍改幾個字)
+            for k, v in fps.items():
+                if v["c"] == cust and difflib.SequenceMatcher(None, nt, v["t"]).ratio() >= 0.88:
+                    key, fp = k, v
+                    break
+        known = j["no"] in sjobs
+        if known:
+            sjobs[j["no"]]["last_seen"] = today
         else:
-            state[j["no"]]["last_seen"] = today
-        j["first_seen"] = state[j["no"]]["first_seen"]
-        j["is_new"] = j["first_seen"] == today
+            sjobs[j["no"]] = {"first_seen": today, "last_seen": today}
+        j["first_seen"] = sjobs[j["no"]]["first_seen"]
+        if fp is None:
+            fp = {"c": cust, "t": nt, "first": today, "nos": [], "n": 0}
+            fps[key] = fp
+        if j["no"] not in fp["nos"]:
+            fp["nos"] = (fp["nos"] + [j["no"]])[-10:]
+            fp["n"] += 1
+        fp["last"] = today
+        # 同一缺跨日換編號才算重複刊登(同天刊兩筆同職稱可能是真的開兩個名額)
+        j["repost"] = fp["n"] if fp["n"] >= 2 and fp["first"] < today else 0
+        # NEW = 編號沒看過,且不是舊指紋換編號重貼
+        j["is_new"] = (not known) and not (fp["n"] >= 2 and fp["first"] < today)
 
     # 清掉太久沒出現的記錄,避免檔案無限成長
     prune = (now - timedelta(days=STATE_PRUNE_DAYS)).strftime("%Y-%m-%d")
-    state = {k: v for k, v in state.items() if v["last_seen"] >= prune}
+    state["jobs"] = {k: v for k, v in sjobs.items() if v["last_seen"] >= prune}
+    state["fps"] = {k: v for k, v in fps.items() if v.get("last", today) >= prune}
 
     display = [j for j in jobs if j["date"] >= cutoff] + li_jobs
 
@@ -634,7 +665,7 @@ def main():
     fetch_li_routes(li_jobs, routes, stations, now)
     fetch_company_counts(display, now)
     fetch_violations(display, now)
-    routes = {k: v for k, v in routes.items() if k in state}  # 跟著 state 一起清舊資料
+    routes = {k: v for k, v in routes.items() if k in state["jobs"]}  # 跟著 state 一起清舊資料
 
     # 離巨蛋站近的優先(沒有座標的排最後)
     display.sort(key=lambda j: (j["drive_km"] if j["drive_km"] is not None
