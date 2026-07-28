@@ -15,6 +15,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.utils import formataddr
 from pathlib import Path
+from urllib.error import HTTPError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
@@ -34,6 +35,10 @@ ORIGIN_NAME = "捷運巨蛋站"
 PEAK_WEEKDAY = 0                  # 通勤時間的出發日:0=週一,1=週二,...,6=週日
 PEAK_H, PEAK_M = 7, 30            # 出發時刻:07:30(Google 模式以「下一個週一 07:30」計算)
 GOOGLE_MAX_PER_RUN = 200          # Google API 每次執行最多補算的職缺數(每筆約 2 次呼叫)
+LI_KEYWORDS = ["international sales", "export sales", "overseas sales",
+               "國外業務", "外銷業務", "國際業務", "business development"]  # LinkedIn 搜尋關鍵字
+LI_MAX_AGE_DAYS = 60              # LinkedIn 職缺只收 N 天內刊登的(它有萬年舊缺)
+LI_TITLE_INCLUDE = r"(?i)sales|business development|account manager|業務|外銷|商務開發"  # LinkedIn 職稱必須符合
 # ===============================================================
 
 ROOT = Path(__file__).resolve().parent
@@ -183,7 +188,8 @@ def enrich_location(j: dict, stations: list[dict]):
     j["dist_km"] = j["drive_km"] = j["drive_min"] = j["transit_min"] = None
     j["near_st"] = j["near_line"] = ""
     j["walk_m"] = None
-    j["peak"] = False  # True = 開車時間為 Google 尖峰路況,False = OSRM 無路況估計
+    j["peak"] = False   # True = 開車時間為 Google 尖峰路況,False = OSRM 無路況估計
+    j["approx"] = False  # True = 位置是用公司名定位的(LinkedIn 職缺),非精確地址
     if not (j["lat"] and j["lon"]):
         return
     d = haversine_km(GD_LAT, GD_LON, j["lat"], j["lon"])
@@ -293,8 +299,9 @@ def fetch_google_routes(jobs: list[dict], cache: dict, now: datetime):
 
 def fetch_company_counts(jobs: list[dict], now: datetime):
     """查每家公司目前總共在徵幾個職缺、其中幾個非業務類(gauge 公司規模與擴編狀況)。
-    方法:用公司全名當關鍵字搜尋 104,只計 custNo 相符的結果;最多翻 2 頁(40 筆),
-    更多顯示為 40+。結果快取 7 天(data/companies.json),每次執行最多查 120 家。"""
+    範圍是該公司「全台」職缺(看整體擴編狀況)。方法:用公司全名當關鍵字搜尋 104,
+    只計 custNo 相符的結果;最多翻 2 頁(40 筆),更多顯示為 40+。
+    業務職以職稱判斷(含業務/銷售/sales)。結果快取 7 天,每次執行最多查 120 家。"""
     p = DATA / "companies.json"
     cache = json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}
     fresh = (now - timedelta(days=7)).strftime("%Y-%m-%d")
@@ -318,8 +325,8 @@ def fetch_company_counts(jobs: list[dict], now: datetime):
                 time.sleep(1.2)
         except Exception:
             continue  # 這家查失敗就跳過,下次執行再補
-        sales = sum(1 for r in rows
-                    if any(2005003000 <= int(c) <= 2005003999 for c in r.get("jobCat") or []))
+        # 用職稱判斷是否為業務職:公司常把專案經理/助理也掛業務「類別」,類別不可靠
+        sales = sum(1 for r in rows if re.search(r"業務|銷售|[Ss]ales", r.get("jobName", "")))
         cache[no] = {"t": len(rows), "ns": len(rows) - sales, "plus": last_page > 2, "d": today}
     cache = {k: v for k, v in cache.items() if k in firms}
     p.write_text(json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -330,6 +337,142 @@ def fetch_company_counts(jobs: list[dict], now: datetime):
             j["co_jobs"], j["co_other"], j["co_plus"] = c["t"], c["ns"], c.get("plus", False)
             done += 1
     print(f"公司職缺數:本次查了 {len(todo)} 家,{done}/{len(jobs)} 筆職缺已有公司資料")
+
+
+# ---------------------------- LinkedIn 外商職缺 ----------------------------
+
+def fetch_linkedin(now: datetime) -> list[dict]:
+    """用 LinkedIn 訪客搜尋端點抓高雄外商職缺(每組關鍵字 1 個請求,輕量)。
+    結果與 data/linkedin.json 快取合併——哪天被 LinkedIn 擋了,舊資料還在。
+    注意:此來源沒有薪資與詳細地址;薪資當量比照面議(40001)。"""
+    p = DATA / "linkedin.json"
+    cached = {j["no"]: j for j in json.loads(p.read_text(encoding="utf-8"))} if p.exists() else {}
+    found = {}
+    for kw in LI_KEYWORDS:
+        url = ("https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?"
+               + urlencode({"keywords": kw, "location": "Kaohsiung City, Taiwan", "start": 0}))
+        try:
+            req = Request(url, headers={"User-Agent": UA})
+            with urlopen(req, timeout=30) as r:
+                page = r.read().decode("utf-8", "ignore")
+        except Exception as e:
+            print(f"LinkedIn 查詢失敗({kw}),用快取頂替: {e}")
+            continue
+        for c in re.split(r"<li>", page)[1:]:
+            title = re.search(r'base-search-card__title">\s*([^<]+?)\s*<', c)
+            comp = re.search(r'hidden-nested-link"[^>]*>\s*([^<]+?)\s*<', c)
+            loc = re.search(r'job-search-card__location">\s*([^<]+?)\s*<', c)
+            dt = re.search(r'datetime="([^"]+)"', c)
+            link = re.search(r'href="(https://[a-z]+\.linkedin\.com/jobs/view/[^"?]+)', c)
+            jid = re.search(r"-(\d+)$", link.group(1)) if link else None
+            if not (title and comp and loc and dt and jid):
+                continue
+            if "Kaohsiung" not in loc.group(1):
+                continue
+            import html as _h
+            found["li" + jid.group(1)] = {
+                "no": "li" + jid.group(1),
+                "name": _h.unescape(title.group(1)),
+                "company": _h.unescape(comp.group(1)),
+                "url": link.group(1), "co_url": "",
+                "area": "高雄市(LinkedIn)", "industry": "外商/LinkedIn",
+                "date": dt.group(1), "apply": None,
+                "salary": "薪資未列(見原頁)", "salary_class": "negotiable", "salary_m": 40001,
+                "period": "條件詳見原頁", "employees": 0,
+                "cust_no": "", "co_jobs": None, "co_other": None, "co_plus": False,
+                "langs": [], "trip": False, "remote": False, "desc": "",
+                "lat": None, "lon": None, "source": "li",
+            }
+        time.sleep(2)
+    merged = {**cached, **found}
+    cutoff = (now - timedelta(days=LI_MAX_AGE_DAYS)).strftime("%Y-%m-%d")
+    merged = {k: v for k, v in merged.items() if v["date"] >= cutoff
+              and re.search(LI_TITLE_INCLUDE, v["name"])
+              and not re.search(EXCLUDE_TITLE, v["name"])}
+    p.write_text(json.dumps(list(merged.values()), ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"LinkedIn 外商職缺:{len(merged)} 筆(本次抓到 {len(found)} 筆)")
+    return list(merged.values())
+
+
+def fetch_li_routes(li_jobs: list[dict], cache: dict, stations: list[dict], now: datetime):
+    """LinkedIn 職缺沒有地址,先用 Places API 文字搜尋「公司名+Kaohsiung」定位辦公室,
+    再用 Routes API 算通勤。查不到(或 Places API 未啟用)就不顯示距離——寧缺勿假。
+    註:直接把公司名丟 Routes 的地址欄位會全部退回市中心座標,不可用。"""
+    key = os.environ.get("GOOGLE_MAPS_API_KEY", "")
+    dep = now.replace(hour=PEAK_H, minute=PEAK_M, second=0, microsecond=0)
+    while dep.weekday() != PEAK_WEEKDAY or dep <= now:
+        dep += timedelta(days=1)
+    dep_utc = dep.astimezone(ZoneInfo("UTC")).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+    def places_lookup(company):
+        req = Request("https://places.googleapis.com/v1/places:searchText",
+                      data=json.dumps({"textQuery": f"{company} Kaohsiung Taiwan"}).encode(),
+                      headers={"Content-Type": "application/json", "X-Goog-Api-Key": key,
+                               "X-Goog-FieldMask": "places.location"})
+        try:
+            with urlopen(req, timeout=30) as r:
+                d = json.load(r)
+            loc = (d.get("places") or [{}])[0].get("location") or {}
+            return loc.get("latitude"), loc.get("longitude")
+        except HTTPError as e:
+            if e.code == 403:
+                return "blocked", None  # Places API 未啟用:不要記成定位失敗,啟用後會自動補
+            return None, None
+        except Exception:
+            return None, None
+
+    def route(lat, lon, mode):
+        body = {
+            "origin": {"location": {"latLng": {"latitude": GD_LAT, "longitude": GD_LON}}},
+            "destination": {"location": {"latLng": {"latitude": lat, "longitude": lon}}},
+            "travelMode": mode, "departureTime": dep_utc,
+        }
+        if mode == "DRIVE":
+            body["routingPreference"] = "TRAFFIC_AWARE"
+        req = Request("https://routes.googleapis.com/directions/v2:computeRoutes",
+                      data=json.dumps(body).encode(), headers={
+                          "Content-Type": "application/json", "X-Goog-Api-Key": key,
+                          "X-Goog-FieldMask": "routes.duration,routes.distanceMeters",
+                      })
+        try:
+            with urlopen(req, timeout=30) as r:
+                d = json.load(r)
+            top = (d.get("routes") or [{}])[0]
+            sec = int(top.get("duration", "0s").rstrip("s") or 0)
+            km = round(int(top.get("distanceMeters", 0)) / 1000, 1)
+            return (km, max(1, round(sec / 60))) if sec else None
+        except Exception:
+            return None
+
+    places_blocked = False
+    for j in li_jobs:
+        c = cache.get(j["no"])
+        if c is None and key and not places_blocked:
+            plat, plon = places_lookup(j["company"])
+            if plat == "blocked":
+                places_blocked = True
+                print("Places API 未啟用,LinkedIn 職缺暫無距離資訊(啟用後會自動補算)")
+                continue
+            if plat and haversine_km(GD_LAT, GD_LON, plat, plon) <= 80:
+                c = {"lat": plat, "lon": plon}
+                r = route(plat, plon, "DRIVE")
+                if r:
+                    c["g_km"], c["g_min"] = r
+                rt = route(plat, plon, "TRANSIT")
+                if rt:
+                    c["transit_min"] = rt[1]
+            else:
+                c = {"bad": True}  # 定位失敗,記下來避免每天重查
+            cache[j["no"]] = c
+            time.sleep(0.3)
+        if not c or c.get("bad"):
+            continue
+        j["lat"], j["lon"] = c["lat"], c["lon"]
+        enrich_location(j, stations)  # 補最近捷運站與地圖連結
+        if c.get("g_min"):
+            j["drive_km"], j["drive_min"], j["peak"], j["approx"] = c["g_km"], c["g_min"], True, True
+        if c.get("transit_min"):
+            j["transit_min"] = c["transit_min"]
 
 
 def load_state() -> dict:
@@ -352,9 +495,11 @@ def main():
             seen_nos.add(j["no"])
             jobs.append(j)
 
+    li_jobs = fetch_linkedin(now)
+
     # 標記新職缺:第一次出現在記錄中的才算 NEW
     state = load_state()
-    for j in jobs:
+    for j in jobs + li_jobs:
         if j["no"] not in state:
             state[j["no"]] = {"first_seen": today, "last_seen": today}
         else:
@@ -366,7 +511,7 @@ def main():
     prune = (now - timedelta(days=STATE_PRUNE_DAYS)).strftime("%Y-%m-%d")
     state = {k: v for k, v in state.items() if v["last_seen"] >= prune}
 
-    display = [j for j in jobs if j["date"] >= cutoff]
+    display = [j for j in jobs if j["date"] >= cutoff] + li_jobs
 
     # 距離與交通:直線距離、最近捷運站、開車路線(OSRM)、大眾運輸(選用)
     stations = load_stations()
@@ -376,6 +521,7 @@ def main():
         enrich_location(j, stations)
     fetch_drive_routes(display, routes)
     fetch_google_routes(display, routes, now)
+    fetch_li_routes(li_jobs, routes, stations, now)
     fetch_company_counts(display, now)
     routes = {k: v for k, v in routes.items() if k in state}  # 跟著 state 一起清舊資料
 
@@ -428,7 +574,8 @@ def job_row_html(j: dict) -> str:
     parts = []
     if j.get("drive_km") is not None:
         peak = "尖峰約" if j.get("peak") else "約"
-        parts.append(f"🚗 開車 {j['drive_km']} km・{peak} {j['drive_min']} 分")
+        approx = "(依公司名定位)" if j.get("approx") else ""
+        parts.append(f"🚗 開車 {j['drive_km']} km・{peak} {j['drive_min']} 分{approx}")
     elif j.get("dist_km") is not None:
         parts.append(f"📍 直線約 {j['dist_km']} km")
     if j.get("transit_min"):
@@ -443,11 +590,12 @@ def job_row_html(j: dict) -> str:
     return f"""
     <tr><td style="padding:12px 16px;border-bottom:1px solid #e5e7eb">
       <a href="{j['url']}" style="font-size:16px;font-weight:700;color:#1d4ed8;text-decoration:none">{j['name']}</a>
+      {'<span style="background:#e7f0fe;color:#0a66c2;font-size:11px;font-weight:700;border-radius:999px;padding:2px 8px;margin-left:6px">🌐 LinkedIn 外商</span>' if j.get('source') == 'li' else ''}
       <div style="color:#374151;margin-top:2px">{j['company']}<span style="color:#9ca3af">({j['industry']})</span></div>
       <div style="margin-top:4px;font-weight:700;color:{color}">{j['salary']}</div>
       {traffic}
       <div style="color:#6b7280;font-size:13px;margin-top:4px">{meta}</div>
-      <div style="color:#6b7280;font-size:13px;margin-top:2px">刊登 {j['date']}|{j['apply']} 人應徵</div>
+      <div style="color:#6b7280;font-size:13px;margin-top:2px">刊登 {j['date']}{'' if j['apply'] is None else f"|{j['apply']} 人應徵"}</div>
     </td></tr>"""
 
 

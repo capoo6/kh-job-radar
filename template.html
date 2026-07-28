@@ -59,6 +59,7 @@ main{padding:14px 16px 40px}
 .traffic a{color:var(--brand);text-decoration:none;font-size:12.5px}
 .traffic a:hover{text-decoration:underline}
 .b-direct{background:var(--new-soft);color:#b91c1c}
+.b-li{background:#e7f0fe;color:#0a66c2}
 .meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
 .chip{font-size:12px;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:2px 8px;color:var(--muted)}
 .chip.lang{background:var(--ok-soft);color:var(--ok);border-color:transparent}
@@ -164,12 +165,14 @@ function relDate(d){
 function card(j){
   const badges = [
     j.is_new ? '<span class="badge b-new">NEW</span>' : "",
+    j.source==="li" ? '<span class="badge b-li">🌐 LinkedIn 外商</span>' : "",
     (j.near_line==="紅線" && j.walk_m<=1000) ? '<span class="badge b-direct">紅線直達</span>' : "",
     j.trip ? '<span class="badge b-trip">出差/外派</span>' : "",
     j.remote ? '<span class="badge b-remote">可遠端</span>' : "",
   ].join("");
   const traffic = [];
-  if(j.drive_km!=null) traffic.push(`🚗 開車 ${j.drive_km} km・${j.peak?"尖峰約":"約"} ${j.drive_min} 分`);
+  const approx = j.approx ? "(依公司名定位)" : "";
+  if(j.drive_km!=null) traffic.push(`🚗 開車 ${j.drive_km} km・${j.peak?"尖峰約":"約"} ${j.drive_min} 分${approx}`);
   else if(j.dist_km!=null) traffic.push(`📍 直線約 ${j.dist_km} km`);
   if(j.transit_min) traffic.push(`🚌 大眾運輸約 ${j.transit_min} 分`);
   if(j.near_st) traffic.push(`🚇 近${j.near_line}「${j.near_st}」站・約 ${j.walk_m} m`);
@@ -180,10 +183,10 @@ function card(j){
   const langs = j.langs.map(l=>`<span class="chip lang">${esc(l)}</span>`).join("");
   const emp = j.employees ? `<span class="chip">員工 ${j.employees} 人</span>` : "";
   const plus = j.co_plus ? "+" : "";
-  const co = j.co_jobs!=null ? `<span class="chip">🏢 公司在徵 ${j.co_jobs}${plus} 缺・非業務 ${j.co_other}${plus}</span>` : "";
+  const co = j.co_jobs!=null ? `<span class="chip">🏢 公司全台在徵 ${j.co_jobs}${plus} 缺・非業務職 ${j.co_other}${plus}</span>` : "";
   return `<div class="card${j.is_new?" new":""}">
     <div class="row1"><a class="jobname" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.name)}</a>${badges}</div>
-    <div class="company"><a href="${esc(j.co_url)}" target="_blank" rel="noopener">${esc(j.company)}</a> <span class="ind">${esc(j.industry)}</span></div>
+    <div class="company">${j.co_url?`<a href="${esc(j.co_url)}" target="_blank" rel="noopener">${esc(j.company)}</a>`:esc(j.company)} <span class="ind">${esc(j.industry)}</span></div>
     <div class="salary ${j.salary_class}">${esc(j.salary)}</div>
     ${trafficRow}
     <div class="meta">
@@ -193,7 +196,7 @@ function card(j){
     </div>
     <div class="desc">${esc(j.desc)}</div>
     <div class="row-bottom">
-      <span>刊登 ${relDate(j.date)}|${j.apply} 人應徵</span>
+      <span>刊登 ${relDate(j.date)}${j.apply==null?"":`|${j.apply} 人應徵`}</span>
       <a class="apply-btn" href="${esc(j.url)}" target="_blank" rel="noopener">查看職缺 →</a>
     </div>
   </div>`;
