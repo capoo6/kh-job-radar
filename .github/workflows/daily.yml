@@ -33,4 +33,6 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add data docs
           git diff --cached --quiet || git commit -m "chore: 職缺更新 $(TZ=Asia/Taipei date +'%Y-%m-%d')"
+          # 若執行期間有其他 commit 推上來,先 rebase 再推(產生的資料以本次為準)
+          git pull --rebase -X theirs origin main
           git push
