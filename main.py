@@ -33,6 +33,10 @@ EXCLUDE_INDUSTRIES = [            # 行業別含這些字樣的職缺不顯示(�
     "補習班", "書籍出版", "醫療器材製造", "食品什貨批發", "飲料店",
     "不動產經營", "其他教育服務", "旅館", "證券及期貨", "攝影沖印", "診所",
 ]
+TECH_INDUSTRY = ["電子", "半導體", "光電", "電腦", "軟體", "網路", "資訊",
+                 "通訊", "精密", "自動化"]          # 行業含這些字樣 = 科技業(第二優先)
+FOREIGN_COMPANY = (r"(美|日|德|法|英|荷|瑞士|瑞典|丹麥|芬蘭|韓|港|澳|義|西班牙|"
+                   r"比利時|奧地利|加拿大|新加坡|香港)商|台灣分公司|外商")  # 公司名含這些 = 外商(最優先)
 KEEP_DAYS = 30                    # 網頁只顯示最近 N 天內刊登/更新的職缺
 STATE_PRUNE_DAYS = 120            # 超過 N 天沒再出現的職缺,從記錄中清除
 SEND_WHEN_EMPTY = False           # 今日沒有新職缺時是否仍寄信
@@ -158,10 +162,14 @@ def normalize(raw: dict) -> dict | None:
         langs.append(f"{lname}{('(' + level + ')') if level else ''}")
     period = int(raw.get("period") or 0)
     trip = bool(re.search(r"出差|外派|駐外|海外派駐", desc))
+    company = raw.get("custName", "")
+    pri = (2 if re.search(FOREIGN_COMPANY, company)
+           else 1 if any(x in industry for x in TECH_INDUSTRY) else 0)
     return {
         "no": str(raw.get("jobNo")),
         "name": name,
-        "company": raw.get("custName", ""),
+        "company": company,
+        "pri": pri,
         "url": (raw.get("link") or {}).get("job", ""),
         "co_url": (raw.get("link") or {}).get("cust", ""),
         "area": raw.get("jobAddrNoDesc", ""),
@@ -487,7 +495,7 @@ def fetch_linkedin(now: datetime) -> list[dict]:
                 "name": _h.unescape(title.group(1)),
                 "company": _h.unescape(comp.group(1)),
                 "url": link.group(1), "co_url": "",
-                "area": "高雄市(LinkedIn)", "industry": "外商/LinkedIn",
+                "area": "高雄市(LinkedIn)", "industry": "外商/LinkedIn", "pri": 2,
                 "date": dt.group(1), "apply": None,
                 "salary": "薪資未列(見原頁)", "salary_class": "negotiable", "salary_m": 40001,
                 "period": "條件詳見原頁", "employees": 0,
@@ -674,11 +682,13 @@ def main():
     fetch_violations(display, now)
     routes = {k: v for k, v in routes.items() if k in state["jobs"]}  # 跟著 state 一起清舊資料
 
-    # 離巨蛋站近的優先(沒有座標的排最後)
-    display.sort(key=lambda j: (j["drive_km"] if j["drive_km"] is not None
-                                else j["dist_km"] if j["dist_km"] is not None else 9999))
-    new_jobs = sorted([j for j in display if j["is_new"]],
-                      key=lambda j: (j["drive_km"] if j["drive_km"] is not None else 9999))
+    # 外商(2)>科技業(1)>其他(0),各層內離巨蛋站近的優先(沒有座標的排最後)
+    def sort_key(j):
+        return (-j.get("pri", 0),
+                j["drive_km"] if j["drive_km"] is not None
+                else j["dist_km"] if j["dist_km"] is not None else 9999)
+    display.sort(key=sort_key)
+    new_jobs = sorted([j for j in display if j["is_new"]], key=sort_key)
 
     first_run = not (DATA / "state.json").exists()
     DATA.mkdir(exist_ok=True)

@@ -116,7 +116,7 @@ footer{text-align:center;color:var(--muted);font-size:12px;padding:20px 16px 40p
       </div>
     </div>
     <select id="sort">
-      <option value="dist">離巨蛋站近→遠</option>
+      <option value="dist">外商/科技優先・近→遠</option>
       <option value="date">最新刊登</option>
       <option value="salary">薪資高→低</option>
       <option value="apply">應徵人數少→多</option>
@@ -288,7 +288,7 @@ function render(){
   if(sort==="salary") rows.sort((a,b)=>b.salary_m-a.salary_m);
   else if(sort==="apply") rows.sort((a,b)=>a.apply-b.apply || (a.date<b.date?1:-1));
   else if(sort==="date") rows.sort((a,b)=>a.date<b.date?1:a.date>b.date?-1:b.is_new-a.is_new);
-  else rows.sort((a,b)=>distOf(a)-distOf(b));
+  else rows.sort((a,b)=>(b.pri||0)-(a.pri||0) || distOf(a)-distOf(b));
   let html = rows.map(card).join("");
   if(VIEW==="fav"){
     const gone = Object.values(FAVS).filter(f=>!JOBS.some(j=>j.no===f.no));
