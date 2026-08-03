@@ -40,6 +40,7 @@ FOREIGN_COMPANY = (r"(美|日|德|法|英|荷|瑞士|瑞典|丹麥|芬蘭|韓|�
 KEEP_DAYS = 30                    # 網頁只顯示最近 N 天內刊登/更新的職缺
 STATE_PRUNE_DAYS = 120            # 超過 N 天沒再出現的職缺,從記錄中清除
 SEND_WHEN_EMPTY = False           # 今日沒有新職缺時是否仍寄信
+MAIL_MIN_SALARY = 40000           # 信件只收月薪當量 > 此值或面議的職缺;網頁仍顯示全部
 SITE_TITLE = "高雄・國外業務職缺雷達"
 GD_LAT, GD_LON = 22.665621, 120.303256   # 出發點:捷運巨蛋站(R14)
 ORIGIN_NAME = "捷運巨蛋站"
@@ -749,8 +750,10 @@ def main():
     if first_run:
         print("首次執行,建立基準資料,不寄信。明天開始只通知真正的新職缺。")
         return
-    if new_jobs or SEND_WHEN_EMPTY:
-        send_email(new_jobs, len(display), now)
+    mail_jobs = [j for j in new_jobs
+                 if j["salary_class"] == "negotiable" or j["salary_m"] > MAIL_MIN_SALARY]
+    if mail_jobs or SEND_WHEN_EMPTY:
+        send_email(mail_jobs, len(display), now)
 
 
 # ---------------------------- 網頁產生 ----------------------------
@@ -815,27 +818,30 @@ def send_email(new_jobs: list[dict], total: int, now: datetime):
         return
     site_url = os.environ.get("SITE_URL", "")
     date_str = now.strftime("%m/%d")
-    subject = f"【職缺快報 {date_str}】高雄國外業務 今日新增 {len(new_jobs)} 筆"
+    subject = f"【職缺快報 {date_str}】高雄國外業務 今日新增 {len(new_jobs)} 筆(月薪4萬↑/面議)"
     rows = "".join(job_row_html(j) for j in new_jobs) or \
         '<tr><td style="padding:16px;color:#6b7280">今天沒有新職缺</td></tr>'
     link = f'<p style="margin:16px 0"><a href="{site_url}" style="color:#1d4ed8">查看全部 {total} 筆職缺 →</a></p>' if site_url else ""
     body = f"""
     <div style="font-family:'Microsoft JhengHei',sans-serif;max-width:640px;margin:0 auto;color:#111827">
       <h2 style="margin:16px 0 4px">高雄・國外業務 職缺快報</h2>
-      <p style="color:#6b7280;margin:0 0 16px">{now.strftime('%Y-%m-%d')}|今日新增 {len(new_jobs)} 筆|追蹤中共 {total} 筆|依{ORIGIN_NAME}距離近→遠排序</p>
+      <p style="color:#6b7280;margin:0 0 16px">{now.strftime('%Y-%m-%d')}|今日新增 {len(new_jobs)} 筆(月薪4萬↑/面議)|追蹤中共 {total} 筆|依{ORIGIN_NAME}距離近→遠排序</p>
       <table style="border-collapse:collapse;width:100%;border:1px solid #e5e7eb;border-radius:8px">{rows}</table>
       {link}
       <p style="color:#9ca3af;font-size:12px">資料來源:104 人力銀行|此信由職缺雷達自動發送</p>
     </div>"""
-    msg = MIMEMultipart("alternative")
-    msg["Subject"] = subject
-    msg["From"] = formataddr((SITE_TITLE, user))
-    msg["To"] = ", ".join(to)
-    msg.attach(MIMEText(body, "html", "utf-8"))
+    # 寄件帳號自己也留一份;每人各寄一封,收件人看不到彼此信箱
+    recipients = list(dict.fromkeys(to + [user]))
     with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=ssl.create_default_context()) as s:
         s.login(user, pwd)
-        s.sendmail(user, to, msg.as_string())
-    print(f"已寄出通知信給 {', '.join(to)}")
+        for rcpt in recipients:
+            msg = MIMEMultipart("alternative")
+            msg["Subject"] = subject
+            msg["From"] = formataddr((SITE_TITLE, user))
+            msg["To"] = rcpt
+            msg.attach(MIMEText(body, "html", "utf-8"))
+            s.sendmail(user, [rcpt], msg.as_string())
+    print(f"已寄出通知信給 {', '.join(recipients)}")
 
 
 if __name__ == "__main__":
